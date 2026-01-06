@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +30,7 @@
             padding: 30px;
             border-radius: 20px;
             margin-bottom: 30px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
@@ -54,7 +55,7 @@
             background: rgba(255, 255, 255, 0.95);
             padding: 25px;
             border-radius: 15px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
         }
 
@@ -84,7 +85,8 @@
             flex-wrap: wrap;
         }
 
-        input, select {
+        input,
+        select {
             padding: 12px 20px;
             border: 2px solid #e0e0e0;
             border-radius: 10px;
@@ -93,7 +95,8 @@
             transition: border-color 0.3s;
         }
 
-        input:focus, select:focus {
+        input:focus,
+        select:focus {
             border-color: #667eea;
         }
 
@@ -117,7 +120,7 @@
             background: rgba(255, 255, 255, 0.95);
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
         }
 
         table {
@@ -216,12 +219,14 @@
                 font-size: 0.9rem;
             }
 
-            th, td {
+            th,
+            td {
                 padding: 10px;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -291,11 +296,11 @@
                 // Try to load from GitHub Actions artifacts first, fallback to local
                 const response = await fetch('scored_listings.json');
                 if (!response.ok) throw new Error('Failed to load data');
-                
+
                 allData = await response.json();
                 updateStats();
                 renderTable(allData);
-                
+
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('tableContainer').style.display = 'block';
             } catch (error) {
@@ -316,7 +321,7 @@
                 .filter(d => d.discount > 0)
                 .sort((a, b) => b.discount - a.discount)
                 .slice(0, 5);
-            const avgDiscount = topDiscounts.length > 0 
+            const avgDiscount = topDiscounts.length > 0
                 ? (topDiscounts.reduce((sum, d) => sum + d.discount, 0) / topDiscounts.length).toFixed(1)
                 : 0;
 
@@ -332,24 +337,24 @@
 
             data.forEach(item => {
                 const row = tbody.insertRow();
-                
+
                 row.insertCell().textContent = item.make || '-';
                 row.insertCell().textContent = item.model || '-';
                 row.insertCell().textContent = item.year || '-';
                 row.insertCell().textContent = '€' + (item.price || 0).toLocaleString();
                 row.insertCell().textContent = '€' + (item.medianPrice || 0).toLocaleString();
-                
+
                 const discountCell = row.insertCell();
                 discountCell.textContent = (item.discount || 0).toFixed(1) + '%';
                 discountCell.style.fontWeight = 'bold';
                 if (item.discount >= 15) discountCell.style.color = '#f5576c';
                 else if (item.discount >= 8) discountCell.style.color = '#00f2fe';
-                
+
                 const dealCell = row.insertCell();
-                const badgeClass = item.dealType === 'GOLDEN DEAL' ? 'golden' : 
-                                  item.dealType === 'GOOD DEAL' ? 'good' : 'fair';
+                const badgeClass = item.dealType === 'GOLDEN DEAL' ? 'golden' :
+                    item.dealType === 'GOOD DEAL' ? 'good' : 'fair';
                 dealCell.innerHTML = `<span class="deal-badge ${badgeClass}">${item.dealType}</span>`;
-                
+
                 const linkCell = row.insertCell();
                 linkCell.innerHTML = `<a href="${item.url}" target="_blank" class="link-btn">Zobraziť</a>`;
             });
@@ -362,7 +367,7 @@
             let filtered = allData;
 
             if (searchTerm) {
-                filtered = filtered.filter(item => 
+                filtered = filtered.filter(item =>
                     (item.make || '').toLowerCase().includes(searchTerm) ||
                     (item.model || '').toLowerCase().includes(searchTerm) ||
                     (item.year || '').toString().includes(searchTerm) ||
@@ -418,4 +423,5 @@
         loadData();
     </script>
 </body>
+
 </html>
