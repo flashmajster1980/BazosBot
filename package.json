@@ -1,0 +1,24 @@
+{
+  "name": "bazosbot",
+  "version": "1.0.0",
+  "description": "Bazos.sk scraper agent with anti-detection",
+  "main": "scraper_agent.js",
+  "scripts": {
+    "start": "node scraper_agent.js",
+    "test": "node scraper_agent.js --test"
+  },
+  "keywords": [
+    "scraper",
+    "bazos",
+    "puppeteer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^16.6.1",
+    "puppeteer": "^21.6.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

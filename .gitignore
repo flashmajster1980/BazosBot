@@ -1,0 +1,25 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Database files (will be regenerated)
+listings.json
+market_values.json
+scored_listings.json
+notified_deals.json
+cookies.json
+
+# Screenshots
+debug.png
+debug_sk.png
+debug_after_cookie.png
+
+# OS
+.DS_Store
+Thumbs.db
