@@ -300,6 +300,7 @@
                 <option value="GOLDEN DEAL">🌟 GOLDEN DEALs</option>
                 <option value="GOOD DEAL">✅ GOOD DEALs</option>
                 <option value="FAIR PRICE">⚖️ FAIR PRICE</option>
+                <option value="sold">🔴 Predané</option>
             </select>
             <button onclick="refreshData()">🔄 Obnoviť</button>
         </div>
@@ -381,9 +382,10 @@
         }
 
         function updateStats() {
-            const goldenDeals = allData.filter(d => d.dealType === 'GOLDEN DEAL' && !d.isFiltered);
-            const uniqueModels = new Set(allData.map(d => `${d.make} ${d.model}`)).size;
-            const topDiscounts = allData
+            const activeData = allData.filter(d => !d.isSold);
+            const goldenDeals = activeData.filter(d => d.dealType === 'GOLDEN DEAL' && !d.isFiltered);
+            const uniqueModels = new Set(activeData.map(d => `${d.make} ${d.model}`)).size;
+            const topDiscounts = activeData
                 .filter(d => d.discount > 0)
                 .sort((a, b) => b.discount - a.discount)
                 .slice(0, 5);
@@ -391,7 +393,7 @@
                 ? (topDiscounts.reduce((sum, d) => sum + d.discount, 0) / topDiscounts.length).toFixed(1)
                 : 0;
 
-            document.getElementById('totalListings').textContent = allData.length;
+            document.getElementById('totalListings').textContent = activeData.length;
             document.getElementById('goldenDeals').textContent = goldenDeals.length;
             document.getElementById('uniqueModels').textContent = uniqueModels;
             document.getElementById('avgDiscount').textContent = avgDiscount + '%';
@@ -403,6 +405,10 @@
 
             data.forEach(item => {
                 const row = tbody.insertRow();
+                if (item.isSold) {
+                    row.style.opacity = '0.5';
+                    row.style.backgroundColor = '#f0f0f0';
+                }
 
                 row.insertCell().textContent = item.make || '-';
                 row.insertCell().textContent = item.model || '-';
@@ -524,7 +530,16 @@
             }
 
             if (dealType !== 'all') {
-                filtered = filtered.filter(item => item.dealType === dealType);
+                if (dealType === 'sold') {
+                    filtered = filtered.filter(item => item.isSold);
+                } else {
+                    filtered = filtered.filter(item => item.dealType === dealType && !item.isSold);
+                }
+            } else {
+                // By default hide sold items if 'all' is selected, unless it's a search?
+                // Let's just show everything in 'all' but mostly users want active deals.
+                // Let's filter out sold from 'all' for better UX.
+                filtered = filtered.filter(item => !item.isSold);
             }
 
             renderTable(filtered);

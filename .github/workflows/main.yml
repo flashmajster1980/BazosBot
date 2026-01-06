@@ -86,6 +86,10 @@ jobs:
         run: node scoring_agent.js
         continue-on-error: true
       
+      - name: Detect sold listings
+        run: node sold_agent.js
+        continue-on-error: true
+      
       - name: Save data to cache
         uses: actions/cache/save@v4
         if: always()
