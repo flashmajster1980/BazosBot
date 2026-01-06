@@ -15,7 +15,7 @@ const CONFIG = {
     MAX_INTERVAL: 120000, // 120 seconds
     LISTINGS_FILE: path.join(__dirname, 'listings.json'),
     COOKIES_FILE: path.join(__dirname, 'cookies.json'),
-    SEARCH_QUERY: '', // Empty = all new listings, or specify search term
+    SEARCH_CONFIGS_FILE: path.join(__dirname, 'search_configs.json'),
 };
 
 // Pool of realistic User-Agents
@@ -101,8 +101,9 @@ function saveCookies(cookies) {
 // SCRAPER LOGIC
 // ========================================
 
-async function scrapeBazos() {
-    console.log(`\n🚀 [${new Date().toLocaleString('sk-SK')}] Starting scrape...`);
+async function scrapeBazos(searchConfig = null) {
+    const queryName = searchConfig ? searchConfig.name : 'Homepage';
+    console.log(`\n🚀 [${new Date().toLocaleString('sk-SK')}] Starting scrape for: ${queryName}...`);
 
     const browser = await puppeteer.launch({
         headless: true,
@@ -149,19 +150,21 @@ async function scrapeBazos() {
     }
 
     let allNewListings = [];
-    const MAX_PAGES = 5; // Scrape 5 pages per run
+    const MAX_PAGES = 3; // Scrape 3 pages per run
     const startPage = process.argv[2] ? parseInt(process.argv[2]) : 0;
 
     for (let pageNum = startPage; pageNum < startPage + MAX_PAGES; pageNum++) {
         const offset = pageNum * 20;
         let searchUrl;
-        if (CONFIG.SEARCH_QUERY) {
-            searchUrl = `${CONFIG.BASE_URL}?hledat=${encodeURIComponent(CONFIG.SEARCH_QUERY)}`;
+        if (searchConfig && searchConfig.query) {
+            searchUrl = `${CONFIG.BASE_URL}?hledat=${encodeURIComponent(searchConfig.query)}`;
+            if (searchConfig.priceFrom) searchUrl += `&cenaod=${searchConfig.priceFrom}`;
+            if (searchConfig.priceTo) searchUrl += `&cenado=${searchConfig.priceTo}`;
             if (offset > 0) {
                 searchUrl += `&strana=${offset}`;
             }
         } else {
-            // Path based pagination for homepage: https://auto.bazos.sk/20/
+            // Path based pagination for homepage
             searchUrl = offset > 0 ? `${CONFIG.BASE_URL}${offset}/` : CONFIG.BASE_URL;
         }
 
@@ -339,6 +342,16 @@ async function scrapeBazos() {
 
     await browser.close();
 
+    // Secondary filtering based on searchConfig years if available
+    if (searchConfig && (searchConfig.yearFrom || searchConfig.yearTo)) {
+        allNewListings = allNewListings.filter(l => {
+            if (!l.year) return true; // Keep if unknown to be safe
+            if (searchConfig.yearFrom && l.year < searchConfig.yearFrom) return false;
+            if (searchConfig.yearTo && l.year > searchConfig.yearTo) return false;
+            return true;
+        });
+    }
+
     // Process listings - filter duplicates
     const existingListings = loadListings();
     const existingIds = new Set(existingListings.map(l => l.id));
@@ -374,9 +387,24 @@ let isRunning = true;
 async function mainLoop() {
     while (isRunning) {
         try {
-            await scrapeBazos();
+            let configs = [null]; // Default to homepage
+            if (fs.existsSync(CONFIG.SEARCH_CONFIGS_FILE)) {
+                try {
+                    const data = fs.readFileSync(CONFIG.SEARCH_CONFIGS_FILE, 'utf-8');
+                    configs = [null, ...JSON.parse(data)]; // Homepage + configs
+                } catch (e) {
+                    console.error('⚠️ Could not parse search_configs.json');
+                }
+            }
+
+            for (const config of configs) {
+                if (!isRunning) break;
+                await scrapeBazos(config);
+                // Short break between different searches
+                await new Promise(resolve => setTimeout(resolve, 5000));
+            }
         } catch (error) {
-            console.error('❌ Error during scraping:', error.message);
+            console.error('❌ Error during main loop:', error.message);
         }
 
         if (!isRunning) break;

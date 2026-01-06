@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Tesla Model 3",
+        "query": "Tesla Model 3",
+        "priceFrom": 20000,
+        "priceTo": 45000,
+        "yearFrom": 2019
+    },
+    {
+        "name": "Octavia 4x4",
+        "query": "Škoda Octavia 4x4",
+        "priceFrom": 5000,
+        "priceTo": 25000,
+        "yearFrom": 2015
+    },
+    {
+        "name": "VW Tiguan",
+        "query": "Volkswagen Tiguan",
+        "priceFrom": 10000,
+        "priceTo": 35000,
+        "yearFrom": 2016
+    },
+    {
+        "name": "BMW X5",
+        "query": "BMW X5",
+        "priceFrom": 15000,
+        "priceTo": 60000,
+        "yearFrom": 2014
+    }
+]
