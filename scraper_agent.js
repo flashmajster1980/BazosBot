@@ -314,7 +314,8 @@ async function scrapeBazos(searchConfig = null) {
                         transmission,
                         fuel,
                         drive,
-                        power
+                        power,
+                        portal: 'Bazos'
                     });
 
                 } catch (e) {
