@@ -302,6 +302,11 @@
                 <option value="FAIR PRICE">⚖️ FAIR PRICE</option>
                 <option value="sold">🔴 Predané</option>
             </select>
+            <select id="portalFilter">
+                <option value="all">Všetky portály</option>
+                <option value="Bazos">Bazos.sk</option>
+                <option value="Autobazar.eu">Autobazar.eu</option>
+            </select>
             <button onclick="refreshData()">🔄 Obnoviť</button>
         </div>
 
@@ -521,6 +526,7 @@
         function filterData() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
             const dealType = document.getElementById('dealTypeFilter').value;
+            const portal = document.getElementById('portalFilter').value;
 
             let filtered = allData;
 
@@ -533,6 +539,10 @@
                 );
             }
 
+            if (portal !== 'all') {
+                filtered = filtered.filter(item => (item.portal || 'Bazos') === portal);
+            }
+
             if (dealType !== 'all') {
                 if (dealType === 'sold') {
                     filtered = filtered.filter(item => item.isSold);
@@ -540,9 +550,6 @@
                     filtered = filtered.filter(item => item.dealType === dealType && !item.isSold);
                 }
             } else {
-                // By default hide sold items if 'all' is selected, unless it's a search?
-                // Let's just show everything in 'all' but mostly users want active deals.
-                // Let's filter out sold from 'all' for better UX.
                 filtered = filtered.filter(item => !item.isSold);
             }
 
@@ -585,6 +592,7 @@
         // Event listeners
         document.getElementById('searchInput').addEventListener('input', filterData);
         document.getElementById('dealTypeFilter').addEventListener('change', filterData);
+        document.getElementById('portalFilter').addEventListener('change', filterData);
 
         // Load data on page load
         loadData();

@@ -71,11 +71,16 @@ jobs:
           echo "TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_TOKEN }}" > .env
           echo "TELEGRAM_CHAT_ID=${{ secrets.CHAT_ID }}" >> .env
       
-      - name: Run scraper (single cycle)
+      - name: Run Bazos scraper
         timeout-minutes: 10
         run: |
-          # Kill scraper after first cycle completes
           timeout 500 node scraper_agent.js || true
+        continue-on-error: true
+
+      - name: Run Autobazar.eu scraper
+        timeout-minutes: 10
+        run: |
+          timeout 500 node autobazar_eu_agent.js || true
         continue-on-error: true
       
       - name: Analyze market values
