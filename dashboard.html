@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BazosBot Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+
+        .controls {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        input, select {
+            padding: 12px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, select:focus {
+            border-color: #667eea;
+        }
+
+        button {
+            padding: 12px 25px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #5568d3;
+        }
+
+        .table-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background: #667eea;
+            color: white;
+        }
+
+        th {
+            padding: 18px 15px;
+            text-align: left;
+            font-weight: 600;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        th:hover {
+            background: #5568d3;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        tr:hover {
+            background: #f8f9ff;
+        }
+
+        .deal-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        .golden {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+
+        .good {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+        }
+
+        .fair {
+            background: #e0e0e0;
+            color: #666;
+        }
+
+        .link-btn {
+            padding: 8px 16px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+
+        .link-btn:hover {
+            background: #5568d3;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        .error {
+            background: #ff6b6b;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .stats {
+                grid-template-columns: 1fr;
+            }
+
+            table {
+                font-size: 0.9rem;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚗 BazosBot Dashboard</h1>
+            <p class="subtitle">Real-time monitoring automobilového trhu na Bazos.sk</p>
+        </header>
+
+        <div id="stats" class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="totalListings">-</div>
+                <div class="stat-label">Celkom inzerátov</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="goldenDeals">-</div>
+                <div class="stat-label">🌟 GOLDEN DEALs</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="uniqueModels">-</div>
+                <div class="stat-label">Unikátnych modelov</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgDiscount">-</div>
+                <div class="stat-label">Priem. zľava (top 5)</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="🔍 Hľadať (značka, model, rok...)">
+            <select id="dealTypeFilter">
+                <option value="all">Všetky DEALs</option>
+                <option value="GOLDEN DEAL">🌟 GOLDEN DEALs</option>
+                <option value="GOOD DEAL">✅ GOOD DEALs</option>
+                <option value="FAIR PRICE">⚖️ FAIR PRICE</option>
+            </select>
+            <button onclick="refreshData()">🔄 Obnoviť</button>
+        </div>
+
+        <div id="error"></div>
+        <div id="loading" class="loading">Načítavam dáta...</div>
+
+        <div class="table-container" id="tableContainer" style="display: none;">
+            <table>
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('make')">Značka</th>
+                        <th onclick="sortTable('model')">Model</th>
+                        <th onclick="sortTable('year')">Rok</th>
+                        <th onclick="sortTable('price')">Cena</th>
+                        <th onclick="sortTable('medianPrice')">Medián</th>
+                        <th onclick="sortTable('discount')">Zľava %</th>
+                        <th onclick="sortTable('dealType')">Typ</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let allData = [];
+        let currentSort = { column: 'discount', ascending: false };
+
+        async function loadData() {
+            try {
+                // Try to load from GitHub Actions artifacts first, fallback to local
+                const response = await fetch('scored_listings.json');
+                if (!response.ok) throw new Error('Failed to load data');
+                
+                allData = await response.json();
+                updateStats();
+                renderTable(allData);
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('tableContainer').style.display = 'block';
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').innerHTML = `
+                    <div class="error">
+                        ❌ Nepodarilo sa načítať dáta. 
+                        Uisti sa, že súbor <code>scored_listings.json</code> existuje v rovnakom priečinku.
+                    </div>
+                `;
+            }
+        }
+
+        function updateStats() {
+            const goldenDeals = allData.filter(d => d.dealType === 'GOLDEN DEAL' && !d.isFiltered);
+            const uniqueModels = new Set(allData.map(d => `${d.make} ${d.model}`)).size;
+            const topDiscounts = allData
+                .filter(d => d.discount > 0)
+                .sort((a, b) => b.discount - a.discount)
+                .slice(0, 5);
+            const avgDiscount = topDiscounts.length > 0 
+                ? (topDiscounts.reduce((sum, d) => sum + d.discount, 0) / topDiscounts.length).toFixed(1)
+                : 0;
+
+            document.getElementById('totalListings').textContent = allData.length;
+            document.getElementById('goldenDeals').textContent = goldenDeals.length;
+            document.getElementById('uniqueModels').textContent = uniqueModels;
+            document.getElementById('avgDiscount').textContent = avgDiscount + '%';
+        }
+
+        function renderTable(data) {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+
+            data.forEach(item => {
+                const row = tbody.insertRow();
+                
+                row.insertCell().textContent = item.make || '-';
+                row.insertCell().textContent = item.model || '-';
+                row.insertCell().textContent = item.year || '-';
+                row.insertCell().textContent = '€' + (item.price || 0).toLocaleString();
+                row.insertCell().textContent = '€' + (item.medianPrice || 0).toLocaleString();
+                
+                const discountCell = row.insertCell();
+                discountCell.textContent = (item.discount || 0).toFixed(1) + '%';
+                discountCell.style.fontWeight = 'bold';
+                if (item.discount >= 15) discountCell.style.color = '#f5576c';
+                else if (item.discount >= 8) discountCell.style.color = '#00f2fe';
+                
+                const dealCell = row.insertCell();
+                const badgeClass = item.dealType === 'GOLDEN DEAL' ? 'golden' : 
+                                  item.dealType === 'GOOD DEAL' ? 'good' : 'fair';
+                dealCell.innerHTML = `<span class="deal-badge ${badgeClass}">${item.dealType}</span>`;
+                
+                const linkCell = row.insertCell();
+                linkCell.innerHTML = `<a href="${item.url}" target="_blank" class="link-btn">Zobraziť</a>`;
+            });
+        }
+
+        function filterData() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const dealType = document.getElementById('dealTypeFilter').value;
+
+            let filtered = allData;
+
+            if (searchTerm) {
+                filtered = filtered.filter(item => 
+                    (item.make || '').toLowerCase().includes(searchTerm) ||
+                    (item.model || '').toLowerCase().includes(searchTerm) ||
+                    (item.year || '').toString().includes(searchTerm) ||
+                    (item.title || '').toLowerCase().includes(searchTerm)
+                );
+            }
+
+            if (dealType !== 'all') {
+                filtered = filtered.filter(item => item.dealType === dealType);
+            }
+
+            renderTable(filtered);
+        }
+
+        function sortTable(column) {
+            if (currentSort.column === column) {
+                currentSort.ascending = !currentSort.ascending;
+            } else {
+                currentSort.column = column;
+                currentSort.ascending = false;
+            }
+
+            allData.sort((a, b) => {
+                let aVal = a[column];
+                let bVal = b[column];
+
+                if (typeof aVal === 'string') {
+                    aVal = aVal.toLowerCase();
+                    bVal = bVal.toLowerCase();
+                }
+
+                if (currentSort.ascending) {
+                    return aVal > bVal ? 1 : -1;
+                } else {
+                    return aVal < bVal ? 1 : -1;
+                }
+            });
+
+            filterData();
+        }
+
+        function refreshData() {
+            document.getElementById('tableContainer').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+            loadData();
+        }
+
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', filterData);
+        document.getElementById('dealTypeFilter').addEventListener('change', filterData);
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
