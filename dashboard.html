@@ -791,8 +791,8 @@
                             <span>⛽ ${l.fuel || 'N/A'}</span>
                             <span>⚙️ ${l.transmission || 'N/A'}</span>
                             ${isAwd ? '<span style="color:var(--accent)">☸️ 4x4</span>' : ''}
-                            <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">| Segment: ${l.kmSegment || 'N/A'}</span>
                         </div>
+                        ${l.dealReason ? `<div class="deal-reason" style="font-size: 0.8rem; color: var(--accent); margin-top: 8px; font-weight: 600;">💡 ${l.dealReason}</div>` : ''}
                     </div>
 
                     <div class="features">

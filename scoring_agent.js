@@ -18,7 +18,6 @@ const CONFIG = {
 // PROBLEMATIC KEYWORDS FILTER
 // ========================================
 const BAD_KEYWORDS = [
-    // Slovak
     'havarované', 'havarovaný', 'havarovaná', 'havarovan',
     'poškodené', 'poškodený', 'poškodená', 'poskoden',
     'motor ko', 'motor defekt', 'nefunkčný motor', 'nefunkcny motor',
@@ -31,6 +30,9 @@ const BAD_KEYWORDS = [
     'totálna škoda', 'totalna skoda',
     'po havárii', 'po havarii',
     'rozbité', 'rozbity', 'rozbitá',
+    'odstúpim leasing', 'odstupim leasing', 'leasing',
+    'rozpredám', 'rozpredam', 'na súčiastky',
+    'chyba motora', 'puknutý blok', 'zadretý',
 
     // English
     'crashed', 'accident', 'total loss',
@@ -252,54 +254,85 @@ function scoreListings(listings, marketValues) {
         const equip = extractEquipmentScore(listing);
         const keywordCheck = checkBadKeywords(listing.title);
 
-        // 1. Find Best Match Median
+        // 1. Find Best Match Median within Mileage Segments
         let medianPrice = null;
         let matchAccuracy = 'broad';
+        let refKm = 0;
 
-        // Check specific match (Make+Model+Year+Engine+EquipLevel)
-        const specificMatch = marketValues.specific?.[make]?.[model]?.[listing.year]?.[engine]?.[equip.level];
+        // Listing's mileage segment mapping
+        let kmSegmentKey = 'mid';
+        let kmSegmentLabel = 'Mid-km (100k-200k)';
+        if (listing.km < 100000) {
+            kmSegmentKey = 'low';
+            kmSegmentLabel = 'Low-km (0-100k)';
+        } else if (listing.km > 200000) {
+            kmSegmentKey = 'high';
+            kmSegmentLabel = 'High-km (nad 200k)';
+        }
+
+        // Check specific match including kmSegmentKey
+        const specificMatch = marketValues.specific?.[make]?.[model]?.[listing.year]?.[engine]?.[equip.level]?.[kmSegmentKey];
         if (specificMatch) {
             medianPrice = specificMatch.medianPrice;
             matchAccuracy = 'specific';
+            refKm = specificMatch.avgKm || (kmSegmentKey === 'low' ? 60000 : kmSegmentKey === 'mid' ? 150000 : 250000);
         } else {
-            // Fallback to broad match (Make+Model+Year)
-            medianPrice = marketValues.broad?.[make]?.[model]?.[listing.year]?.medianPrice;
+            // Fallback to broad match
+            const broadMatch = marketValues.broad?.[make]?.[model]?.[listing.year]?.[kmSegmentKey];
+            if (broadMatch) {
+                medianPrice = broadMatch.medianPrice;
+                refKm = broadMatch.avgKm || (kmSegmentKey === 'low' ? 60000 : kmSegmentKey === 'mid' ? 150000 : 250000);
+            }
+        }
+
+        // Final fallback to any kmSegment in broad
+        if (!medianPrice) {
+            const anySegment = marketValues.broad?.[make]?.[model]?.[listing.year];
+            if (anySegment) {
+                const firstSeg = Object.values(anySegment)[0];
+                medianPrice = firstSeg.medianPrice;
+                refKm = firstSeg.avgKm || 150000;
+            }
         }
 
         if (!medianPrice) continue;
 
-        // 2. Apply Mileage Adjustment - MORE CONSERVATIVE (0.03 per km)
-        const age = Math.max(1, currentYear - listing.year);
-        const expectedKm = age * CONFIG.REFERENCE_KM_YEARLY;
-        const kmDiff = (listing.km || expectedKm) - expectedKm;
+        let correctedMedian = medianPrice;
 
-        // KM adjustment - 0.03 is better for older cars
-        const KM_RATE = 0.03;
-        const kmAdjustment = kmDiff * KM_RATE;
+        // 2. KM PENALTY: -2.5% for every 10,000 km above segment average
+        const kmAboveRef = (listing.km || refKm) - refKm;
+        if (kmAboveRef > 0) {
+            const penaltySteps = kmAboveRef / 10000;
+            const penaltyPercent = penaltySteps * 0.025; // 2.5% per 10k km
+            correctedMedian *= (1 - penaltyPercent);
+        } else if (kmAboveRef < 0) {
+            // Bonus for lower km: +1.5% per 10k km
+            const bonusSteps = Math.abs(kmAboveRef) / 10000;
+            const bonusPercent = bonusSteps * 0.015;
+            correctedMedian *= (1 + bonusPercent);
+        }
 
-        // LIMIT: KM adjustment shouldn't be more than 30% of the median price
-        const maxAdjustment = medianPrice * 0.3;
-        const cappedAdjustment = Math.max(-maxAdjustment, Math.min(maxAdjustment, kmAdjustment));
+        // 3. PSYCHOLOGICAL THRESHOLD: -10% for cars over 200,000 km
+        if (listing.km > 200000) {
+            correctedMedian *= 0.90;
+        }
 
-        let correctedMedian = medianPrice - cappedAdjustment;
-
-        // 3. Apply Equipment Bonus (if using broad median)
+        // 4. Apply Equipment Bonus (only if using broad median)
         if (matchAccuracy === 'broad') {
-            if (equip.level === 'Full') correctedMedian *= 1.12; // 12% instead of 15%
+            if (equip.level === 'Full') correctedMedian *= 1.12;
             else if (equip.level === 'Medium') correctedMedian *= 1.05;
         }
 
-        // 4. YEAR SANITY CHECK: Older cars shouldn't be more expensive than slightly newer ones arbitrarily
-        // Look at next year median if available
-        const nextYearMedian = marketValues.broad?.[make]?.[model]?.[listing.year + 1]?.medianPrice;
-        if (nextYearMedian && correctedMedian > nextYearMedian * 1.1) {
-            correctedMedian = nextYearMedian * 1.05; // Cap it slightly above newer year
+        // 5. YEAR SANITY CHECK
+        const nextYearData = marketValues.broad?.[make]?.[model]?.[listing.year + 1]?.[kmSegmentKey];
+        if (nextYearData && correctedMedian > nextYearData.medianPrice * 1.1) {
+            correctedMedian = nextYearData.medianPrice * 1.05;
         }
 
         // ENSURE POSITIVE: Median should never be less than 40% of original
         correctedMedian = Math.max(medianPrice * 0.4, correctedMedian);
 
-        // 5. Calculate Final Score
+        // 6. Calculate Final Score
         const discount = ((correctedMedian - listing.price) / correctedMedian) * 100;
         const dealInfo = calculateDealType(discount);
 
@@ -309,16 +342,21 @@ function scoreListings(listings, marketValues) {
             filtered++;
         }
 
+        // Explanation string for UI
+        const dealReason = `Cena o ${Math.round(discount)} % nižšia ako medián v kategórii ${kmSegmentLabel}`;
+
         scoredListings.push({
             ...listing,
             make, model, engine,
             equipLevel: equip.level,
             features: equip.foundFeatures,
+            kmSegment: kmSegmentLabel,
             matchAccuracy,
             originalMedian: medianPrice,
             correctedMedian: Math.round(correctedMedian),
-            kmAdjustment: Math.round(kmAdjustment),
+            kmReference: Math.round(refKm),
             discount: Math.round(discount * 10) / 10,
+            dealReason,
             dealType: dealInfo.type,
             score: finalScore,
             isFiltered: keywordCheck.isFiltered,
