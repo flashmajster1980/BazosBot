@@ -590,6 +590,9 @@
             let featuresHtml = (l.features || []).map(f => `<span class="feature-tag">${f}</span>`).join('');
             if (!featuresHtml) featuresHtml = '<span class="feature-tag" style="opacity:0.3">Základná výbava</span>';
 
+            const price = (l.price || 0).toLocaleString();
+            const median = (l.correctedMedian || 0).toLocaleString();
+
             return `
                 <div class="card">
                     ${l.discount >= 10 ? `<div class="discount-label">-${l.discount}%</div>` : ''}
@@ -613,10 +616,10 @@
                     </div>
 
                     <div class="price-row">
-                        <div class="price">${l.price.toLocaleString()} €</div>
+                        <div class="price">${price} €</div>
                         <div class="median">
                             Trhová hodnota
-                            <span>${l.correctedMedian.toLocaleString()} €</span>
+                            <span>${median} €</span>
                         </div>
                     </div>
 

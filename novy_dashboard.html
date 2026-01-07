@@ -503,19 +503,22 @@
         }
 
         function createCard(l) {
-            const badgeClass = l.dealType.toLowerCase().split(' ')[0];
+            const badgeClass = l.dealType ? l.dealType.toLowerCase().split(' ')[0] : 'fair';
             const isAwd = (l.drive || '').toLowerCase().includes('4x4') || (l.features && l.features.includes('4x4'));
             let featuresHtml = (l.features || []).map(f => `<span class="feature-tag">${f}</span>`).join('');
             if (!featuresHtml) featuresHtml = '<span class="feature-tag" style="opacity:0.3">Základná výbava</span>';
+
+            const price = (l.price || 0).toLocaleString();
+            const median = (l.correctedMedian || 0).toLocaleString();
 
             return `
                 <div class="card">
                     ${l.discount >= 10 ? `<div class="discount-label">-${l.discount}%</div>` : ''}
                     <div class="card-header">
-                        <span class="badge badge-${badgeClass}">${l.dealType}</span>
+                        <span class="badge badge-${badgeClass}">${l.dealType || 'FAIR PRICE'}</span>
                         <h3 class="title">${l.title}</h3>
                         <div class="meta">
-                            <span>📅 ${l.year}</span> <span>🛣️ ${l.km ? l.km.toLocaleString() : '?'} km</span> <span>📍 ${l.location || '?'}</span>
+                            <span>📅 ${l.year || '?'}</span> <span>🛣️ ${l.km ? l.km.toLocaleString() : '?'} km</span> <span>📍 ${l.location || '?'}</span>
                         </div>
                         <div class="meta" style="margin-top:-8px; font-weight:600; color:var(--text-main)">
                             <span>⛽ ${l.fuel || '?'}</span> <span>⚙️ ${l.transmission || '?'}</span>
@@ -524,8 +527,8 @@
                     </div>
                     <div class="features">${featuresHtml}</div>
                     <div class="price-row">
-                        <div class="price">${l.price.toLocaleString()} €</div>
-                        <div class="median">Trhová hodnota <span>${l.correctedMedian.toLocaleString()} €</span></div>
+                        <div class="price">${price} €</div>
+                        <div class="median">Trhová hodnota <span>${median} €</span></div>
                     </div>
                     <div class="card-footer">
                         <div class="portal-name">${l.portal}</div>
