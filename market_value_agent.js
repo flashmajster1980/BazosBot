@@ -106,6 +106,22 @@ const EQUIPMENT_KEYWORDS = {
     'Kamera': ['kamera', 'camera', '360'],
 };
 
+// Data Cleaning Filters
+const BAD_KEYWORDS = [
+    'odstúpim leasing', 'odstupim leasing', 'leasing',
+    'havarované', 'havarovane', 'havarovaný', 'havarovany',
+    'na náhradné diely', 'na nahradne diely', 'na diely', 'na súčiastky', 'na suciastky',
+    'rozpredám', 'rozpredam',
+    'chyba motora', 'zadretý', 'zadrety',
+    'bez tp', 'bez špz', 'bez spz',
+    'na prihlásenie', 'na prihlasenie', 'dovezené bez prihlásenia'
+];
+
+function isProblematic(listing) {
+    const text = (listing.title + ' ' + (listing.description || '')).toLowerCase();
+    return BAD_KEYWORDS.some(k => text.includes(k.toLowerCase()));
+}
+
 function extractEquipmentScore(listing) {
     const text = (listing.title + ' ' + (listing.description || '')).toLowerCase();
     let score = 0;
@@ -267,14 +283,20 @@ function updateHistory(marketValues) {
 function analyzeMarketValues(listings) {
     console.log(`📊 Analyzing ${listings.length} listings...`);
 
-    // Group listings by multiple criteria
-    const groups = {}; // Key: make|model|year|engine|equipLevel
-    const broadGroups = {}; // Key: make|model|year
+    // Group listings by multiple criteria including mileage segments
+    const groups = {}; // Key: make|model|year|engine|equipLevel|kmSegment
+    const broadGroups = {}; // Key: make|model|year|kmSegment
     let skipped = 0;
 
     const currentYear = new Date().getFullYear();
 
     for (const listing of listings) {
+        // Data cleaning: Skip problematic listings (leasing, crashed, parts, etc.)
+        if (isProblematic(listing)) {
+            skipped++;
+            continue;
+        }
+
         // Skip if no valid year
         if (!listing.year || listing.year < CONFIG.MIN_YEAR) {
             skipped++;
@@ -291,23 +313,21 @@ function analyzeMarketValues(listings) {
         const engine = extractEngine(listing);
         const equip = extractEquipmentScore(listing);
 
-        // Calculate expected mileage
-        const age = Math.max(1, currentYear - listing.year);
-        const expectedKm = age * CONFIG.REFERENCE_KM_YEARLY;
-
-        // Mileage adjusted price (if we wanted to normalize the baseline, but we'll do it in scorer)
-        // For now, let's just use raw price for groups
+        // Mileage segmentation
+        let kmSegment = 'mid'; // 100k-200k (default)
+        if (listing.km < 100000) kmSegment = 'low';
+        else if (listing.km > 200000) kmSegment = 'high';
 
         // Group keys
-        const broadKey = `${make}|${model}|${listing.year}`;
-        const specificKey = `${make}|${model}|${listing.year}|${engine}|${equip.level}`;
+        const broadKey = `${make}|${model}|${listing.year}|${kmSegment}`;
+        const specificKey = `${make}|${model}|${listing.year}|${engine}|${equip.level}|${kmSegment}`;
 
         // Initialize groups
         if (!broadGroups[broadKey]) {
-            broadGroups[broadKey] = { make, model, year: listing.year, listings: [] };
+            broadGroups[broadKey] = { make, model, year: listing.year, kmSegment, listings: [] };
         }
         if (!groups[specificKey]) {
-            groups[specificKey] = { make, model, year: listing.year, engine, equipLevel: equip.level, listings: [] };
+            groups[specificKey] = { make, model, year: listing.year, engine, equipLevel: equip.level, kmSegment, listings: [] };
         }
 
         broadGroups[broadKey].listings.push(listing);
@@ -325,7 +345,7 @@ function analyzeMarketValues(listings) {
 
     // Process Broad Groups
     for (const [key, group] of Object.entries(broadGroups)) {
-        const { make, model, year } = group;
+        const { make, model, year, kmSegment } = group;
         const validListings = filterExtremes(group.listings, year);
         if (validListings.length < CONFIG.MIN_SAMPLES) continue;
 
@@ -334,12 +354,14 @@ function analyzeMarketValues(listings) {
 
         if (!marketValues.broad[make]) marketValues.broad[make] = {};
         if (!marketValues.broad[make][model]) marketValues.broad[make][model] = {};
+        if (!marketValues.broad[make][model][year]) marketValues.broad[make][model][year] = {};
 
-        marketValues.broad[make][model][year] = {
+        marketValues.broad[make][model][year][kmSegment] = {
             count: validListings.length,
             medianPrice,
             minPrice: Math.min(...prices),
             maxPrice: Math.max(...prices),
+            avgKm: Math.round(validListings.reduce((sum, l) => sum + (l.km || 0), 0) / validListings.length),
             lastUpdated: new Date().toISOString()
         };
 
@@ -349,7 +371,7 @@ function analyzeMarketValues(listings) {
 
     // Process Specific Groups
     for (const [key, group] of Object.entries(groups)) {
-        const { make, model, year, engine, equipLevel } = group;
+        const { make, model, year, engine, equipLevel, kmSegment } = group;
         const validListings = filterExtremes(group.listings, year);
         if (validListings.length < CONFIG.MIN_SAMPLES) continue;
 
@@ -360,8 +382,9 @@ function analyzeMarketValues(listings) {
         if (!marketValues.specific[make][model]) marketValues.specific[make][model] = {};
         if (!marketValues.specific[make][model][year]) marketValues.specific[make][model][year] = {};
         if (!marketValues.specific[make][model][year][engine]) marketValues.specific[make][model][year][engine] = {};
+        if (!marketValues.specific[make][model][year][engine][equipLevel]) marketValues.specific[make][model][year][engine][equipLevel] = {};
 
-        marketValues.specific[make][model][year][engine][equipLevel] = {
+        marketValues.specific[make][model][year][engine][equipLevel][kmSegment] = {
             count: validListings.length,
             medianPrice,
             minPrice: Math.min(...prices),

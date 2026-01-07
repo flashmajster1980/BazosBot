@@ -33,6 +33,8 @@ const BAD_KEYWORDS = [
     'odstúpim leasing', 'odstupim leasing', 'leasing',
     'rozpredám', 'rozpredam', 'na súčiastky',
     'chyba motora', 'puknutý blok', 'zadretý',
+    'bez tp', 'bez špz', 'bez spz',
+    'na prihlásenie', 'na prihlasenie', 'dovezené bez prihlásenia',
 
     // English
     'crashed', 'accident', 'total loss',
