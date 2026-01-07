@@ -463,12 +463,17 @@ function run() {
     // Save scored listings
     fs.writeFileSync(CONFIG.SCORED_LISTINGS_FILE, JSON.stringify(scoredListings, null, 2));
 
-    // Also save as JS variable for local dashboard (to bypass CORS)
-    const jsContent = `window.scoredListingsData = ${JSON.stringify(scoredListings, null, 2)};`;
-    fs.writeFileSync(path.join(__dirname, 'scored_listings_data.js'), jsContent);
+    // Save summary metadata for dashboard statistics
+    const metadata = {
+        totalAnalyzed: listings.length, // Total before filters/dedup
+        goldenFound: goldenDeals,
+        lastUpdate: new Date().toISOString()
+    };
+    fs.writeFileSync(path.join(__dirname, 'scored_listings_metadata.json'), JSON.stringify(metadata, null, 2));
 
     console.log(`💾 Scored listings saved to ${CONFIG.SCORED_LISTINGS_FILE}`);
-    console.log(`💾 JS Data saved to scored_listings_data.js (for local dashboard)\n`);
+    console.log(`💾 JS Data saved to scored_listings_data.js (for local dashboard)`);
+    console.log(`💾 Metadata saved to scored_listings_metadata.json\n`);
 
     // Display top deals
     const topDeals = scoredListings

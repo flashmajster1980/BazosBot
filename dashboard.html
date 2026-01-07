@@ -720,17 +720,26 @@
             });
         }
 
-        function updateStats() {
-            const stats = {
-                total: allListings.length,
-                golden: allListings.filter(l => l.dealType === 'GOLDEN DEAL').length,
-                good: allListings.filter(l => l.dealType === 'GOOD DEAL').length
-            };
+        async function updateStats() {
+            let totalAnalyzed = allListings.length;
+            let goldenFound = allListings.filter(l => l.dealType === 'GOLDEN DEAL').length;
+
+            try {
+                // Try to get global metadata for real-time vibe
+                const metaResp = await fetch('scored_listings_metadata.json?t=' + Date.now());
+                if (metaResp.ok) {
+                    const meta = await metaResp.json();
+                    totalAnalyzed = meta.totalAnalyzed || totalAnalyzed;
+                    goldenFound = meta.goldenFound || goldenFound;
+                } else if (window.scoredListingsMetadata) {
+                    totalAnalyzed = window.scoredListingsMetadata.totalAnalyzed;
+                    goldenFound = window.scoredListingsMetadata.goldenFound;
+                }
+            } catch (e) { }
 
             $('stats-summary').innerHTML = `
-                <div class="stat-item"><b>${stats.total}</b> inzerátov</div>
-                <div class="stat-item" style="color:var(--golden)"><b>${stats.golden}</b> Golden</div>
-                <div class="stat-item" style="color:var(--good)"><b>${stats.good}</b> Good</div>
+                <div class="stat-item">Analyzovaných <b>${totalAnalyzed.toLocaleString()}</b> inzerátov</div>
+                <div class="stat-item" style="color:var(--golden)">Nájdených len <b>${goldenFound}</b> Zlatých dealov</div>
             `;
         }
 
