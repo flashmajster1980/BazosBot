@@ -227,7 +227,7 @@ function deduplicateListings(listings) {
             }
             duplicatesFound++;
         } else {
-            finalMap.set(fingerprint, { ...listing, otherPortals: [] });
+            finalMap.set(fingerprint, { ...listing, fingerprint, otherPortals: [] });
         }
     }
 

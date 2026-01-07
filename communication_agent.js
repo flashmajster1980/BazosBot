@@ -51,27 +51,29 @@ function extractLocation(url, title) {
 }
 function formatMessage(deal) {
     const location = extractLocation(deal.url, deal.title);
-    const savings = deal.correctedMedian - deal.price;
     const date = new Date().toLocaleDateString('sk-SK');
     const kmText = deal.km ? `${deal.km.toLocaleString()} km` : 'Neznáme km';
+    const sellerInfo = deal.seller ? `${deal.seller.icon} ${deal.seller.type}` : '';
+    const negScore = deal.negotiationScore ? `🤝 Potenciál zjednávania: ${deal.negotiationScore}%` : '';
+    const liquidityInfo = deal.liquidity ? `${deal.liquidity.label} (Odhad: ${deal.liquidity.estimate})` : '';
 
-    // Other portals info
-    let portalLine = `📍 Lokalita: ${location}`;
+    let portalsLine = `📍 Portály: ${deal.portal}`;
     if (deal.otherPortals && deal.otherPortals.length > 0) {
         const others = deal.otherPortals.map(p => p.portal).join(', ');
-        portalLine += `\n🔄 Tiež na: ${others}`;
+        portalsLine += ` + ${others}`;
     }
 
-    return `🌟 *GOLDEN DEAL!* -${deal.discount}%
-
-🚗 *${deal.make} ${deal.model}* (${deal.year})
-⚙️ ${deal.engine} | ${deal.equipLevel} výbava
+    return `🌟 *GOLDEN DEAL!* -${Math.round(deal.discount)}%
+    
+🚗 *${deal.make} ${deal.model}* (${deal.year || '?'})
+💰 Cena: *€${Math.round(deal.price).toLocaleString()}*
 🛣️ ${kmText}
-💰 Cena: *€${deal.price.toLocaleString()}*
-📊 Bench: €${deal.correctedMedian.toLocaleString()}
-💸 Úspora: €${savings.toLocaleString()}
-${portalLine}
-🔗 [Zobraziť inzerát](${deal.url})
+⚙️ ${deal.engine} | ${deal.equipLevel} výbava
+${portalsLine}
+📍 Lokalita: ${location}
+
+${sellerInfo ? `👤 Predajca: ${sellerInfo}\n` : ''}${negScore ? `${negScore}\n` : ''}${liquidityInfo ? `🔥 Likvidita: ${liquidityInfo}\n` : ''}
+🔗 [OTVORIŤ INZERÁT](${deal.url})
 
 ⏰ Nájdené: ${date}`;
 }
@@ -156,7 +158,7 @@ This is a test message from Communication Agent.`;
     const goldenDeals = scoredListings.filter(listing =>
         listing.dealType === 'GOLDEN DEAL' &&
         !listing.isFiltered &&
-        !notifiedIds.has(listing.id)
+        !notifiedIds.has(listing.fingerprint || listing.id)
     );
 
     if (goldenDeals.length === 0) {
@@ -178,7 +180,8 @@ This is a test message from Communication Agent.`;
         const success = await sendTelegramMessage(message);
 
         if (success) {
-            notifiedIds.add(deal.id);
+            notifiedIds.add(deal.fingerprint || deal.id);
+            saveNotifiedIds(notifiedIds);
             successCount++;
             console.log(`   ✅ Notified!\n`);
         } else {

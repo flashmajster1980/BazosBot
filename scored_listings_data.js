@@ -13,6 +13,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:37:19.537Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|21000|N/A|Nové",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -34,10 +35,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.145Z"
   },
   {
     "id": "186948416",
@@ -53,6 +62,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.394Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|18500|N/A|Poprad",
     "otherPortals": [
       {
         "url": "https://auto.bazos.sk/inzerat/186856098/volkswagen-tiguan-allspace-15tsi-dsg-rv8102020-184tis-km.php",
@@ -79,10 +89,18 @@ window.scoredListingsData = [
       "category": "Vysoká",
       "estimate": "do 3 dní"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.146Z"
+    "scoredAt": "2026-01-07T19:52:40.150Z"
   },
   {
     "id": "186948690",
@@ -98,6 +116,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.395Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|20900|N/A|Poprad",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -121,10 +140,18 @@ window.scoredListingsData = [
       "category": "Vysoká",
       "estimate": "do 3 dní"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.146Z"
+    "scoredAt": "2026-01-07T19:52:40.150Z"
   },
   {
     "id": "187066901",
@@ -140,6 +167,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T15:28:28.565Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|19500|N/A|Poprad",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -161,10 +189,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.163Z"
   },
   {
     "id": "eu_AmP6NzwG41u",
@@ -177,6 +213,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.521Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2022|19000|80000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -185,66 +222,31 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26500,
-    "correctedMedian": 25176,
+    "originalMedian": 28000,
+    "correctedMedian": 26601,
     "kmReference": 60000,
-    "discount": 24.5,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 25 %",
+    "discount": 28.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 29 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 94,
+      "score": 100,
       "label": "🔥 Horúci tovar",
       "color": "#00ff88",
       "category": "Vysoká",
       "estimate": "do 3 dní"
     },
-    "dealType": "GOLDEN DEAL",
-    "score": 95,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
-  },
-  {
-    "id": "eu_Aertym64EpY",
-    "title": "Tesla Model 3 RWD 283HP",
-    "price": 26870,
-    "year": 2023,
-    "km": 50700,
-    "url": "https://www.autobazar.eu/detail/tesla-model-3-rwd-283hp/Aertym64EpY/",
-    "transmission": "Automat",
-    "fuel": "Elektro",
-    "portal": "Autobazar.eu",
-    "scrapedAt": "2026-01-06T20:13:07.021Z",
-    "otherPortals": [
-      {
-        "portal": "Autovia.sk",
-        "url": "https://www.autovia.sk/detail/tesla-model-3-rwd-283hp/Aertym64EpY/",
-        "price": 26870
-      }
-    ],
-    "make": "Tesla",
-    "model": "Model 3",
-    "engine": "Elektro",
-    "equipLevel": "Basic",
-    "features": [],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 35185,
-    "correctedMedian": 35185,
-    "kmReference": 60000,
-    "discount": 23.6,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 24 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 92,
-      "label": "🔥 Horúci tovar",
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
       "color": "#00ff88",
-      "category": "Vysoká",
-      "estimate": "do 3 dní"
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.173Z"
   },
   {
     "id": "eu_AmHFw9GvxNM",
@@ -257,6 +259,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.727Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|29000|37000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -284,10 +287,18 @@ window.scoredListingsData = [
       "category": "Vysoká",
       "estimate": "do 3 dní"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.187Z"
   },
   {
     "id": "eu_lzoyxqujw",
@@ -300,7 +311,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.943Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2023|25500|92000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tdi-evo-elegance-4motion-dsg/AeD_0IosSQK/",
+        "price": 25490
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tdi-evo-elegance-4motion-dsg/AeD_0IosSQK/",
@@ -334,10 +351,18 @@ window.scoredListingsData = [
       "category": "Vysoká",
       "estimate": "do 3 dní"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.191Z"
   },
   {
     "id": "eu_AmTsfCm2sh5",
@@ -350,6 +375,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.735Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|19700|150000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -358,23 +384,31 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24745,
-    "correctedMedian": 24729,
+    "originalMedian": 24990,
+    "correctedMedian": 24974,
     "kmReference": 150000,
-    "discount": 20.3,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 20 %",
+    "discount": 21.1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 21 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 71,
+      "score": 72,
       "label": "✅ Štandard",
       "color": "#fdda25",
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.194Z"
   },
   {
     "id": "eu_AmPGy43vXce",
@@ -387,6 +421,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.735Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|19500|169000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -395,23 +430,31 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24745,
-    "correctedMedian": 23570,
+    "originalMedian": 24990,
+    "correctedMedian": 23803,
     "kmReference": 150000,
-    "discount": 17.3,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 17 %",
+    "discount": 18.1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 18 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 65,
+      "score": 66,
       "label": "✅ Štandard",
       "color": "#fdda25",
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.194Z"
   },
   {
     "id": "eu_Amj4FaHUKzm",
@@ -424,6 +467,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.583Z",
+    "fingerprint": "FUZZY:BMW|X5|2021|38000|173000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -447,10 +491,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.200Z"
   },
   {
     "id": "eu_AeAxJHNjDqk",
@@ -463,6 +515,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.020Z",
+    "fingerprint": "FUZZY:BMW|X5|2023|73800|54000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -480,22 +533,30 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 94900,
-    "correctedMedian": 94900,
+    "correctedMedian": 90300,
     "kmReference": 60000,
-    "discount": 22.2,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 22 %",
+    "discount": 18.3,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 18 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 89,
+      "score": 82,
       "label": "🔥 Horúci tovar",
       "color": "#00ff88",
       "category": "Vysoká",
       "estimate": "do 3 dní"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_AmczXnARwjT",
@@ -508,6 +569,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:49.202Z",
+    "fingerprint": "FUZZY:BMW|X5|2025|90000|11000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -537,10 +599,18 @@ window.scoredListingsData = [
       "category": "Vysoká",
       "estimate": "do 3 dní"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.205Z"
   },
   {
     "id": "eu_b88bs0yqm",
@@ -553,6 +623,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:49.204Z",
+    "fingerprint": "FUZZY:BMW|X5|2017|20300|164000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -579,23 +650,125 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 25000,
-    "correctedMedian": 24125,
+    "originalMedian": 25900,
+    "correctedMedian": 24994,
     "kmReference": 150000,
-    "discount": 15.9,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 16 %",
+    "discount": 18.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 19 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 52,
+      "score": 58,
       "label": "✅ Štandard",
       "color": "#fdda25",
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.205Z"
+  },
+  {
+    "id": "sk_jurfzb8p0",
+    "title": "BMW Rad 5 Touring 520d mHEV xDrive AT 140kW190HP A8",
+    "price": 28900,
+    "year": 2022,
+    "km": 64000,
+    "url": "https://www.autobazar.sk/27921996/bmw-rad-5-touring-520d-mhev-xdrive-at-140kw190hp-a8/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:BMW|Rad|2022|28900|64000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 43950,
+    "correctedMedian": 34913,
+    "kmReference": 60000,
+    "discount": 17.2,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 17 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 79,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
+    "dealType": "GOLDEN DEAL",
+    "score": 95,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.207Z"
+  },
+  {
+    "id": "autovia_AewtqaBTsAk",
+    "title": "Ford Tourneo Custom Ford Tourneo Custom Van 95.6kw Manuál",
+    "price": 29900,
+    "year": 2022,
+    "km": 63000,
+    "url": "https://www.autovia.sk/detail/ford-tourneo-custom-ford-tourneo-custom-van-956kw-manual/AewtqaBTsAk/",
+    "fuel": "Diesel",
+    "transmission": "6-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T10:36:12.856Z",
+    "fingerprint": "FUZZY:Ford|Tourneo|2022|29900|63000|N/A",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "Tourneo",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 34950,
+    "correctedMedian": 34688,
+    "kmReference": 60000,
+    "discount": 13.8,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 14 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 73,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
+    "dealType": "GOLDEN DEAL",
+    "score": 95,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AenmKh24fj2",
@@ -608,6 +781,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.993Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|18000|169000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -629,10 +803,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_AeFTkDj2PYH",
@@ -645,6 +827,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:35.208Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|23200|149000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -655,10 +838,10 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 26690,
+    "originalMedian": 26645,
+    "correctedMedian": 26645,
     "kmReference": 150000,
-    "discount": 13.1,
+    "discount": 13,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 13 %",
     "mileageWarning": null,
     "liquidity": {
@@ -668,10 +851,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.234Z"
   },
   {
     "id": "autovia_AeS8J7L0Qff",
@@ -684,6 +875,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:38.069Z",
+    "fingerprint": "FUZZY:BMW|X5|2021|48000|73000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -707,10 +899,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "eu_AmgKFTWlHhZ",
@@ -724,6 +924,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.922Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2022|27000|144000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -747,10 +948,67 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
+  },
+  {
+    "id": "eu_AenExg1cbbj",
+    "title": "BMW Rad 3 Touring 318d Touring XDrive. Luxury Line",
+    "price": 7999,
+    "year": 2015,
+    "km": 228237,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/bmw-rad-3-touring-318d-touring-xdrive-luxury-line/AenExg1cbbj/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.890Z",
+    "fingerprint": "FUZZY:BMW|Rad|2015|8000|228000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 13500,
+    "correctedMedian": 13391,
+    "kmReference": 225000,
+    "discount": 40.3,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 40 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 100,
+      "label": "🔥 Horúci tovar",
+      "color": "#00ff88",
+      "category": "Vysoká",
+      "estimate": "do 3 dní"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 80,
+    "dealType": "GOLDEN DEAL",
+    "score": 95,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
   },
   {
     "id": "187064228",
@@ -766,6 +1024,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T15:28:28.531Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2021|19400|N/A|Levice",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -787,10 +1046,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.163Z"
   },
   {
     "id": "eu_Ae1M5Uh4vYI",
@@ -803,6 +1070,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.371Z",
+    "fingerprint": "FUZZY:Audi|A4|2016|17000|221000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A4",
@@ -824,150 +1092,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "GOOD DEAL",
-    "score": 75,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
-  },
-  {
-    "id": "eu_AmcImolRGKpP",
-    "title": "Tesla Model 3 Long Range 82kWh AWD",
-    "price": 29990,
-    "year": 2022,
-    "km": 25000,
-    "url": "https://www.autobazar.eu/detail/tesla-model-3-long-range-82kwh-awd/AmcImolRGKpP/",
-    "transmission": "Automat",
-    "fuel": "Elektro",
-    "portal": "Autobazar.eu",
-    "scrapedAt": "2026-01-06T20:13:07.020Z",
-    "otherPortals": [
-      {
-        "portal": "Autovia.sk",
-        "url": "https://www.autovia.sk/detail/tesla-model-3-long-range-82kwh-awd/AmcImolRGKpP/",
-        "price": 29990
-      }
-    ],
-    "make": "Tesla",
-    "model": "Model 3",
-    "engine": "Elektro",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 32300,
-    "correctedMedian": 32300,
-    "kmReference": 60000,
-    "discount": 7.2,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 7 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 59,
-      "label": "✅ Štandard",
-      "color": "#fdda25",
-      "category": "Dobrá",
-      "estimate": "do 2 týždňov"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
-  },
-  {
-    "id": "eu_Aeno16r2Eh0",
-    "title": "Tesla Model 3 Long Range AWD Highland 366kW497HP",
-    "price": 38430,
-    "year": 2024,
-    "km": 31100,
-    "url": "https://www.autobazar.eu/detail/tesla-model-3-long-range-awd-highland-366kw497hp/Aeno16r2Eh0/",
-    "transmission": "Automat",
-    "fuel": "Elektro",
-    "portal": "Autobazar.eu",
-    "scrapedAt": "2026-01-06T20:13:07.021Z",
-    "otherPortals": [
-      {
-        "portal": "Autovia.sk",
-        "url": "https://www.autovia.sk/detail/tesla-model-3-long-range-awd-highland-366kw497hp/Aeno16r2Eh0/",
-        "price": 38430
-      }
-    ],
-    "make": "Tesla",
-    "model": "Model 3",
-    "engine": "Elektro",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 42585,
-    "correctedMedian": 42585,
-    "kmReference": 60000,
-    "discount": 9.8,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 10 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 65,
-      "label": "✅ Štandard",
-      "color": "#fdda25",
-      "category": "Dobrá",
-      "estimate": "do 2 týždňov"
-    },
-    "dealType": "GOOD DEAL",
-    "score": 75,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
-  },
-  {
-    "id": "eu_sap53as4d",
-    "title": "Škoda Octavia Combi 2.0 TDI Elegance/Style 4x4",
-    "price": 7900,
-    "year": 2015,
-    "km": 236000,
-    "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-elegancestyle-4x4/Am-nq13tkIU/",
-    "transmission": "Manuál",
-    "fuel": "Diesel",
-    "portal": "Autobazar.eu",
-    "scrapedAt": "2026-01-06T20:13:44.144Z",
-    "otherPortals": [
-      {
-        "portal": "Autobazar.eu",
-        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-elegancestyle-4x4/Am-nq13tkIU/",
-        "price": 7900
-      },
-      {
-        "portal": "Autobazar.eu",
-        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-elegancestyle-4x4/Am-nq13tkIU/",
-        "price": 7900
-      }
-    ],
-    "make": "Škoda",
-    "model": "Octavia",
-    "engine": "Diesel",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "High-Tier 1 (200k-250k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 8700,
-    "correctedMedian": 8461,
-    "kmReference": 225000,
-    "discount": 6.6,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 7 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 33,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
-    },
-    "dealType": "GOOD DEAL",
-    "score": 75,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.176Z"
   },
   {
     "id": "eu_Ae79ZEcrdQg",
@@ -980,6 +1116,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.944Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2017|18000|163000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -1009,10 +1146,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.191Z"
   },
   {
     "id": "eu_7ssowpqfw",
@@ -1025,6 +1170,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.949Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|20900|179000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -1049,23 +1195,31 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24745,
-    "correctedMedian": 22966,
+    "originalMedian": 24990,
+    "correctedMedian": 23193,
     "kmReference": 150000,
-    "discount": 9,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 9 %",
+    "discount": 9.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 10 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 48,
+      "score": 50,
       "label": "🐌 Ležiak",
       "color": "#ff4d4d",
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.193Z"
   },
   {
     "id": "eu_AmR0A54kzej",
@@ -1078,6 +1232,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.581Z",
+    "fingerprint": "FUZZY:BMW|X5|2023|84500|22000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -1089,22 +1244,30 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 94900,
-    "correctedMedian": 94900,
+    "correctedMedian": 90300,
     "kmReference": 60000,
-    "discount": 11,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 11 %",
+    "discount": 6.4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 6 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 67,
+      "score": 58,
       "label": "✅ Štandard",
       "color": "#fdda25",
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.199Z"
   },
   {
     "id": "eu_Amm2ILMWUh0",
@@ -1117,6 +1280,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:49.204Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|78900|63000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -1133,23 +1297,31 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 87900,
-    "correctedMedian": 87351,
+    "originalMedian": 85900,
+    "correctedMedian": 85363,
     "kmReference": 60000,
-    "discount": 9.7,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 10 %",
+    "discount": 7.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 8 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 64,
+      "score": 60,
       "label": "✅ Štandard",
       "color": "#fdda25",
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.205Z"
   },
   {
     "id": "eu_fwlucp478",
@@ -1162,6 +1334,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.149Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2018|18600|194000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -1170,23 +1343,79 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 23500,
-    "correctedMedian": 20903,
+    "originalMedian": 23745,
+    "correctedMedian": 21121,
     "kmReference": 150000,
-    "discount": 11.1,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 11 %",
+    "discount": 12,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 12 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 42,
+      "score": 44,
       "label": "🐌 Ležiak",
       "color": "#ff4d4d",
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.222Z"
+  },
+  {
+    "id": "autovia_AeGm_zngg-b",
+    "title": "Volkswagen Touareg 3.0 V6 TDI SCR 286k R-Line 4Motion Tiptronic",
+    "price": 35999,
+    "year": 2018,
+    "km": 165500,
+    "url": "https://www.autovia.sk/detail/volkswagen-touareg-30-v6-tdi-scr-286k-r-line-4motion-tiptronic/AeGm_zngg-b/",
+    "fuel": "Diesel",
+    "transmission": "8-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T10:36:10.888Z",
+    "fingerprint": "FUZZY:Volkswagen|Touareg|2018|36000|166000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Touareg",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 40495,
+    "correctedMedian": 38926,
+    "kmReference": 150000,
+    "discount": 7.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "GOOD DEAL",
+    "score": 75,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.225Z"
   },
   {
     "id": "autovia_AexqnDB7vxo",
@@ -1199,6 +1428,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.992Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2025|42400|N/A|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -1220,10 +1450,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_AmuGoPvyQ7P",
@@ -1236,6 +1474,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.994Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|18500|176000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -1259,10 +1498,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_Am5KBwfjCHT",
@@ -1275,6 +1522,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.862Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|19800|92000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -1296,10 +1544,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_Am9NcN61WQJ",
@@ -1312,6 +1568,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.862Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|19900|108000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -1333,10 +1590,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_AmdufXWSI5b",
@@ -1349,6 +1614,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.867Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|21000|95000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -1370,10 +1636,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_AmtUuKaDt5Z",
@@ -1386,6 +1660,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.870Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|22000|148000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -1394,23 +1669,31 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24700,
-    "correctedMedian": 24700,
+    "originalMedian": 24795,
+    "correctedMedian": 24795,
     "kmReference": 150000,
-    "discount": 11,
+    "discount": 11.3,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 11 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 67,
+      "score": 68,
       "label": "✅ Štandard",
       "color": "#fdda25",
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_AemPeh_RsoT",
@@ -1423,6 +1706,7 @@ window.scoredListingsData = [
     "transmission": "5-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.457Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2022|24800|37000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -1446,10 +1730,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.231Z"
   },
   {
     "id": "autovia_AbUL89ZgvWi",
@@ -1462,6 +1754,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:35.230Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2010|5000|280000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -1485,10 +1778,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.234Z"
   },
   {
     "id": "eu_1mk8csysr",
@@ -1502,6 +1803,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:03.759Z",
+    "fingerprint": "FUZZY:BMW|Rad|2023|30000|51000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -1525,10 +1827,127 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
+  },
+  {
+    "id": "sk_yc2rar9rr",
+    "title": "Renault Trafic L2H1P2 dCi 150 Extra",
+    "price": 29237,
+    "year": 2026,
+    "km": 4,
+    "url": "https://www.autobazar.sk/27935970/renault-trafic-l2h1p2-dci-150-extra/",
+    "fuel": "Diesel",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Renault|Trafic|2026|29200|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935970/renault-trafic-l2h1p2-dci-150-extra/",
+        "price": 29237
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935970/renault-trafic-l2h1p2-dci-150-extra/",
+        "price": 29237
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935970/renault-trafic-l2h1p2-dci-150-extra/",
+        "price": 29237
+      }
+    ],
+    "make": "Renault",
+    "model": "Trafic",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 31978,
+    "correctedMedian": 31978,
+    "kmReference": 60000,
+    "discount": 8.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 9 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 62,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "GOOD DEAL",
+    "score": 75,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.257Z"
+  },
+  {
+    "id": "autovia_AeQoeO1xB1B",
+    "title": "Škoda Fabia Combi 1.0 TSI Ambition 70kW95HP M5",
+    "price": 6900,
+    "year": 2020,
+    "km": 162375,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/skoda-fabia-combi-10-tsi-ambition-70kw95hp-m5/AeQoeO1xB1B/",
+    "fuel": "Benzín",
+    "transmission": "5-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.894Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2020|6900|162000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Fabia",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7595,
+    "correctedMedian": 7360,
+    "kmReference": 150000,
+    "discount": 6.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 43,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "GOOD DEAL",
+    "score": 75,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
   },
   {
     "id": "187218477",
@@ -1544,6 +1963,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:37:19.533Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2019|24800|N/A|Nitra",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -1567,10 +1987,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.143Z"
+    "scoredAt": "2026-01-07T19:52:40.143Z"
   },
   {
     "id": "187188007",
@@ -1586,6 +2014,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "125 kW",
     "scrapedAt": "2026-01-06T13:37:19.534Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2011|7500|208000|Rimavská",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -1607,10 +2036,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.143Z"
+    "scoredAt": "2026-01-07T19:52:40.143Z"
   },
   {
     "id": "186472345",
@@ -1626,6 +2063,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "77 kW",
     "scrapedAt": "2026-01-06T13:37:19.535Z",
+    "fingerprint": "FUZZY:Superb|tdi|2015|5000|N/A|Zahraničie",
     "otherPortals": [],
     "make": "Superb",
     "model": "tdi",
@@ -1647,10 +2085,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.143Z"
+    "scoredAt": "2026-01-07T19:52:40.144Z"
   },
   {
     "id": "187192253",
@@ -1666,6 +2112,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "103 kW",
     "scrapedAt": "2026-01-06T13:37:19.535Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2014|8000|N/A|Žiar",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -1687,10 +2134,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.143Z"
+    "scoredAt": "2026-01-07T19:52:40.144Z"
   },
   {
     "id": "187179984",
@@ -1706,6 +2161,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "77 kW",
     "scrapedAt": "2026-01-06T13:37:19.538Z",
+    "fingerprint": "VIN:KMHC851CGHU011963",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "Ioniq",
@@ -1727,10 +2183,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.146Z"
   },
   {
     "id": "186983162",
@@ -1746,6 +2210,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "125 kW",
     "scrapedAt": "2026-01-06T13:37:19.538Z",
+    "fingerprint": "VIN:WDD2052051F351783",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "C trieda",
@@ -1767,10 +2232,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.146Z"
   },
   {
     "id": "187188254",
@@ -1786,6 +2259,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "130 kW",
     "scrapedAt": "2026-01-06T13:37:19.540Z",
+    "fingerprint": "FUZZY:Seat|Alhambra|2014|11500|207000|Rimavská",
     "otherPortals": [],
     "make": "Seat",
     "model": "Alhambra",
@@ -1807,10 +2281,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.146Z"
   },
   {
     "id": "187180734",
@@ -1826,6 +2308,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "59 kW",
     "scrapedAt": "2026-01-06T13:37:19.543Z",
+    "fingerprint": "VIN:WVWZZZ9NZ8Y130270",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Polo",
@@ -1847,10 +2330,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.146Z"
   },
   {
     "id": "186988259",
@@ -1866,6 +2357,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "77 kW",
     "scrapedAt": "2026-01-06T13:48:59.385Z",
+    "fingerprint": "FUZZY:Seat|Leon|2013|6500|N/A|Poprad",
     "otherPortals": [],
     "make": "Seat",
     "model": "Leon",
@@ -1887,10 +2379,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.146Z"
   },
   {
     "id": "186983759",
@@ -1906,6 +2406,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "88 kW",
     "scrapedAt": "2026-01-06T13:48:59.386Z",
+    "fingerprint": "FUZZY:Suzuki|SX4|2014|12900|N/A|Prievidza",
     "otherPortals": [],
     "make": "Suzuki",
     "model": "SX4",
@@ -1929,10 +2430,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
+    "scoredAt": "2026-01-07T19:52:40.147Z"
   },
   {
     "id": "186982632",
@@ -1948,6 +2457,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.387Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|19900|N/A|Poprad",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -1969,10 +2479,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
+    "scoredAt": "2026-01-07T19:52:40.147Z"
   },
   {
     "id": "187136866",
@@ -1988,6 +2506,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "150 kW",
     "scrapedAt": "2026-01-06T13:48:59.387Z",
+    "fingerprint": "FUZZY:Audi|A6|2012|10000|N/A|Banská",
     "otherPortals": [],
     "make": "Audi",
     "model": "A6",
@@ -2011,10 +2530,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
+    "scoredAt": "2026-01-07T19:52:40.147Z"
   },
   {
     "id": "186966588",
@@ -2030,6 +2557,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.388Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2021|19000|N/A|Banská",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -2051,10 +2579,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
+    "scoredAt": "2026-01-07T19:52:40.147Z"
   },
   {
     "id": "187149240",
@@ -2070,6 +2606,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.390Z",
+    "fingerprint": "FUZZY:Škoda|Kamiq|2025|27500|3000|Kežmarok",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kamiq",
@@ -2091,10 +2628,67 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
+    "scoredAt": "2026-01-07T19:52:40.148Z"
+  },
+  {
+    "id": "186956306",
+    "title": "Škoda Karoq 1.5 TSI ACT Style DSG",
+    "price": 19690,
+    "year": 2020,
+    "km": 105258,
+    "url": "https://auto.bazos.sk/inzerat/186956306/skoda-karoq-15-tsi-act-style-dsg.php",
+    "location": "Prešov 080 01",
+    "vin": "TMBJR7NU1L2041745",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "drive": "Predný",
+    "power": "110 kW",
+    "scrapedAt": "2026-01-06T13:48:59.392Z",
+    "fingerprint": "VIN:TMBJR7NU1L2041745",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Karoq",
+    "engine": "Benzín Mid (110kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 19690,
+    "correctedMedian": 19690,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.149Z"
   },
   {
     "id": "186951386",
@@ -2110,6 +2704,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.393Z",
+    "fingerprint": "FUZZY:Seat|Tarraco|2021|21000|N/A|Košice",
     "otherPortals": [],
     "make": "Seat",
     "model": "Tarraco",
@@ -2131,10 +2726,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
+    "scoredAt": "2026-01-07T19:52:40.149Z"
   },
   {
     "id": "186921237",
@@ -2150,6 +2753,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.393Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2025|36000|N/A|Košice",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -2171,10 +2775,71 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
+    "scoredAt": "2026-01-07T19:52:40.149Z"
+  },
+  {
+    "id": "186947069",
+    "title": "Škoda Octavia Combi 2.0 TDI DSG F1 Ambition Navi Ťažné ACC",
+    "price": 10499,
+    "year": 2017,
+    "km": 198662,
+    "url": "https://auto.bazos.sk/inzerat/186947069/skoda-octavia-combi-20-tdi-dsg-f1-ambition-navi-tazne-acc.php",
+    "location": "Partizánske 958 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "Predný",
+    "power": "110 kW",
+    "scrapedAt": "2026-01-06T13:48:59.394Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2017|10500|199000|Partizánske",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel Mid (110kW)",
+    "equipLevel": "Medium",
+    "features": [
+      "Navigácia",
+      "Ťažné",
+      "ACC/Tempomat"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 12249,
+    "correctedMedian": 10759,
+    "kmReference": 150000,
+    "discount": 2.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 25,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.150Z"
   },
   {
     "id": "186942246",
@@ -2190,6 +2855,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "70 kW",
     "scrapedAt": "2026-01-06T13:48:59.395Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2021|11500|116000|Poprad",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Fabia",
@@ -2211,10 +2877,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.146Z"
+    "scoredAt": "2026-01-07T19:52:40.150Z"
   },
   {
     "id": "186515773",
@@ -2230,6 +2904,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "77 kW",
     "scrapedAt": "2026-01-06T13:48:59.395Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2014|10000|138000|Poprad",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -2251,10 +2926,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.146Z"
+    "scoredAt": "2026-01-07T19:52:40.151Z"
   },
   {
     "id": "186996939",
@@ -2270,6 +2953,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "147 kW",
     "scrapedAt": "2026-01-06T13:48:59.399Z",
+    "fingerprint": "FUZZY:Ṣ̌koda|Octavia|2011|7900|215000|Rimavská",
     "otherPortals": [],
     "make": "Ṣ̌koda",
     "model": "Octavia",
@@ -2291,10 +2975,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.146Z"
+    "scoredAt": "2026-01-07T19:52:40.151Z"
   },
   {
     "id": "186924940",
@@ -2310,6 +3002,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "100 kW",
     "scrapedAt": "2026-01-06T13:48:59.401Z",
+    "fingerprint": "FUZZY:BMW|Rad|2021|17000|137000|Poprad",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -2331,10 +3024,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.146Z"
+    "scoredAt": "2026-01-07T19:52:40.151Z"
   },
   {
     "id": "186924816",
@@ -2350,6 +3051,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "366 kW",
     "scrapedAt": "2026-01-06T13:48:59.402Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2024|38400|N/A|Lučenec",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -2371,10 +3073,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.146Z"
+    "scoredAt": "2026-01-07T19:52:40.151Z"
   },
   {
     "id": "186818266",
@@ -2390,6 +3100,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.403Z",
+    "fingerprint": "FUZZY:Škoda|Karoq|2022|23800|136000|Rimavská",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Karoq",
@@ -2414,10 +3125,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.147Z"
+    "scoredAt": "2026-01-07T19:52:40.151Z"
   },
   {
     "id": "186892268",
@@ -2433,6 +3152,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.409Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2018|19500|203000|Šaľa",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -2456,10 +3176,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.152Z"
   },
   {
     "id": "186896699",
@@ -2475,6 +3203,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.409Z",
+    "fingerprint": "FUZZY:Volkswagen|SHARAN|2018|19300|N/A|Šaľa",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "SHARAN",
@@ -2496,10 +3225,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.152Z"
   },
   {
     "id": "187155531",
@@ -2515,6 +3252,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "103 kW",
     "scrapedAt": "2026-01-06T13:48:59.409Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2008|4200|309000|Nitra",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -2536,10 +3274,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.152Z"
   },
   {
     "id": "186893567",
@@ -2555,6 +3301,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "235 kW",
     "scrapedAt": "2026-01-06T13:48:59.410Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|36000|123000|Žiar",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -2578,10 +3325,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.152Z"
   },
   {
     "id": "186891847",
@@ -2597,6 +3352,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "96 kW",
     "scrapedAt": "2026-01-06T13:48:59.410Z",
+    "fingerprint": "FUZZY:Peugeot|Rifter1.5hdi|2020|12500|N/A|Banská",
     "otherPortals": [],
     "make": "Peugeot",
     "model": "Rifter1.5hdi",
@@ -2618,10 +3374,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.152Z"
   },
   {
     "id": "186884073",
@@ -2637,6 +3401,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "147 kW",
     "scrapedAt": "2026-01-06T13:48:59.411Z",
+    "fingerprint": "FUZZY:✅️volkswagen|Tiguan|2021|28900|N/A|Žilina",
     "otherPortals": [],
     "make": "✅️volkswagen",
     "model": "Tiguan",
@@ -2660,10 +3425,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.153Z"
   },
   {
     "id": "186886041",
@@ -2679,6 +3452,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.411Z",
+    "fingerprint": "FUZZY:Nissan|Leaf|2020|13500|N/A|Šaľa",
     "otherPortals": [],
     "make": "Nissan",
     "model": "Leaf",
@@ -2700,10 +3474,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.153Z"
   },
   {
     "id": "187041881",
@@ -2719,6 +3501,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.412Z",
+    "fingerprint": "FUZZY:Volkswagen|Touareg|2021|38500|146000|Ilava",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Touareg",
@@ -2740,10 +3523,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.149Z"
+    "scoredAt": "2026-01-07T19:52:40.153Z"
   },
   {
     "id": "186713183",
@@ -2759,6 +3550,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "95 kW",
     "scrapedAt": "2026-01-06T13:48:59.416Z",
+    "fingerprint": "FUZZY:Suzuki|Vitara|2025|21600|2000|Nitra",
     "otherPortals": [],
     "make": "Suzuki",
     "model": "Vitara",
@@ -2782,10 +3574,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.149Z"
+    "scoredAt": "2026-01-07T19:52:40.153Z"
   },
   {
     "id": "186867184",
@@ -2801,6 +3601,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.417Z",
+    "fingerprint": "FUZZY:BMW|320d|2023|25100|N/A|Nitra",
     "otherPortals": [],
     "make": "BMW",
     "model": "320d",
@@ -2824,10 +3625,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.149Z"
+    "scoredAt": "2026-01-07T19:52:40.154Z"
   },
   {
     "id": "187191479",
@@ -2843,6 +3652,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.419Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|19000|N/A|Bánovce",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -2866,10 +3676,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.149Z"
+    "scoredAt": "2026-01-07T19:52:40.154Z"
   },
   {
     "id": "186863861",
@@ -2885,6 +3703,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "270 kW",
     "scrapedAt": "2026-01-06T13:48:59.419Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLE|2017|32000|144000|Trenčín",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "GLE",
@@ -2906,10 +3725,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.149Z"
+    "scoredAt": "2026-01-07T19:52:40.154Z"
   },
   {
     "id": "186854684",
@@ -2925,6 +3752,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "140 kW",
     "scrapedAt": "2026-01-06T13:48:59.420Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2017|16800|N/A|Lučenec",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -2946,10 +3774,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.149Z"
+    "scoredAt": "2026-01-07T19:52:40.154Z"
   },
   {
     "id": "186705161",
@@ -2965,6 +3801,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "210 kW",
     "scrapedAt": "2026-01-06T13:48:59.420Z",
+    "fingerprint": "FUZZY:Volkswagen|ID.7|2024|44900|44000|Nitra",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "ID.7",
@@ -2986,10 +3823,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.154Z"
   },
   {
     "id": "186856160",
@@ -3005,6 +3850,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.421Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2021|18900|N/A|Poprad",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -3028,10 +3874,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.154Z"
   },
   {
     "id": "186849918",
@@ -3047,6 +3901,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.425Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|E200D|2018|18500|209000|Poprad",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "E200D",
@@ -3068,10 +3923,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.155Z"
   },
   {
     "id": "186849716",
@@ -3087,6 +3950,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "145 kW",
     "scrapedAt": "2026-01-06T13:48:59.425Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLC|2020|30000|150000|Poprad",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "GLC",
@@ -3108,10 +3972,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.155Z"
   },
   {
     "id": "187197764",
@@ -3127,6 +3999,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "142 kW",
     "scrapedAt": "2026-01-06T13:48:59.428Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2024|38300|31000|Nitra",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -3151,50 +4024,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "FAIR PRICE",
-    "score": 50,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.151Z"
-  },
-  {
-    "id": "186364536",
-    "title": "Škoda Octavia 2.0 TDI 110 kW",
-    "price": 8699,
-    "year": 2014,
-    "km": null,
-    "url": "https://auto.bazos.sk/inzerat/186364536/skoda-octavia-20-tdi-110-kw.php",
-    "location": "Lučenec 984 01",
-    "vin": null,
-    "transmission": "Manuál",
-    "fuel": "Diesel",
-    "drive": "Predný",
-    "power": "110 kW",
-    "scrapedAt": "2026-01-06T13:48:59.428Z",
-    "otherPortals": [],
-    "make": "Škoda",
-    "model": "Octavia",
-    "engine": "Diesel Mid (110kW)",
-    "equipLevel": "Basic",
-    "features": [],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 8699,
-    "correctedMedian": 8699,
-    "kmReference": 60000,
-    "discount": 0,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 35,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.151Z"
+    "scoredAt": "2026-01-07T19:52:40.156Z"
   },
   {
     "id": "186837052",
@@ -3210,6 +4051,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.432Z",
+    "fingerprint": "FUZZY:Seat|Ateca|2025|18700|N/A|Levice",
     "otherPortals": [],
     "make": "Seat",
     "model": "Ateca",
@@ -3231,10 +4073,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.151Z"
+    "scoredAt": "2026-01-07T19:52:40.156Z"
   },
   {
     "id": "186831087",
@@ -3250,6 +4100,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "250 kW",
     "scrapedAt": "2026-01-06T13:48:59.434Z",
+    "fingerprint": "FUZZY:Porsche|Cayenne|2022|70000|50000|Žiar",
     "otherPortals": [],
     "make": "Porsche",
     "model": "Cayenne",
@@ -3271,10 +4122,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.151Z"
+    "scoredAt": "2026-01-07T19:52:40.157Z"
   },
   {
     "id": "187189218",
@@ -3290,6 +4149,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "96 kW",
     "scrapedAt": "2026-01-06T13:48:59.435Z",
+    "fingerprint": "FUZZY:Ford|Transit|2017|10700|144000|Nitra",
     "otherPortals": [],
     "make": "Ford",
     "model": "Transit",
@@ -3311,10 +4171,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.151Z"
+    "scoredAt": "2026-01-07T19:52:40.157Z"
   },
   {
     "id": "185727507",
@@ -3330,6 +4198,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "326 kW",
     "scrapedAt": "2026-01-06T13:48:59.436Z",
+    "fingerprint": "FUZZY:Audi|A7|2026|31000|N/A|Žilina",
     "otherPortals": [],
     "make": "Audi",
     "model": "A7",
@@ -3353,10 +4222,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.151Z"
+    "scoredAt": "2026-01-07T19:52:40.157Z"
   },
   {
     "id": "186761709",
@@ -3372,6 +4249,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.436Z",
+    "fingerprint": "FUZZY:Cupra|Formentor|2026|24000|N/A|Šaľa",
     "otherPortals": [],
     "make": "Cupra",
     "model": "Formentor",
@@ -3393,10 +4271,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.151Z"
+    "scoredAt": "2026-01-07T19:52:40.158Z"
   },
   {
     "id": "186831194",
@@ -3412,6 +4298,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.437Z",
+    "fingerprint": "FUZZY:Renault|Megane|2019|13900|49000|Rimavská",
     "otherPortals": [],
     "make": "Renault",
     "model": "Megane",
@@ -3433,10 +4320,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.158Z"
   },
   {
     "id": "186829425",
@@ -3452,6 +4347,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "150 kW",
     "scrapedAt": "2026-01-06T13:48:59.437Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|CLS|2017|15900|N/A|Banská",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "CLS",
@@ -3473,10 +4369,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.158Z"
   },
   {
     "id": "187177425",
@@ -3492,6 +4396,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "96 kW",
     "scrapedAt": "2026-01-06T13:48:59.437Z",
+    "fingerprint": "FUZZY:Seat|Alhambra|2005|5000|N/A|Žiar",
     "otherPortals": [],
     "make": "Seat",
     "model": "Alhambra",
@@ -3516,10 +4421,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.158Z"
   },
   {
     "id": "187021056",
@@ -3535,6 +4448,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "270 kW",
     "scrapedAt": "2026-01-06T15:28:27.999Z",
+    "fingerprint": "FUZZY:Audi|Q5|2021|29000|N/A|Košice",
     "otherPortals": [],
     "make": "Audi",
     "model": "Q5",
@@ -3558,10 +4472,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.158Z"
   },
   {
     "id": "186870147",
@@ -3577,6 +4499,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.014Z",
+    "fingerprint": "FUZZY:Seat|Leon|2021|14000|0|Krupina",
     "otherPortals": [],
     "make": "Seat",
     "model": "Leon",
@@ -3600,10 +4523,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.159Z"
   },
   {
     "id": "187116120",
@@ -3619,6 +4550,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "120 kW",
     "scrapedAt": "2026-01-06T15:28:28.017Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|CLA|2021|19000|N/A|Košice",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "CLA",
@@ -3640,10 +4572,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.159Z"
   },
   {
     "id": "187181412",
@@ -3659,6 +4599,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "200 kW",
     "scrapedAt": "2026-01-06T15:28:28.032Z",
+    "fingerprint": "FUZZY:Audi|A6|2017|14000|N/A|Šaľa",
     "otherPortals": [],
     "make": "Audi",
     "model": "A6",
@@ -3682,10 +4623,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.159Z"
   },
   {
     "id": "187098843",
@@ -3701,6 +4650,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "157 kW",
     "scrapedAt": "2026-01-06T15:28:28.034Z",
+    "fingerprint": "VIN:6FPPXXMJ2PKY20294",
     "otherPortals": [],
     "make": "Ford",
     "model": "Ranger",
@@ -3724,10 +4674,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.159Z"
   },
   {
     "id": "187169201",
@@ -3743,6 +4701,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.034Z",
+    "fingerprint": "FUZZY:Audi|Q3|2022|19700|104000|Poprad",
     "otherPortals": [],
     "make": "Audi",
     "model": "Q3",
@@ -3764,10 +4723,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.160Z"
   },
   {
     "id": "187147545",
@@ -3783,6 +4750,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "150 kW",
     "scrapedAt": "2026-01-06T15:28:28.163Z",
+    "fingerprint": "FUZZY:Audi|A4|2021|26400|103000|Lučenec",
     "otherPortals": [],
     "make": "Audi",
     "model": "A4",
@@ -3806,10 +4774,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.160Z"
   },
   {
     "id": "187142282",
@@ -3825,6 +4801,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.173Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2022|20500|145000|Poprad",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -3846,10 +4823,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.160Z"
   },
   {
     "id": "187148948",
@@ -3865,6 +4850,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "95 kW",
     "scrapedAt": "2026-01-06T15:28:28.211Z",
+    "fingerprint": "FUZZY:Suzuki|GRAND|2014|8500|N/A|Lučenec",
     "otherPortals": [],
     "make": "Suzuki",
     "model": "GRAND",
@@ -3888,10 +4874,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.161Z"
   },
   {
     "id": "187101516",
@@ -3907,6 +4901,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.427Z",
+    "fingerprint": "VIN:TMBJH7NPXH7551244",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -3928,10 +4923,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.161Z"
   },
   {
     "id": "187096797",
@@ -3947,6 +4950,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "103 kW",
     "scrapedAt": "2026-01-06T15:28:28.450Z",
+    "fingerprint": "FUZZY:Volkswagen|Sharan|2015|10000|206000|Topoľčany",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Sharan",
@@ -3971,10 +4975,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.162Z"
   },
   {
     "id": "187094829",
@@ -3990,6 +5002,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "70 kW",
     "scrapedAt": "2026-01-06T15:28:28.483Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2021|11500|118000|Poprad",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Fabia",
@@ -4011,10 +5024,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.162Z"
   },
   {
     "id": "187084028",
@@ -4030,6 +5051,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "228 kW",
     "scrapedAt": "2026-01-06T15:28:28.489Z",
+    "fingerprint": "FUZZY:Hyundai|Ioniq|2023|26900|1000|Lučenec",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "Ioniq",
@@ -4051,10 +5073,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.162Z"
   },
   {
     "id": "187080985",
@@ -4070,6 +5100,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "103 kW",
     "scrapedAt": "2026-01-06T15:28:28.497Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2012|8800|216000|Rimavská",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -4091,10 +5122,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.162Z"
   },
   {
     "id": "187073110",
@@ -4110,6 +5149,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "92 kW",
     "scrapedAt": "2026-01-06T15:28:28.509Z",
+    "fingerprint": "FUZZY:Seat|Leon|2017|11800|132000|Levice",
     "otherPortals": [],
     "make": "Seat",
     "model": "Leon",
@@ -4131,10 +5171,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.162Z"
   },
   {
     "id": "187072939",
@@ -4150,6 +5198,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "140 kW",
     "scrapedAt": "2026-01-06T15:28:28.510Z",
+    "fingerprint": "FUZZY:Renault|ALASKAN,|2019|19000|N/A|Levice",
     "otherPortals": [],
     "make": "Renault",
     "model": "ALASKAN,",
@@ -4173,10 +5222,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.162Z"
   },
   {
     "id": "187072125",
@@ -4192,6 +5249,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "135 kW",
     "scrapedAt": "2026-01-06T15:28:28.528Z",
+    "fingerprint": "FUZZY:⚠️škoda|OCTAVIA|2015|11000|218000|Lučenec",
     "otherPortals": [],
     "make": "⚠️škoda",
     "model": "OCTAVIA",
@@ -4213,10 +5271,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.163Z"
   },
   {
     "id": "187065855",
@@ -4232,6 +5298,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "331 kW",
     "scrapedAt": "2026-01-06T15:28:28.612Z",
+    "fingerprint": "FUZZY:Audi|RS5|2021|62900|N/A|Bánovce",
     "otherPortals": [],
     "make": "Audi",
     "model": "RS5",
@@ -4255,10 +5322,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.164Z"
   },
   {
     "id": "186588701",
@@ -4274,6 +5349,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "132 kW",
     "scrapedAt": "2026-01-06T15:28:28.617Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2014|8400|215000|Rimavská",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -4295,10 +5371,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.165Z"
   },
   {
     "id": "187037687",
@@ -4314,6 +5398,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.634Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2019|15600|N/A|Nitra",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -4338,10 +5423,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.166Z"
   },
   {
     "id": "187019488",
@@ -4357,6 +5450,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.678Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2021|16000|N/A|Šaľa",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -4378,10 +5472,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.167Z"
   },
   {
     "id": "186525476",
@@ -4397,6 +5499,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T15:28:28.679Z",
+    "fingerprint": "FUZZY:Hákový|nosič|2006|23900|N/A|Prešov",
     "otherPortals": [],
     "make": "Hákový",
     "model": "nosič",
@@ -4420,10 +5523,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.167Z"
   },
   {
     "id": "187012888",
@@ -4439,6 +5550,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T15:28:28.707Z",
+    "fingerprint": "FUZZY:Seat|Leon|2021|15900|N/A|Poprad",
     "otherPortals": [],
     "make": "Seat",
     "model": "Leon",
@@ -4462,10 +5574,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.167Z"
   },
   {
     "id": "187012808",
@@ -4481,6 +5601,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.708Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|12300|204000|Partizánske",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -4504,10 +5625,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.167Z"
   },
   {
     "id": "187009719",
@@ -4523,6 +5652,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": null,
     "scrapedAt": "2026-01-06T15:28:28.710Z",
+    "fingerprint": "FUZZY:BMW|X7|2024|95000|20000|Žiar",
     "otherPortals": [],
     "make": "BMW",
     "model": "X7",
@@ -4546,10 +5676,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.156Z"
+    "scoredAt": "2026-01-07T19:52:40.168Z"
   },
   {
     "id": "186995806",
@@ -4565,6 +5703,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T15:28:28.747Z",
+    "fingerprint": "FUZZY:Man|TGA|2007|19500|N/A|Prešov",
     "otherPortals": [],
     "make": "Man",
     "model": "TGA",
@@ -4588,10 +5727,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.156Z"
+    "scoredAt": "2026-01-07T19:52:40.168Z"
   },
   {
     "id": "186993235",
@@ -4607,6 +5754,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "128 kW",
     "scrapedAt": "2026-01-06T15:28:28.750Z",
+    "fingerprint": "FUZZY:Volkswagen|MULTIVAN|2004|8500|310000|Nitra",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "MULTIVAN",
@@ -4628,10 +5776,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.156Z"
+    "scoredAt": "2026-01-07T19:52:40.168Z"
   },
   {
     "id": "187185715",
@@ -4647,6 +5803,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "77 kW",
     "scrapedAt": "2026-01-06T15:28:28.782Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2011|4900|N/A|Skalica",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -4668,10 +5825,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.156Z"
+    "scoredAt": "2026-01-07T19:52:40.168Z"
   },
   {
     "id": "187189301",
@@ -4687,6 +5852,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "103 kW",
     "scrapedAt": "2026-01-06T15:28:28.790Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2008|3500|N/A|Skalica",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -4708,10 +5874,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.156Z"
+    "scoredAt": "2026-01-07T19:52:40.168Z"
   },
   {
     "id": "186669980",
@@ -4727,6 +5901,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "103 kW",
     "scrapedAt": "2026-01-06T15:28:28.791Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2011|5200|211000|Rimavská",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -4750,10 +5925,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.156Z"
+    "scoredAt": "2026-01-07T19:52:40.168Z"
   },
   {
     "id": "eu_j6lp04wix",
@@ -4766,6 +5949,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.735Z",
+    "fingerprint": "FUZZY:Ford|Galaxy|2022|26000|141000|N/A",
     "otherPortals": [],
     "make": "Ford",
     "model": "Galaxy",
@@ -4789,10 +5973,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.156Z"
+    "scoredAt": "2026-01-07T19:52:40.169Z"
   },
   {
     "id": "eu_wtaeg7fur",
@@ -4805,6 +5997,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.736Z",
+    "fingerprint": "FUZZY:Citroën|C5|2021|22000|119000|N/A",
     "otherPortals": [],
     "make": "Citroën",
     "model": "C5",
@@ -4826,10 +6019,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.169Z"
   },
   {
     "id": "eu_AmvSO72y2nB",
@@ -4842,6 +6043,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.738Z",
+    "fingerprint": "FUZZY:BMW|X2|2021|27500|125000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X2",
@@ -4865,10 +6067,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.169Z"
   },
   {
     "id": "eu_Am4pB5GNVkt",
@@ -4881,6 +6091,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.739Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2006|4000|315000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -4902,10 +6113,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.170Z"
   },
   {
     "id": "eu_AezZhnzQHbn",
@@ -4918,6 +6137,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.742Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2022|18500|109000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -4939,10 +6159,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.170Z"
   },
   {
     "id": "eu_AmcSaF4l3kh",
@@ -4955,6 +6183,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.742Z",
+    "fingerprint": "FUZZY:Suzuki|Swift|2012|6200|146000|N/A",
     "otherPortals": [],
     "make": "Suzuki",
     "model": "Swift",
@@ -4976,10 +6205,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.170Z"
   },
   {
     "id": "eu_ab2ieh33d",
@@ -4992,6 +6229,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.514Z",
+    "fingerprint": "FUZZY:Volkswagen|Taigo|2022|13900|114000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Taigo",
@@ -5013,10 +6251,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.171Z"
   },
   {
     "id": "eu_AmigfxIWFad",
@@ -5029,6 +6275,7 @@ window.scoredListingsData = [
     "fuel": "Hybrid",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.515Z",
+    "fingerprint": "FUZZY:Nissan|X-Trail|2024|40000|54000|N/A",
     "otherPortals": [],
     "make": "Nissan",
     "model": "X-Trail",
@@ -5050,10 +6297,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.171Z"
   },
   {
     "id": "eu_gfvmq1wqd",
@@ -5066,6 +6321,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.517Z",
+    "fingerprint": "FUZZY:Audi|S3/S3|2024|33500|44000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "S3/S3",
@@ -5089,10 +6345,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.172Z"
   },
   {
     "id": "eu_AmpPC5U7hvu",
@@ -5105,6 +6369,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.517Z",
+    "fingerprint": "FUZZY:BMW|X1|2020|18500|145000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X1",
@@ -5126,10 +6391,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.172Z"
   },
   {
     "id": "eu_xv6gt9ina",
@@ -5142,6 +6415,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.519Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|CLA|2024|34500|27000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "CLA",
@@ -5163,10 +6437,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.172Z"
   },
   {
     "id": "eu_AekLRC1Y7NB",
@@ -5179,6 +6461,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.519Z",
+    "fingerprint": "FUZZY:Mitsubishi|Outlander|2008|5100|220000|N/A",
     "otherPortals": [],
     "make": "Mitsubishi",
     "model": "Outlander",
@@ -5200,10 +6483,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.172Z"
   },
   {
     "id": "eu_Aec51g3eLu3",
@@ -5216,6 +6507,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.520Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2018|15500|206000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -5237,10 +6529,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.172Z"
   },
   {
     "id": "eu_Ami2eXLAw0h1",
@@ -5253,6 +6553,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.520Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2022|26500|59000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -5263,23 +6564,31 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26500,
-    "correctedMedian": 26500,
+    "originalMedian": 28000,
+    "correctedMedian": 28000,
     "kmReference": 60000,
-    "discount": 0,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "discount": 5.4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 5 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 45,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+      "score": 56,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.173Z"
   },
   {
     "id": "eu_AeVdTi2Bt7E",
@@ -5292,6 +6601,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.369Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|B Trieda|2007|2500|336000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "B Trieda",
@@ -5313,10 +6623,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.174Z"
   },
   {
     "id": "eu_32hrn8mx4",
@@ -5329,6 +6647,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.370Z",
+    "fingerprint": "FUZZY:Audi|A6|2020|25900|215000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A6",
@@ -5352,10 +6671,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.174Z"
   },
   {
     "id": "eu_Aev6uzgD6ZL",
@@ -5368,6 +6695,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.370Z",
+    "fingerprint": "FUZZY:Porsche|Taycan|2023|68000|48000|N/A",
     "otherPortals": [],
     "make": "Porsche",
     "model": "Taycan",
@@ -5389,10 +6717,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.175Z"
   },
   {
     "id": "eu_AeWxR7Rn8uG",
@@ -5405,6 +6741,7 @@ window.scoredListingsData = [
     "fuel": null,
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.371Z",
+    "fingerprint": "FUZZY:Honda|Civic|2011|800|200000|N/A",
     "otherPortals": [],
     "make": "Honda",
     "model": "Civic",
@@ -5426,10 +6763,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.176Z"
   },
   {
     "id": "eu_Aeq5AT7q7n1",
@@ -5442,6 +6787,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.371Z",
+    "fingerprint": "FUZZY:Volkswagen|CC|2013|8400|308000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "CC",
@@ -5463,10 +6809,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.177Z"
   },
   {
     "id": "eu_AeYE8WzqABY",
@@ -5479,6 +6833,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.019Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|21000|112000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -5506,10 +6861,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.177Z"
   },
   {
     "id": "eu_Ae5o6dF5C0B",
@@ -5522,6 +6885,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.019Z",
+    "fingerprint": "FUZZY:Tesla|Model Y|2023|35900|62000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model Y",
@@ -5543,10 +6907,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.177Z"
   },
   {
     "id": "eu_Aemvuq5K5YG",
@@ -5559,6 +6931,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.019Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|20000|112000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -5588,10 +6961,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.177Z"
   },
   {
     "id": "eu_AmaI5epqRwU",
@@ -5604,6 +6985,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.020Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|19900|50000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -5631,10 +7013,124 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.178Z"
+  },
+  {
+    "id": "eu_Aeno16r2Eh0",
+    "title": "Tesla Model 3 Long Range AWD Highland 366kW497HP",
+    "price": 38430,
+    "year": 2024,
+    "km": 31100,
+    "url": "https://www.autobazar.eu/detail/tesla-model-3-long-range-awd-highland-366kw497hp/Aeno16r2Eh0/",
+    "transmission": "Automat",
+    "fuel": "Elektro",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-06T20:13:07.021Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2024|38400|31000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/tesla-model-3-long-range-awd-highland-366kw497hp/Aeno16r2Eh0/",
+        "price": 38430
+      }
+    ],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 38430,
+    "correctedMedian": 38430,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.178Z"
+  },
+  {
+    "id": "eu_Aertym64EpY",
+    "title": "Tesla Model 3 RWD 283HP",
+    "price": 26870,
+    "year": 2023,
+    "km": 50700,
+    "url": "https://www.autobazar.eu/detail/tesla-model-3-rwd-283hp/Aertym64EpY/",
+    "transmission": "Automat",
+    "fuel": "Elektro",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-06T20:13:07.021Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2023|26900|51000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/tesla-model-3-rwd-283hp/Aertym64EpY/",
+        "price": 26870
+      }
+    ],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 26870,
+    "correctedMedian": 26870,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.178Z"
   },
   {
     "id": "eu_AeA7spXIwoe",
@@ -5647,6 +7143,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.022Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|24900|51000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -5661,23 +7158,31 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 25950,
-    "correctedMedian": 25950,
+    "originalMedian": 24900,
+    "correctedMedian": 24900,
     "kmReference": 60000,
-    "discount": 4,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 4 %",
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 53,
-      "label": "✅ Štandard",
-      "color": "#fdda25",
-      "category": "Dobrá",
-      "estimate": "do 2 týždňov"
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.178Z"
   },
   {
     "id": "eu_Ae75VUK5jJf",
@@ -5690,6 +7195,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.023Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2025|39900|39000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -5711,10 +7217,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.178Z"
   },
   {
     "id": "eu_AebZflmHJ7g",
@@ -5727,6 +7241,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.023Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|23000|215000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -5748,10 +7263,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.178Z"
   },
   {
     "id": "eu_Ae08VLh0Jl4",
@@ -5764,6 +7287,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.148Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2024|35500|30000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -5787,10 +7311,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.182Z"
   },
   {
     "id": "eu_Aepp9ZMfyg4",
@@ -5803,6 +7335,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.148Z",
+    "fingerprint": "FUZZY:Mazda|CX-5|2013|7900|0|N/A",
     "otherPortals": [],
     "make": "Mazda",
     "model": "CX-5",
@@ -5826,10 +7359,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.183Z"
   },
   {
     "id": "eu_h19v41rnu",
@@ -5842,7 +7383,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.148Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|11300|240000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-style-4x4-eu6-110kw150hp-m6/Ae_fInj2qmU/",
+        "price": 11299
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-style-4x4-eu6-110kw150hp-m6/Ae_fInj2qmU/",
@@ -5876,10 +7423,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.183Z"
   },
   {
     "id": "eu_AbUnrH45P7k",
@@ -5892,6 +7447,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.149Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2025|42900|0|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -5913,10 +7469,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.184Z"
   },
   {
     "id": "eu_AmJnN3MalGI",
@@ -5929,6 +7493,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.725Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|25500|141000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -5937,10 +7502,10 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 26690,
+    "originalMedian": 26645,
+    "correctedMedian": 26645,
     "kmReference": 150000,
-    "discount": 4.5,
+    "discount": 4.3,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 4 %",
     "mileageWarning": null,
     "liquidity": {
@@ -5950,10 +7515,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.185Z"
   },
   {
     "id": "eu_AmJVfTdrc8D",
@@ -5966,6 +7539,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.726Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2018|21000|176000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -5982,23 +7556,31 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 23500,
-    "correctedMedian": 22002,
+    "originalMedian": 23745,
+    "correctedMedian": 22231,
     "kmReference": 150000,
-    "discount": 4.6,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 5 %",
+    "discount": 5.6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 6 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 29,
+      "score": 31,
       "label": "🐌 Ležiak",
       "color": "#ff4d4d",
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.185Z"
   },
   {
     "id": "eu_Am8RG9btcBD",
@@ -6011,6 +7593,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.727Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|20000|138000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -6019,23 +7602,31 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 20990,
-    "correctedMedian": 20990,
+    "originalMedian": 22300,
+    "correctedMedian": 20475,
     "kmReference": 150000,
-    "discount": 4.8,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 5 %",
+    "discount": 2.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 2 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 55,
-      "label": "✅ Štandard",
-      "color": "#fdda25",
-      "category": "Dobrá",
-      "estimate": "do 2 týždňov"
+      "score": 50,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.186Z"
   },
   {
     "id": "eu_AmcOG62amTN",
@@ -6048,6 +7639,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.727Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2012|13700|130000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -6069,10 +7661,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.187Z"
   },
   {
     "id": "eu_uh99m32hw",
@@ -6085,6 +7685,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.728Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|15000|202000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -6094,6 +7695,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/volkswagen-tiguan-15-tsi-evo-bmt-150k-comfortline-dsg/AmzU11ggI_AL/",
+        "price": 14990
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-15-tsi-evo-bmt-150k-comfortline-dsg/AmzU11ggI_AL/",
         "price": 14990
       },
       {
@@ -6122,10 +7728,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.188Z"
   },
   {
     "id": "eu_Am7jsscNPRW",
@@ -6138,6 +7752,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.729Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|26600|118000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -6148,23 +7763,31 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 26690,
+    "originalMedian": 26645,
+    "correctedMedian": 26645,
     "kmReference": 150000,
-    "discount": 0.3,
+    "discount": 0.2,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 46,
+      "score": 45,
       "label": "🐌 Ležiak",
       "color": "#ff4d4d",
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.190Z"
   },
   {
     "id": "eu_9u2trs3ww",
@@ -6177,6 +7800,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.946Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2009|7500|212000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -6186,6 +7810,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/volkswagen-tiguan-20-cr-tdi-4-motion-sportstyle-servisna-knizka-bez-investicii/AeAkLUY4L-8/",
+        "price": 7500
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-cr-tdi-4-motion-sportstyle-servisna-knizka-bez-investicii/AeAkLUY4L-8/",
         "price": 7500
       },
       {
@@ -6214,10 +7843,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.192Z"
   },
   {
     "id": "eu_AepS74LMGdy",
@@ -6230,6 +7867,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.947Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2017|17900|134000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -6259,10 +7897,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.192Z"
   },
   {
     "id": "eu_d6cin29tt",
@@ -6275,6 +7921,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.948Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2013|13300|143000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -6312,10 +7959,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.193Z"
   },
   {
     "id": "eu_AeRnbsaF6ZZ",
@@ -6328,6 +7983,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.734Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2014|16500|29000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -6357,10 +8013,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.193Z"
   },
   {
     "id": "eu_g0ezn8ziu",
@@ -6373,6 +8037,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.737Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2012|11900|101000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -6382,6 +8047,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/volkswagen-tiguan-14-tsi-118-kw-4motion-trend/Amcb_SuaGcx/",
+        "price": 11900
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-14-tsi-118-kw-4motion-trend/Amcb_SuaGcx/",
         "price": 11900
       },
       {
@@ -6412,10 +8082,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.196Z"
   },
   {
     "id": "eu_Am8WfzyW4N2",
@@ -6428,6 +8106,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.737Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2014|13000|203000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -6455,10 +8134,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.197Z"
   },
   {
     "id": "eu_AmSISrNsSMt",
@@ -6471,6 +8158,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.738Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2014|13300|124000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -6500,10 +8188,70 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.197Z"
+  },
+  {
+    "id": "eu_AmdzGBSggCt",
+    "title": "Volkswagen Tiguan 2.0 TDI SCR BMT Comfortline DSG",
+    "price": 20990,
+    "year": 2019,
+    "km": 166183,
+    "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tdi-scr-bmt-comfortline-dsg/AmdzGBSggCt/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-06T20:14:50.738Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|21000|166000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/volkswagen-tiguan-20-tdi-scr-bmt-comfortline-dsg/AmdzGBSggCt/",
+        "price": 20990
+      }
+    ],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 22300,
+    "correctedMedian": 21398,
+    "kmReference": 150000,
+    "discount": 1.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 34,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.197Z"
   },
   {
     "id": "eu_AmPnPOOtpx7",
@@ -6516,6 +8264,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.738Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|25400|115000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -6537,10 +8286,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.198Z"
   },
   {
     "id": "eu_AbKhS4njBXg",
@@ -6553,6 +8310,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.575Z",
+    "fingerprint": "FUZZY:BMW|X5|2025|108900|N/A|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -6582,10 +8340,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.198Z"
   },
   {
     "id": "eu_5heocdud0",
@@ -6598,6 +8364,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.576Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|85900|26000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -6613,6 +8380,11 @@ window.scoredListingsData = [
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d/AbN_Po_8uEO/",
         "price": 85900
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d/AbN_Po_8uEO/",
+        "price": 85900
       }
     ],
     "make": "BMW",
@@ -6624,63 +8396,8 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 87900,
-    "correctedMedian": 87900,
-    "kmReference": 60000,
-    "discount": 2.3,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 2 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 50,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
-    },
-    "dealType": "FAIR PRICE",
-    "score": 50,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
-  },
-  {
-    "id": "eu_kzspfqxsm",
-    "title": "BMW X5 XDrive30d",
-    "price": 94900,
-    "year": 2023,
-    "km": 20765,
-    "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d/Ab5NZG8kW_5/",
-    "transmission": "Automat",
-    "fuel": "Diesel",
-    "portal": "Autobazar.eu",
-    "scrapedAt": "2026-01-06T20:15:17.579Z",
-    "otherPortals": [
-      {
-        "portal": "Autobazar.eu",
-        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d/Ab5NZG8kW_5/",
-        "price": 94900
-      },
-      {
-        "portal": "Autovia.sk",
-        "url": "https://www.autovia.sk/detail/bmw-x5-xdrive30d/Ab5NZG8kW_5/",
-        "price": 94900
-      },
-      {
-        "portal": "Autobazar.eu",
-        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d/Ab5NZG8kW_5/",
-        "price": 94900
-      }
-    ],
-    "make": "BMW",
-    "model": "X5",
-    "engine": "Diesel",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 94900,
-    "correctedMedian": 94900,
+    "originalMedian": 85900,
+    "correctedMedian": 85900,
     "kmReference": 60000,
     "discount": 0,
     "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
@@ -6692,10 +8409,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.198Z"
   },
   {
     "id": "eu_AbBv9PZd9X4",
@@ -6708,6 +8433,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.580Z",
+    "fingerprint": "FUZZY:BMW|X5|2025|106300|N/A|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -6737,10 +8463,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.199Z"
   },
   {
     "id": "eu_8bin7ypvq",
@@ -6753,6 +8487,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.581Z",
+    "fingerprint": "FUZZY:BMW|X5|2025|109600|1000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -6782,55 +8517,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "FAIR PRICE",
-    "score": 50,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
-  },
-  {
-    "id": "eu_1hefrvyqh",
-    "title": "BMW X5 XDrive40i",
-    "price": 95000,
-    "year": 2024,
-    "km": 8500,
-    "url": "https://www.autobazar.eu/detail-nove-auto/bmw-x5-xdrive40i/AbwZhwjtha_/",
-    "transmission": "Automat",
-    "fuel": "Benzín",
-    "portal": "Autobazar.eu",
-    "scrapedAt": "2026-01-06T20:15:17.581Z",
-    "otherPortals": [
-      {
-        "portal": "Autovia.sk",
-        "url": "https://www.autovia.sk/detail/bmw-x5-xdrive40i/AbwZhwjtha_/",
-        "price": 95000
-      }
-    ],
-    "make": "BMW",
-    "model": "X5",
-    "engine": "Benzín",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 95000,
-    "correctedMedian": 95000,
-    "kmReference": 60000,
-    "discount": 0,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 45,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.199Z"
   },
   {
     "id": "eu_a7hmh8agy",
@@ -6843,7 +8541,13 @@ window.scoredListingsData = [
     "fuel": null,
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.582Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|32900|24000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-m-m60i-xdrive-390kw-a/Am84si1_wK-t/",
+        "price": 32900
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/bmw-x5-m-m60i-xdrive-390kw-a/Am84si1_wK-t/",
@@ -6877,10 +8581,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.200Z"
   },
   {
     "id": "eu_AeR9ranDuFUa",
@@ -6893,6 +8605,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.584Z",
+    "fingerprint": "FUZZY:BMW|X5|2014|13000|323000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -6917,10 +8630,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.201Z"
   },
   {
     "id": "eu_lsa7lf0es",
@@ -6933,7 +8654,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.585Z",
+    "fingerprint": "FUZZY:BMW|X5|2021|57900|56000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d-mhev-at/Ae4-x_AFZtr/",
+        "price": 57900
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d-mhev-at/Ae4-x_AFZtr/",
@@ -6967,10 +8694,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.202Z"
   },
   {
     "id": "eu_r4xi4rre6",
@@ -6983,6 +8718,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.019Z",
+    "fingerprint": "FUZZY:BMW|X5|2022|61000|57000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -6992,6 +8728,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/bmw-x5-xdrive30d-mhev-at-210kw-top-vybava-i-stav/AefcE7wIeC_/",
+        "price": 60999
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d-mhev-at-210kw-top-vybava-i-stav/AefcE7wIeC_/",
         "price": 60999
       },
       {
@@ -7022,10 +8763,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.203Z"
   },
   {
     "id": "eu_AeCG3v6KWmi",
@@ -7038,6 +8787,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.021Z",
+    "fingerprint": "FUZZY:BMW|X5|2022|51900|120000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -7067,10 +8817,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_1o2geuw2o",
@@ -7083,7 +8841,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.021Z",
+    "fingerprint": "FUZZY:BMW|X5|2014|22000|174000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d-at-190kw-a8-aj-na-splatky-protiucet/AmJnXve-Vh5/",
+        "price": 21990
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d-at-190kw-a8-aj-na-splatky-protiucet/AmJnXve-Vh5/",
@@ -7117,10 +8881,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_AmzO6UEsPVN",
@@ -7133,6 +8905,7 @@ window.scoredListingsData = [
     "fuel": "Hybrid",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:49.203Z",
+    "fingerprint": "FUZZY:BMW|X5|2022|50900|119000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -7162,10 +8935,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.205Z"
   },
   {
     "id": "sk_lhleqpi1d",
@@ -7178,6 +8959,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|25400|115000|KE",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -7199,10 +8981,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_esm6z1o6m",
@@ -7215,6 +9005,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2024|25400|36000|KE",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -7236,10 +9027,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_yxmfa4a8t",
@@ -7252,6 +9051,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2014|4900|337000|KE",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -7273,10 +9073,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_fjfn0c9p6",
@@ -7289,6 +9097,7 @@ window.scoredListingsData = [
     "location": "PO kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.417Z",
+    "fingerprint": "FUZZY:Honda|CR-V|2005|5500|221000|PO",
     "otherPortals": [],
     "make": "Honda",
     "model": "CR-V",
@@ -7310,10 +9119,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.207Z"
   },
   {
     "id": "sk_k629k9mhk",
@@ -7326,6 +9143,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.009Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|E trieda|2018|22900|123000|KE",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "E trieda",
@@ -7347,10 +9165,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.207Z"
   },
   {
     "id": "sk_8lv1atg5a",
@@ -7363,6 +9189,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.009Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2016|13200|220000|KE",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -7384,47 +9211,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "FAIR PRICE",
-    "score": 50,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
-  },
-  {
-    "id": "sk_9erv0jqzw",
-    "title": "Tesla Model 3 Standard Range Plus 54kWh RWD",
-    "price": 24900,
-    "year": 2021,
-    "km": 51000,
-    "url": "https://www.autobazar.sk/27928653/tesla-model-3-standard-range-plus-54kwh-rwd/",
-    "fuel": null,
-    "location": "BA kraj",
-    "portal": "Autobazar.sk",
-    "scrapedAt": "2026-01-06T20:27:45.009Z",
-    "otherPortals": [],
-    "make": "Tesla",
-    "model": "Model 3",
-    "engine": "Unknown",
-    "equipLevel": "Basic",
-    "features": [],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 24900,
-    "correctedMedian": 24900,
-    "kmReference": 60000,
-    "discount": 0,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 45,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.207Z"
   },
   {
     "id": "sk_b62qx1sr4",
@@ -7437,6 +9235,7 @@ window.scoredListingsData = [
     "location": "TN kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Suzuki|S-Cross|2017|13000|105000|TN",
     "otherPortals": [],
     "make": "Suzuki",
     "model": "S-Cross",
@@ -7458,10 +9257,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.207Z"
   },
   {
     "id": "sk_gyhmbd4ka",
@@ -7474,6 +9281,7 @@ window.scoredListingsData = [
     "location": "TN kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Škoda|Enyaq|2021|25400|108000|TN",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Enyaq",
@@ -7495,10 +9303,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_2o82icd7c",
@@ -7511,6 +9327,7 @@ window.scoredListingsData = [
     "location": "TT kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2022|18500|109000|TT",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -7548,10 +9365,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_nlplozjcr",
@@ -7564,6 +9389,7 @@ window.scoredListingsData = [
     "location": null,
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Mini|Cooper|2013|6800|219000|N/A",
     "otherPortals": [],
     "make": "Mini",
     "model": "Cooper",
@@ -7585,10 +9411,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_qpgge9myj",
@@ -7601,6 +9435,7 @@ window.scoredListingsData = [
     "location": null,
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Opel|Corsa|2008|1800|216000|N/A",
     "otherPortals": [],
     "make": "Opel",
     "model": "Corsa",
@@ -7622,10 +9457,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_5wetj13on",
@@ -7638,6 +9481,7 @@ window.scoredListingsData = [
     "location": "BB kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Audi|A4|2016|19300|206000|BB",
     "otherPortals": [],
     "make": "Audi",
     "model": "A4",
@@ -7661,10 +9505,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_gbvnnd2th",
@@ -7677,6 +9529,7 @@ window.scoredListingsData = [
     "location": "ZA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Audi|Q5|2020|28500|129000|ZA",
     "otherPortals": [],
     "make": "Audi",
     "model": "Q5",
@@ -7698,10 +9551,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_2geelmqwu",
@@ -7714,6 +9575,7 @@ window.scoredListingsData = [
     "location": null,
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|S trieda|2021|71500|126000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -7741,10 +9603,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_i6117wha3",
@@ -7757,6 +9627,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2014|9500|200000|BA",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -7778,10 +9649,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_up5930io9",
@@ -7794,6 +9673,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|B trieda|2007|2500|336000|BA",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "B trieda",
@@ -7815,10 +9695,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.210Z"
   },
   {
     "id": "sk_8c1kprgbl",
@@ -7831,6 +9719,7 @@ window.scoredListingsData = [
     "location": "TN kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:22.933Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2006|4000|315000|TN",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -7868,10 +9757,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.210Z"
   },
   {
     "id": "sk_hfxtdqlue",
@@ -7884,6 +9781,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:22.933Z",
+    "fingerprint": "FUZZY:Audi|Q7|2021|43000|120000|BA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -7921,10 +9819,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.210Z"
   },
   {
     "id": "sk_6cgzomyzy",
@@ -7937,6 +9843,7 @@ window.scoredListingsData = [
     "location": "TN kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.840Z",
+    "fingerprint": "FUZZY:Suzuki|Swift|2012|6200|146000|TN",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -7969,10 +9876,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.211Z"
   },
   {
     "id": "sk_kmc90395p",
@@ -7985,6 +9900,7 @@ window.scoredListingsData = [
     "location": "PO kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.840Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2017|10000|58000|PO",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8017,10 +9933,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.211Z"
   },
   {
     "id": "sk_wy5ulc9cr",
@@ -8033,6 +9957,7 @@ window.scoredListingsData = [
     "location": "ZA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.840Z",
+    "fingerprint": "FUZZY:Honda|CR-V|2014|13300|146000|ZA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8067,10 +9992,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.211Z"
   },
   {
     "id": "sk_b8p70j8wy",
@@ -8083,6 +10016,7 @@ window.scoredListingsData = [
     "location": "PO kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.840Z",
+    "fingerprint": "FUZZY:Kia|Pro_cee’d|2023|26800|43000|PO",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8115,10 +10049,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.212Z"
   },
   {
     "id": "sk_qt90hvo41",
@@ -8131,6 +10073,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.841Z",
+    "fingerprint": "FUZZY:Audi|S3/S3|2024|33500|44000|BA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8165,10 +10108,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.212Z"
   },
   {
     "id": "sk_616wyppo0",
@@ -8181,6 +10132,7 @@ window.scoredListingsData = [
     "location": "PO kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.841Z",
+    "fingerprint": "FUZZY:Mitsubishi|Outlander|2008|5100|220000|PO",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8213,10 +10165,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.212Z"
   },
   {
     "id": "sk_72muwc5ga",
@@ -8229,6 +10189,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.618Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2022|26500|59000|BA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8250,23 +10211,31 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26500,
-    "correctedMedian": 26500,
+    "originalMedian": 28000,
+    "correctedMedian": 28000,
     "kmReference": 60000,
-    "discount": 0,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "discount": 5.4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 5 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 45,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+      "score": 56,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.212Z"
   },
   {
     "id": "sk_gj86z7wyo",
@@ -8279,6 +10248,7 @@ window.scoredListingsData = [
     "location": "NR kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.619Z",
+    "fingerprint": "FUZZY:Audi|Q7|2016|21900|215000|NR",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8313,10 +10283,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.212Z"
   },
   {
     "id": "sk_pxgyye4qf",
@@ -8329,6 +10307,7 @@ window.scoredListingsData = [
     "location": "PO kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.620Z",
+    "fingerprint": "FUZZY:Opel|Vivaro|2015|10500|330000|PO",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8361,10 +10340,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.212Z"
   },
   {
     "id": "sk_oiuiijhrs",
@@ -8377,6 +10364,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.620Z",
+    "fingerprint": "FUZZY:Honda|Civic|2008|3900|208000|KE",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8409,58 +10397,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "FAIR PRICE",
-    "score": 50,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
-  },
-  {
-    "id": "sk_groe23q7v",
-    "title": "BMW rad 3 Touring 318d Touring A/T",
-    "price": 8999,
-    "year": 2015,
-    "km": 210000,
-    "url": "https://www.autobazar.sk/27901520/bmw-rad-3-touring-318d-touring-a-t/",
-    "fuel": "Diesel",
-    "location": "BA kraj",
-    "portal": "Autobazar.sk",
-    "scrapedAt": "2026-01-06T20:28:58.620Z",
-    "otherPortals": [
-      {
-        "portal": "Autobazar.sk",
-        "url": "https://www.autobazar.sk/27901520/bmw-rad-3-touring-318d-touring-a-t/",
-        "price": 8999
-      },
-      {
-        "portal": "Autobazar.sk",
-        "url": "https://www.autobazar.sk/27901520/bmw-rad-3-touring-318d-touring-a-t/",
-        "price": 8999
-      }
-    ],
-    "make": "BMW",
-    "model": "rad",
-    "engine": "Diesel",
-    "equipLevel": "Basic",
-    "features": [],
-    "kmSegment": "High-Tier 1 (200k-250k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 8999,
-    "correctedMedian": 8999,
-    "kmReference": 225000,
-    "discount": 0,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 20,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.213Z"
   },
   {
     "id": "sk_kg15qhcpy",
@@ -8473,6 +10421,7 @@ window.scoredListingsData = [
     "location": "NR kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.620Z",
+    "fingerprint": "FUZZY:Audi|A6|2020|25900|215000|NR",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8507,10 +10456,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.213Z"
   },
   {
     "id": "sk_kk3u79nry",
@@ -8523,6 +10480,7 @@ window.scoredListingsData = [
     "location": "NR kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.621Z",
+    "fingerprint": "FUZZY:Volkswagen|CC|2013|8400|308000|NR",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -8550,10 +10508,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.213Z"
   },
   {
     "id": "sk_xghqzhuzt",
@@ -8566,6 +10532,7 @@ window.scoredListingsData = [
     "location": null,
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:31:29.112Z",
+    "fingerprint": "FUZZY:Volkswagen|Sharan|2019|27500|113000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -8595,10 +10562,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.213Z"
   },
   {
     "id": "eu_Ae8skdyEI76",
@@ -8611,6 +10586,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.543Z",
+    "fingerprint": "FUZZY:Audi|A3|2025|29900|0|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A3",
@@ -8632,10 +10608,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.213Z"
   },
   {
     "id": "eu_AbWgcXgE8aM",
@@ -8648,6 +10632,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.544Z",
+    "fingerprint": "FUZZY:BMW|218i|2024|35000|16000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "218i",
@@ -8669,10 +10654,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.214Z"
   },
   {
     "id": "eu_AmXbaGK9I1I",
@@ -8685,6 +10678,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.545Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2014|8800|113000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -8706,10 +10700,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.215Z"
   },
   {
     "id": "eu_AmDYGYa2mmF",
@@ -8722,6 +10724,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.545Z",
+    "fingerprint": "FUZZY:Hyundai|Tucson|2022|22500|43000|N/A",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "Tucson",
@@ -8745,10 +10748,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.215Z"
   },
   {
     "id": "eu_AeVQBu5ZuFl",
@@ -8761,6 +10772,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.545Z",
+    "fingerprint": "FUZZY:Volkswagen|Touareg|2022|40000|130000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Touareg",
@@ -8782,10 +10794,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.215Z"
   },
   {
     "id": "eu_AeRSX05yJRy",
@@ -8798,6 +10818,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.545Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2012|5000|308000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -8819,10 +10840,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.216Z"
   },
   {
     "id": "eu_AeUualIUehJ",
@@ -8835,6 +10864,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.546Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|Viano|2008|8500|307000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "Viano",
@@ -8856,10 +10886,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.217Z"
   },
   {
     "id": "eu_5twdgock1",
@@ -8872,6 +10910,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.504Z",
+    "fingerprint": "FUZZY:BMW|Rad|2017|22000|218000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -8895,10 +10934,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.220Z"
   },
   {
     "id": "eu_AmZqs2cDEBL",
@@ -8911,6 +10958,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.504Z",
+    "fingerprint": "FUZZY:Audi|A4|2022|31000|144000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A4",
@@ -8934,10 +10982,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.220Z"
   },
   {
     "id": "eu_Amma9zo0vkI",
@@ -8950,6 +11006,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.504Z",
+    "fingerprint": "FUZZY:Audi|A4|2014|14000|213000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A4",
@@ -8973,10 +11030,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.220Z"
   },
   {
     "id": "eu_Am02uWIjhOF",
@@ -8989,6 +11054,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.505Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2015|11500|148000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -9010,10 +11076,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.220Z"
   },
   {
     "id": "eu_2d23e4zqg",
@@ -9026,6 +11100,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.505Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2009|5200|208000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -9047,10 +11122,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.220Z"
   },
   {
     "id": "eu_nb76ejdcf",
@@ -9063,6 +11146,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.505Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2005|2000|318000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -9086,10 +11170,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.220Z"
   },
   {
     "id": "eu_AmPpXOCCrFkZ",
@@ -9102,6 +11194,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.505Z",
+    "fingerprint": "FUZZY:Audi|A5|2017|35000|141000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A5",
@@ -9125,10 +11218,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_AeTlu5Is2um",
@@ -9141,6 +11242,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.506Z",
+    "fingerprint": "FUZZY:Audi|Q2|2020|21000|34000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "Q2",
@@ -9162,10 +11264,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_AeS4UWmiQjG",
@@ -9178,6 +11288,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.148Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2021|19900|112000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -9199,10 +11310,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_AeaUZh2W97J",
@@ -9215,6 +11334,7 @@ window.scoredListingsData = [
     "fuel": "Hybrid",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.148Z",
+    "fingerprint": "FUZZY:Volvo|XC90|2018|33000|113000|N/A",
     "otherPortals": [],
     "make": "Volvo",
     "model": "XC90",
@@ -9238,10 +11358,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_AeQSAlgAXxW",
@@ -9254,6 +11382,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.149Z",
+    "fingerprint": "FUZZY:Škoda|Scala|2020|12000|140000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Scala",
@@ -9275,10 +11404,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.222Z"
   },
   {
     "id": "eu_AmuEzaP91eE",
@@ -9291,6 +11428,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.150Z",
+    "fingerprint": "FUZZY:Hyundai|Terracan|2005|3800|224000|N/A",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "Terracan",
@@ -9312,10 +11450,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.222Z"
   },
   {
     "id": "eu_334dyzwmg",
@@ -9328,6 +11474,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.150Z",
+    "fingerprint": "FUZZY:Škoda|Scala|2025|26900|5000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Scala",
@@ -9349,10 +11496,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.222Z"
   },
   {
     "id": "eu_Ae2BRxzW8rm",
@@ -9365,6 +11520,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.150Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|EQE|2022|59000|29000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "EQE",
@@ -9386,10 +11542,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.222Z"
   },
   {
     "id": "eu_AeMXM4BkjvU",
@@ -9402,6 +11566,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.151Z",
+    "fingerprint": "FUZZY:Ford|Mustang|2020|26700|22000|N/A",
     "otherPortals": [],
     "make": "Ford",
     "model": "Mustang",
@@ -9423,10 +11588,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.223Z"
   },
   {
     "id": "eu_fjdtpbq6u",
@@ -9439,6 +11612,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:10:26.942Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2025|37000|5000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -9471,10 +11645,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.223Z"
   },
   {
     "id": "autovia_Ae6muYwVFOW",
@@ -9487,6 +11669,7 @@ window.scoredListingsData = [
     "transmission": "5-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.878Z",
+    "fingerprint": "FUZZY:Suzuki|Vitara|2015|10500|131000|N/A",
     "otherPortals": [],
     "make": "Suzuki",
     "model": "Vitara",
@@ -9508,10 +11691,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_AeEDm_xRTh-",
@@ -9524,6 +11715,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.879Z",
+    "fingerprint": "FUZZY:Volvo|EX30|2024|34600|33000|N/A",
     "otherPortals": [],
     "make": "Volvo",
     "model": "EX30",
@@ -9545,10 +11737,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_AepvKmfSeaK",
@@ -9561,6 +11761,7 @@ window.scoredListingsData = [
     "transmission": "Manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.883Z",
+    "fingerprint": "FUZZY:Škoda|Roomster|2013|2700|203000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Roomster",
@@ -9582,10 +11783,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_AedYBoP_lha",
@@ -9598,6 +11807,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.886Z",
+    "fingerprint": "FUZZY:Renault|Master|2020|22000|18000|N/A",
     "otherPortals": [],
     "make": "Renault",
     "model": "Master",
@@ -9619,10 +11829,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.225Z"
   },
   {
     "id": "autovia_Aew3vr_TR4d",
@@ -9635,6 +11853,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.886Z",
+    "fingerprint": "FUZZY:Volkswagen|T6|2018|26500|223000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "T6",
@@ -9656,10 +11875,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.225Z"
   },
   {
     "id": "autovia_AelaL2p_p8c",
@@ -9672,6 +11899,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.889Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|C trieda|2015|16500|140000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "C trieda",
@@ -9693,10 +11921,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.225Z"
   },
   {
     "id": "autovia_AeFOa5TDMrO",
@@ -9709,6 +11945,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.856Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2024|27300|32000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -9730,10 +11967,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.225Z"
   },
   {
     "id": "autovia_AetWpXvT0bN",
@@ -9746,6 +11991,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.856Z",
+    "fingerprint": "FUZZY:Hyundai|i30|2018|11900|128000|N/A",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "i30",
@@ -9767,10 +12013,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.225Z"
   },
   {
     "id": "autovia_AeZ3J-VcmQN",
@@ -9783,6 +12037,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.861Z",
+    "fingerprint": "FUZZY:Audi|A6|2019|31000|105000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A6",
@@ -9806,10 +12061,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeVdTi2Bt7E",
@@ -9822,6 +12085,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.264Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|B trieda|2007|2500|336000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "B trieda",
@@ -9843,10 +12107,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeTV4kGAvJW",
@@ -9859,6 +12131,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.268Z",
+    "fingerprint": "FUZZY:BMW|Rad|2021|29900|112000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -9880,10 +12153,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeU4mPGQdQI",
@@ -9896,6 +12177,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.269Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2010|7500|310000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -9919,10 +12201,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_Aepk8J-tmy8",
@@ -9935,6 +12225,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.271Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLB|2024|42000|25000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "GLB",
@@ -9956,10 +12247,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_Ae9hCROg5tq",
@@ -9972,6 +12271,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.274Z",
+    "fingerprint": "FUZZY:Ssangyong|Korando|2022|16000|105000|N/A",
     "otherPortals": [],
     "make": "Ssangyong",
     "model": "Korando",
@@ -9995,10 +12295,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_AegCEh5r2fQ",
@@ -10011,6 +12319,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.276Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|G trieda|2022|166000|48000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "G trieda",
@@ -10032,10 +12341,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_AeqrvqtKs3X",
@@ -10048,6 +12365,7 @@ window.scoredListingsData = [
     "transmission": "Manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.276Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|13000|121000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -10069,10 +12387,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_AeaDKLWkyUh",
@@ -10085,6 +12411,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.278Z",
+    "fingerprint": "FUZZY:Volvo|S90|2018|19900|105000|N/A",
     "otherPortals": [],
     "make": "Volvo",
     "model": "S90",
@@ -10106,10 +12433,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_AeTBTbX9aGl",
@@ -10122,6 +12457,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.986Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|23900|49000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10143,10 +12479,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_AeF94glhvFV",
@@ -10159,6 +12503,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.987Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2023|29900|45000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10182,10 +12527,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_AebZflmHJ7g",
@@ -10198,6 +12551,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.992Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|20500|215000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10219,10 +12573,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_AmzR3XV_wO-",
@@ -10235,6 +12597,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.993Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|16500|208000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10256,10 +12619,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_AmXJD_ecxdz",
@@ -10272,6 +12643,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.993Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|18000|175000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10293,10 +12665,21 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z",
+    "isSold": true,
+    "soldAt": "2026-01-07T19:52:44.803Z",
+    "soldTimeStr": "0h 0m"
   },
   {
     "id": "autovia_AbVjvVMvGN_",
@@ -10309,6 +12692,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.994Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|18300|192000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10330,10 +12714,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_AeIgJGPGo_r",
@@ -10346,6 +12738,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.861Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|19000|134000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10367,10 +12760,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_Am9QVS9giJ1",
@@ -10383,6 +12784,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.863Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|20000|143000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10404,10 +12806,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_Amn9OwCOdBX",
@@ -10420,6 +12830,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.865Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|21000|137000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10441,10 +12852,64 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
+  },
+  {
+    "id": "autovia_AmeA9B8TkOe",
+    "title": "Tesla Model 3 Standard Range Plus",
+    "price": 20990,
+    "year": 2020,
+    "km": 80198,
+    "url": "https://www.autovia.sk/detail/tesla-model-3-standard-range-plus/AmeA9B8TkOe/",
+    "fuel": "Elektromotor",
+    "transmission": "Automatická bezstupňová",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T10:36:20.866Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|21000|80000|N/A",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektromotor",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 22845,
+    "correctedMedian": 21691,
+    "kmReference": 60000,
+    "discount": 3.2,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 51,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_AmccS8-pxYc",
@@ -10457,6 +12922,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.456Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|24700|108000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -10465,8 +12931,56 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24700,
-    "correctedMedian": 24700,
+    "originalMedian": 24795,
+    "correctedMedian": 24795,
+    "kmReference": 150000,
+    "discount": 0.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 46,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.231Z"
+  },
+  {
+    "id": "autovia_AeyKfmV0bNH",
+    "title": "Volkswagen Tiguan Allspace 2.0 TDI EVO SCR Trendline 4MOTION DSG 110kW150HP A7",
+    "price": 24990,
+    "year": 2021,
+    "km": 112024,
+    "url": "https://www.autovia.sk/detail/volkswagen-tiguan-allspace-20-tdi-evo-scr-trendline-4motion-dsg-110kw150hp-a7/AeyKfmV0bNH/",
+    "fuel": "Diesel",
+    "transmission": "7-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T10:36:29.551Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|25000|112000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24990,
+    "correctedMedian": 24990,
     "kmReference": 150000,
     "discount": 0,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
@@ -10478,10 +12992,66 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.232Z"
+  },
+  {
+    "id": "autovia_AevwvFO7Dog",
+    "title": "Volkswagen Tiguan 2.0 TDI SCR BMT 190k 4MOTION Highline DSG 140kW190HP A7",
+    "price": 23500,
+    "year": 2018,
+    "km": 133000,
+    "url": "https://www.autovia.sk/detail/volkswagen-tiguan-20-tdi-scr-bmt-190k-4motion-highline-dsg-140kw190hp-a7/AevwvFO7Dog/",
+    "fuel": "Diesel",
+    "transmission": "Automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T10:36:31.954Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2018|23500|133000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 23745,
+    "correctedMedian": 23745,
+    "kmReference": 150000,
+    "discount": 1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 37,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.233Z"
   },
   {
     "id": "autovia_AejVCL7b8at",
@@ -10494,6 +13064,7 @@ window.scoredListingsData = [
     "transmission": "6-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.954Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2008|8000|207000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -10515,10 +13086,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.233Z"
   },
   {
     "id": "autovia_Aeo7tcYB3Ad",
@@ -10531,6 +13110,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.955Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2025|48500|15000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -10552,10 +13132,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.233Z"
   },
   {
     "id": "autovia_AeQPN2v-6u_",
@@ -10568,7 +13156,14 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.962Z",
-    "otherPortals": [],
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2018|20000|203000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tsi-bmt-4motion-edition-highline-dsg-132kw180hp-a7/AeQPN2v-6u_/",
+        "price": 20000
+      }
+    ],
     "make": "Volkswagen",
     "model": "Tiguan",
     "engine": "Benzín",
@@ -10591,10 +13186,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.234Z"
   },
   {
     "id": "autovia_AbyZeIs2oo3",
@@ -10607,6 +13210,7 @@ window.scoredListingsData = [
     "transmission": "6-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:35.233Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2008|6000|129000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -10628,10 +13232,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.234Z"
   },
   {
     "id": "autovia_Ae1w4qbTfBT",
@@ -10644,6 +13256,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:38.069Z",
+    "fingerprint": "FUZZY:BMW|X5|2019|43000|125000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -10667,10 +13280,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "autovia_AeikhSp818D",
@@ -10683,6 +13304,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:38.076Z",
+    "fingerprint": "FUZZY:BMW|X5|2022|63900|55000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -10706,10 +13328,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "autovia_AeYNSCmK62j",
@@ -10722,6 +13352,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:38.079Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|90000|35000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -10732,23 +13363,31 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 95000,
-    "correctedMedian": 95000,
+    "originalMedian": 92500,
+    "correctedMedian": 92500,
     "kmReference": 60000,
-    "discount": 5.3,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 5 %",
+    "discount": 2.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 3 %",
     "mileageWarning": null,
     "liquidity": {
-      "score": 56,
+      "score": 50,
       "label": "✅ Štandard",
       "color": "#fdda25",
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "autovia_AeDny5a7pf2",
@@ -10761,6 +13400,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:40.955Z",
+    "fingerprint": "FUZZY:BMW|X5|2011|13300|206000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -10784,10 +13424,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_AeVlNPQeNGr",
@@ -10800,6 +13448,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:40.991Z",
+    "fingerprint": "FUZZY:BMW|X5|2020|51500|110000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -10823,10 +13472,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_AeBNA_Z6UUT",
@@ -10839,6 +13496,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:40.992Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|86000|20000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -10862,10 +13520,21 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z",
+    "isSold": true,
+    "soldAt": "2026-01-07T19:52:44.803Z",
+    "soldTimeStr": "0h 0m"
   },
   {
     "id": "autovia_AeGiaOVlFjVd",
@@ -10878,6 +13547,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:40.994Z",
+    "fingerprint": "FUZZY:BMW|X5|2014|22800|315000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -10901,10 +13571,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_AeF_Q2Cpk-T",
@@ -10917,6 +13595,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:40.994Z",
+    "fingerprint": "FUZZY:BMW|X5|2021|49900|120000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -10940,10 +13619,18 @@ window.scoredListingsData = [
       "category": "Dobrá",
       "estimate": "do 2 týždňov"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_AmdfkPAFWi9",
@@ -10956,6 +13643,7 @@ window.scoredListingsData = [
     "transmission": "6-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.759Z",
+    "fingerprint": "FUZZY:BMW|X5|2005|4400|127000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -10979,10 +13667,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_AeYTxt22mCn",
@@ -10995,6 +13691,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.761Z",
+    "fingerprint": "FUZZY:BMW|X5|2007|5500|217000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -11016,10 +13713,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_AmoaO7Ka6LN",
@@ -11032,6 +13737,7 @@ window.scoredListingsData = [
     "transmission": "6-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.762Z",
+    "fingerprint": "FUZZY:BMW|X5|2007|6000|329000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -11055,10 +13761,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.237Z"
   },
   {
     "id": "autovia_AmFsySsPr7p",
@@ -11071,6 +13785,7 @@ window.scoredListingsData = [
     "transmission": "5-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.763Z",
+    "fingerprint": "FUZZY:BMW|X5|2002|6500|300000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -11092,10 +13807,66 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.181Z"
+    "scoredAt": "2026-01-07T19:52:40.237Z"
+  },
+  {
+    "id": "autovia_AeKA0EHD5gb",
+    "title": "BMW X5 3.0 D xDrive",
+    "price": 7032,
+    "year": 2008,
+    "km": 344453,
+    "url": "https://www.autovia.sk/detail/bmw-x5-30-d-xdrive/AeKA0EHD5gb/",
+    "fuel": "Diesel",
+    "transmission": "6-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T10:36:43.765Z",
+    "fingerprint": "FUZZY:BMW|X5|2008|7000|344000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7032,
+    "correctedMedian": 7032,
+    "kmReference": 350000,
+    "discount": 0,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.238Z"
   },
   {
     "id": "eu_Ae73B379kGr",
@@ -11109,6 +13880,7 @@ window.scoredListingsData = [
     "fuel": "Hybrid",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:03.758Z",
+    "fingerprint": "FUZZY:BMW|Rad|2020|26000|30000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -11130,10 +13902,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.182Z"
+    "scoredAt": "2026-01-07T19:52:40.238Z"
   },
   {
     "id": "eu_AmR00b0Ea1Z",
@@ -11147,6 +13927,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:03.759Z",
+    "fingerprint": "FUZZY:BMW|Rad|2023|31400|126000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -11170,10 +13951,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_Aeaco4Ac6qt",
@@ -11187,6 +13976,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.923Z",
+    "fingerprint": "FUZZY:Seat|Exeo|2009|4900|316000|N/A",
     "otherPortals": [],
     "make": "Seat",
     "model": "Exeo",
@@ -11208,10 +13998,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_ebe716jf3",
@@ -11225,6 +14023,7 @@ window.scoredListingsData = [
     "fuel": null,
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.924Z",
+    "fingerprint": "FUZZY:BMW|X6|2022|56900|109000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X6",
@@ -11249,10 +14048,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_drju1aahx",
@@ -11266,6 +14073,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.924Z",
+    "fingerprint": "FUZZY:Ford|Focus|2023|33000|16000|N/A",
     "otherPortals": [],
     "make": "Ford",
     "model": "Focus",
@@ -11287,10 +14095,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_Am1dJ2xiAwX",
@@ -11304,6 +14120,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.924Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2024|29000|42000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -11325,10 +14142,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_AmP2cuY6mQI",
@@ -11342,6 +14167,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.924Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2020|16000|213000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -11365,10 +14191,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_wedeanp3r",
@@ -11382,6 +14216,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.925Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2024|34000|13000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -11405,10 +14240,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_AmnQGNPil1d",
@@ -11422,6 +14265,7 @@ window.scoredListingsData = [
     "fuel": null,
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:33.744Z",
+    "fingerprint": "FUZZY:BMW|X5|2019|43900|123000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -11445,10 +14289,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.241Z"
   },
   {
     "id": "eu_AmN0gnp8yYG",
@@ -11462,6 +14314,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:33.745Z",
+    "fingerprint": "FUZZY:Suzuki|Swift|2015|7200|105000|N/A",
     "otherPortals": [],
     "make": "Suzuki",
     "model": "Swift",
@@ -11485,10 +14338,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.241Z"
   },
   {
     "id": "eu_AmyjPQtdiSc",
@@ -11502,6 +14363,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:33.745Z",
+    "fingerprint": "FUZZY:Audi|RS3|2021|46700|59000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "RS3",
@@ -11523,10 +14385,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.241Z"
   },
   {
     "id": "autovia_AexGr4mz7LO",
@@ -11540,6 +14410,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:44:04.032Z",
+    "fingerprint": "FUZZY:Nissan|Pathfinder|2011|13500|312000|N/A",
     "otherPortals": [],
     "make": "Nissan",
     "model": "Pathfinder",
@@ -11561,10 +14432,5078 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.242Z"
+  },
+  {
+    "id": "187268064",
+    "title": "Ford Fiesta 1.4 Duratec Titanium 71kW r.v 2011",
+    "price": 3990,
+    "year": 2011,
+    "km": 100,
+    "url": "https://auto.bazos.sk/inzerat/187268064/ford-fiesta-14-duratec-titanium-71kw-rv-2011.php",
+    "location": "Žarnovica 966 81",
+    "vin": null,
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "drive": "Predný",
+    "power": "71 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.296Z",
+    "fingerprint": "FUZZY:Ford|Fiesta|2011|4000|0|Žarnovica",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "Fiesta",
+    "engine": "Benzín Base (71kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 3990,
+    "correctedMedian": 3990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.242Z"
+  },
+  {
+    "id": "187265241",
+    "title": "Seat Ateca 2.0 TSI 190 FR 4Drive DSG",
+    "price": 19999,
+    "year": 2020,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/187265241/seat-ateca-20-tsi-190-fr-4drive-dsg.php",
+    "location": "Šaľa 951 31",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "drive": "4x4",
+    "power": "140 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.301Z",
+    "fingerprint": "FUZZY:Seat|Ateca|2020|20000|N/A|Šaľa",
+    "otherPortals": [],
+    "make": "Seat",
+    "model": "Ateca",
+    "engine": "Benzín Mid-High (140kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 19999,
+    "correctedMedian": 19999,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.242Z"
+  },
+  {
+    "id": "187260479",
+    "title": "Fiat 500 C 1.2 Benzín M5 Edition Dolcevita Koža Cabrio R15",
+    "price": 5999,
+    "year": 2015,
+    "km": 101364,
+    "url": "https://auto.bazos.sk/inzerat/187260479/fiat-500-c-12-benzin-m5-edition-dolcevita-koza-cabrio-r15.php",
+    "location": "Partizánske 958 01",
+    "vin": null,
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "drive": "Predný",
+    "power": "51 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.303Z",
+    "fingerprint": "FUZZY:Fiat|500|2015|6000|101000|Partizánske",
+    "otherPortals": [],
+    "make": "Fiat",
+    "model": "500",
+    "engine": "Benzín Base (51kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "Koža"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 5999,
+    "correctedMedian": 5999,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.243Z"
+  },
+  {
+    "id": "187253353",
+    "title": "✅Renault Kangoo ENERGY 7.2017✅ Diesel 1.5 DCI ✅Prvý majiteľ",
+    "price": 7000,
+    "year": 2017,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/187253353/renault-kangoo-energy-72017-diesel-15-dci-prvy-majitel.php",
+    "location": "Banská Bystrica 974 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Diesel",
+    "drive": "Predný",
+    "power": "66 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.303Z",
+    "fingerprint": "FUZZY:✅renault|Kangoo|2017|7000|N/A|Banská",
+    "otherPortals": [],
+    "make": "✅renault",
+    "model": "Kangoo",
+    "engine": "Diesel Base (66kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7000,
+    "correctedMedian": 7000,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.243Z"
+  },
+  {
+    "id": "187228908",
+    "title": "Ford Ranger Raptor Limited 3.0 V6 4x4 215Kw 14000Km",
+    "price": 69990,
+    "year": 2023,
+    "km": 14000,
+    "url": "https://auto.bazos.sk/inzerat/187228908/ford-ranger-raptor-limited-30-v6-4x4-215kw-14000km.php",
+    "location": "Kežmarok 060 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "drive": "4x4",
+    "power": "215 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.304Z",
+    "fingerprint": "FUZZY:Ford|Ranger|2023|70000|14000|Kežmarok",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "Ranger",
+    "engine": "Benzín Extreme (215kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 69990,
+    "correctedMedian": 69990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.243Z"
+  },
+  {
+    "id": "187225858",
+    "title": "Audi Q7 3.0 200KW S-Line Quattro 2016 NOVE ROZVODY 210tis km",
+    "price": 27790,
+    "year": 2016,
+    "km": 210000,
+    "url": "https://auto.bazos.sk/inzerat/187225858/audi-q7-30-200kw-quattro-2016-nove-rozvody.php",
+    "location": "Nitra 949 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "200 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.304Z",
+    "fingerprint": "FUZZY:Audi|Q7|2016|27800|210000|Nitra",
+    "otherPortals": [],
+    "make": "Audi",
+    "model": "Q7",
+    "engine": "Diesel High (200kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 27790,
+    "correctedMedian": 27790,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.243Z"
+  },
+  {
+    "id": "187227771",
+    "title": "MERCEDES ATEGO 1518 - TROJSTRANNÝ S3 SKLÁPAČ / VYKLÁPAČ EU5",
+    "price": 35000,
+    "year": 2012,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/187227771/mercedes-atego-1518-trojstranny-s3-sklapac-vyklapac-eu5.php",
+    "location": "Michalovce 079 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": null,
+    "drive": "Predný",
+    "power": "130 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.305Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|ATEGO|2012|35000|N/A|Michalovce",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "ATEGO",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 36500,
+    "correctedMedian": 36500,
+    "kmReference": 60000,
+    "discount": 4.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 43,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.243Z"
+  },
+  {
+    "id": "186603227",
+    "title": "Tesla Model 3 RWD rv.2023",
+    "price": 26870,
+    "year": 2023,
+    "km": 50700,
+    "url": "https://auto.bazos.sk/inzerat/186603227/tesla-model-rv2023.php",
+    "location": "Lučenec 986 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Elektro",
+    "drive": "Zadný",
+    "power": null,
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.401Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2023|26900|51000|Lučenec",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 26870,
+    "correctedMedian": 26870,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.244Z"
+  },
+  {
+    "id": "186633812",
+    "title": "Tesla Model 3 SR METRIX LFP",
+    "price": 24350,
+    "year": 2021,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/186633812/tesla-model-3-sr-metrix-lfp.php",
+    "location": "Nitra 949 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Elektro",
+    "drive": "Predný",
+    "power": null,
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.402Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|24400|N/A|Nitra",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24900,
+    "correctedMedian": 24900,
+    "kmReference": 60000,
+    "discount": 2.2,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 49,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.244Z"
+  },
+  {
+    "id": "186763181",
+    "title": "Tesla Model 3 HIGHLAND Long Range AWD - DPH",
+    "price": 36990,
+    "year": 2024,
+    "km": 23000,
+    "url": "https://auto.bazos.sk/inzerat/186763181/tesla-model-3-highland-long-range-awd-dph.php",
+    "location": "Senec 900 25",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Elektro",
+    "drive": "4x4",
+    "power": null,
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.402Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2024|37000|23000|Senec",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 38430,
+    "correctedMedian": 38430,
+    "kmReference": 60000,
+    "discount": 3.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 52,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.244Z"
+  },
+  {
+    "id": "186899066",
+    "title": "Tesla Model 3 Performance 82kWh AWD 2021 REFRESH 377KW",
+    "price": 25990,
+    "year": 2021,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/186899066/tesla-model-3-performance-82kwh-awd-2021-refresh-377kw.php",
+    "location": "Banská Bystrica 974 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Elektro",
+    "drive": "4x4",
+    "power": "377 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.402Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|26000|N/A|Banská",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro Extreme (377kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 25990,
+    "correctedMedian": 25990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.244Z"
+  },
+  {
+    "id": "187258807",
+    "title": "Tesla Model 3 Performance Dual Motor, 4x4, automat, 2022,DPH",
+    "price": 30490,
+    "year": 2022,
+    "km": 101000,
+    "url": "https://auto.bazos.sk/inzerat/187258807/tesla-model-3-performance-dual-motor-4x4-automat-2022dph.php",
+    "location": "Žilina 010 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Elektro",
+    "drive": "4x4",
+    "power": "377 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.405Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2022|30500|101000|Žilina",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro Extreme (377kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 30490,
+    "correctedMedian": 30490,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "187268706",
+    "title": "Škoda Octavia Combi 2.0 TDI 135kW Style DSG 4x4 4/2018",
+    "price": 11490,
+    "year": 2018,
+    "km": 200000,
+    "url": "https://auto.bazos.sk/inzerat/187268706/skoda-octavia-combi-20-tdi-135kw-style-dsg-4x4-42018.php",
+    "location": "Považská Bystrica 017 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "135 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:48.957Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|11500|200000|Považská",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel Mid-High (135kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 11490,
+    "correctedMedian": 11490,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "187034482",
+    "title": "Škoda Octavia combi RS 4x4, 2.0 TDI, 147 kW, 2022. head-up d",
+    "price": 22500,
+    "year": 2022,
+    "km": 148000,
+    "url": "https://auto.bazos.sk/inzerat/187034482/skoda-octavia-combi-rs-4x4-20-tdi-147-kw-2022-head-up-d.php",
+    "location": "Šaľa 927 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "147 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:48.957Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2022|22500|148000|Šaľa",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel Mid-High (147kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 22500,
+    "correctedMedian": 22500,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "186745060",
+    "title": "Volkswagen Tiguan R-line 2.0 TDI 147kw 4x4",
+    "price": 28990,
+    "year": 2021,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/186745060/volkswagen-tiguan-r-line-20-tdi-147kw-4x4.php",
+    "location": "Nitra 949 11",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "147 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:16.354Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|29000|N/A|Nitra",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel Mid-High (147kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 28990,
+    "correctedMedian": 28990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "186692768",
+    "title": "Volkswagen Tiguan Allspace 2019 2.0 TDI DSG",
+    "price": 19990,
+    "year": 2019,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/186692768/volkswagen-tiguan-allspace-2019-20-tdi-dsg.php",
+    "location": "Košice 040 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "Predný",
+    "power": "110 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:16.354Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|20000|N/A|Košice",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel Mid (110kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21490,
+    "correctedMedian": 20475,
+    "kmReference": 60000,
+    "discount": 2.4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 50,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "186656829",
+    "title": "Volkswagen Tiguan 1.4 TSI BMT Trendline",
+    "price": 11690,
+    "year": 2016,
+    "km": 128986,
+    "url": "https://auto.bazos.sk/inzerat/186656829/volkswagen-tiguan-14-tsi-bmt-trendline.php",
+    "location": "Prešov 080 01",
+    "vin": "WVGZZZ5NZGW070849",
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "drive": "Predný",
+    "power": "92 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:16.354Z",
+    "fingerprint": "VIN:WVGZZZ5NZGW070849",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Benzín Mid (92kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 11690,
+    "correctedMedian": 11690,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "186260103",
+    "title": "BMW X5 F15 3,0d 190kw M-packet SK",
+    "price": 24500,
+    "year": 2015,
+    "km": 210000,
+    "url": "https://auto.bazos.sk/inzerat/186260103/bmw-x5-f15-30d-190kw-m-packet-sk.php",
+    "location": "Nitra 949 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "Predný",
+    "power": "190 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.733Z",
+    "fingerprint": "FUZZY:BMW|X5|2015|24500|210000|Nitra",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel High (190kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24500,
+    "correctedMedian": 24500,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "187261381",
+    "title": "BMW X5 F15 40d, 4/2017",
+    "price": 16400,
+    "year": 2017,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/187261381/bmw-x5-f15-40d-42017.php",
+    "location": "Česká republika 110 00",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Elektro",
+    "drive": "Predný",
+    "power": "230 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.740Z",
+    "fingerprint": "FUZZY:BMW|X5|2017|16400|N/A|Česká",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Elektro Extreme (230kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16400,
+    "correctedMedian": 16400,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "186727392",
+    "title": "2022 Volkswagen E-Transporter T6.1 ⭐Odpočet DPH⭐nová STK⭐",
+    "price": 19680,
+    "year": 2022,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/186727392/2022-volkswagen-e-transporter-t61-odpocet-dphnova-stk.php",
+    "location": "Senec 903 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": null,
+    "drive": "Predný",
+    "power": null,
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.748Z",
+    "fingerprint": "FUZZY:2022|Volkswagen|2022|19700|N/A|Senec",
+    "otherPortals": [],
+    "make": "2022",
+    "model": "Volkswagen",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 19680,
+    "correctedMedian": 19680,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.247Z"
+  },
+  {
+    "id": "186636347",
+    "title": "BMW i3s 120Ah, r.2022, Adaptív LED/Temp., Kam.⭐odpočet DPH⭐",
+    "price": 21220,
+    "year": 2022,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/186636347/bmw-i3s-120ah-r2022-adaptiv-ledtemp-kamodpocet-dph.php",
+    "location": "Senec 903 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Elektro",
+    "drive": "Predný",
+    "power": null,
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.749Z",
+    "fingerprint": "FUZZY:BMW|i3s|2022|21200|N/A|Senec",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "i3s",
+    "engine": "Elektro",
+    "equipLevel": "Basic",
+    "features": [
+      "LED/Xenon"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21220,
+    "correctedMedian": 21220,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.247Z"
+  },
+  {
+    "id": "186789320",
+    "title": "BMW X5 3.0d Drive M-Paket | 2019 pano/kam360Harman",
+    "price": 38500,
+    "year": 2019,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/186789320/bmw-x5-30d-drive-m-paket-2019-panokam360harman.php",
+    "location": "Bratislava 811 06",
+    "vin": null,
+    "transmission": null,
+    "fuel": null,
+    "drive": "4x4",
+    "power": null,
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.752Z",
+    "fingerprint": "FUZZY:BMW|X5|2019|38500|N/A|Bratislava",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "Kamera"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 38500,
+    "correctedMedian": 38500,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.247Z"
+  },
+  {
+    "id": "186336799",
+    "title": "BMW X5 M50i 530koní,INDIVIDUAL,LASER,MASÁŽ,SOFTCLOSE,R22",
+    "price": 41290,
+    "year": 2020,
+    "km": 138659,
+    "url": "https://auto.bazos.sk/inzerat/186336799/bmw-x5-m50i-530koniindividuallasermasazsoftcloser22.php",
+    "location": "Bratislava 841 03",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "drive": "4x4",
+    "power": "390 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.753Z",
+    "fingerprint": "FUZZY:BMW|X5|2020|41300|139000|Bratislava",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Benzín Extreme (390kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "LED/Xenon"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 41290,
+    "correctedMedian": 41290,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.247Z"
+  },
+  {
+    "id": "186737972",
+    "title": "BMW GT 640 xdrive predám/vymenim",
+    "price": 28000,
+    "year": 2019,
+    "km": 117000,
+    "url": "https://auto.bazos.sk/inzerat/186737972/bmw-gt-640-xdrive.php",
+    "location": "Námestovo 029 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "235 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.753Z",
+    "fingerprint": "FUZZY:BMW|GT|2019|28000|117000|Námestovo",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "GT",
+    "engine": "Diesel Extreme (235kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 28000,
+    "correctedMedian": 28000,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.247Z"
+  },
+  {
+    "id": "sk_w6yq1kul4",
+    "title": "Volvo XC90 XC 90 D5 235k Drive-E Inscription Pro 7m AWD AT 173kW235HP A8",
+    "price": 27999,
+    "year": 2018,
+    "km": 149754,
+    "url": "https://www.autobazar.sk/27908248/volvo-xc90-xc-90-d5-235k-drive-e-inscription-pro-7m-awd-at-173kw235hp-a8/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.917Z",
+    "fingerprint": "FUZZY:Volvo|XC90|2018|28000|150000|BA",
+    "otherPortals": [],
+    "make": "Volvo",
+    "model": "XC90",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 27999,
+    "correctedMedian": 27999,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.247Z"
+  },
+  {
+    "id": "sk_ovl30rsvu",
+    "title": "Audi Q5 Q5 40 2.0 TDI mHEV Advanced quattro S tronic 150kW204HP A7",
+    "price": 25500,
+    "year": 2022,
+    "km": 184000,
+    "url": "https://www.autobazar.sk/27918226/audi-q5-q5-40-2-0-tdi-mhev-advanced-quattro-s-tronic-150kw204hp-a7/",
+    "fuel": null,
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.918Z",
+    "fingerprint": "FUZZY:Audi|Q5|2022|25500|184000|TN",
+    "otherPortals": [],
+    "make": "Audi",
+    "model": "Q5",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "broad",
+    "originalMedian": 28990,
+    "correctedMedian": 26526,
+    "kmReference": 150000,
+    "discount": 3.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 38,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.247Z"
+  },
+  {
+    "id": "sk_w55ddtuj4",
+    "title": "BMW rad 3 Coupé Coupé 320 i",
+    "price": 5750,
+    "year": 2007,
+    "km": 225000,
+    "url": "https://www.autobazar.sk/27936011/bmw-rad-3-coupe-coupe-320-i/",
+    "fuel": "Benzín",
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.918Z",
+    "fingerprint": "FUZZY:BMW|rad|2007|5800|225000|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936011/bmw-rad-3-coupe-coupe-320-i/",
+        "price": 5750
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936011/bmw-rad-3-coupe-coupe-320-i/",
+        "price": 5750
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936011/bmw-rad-3-coupe-coupe-320-i/",
+        "price": 5750
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936011/bmw-rad-3-coupe-coupe-320-i/",
+        "price": 5750
+      }
+    ],
+    "make": "BMW",
+    "model": "rad",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 5750,
+    "correctedMedian": 5750,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.248Z"
+  },
+  {
+    "id": "sk_5z73hzn4m",
+    "title": "BMW rad 5 530i xDrive A/T",
+    "price": 26000,
+    "year": 2017,
+    "km": 143677,
+    "url": "https://www.autobazar.sk/27936007/bmw-rad-5-530i-xdrive-a-t/",
+    "fuel": "Benzín",
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.918Z",
+    "fingerprint": "FUZZY:BMW|rad|2017|26000|144000|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936007/bmw-rad-5-530i-xdrive-a-t/",
+        "price": 26000
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936007/bmw-rad-5-530i-xdrive-a-t/",
+        "price": 26000
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936007/bmw-rad-5-530i-xdrive-a-t/",
+        "price": 26000
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936007/bmw-rad-5-530i-xdrive-a-t/",
+        "price": 26000
+      }
+    ],
+    "make": "BMW",
+    "model": "rad",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 26000,
+    "correctedMedian": 26000,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.248Z"
+  },
+  {
+    "id": "sk_m1jgrah99",
+    "title": "Volkswagen Sharan 2.0 TDI BMT 170k Highline",
+    "price": 10990,
+    "year": 2012,
+    "km": 225000,
+    "url": "https://www.autobazar.sk/27912175/volkswagen-sharan-2-0-tdi-bmt-170k-highline/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.919Z",
+    "fingerprint": "FUZZY:Volkswagen|Sharan|2012|11000|225000|BA",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Sharan",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 10990,
+    "correctedMedian": 10990,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.248Z"
+  },
+  {
+    "id": "sk_1sm7scb27",
+    "title": "BMW X3 xDrive20d AT 140kW190HP A8",
+    "price": 12000,
+    "year": 2015,
+    "km": 317000,
+    "url": "https://www.autobazar.sk/27922070/bmw-x3-xdrive20d-at-140kw190hp-a8/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.919Z",
+    "fingerprint": "FUZZY:BMW|X3|2015|12000|317000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X3",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 12000,
+    "correctedMedian": 12000,
+    "kmReference": 350000,
+    "discount": 0,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.249Z"
+  },
+  {
+    "id": "sk_8lnlaioq3",
+    "title": "Volkswagen Caddy Maxi Style 1,5 eHybrid",
+    "price": 43900,
+    "year": 2025,
+    "km": 3300,
+    "url": "https://www.autobazar.sk/27889375/volkswagen-caddy-maxi-style-1-5-ehybrid/",
+    "fuel": "Hybrid",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.919Z",
+    "fingerprint": "FUZZY:Volkswagen|Caddy|2025|43900|3000|PO",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Caddy",
+    "engine": "Hybrid",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 43900,
+    "correctedMedian": 43900,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.249Z"
+  },
+  {
+    "id": "sk_90wuv8ku7",
+    "title": "Toyota Proace Verso Family 2.0 D-4D 180 L2 A8 130kW177HP A8",
+    "price": 24000,
+    "year": 2019,
+    "km": 115000,
+    "url": "https://www.autobazar.sk/27898402/toyota-proace-verso-family-2-0-d-4d-180-l2-a8-130kw177hp-a8/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.920Z",
+    "fingerprint": "FUZZY:Toyota|Proace|2019|24000|115000|BA",
+    "otherPortals": [],
+    "make": "Toyota",
+    "model": "Proace",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24000,
+    "correctedMedian": 24000,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.249Z"
+  },
+  {
+    "id": "sk_8strg2m25",
+    "title": "Volkswagen Tiguan Limited 1,5 eTfsi- 2025",
+    "price": 38990,
+    "year": 2025,
+    "km": 4500,
+    "url": "https://www.autobazar.sk/27934400/volkswagen-tiguan-limited-1-5-etfsi-2025/",
+    "fuel": null,
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.920Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2025|39000|5000|PO",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 38990,
+    "correctedMedian": 38990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.249Z"
+  },
+  {
+    "id": "sk_421iir7mb",
+    "title": "Škoda Superb Combi 2.0 TDI CR 140k Elegance DSG 103kW140HP A6",
+    "price": 6490,
+    "year": 2013,
+    "km": 329064,
+    "url": "https://www.autobazar.sk/27924185/skoda-superb-combi-2-0-tdi-cr-140k-elegance-dsg-103kw140hp-a6/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.443Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2013|6500|329000|BA",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Superb",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 6490,
+    "correctedMedian": 6490,
+    "kmReference": 350000,
+    "discount": 0,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.250Z"
+  },
+  {
+    "id": "sk_rnt1lqu68",
+    "title": "Kia Ceed 1,4 silver",
+    "price": 9900,
+    "year": 2019,
+    "km": 103550,
+    "url": "https://www.autobazar.sk/27915543/kia-ceed-1-4-silver/",
+    "fuel": null,
+    "location": "BB kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.444Z",
+    "fingerprint": "FUZZY:Kia|Ceed|2019|9900|104000|BB",
+    "otherPortals": [],
+    "make": "Kia",
+    "model": "Ceed",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 9900,
+    "correctedMedian": 9900,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.251Z"
+  },
+  {
+    "id": "sk_dka7ugjid",
+    "title": "BMW X6 M50i 390kW ZimnéLetné komplety, LaserLight, Soft Close, Plná výbava",
+    "price": 57499,
+    "year": 2020,
+    "km": 117003,
+    "url": "https://www.autobazar.sk/27934442/bmw-x6-m50i-390kw-zimneletne-komplety-laserlight-soft-close-plna-vybava/",
+    "fuel": null,
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.444Z",
+    "fingerprint": "FUZZY:BMW|X6|2020|57500|117000|PO",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X6",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "LED/Xenon"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 57499,
+    "correctedMedian": 57499,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.251Z"
+  },
+  {
+    "id": "sk_r05pe5s33",
+    "title": "Kia Ceed 1.5 T-GDi GoldLED 118kW M6",
+    "price": 17900,
+    "year": 2024,
+    "km": 27000,
+    "url": "https://www.autobazar.sk/27935872/kia-ceed-1-5-t-gdi-goldled-118kw-m6/",
+    "fuel": null,
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.444Z",
+    "fingerprint": "FUZZY:Kia|Ceed|2024|17900|27000|ZA",
+    "otherPortals": [],
+    "make": "Kia",
+    "model": "Ceed",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "LED/Xenon"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 17900,
+    "correctedMedian": 17900,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.251Z"
+  },
+  {
+    "id": "sk_7q3wsczj7",
+    "title": "Mini Cooper 1.6i 118PS AT",
+    "price": 5290,
+    "year": 2007,
+    "km": 135000,
+    "url": "https://www.autobazar.sk/27893645/mini-cooper-1-6i-118ps-at/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.444Z",
+    "fingerprint": "FUZZY:Mini|Cooper|2007|5300|135000|BA",
+    "otherPortals": [],
+    "make": "Mini",
+    "model": "Cooper",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 5290,
+    "correctedMedian": 5290,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 15,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.251Z"
+  },
+  {
+    "id": "sk_i31vnm7w4",
+    "title": "Hyundai Tucson 1.6 T-GDi Style 130kW177HP M6",
+    "price": 16000,
+    "year": 2019,
+    "km": 124000,
+    "url": "https://www.autobazar.sk/27935860/hyundai-tucson-1-6-t-gdi-style-130kw177hp-m6/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.316Z",
+    "fingerprint": "FUZZY:Hyundai|Tucson|2019|16000|124000|BA",
+    "otherPortals": [],
+    "make": "Hyundai",
+    "model": "Tucson",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16000,
+    "correctedMedian": 16000,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.252Z"
+  },
+  {
+    "id": "sk_81qui5rs8",
+    "title": "Opel Insignia ST 2.0 CDTi S&S Elegance A/T",
+    "price": 14990,
+    "year": 2021,
+    "km": 113200,
+    "url": "https://www.autobazar.sk/27558120/opel-insignia-st-2-0-cdti-ss-elegance-a-t/",
+    "fuel": "Diesel",
+    "location": "TT kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.316Z",
+    "fingerprint": "FUZZY:Opel|Insignia|2021|15000|113000|TT",
+    "otherPortals": [],
+    "make": "Opel",
+    "model": "Insignia",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 14990,
+    "correctedMedian": 14990,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.252Z"
+  },
+  {
+    "id": "sk_osdlmdpk3",
+    "title": "Škoda Octavia Combi 1.6 TDI 110k Active DSG 81kW110HP A7",
+    "price": 8900,
+    "year": 2016,
+    "km": 220754,
+    "url": "https://www.autobazar.sk/27893632/skoda-octavia-combi-1-6-tdi-110k-active-dsg-81kw110hp-a7/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.317Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2016|8900|221000|BA",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 8900,
+    "correctedMedian": 8900,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.252Z"
+  },
+  {
+    "id": "sk_a7m6b0tig",
+    "title": "Mercedes-Benz GLC Kupé GLC kupé 300 d 4MATIC AT 180kW245HP A9",
+    "price": 37990,
+    "year": 2019,
+    "km": 56600,
+    "url": "https://www.autobazar.sk/27896615/mercedes-benz-glc-kupe-glc-kupe-300-d-4matic-at-180kw245hp-a9/",
+    "fuel": null,
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.317Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLC|2019|38000|57000|TN",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 37990,
+    "correctedMedian": 37990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.252Z"
+  },
+  {
+    "id": "sk_rlpah3cfu",
+    "title": "Hyundai Tucson 1.6 CRDi 136 Style AT 4x4 100kW136HP A7",
+    "price": 16500,
+    "year": 2020,
+    "km": 130000,
+    "url": "https://www.autobazar.sk/27935750/hyundai-tucson-1-6-crdi-136-style-at-4x4-100kw136hp-a7/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.317Z",
+    "fingerprint": "FUZZY:Hyundai|Tucson|2020|16500|130000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/hyundai-tucson-16-crdi-136-style-at-4x4-100kw136hp-a7/AeHLcnyCkPV/",
+        "price": 16500
+      }
+    ],
+    "make": "Hyundai",
+    "model": "Tucson",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16500,
+    "correctedMedian": 16500,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.253Z"
+  },
+  {
+    "id": "sk_21cj0w2w0",
+    "title": "Peugeot 508 GT Line 2.0Hdi 130kw Automat",
+    "price": 17750,
+    "year": 2019,
+    "km": 149900,
+    "url": "https://www.autobazar.sk/27932456/peugeot-508-gt-line-2-0hdi-130kw-automat/",
+    "fuel": null,
+    "location": "NR kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.317Z",
+    "fingerprint": "FUZZY:Peugeot|508|2019|17800|150000|NR",
+    "otherPortals": [],
+    "make": "Peugeot",
+    "model": "508",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 17750,
+    "correctedMedian": 17750,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.253Z"
+  },
+  {
+    "id": "sk_knenq8mr0",
+    "title": "Opel Movano 2,3 Cdti 135 K L2H2 3,5t",
+    "price": 18490,
+    "year": 2021,
+    "km": 54600,
+    "url": "https://www.autobazar.sk/27776471/opel-movano-2-3-cdti-135-k-l2h2-3-5t/",
+    "fuel": "Diesel",
+    "location": "TT kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.317Z",
+    "fingerprint": "FUZZY:Opel|Movano|2021|18500|55000|TT",
+    "otherPortals": [],
+    "make": "Opel",
+    "model": "Movano",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 18490,
+    "correctedMedian": 18490,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.253Z"
+  },
+  {
+    "id": "sk_xyakjpqgu",
+    "title": "Škoda Kamiq 1.0 TSI Monte Carlo DSG 81kW110HP A7",
+    "price": 21999,
+    "year": 2023,
+    "km": 33000,
+    "url": "https://www.autobazar.sk/27898066/skoda-kamiq-1-0-tsi-monte-carlo-dsg-81kw110hp-a7/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.318Z",
+    "fingerprint": "FUZZY:Škoda|Kamiq|2023|22000|33000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Kamiq",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21999,
+    "correctedMedian": 21999,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.253Z"
+  },
+  {
+    "id": "sk_s1chlw0pn",
+    "title": "Peugeot 308 1.2 PureTech 130 Allure Pack 96kW130HP M6",
+    "price": 15990,
+    "year": 2022,
+    "km": 33700,
+    "url": "https://www.autobazar.sk/27835421/peugeot-308-1-2-puretech-130-allure-pack-96kw130hp-m6/",
+    "fuel": null,
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.318Z",
+    "fingerprint": "FUZZY:Peugeot|308|2022|16000|34000|PO",
+    "otherPortals": [],
+    "make": "Peugeot",
+    "model": "308",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 15990,
+    "correctedMedian": 15990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.253Z"
+  },
+  {
+    "id": "sk_lw3sm45v2",
+    "title": "Mazda CX-5 2, 5 SKY-G 194 Revolution Top",
+    "price": 21498,
+    "year": 2018,
+    "km": 103002,
+    "url": "https://www.autobazar.sk/27936021/mazda-cx-5-2-5-sky-g-194-revolution-top/",
+    "fuel": "Benzín",
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.973Z",
+    "fingerprint": "FUZZY:Mazda|CX-5|2018|21500|103000|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936021/mazda-cx-5-2-5-sky-g-194-revolution-top/",
+        "price": 21498
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936021/mazda-cx-5-2-5-sky-g-194-revolution-top/",
+        "price": 21498
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936021/mazda-cx-5-2-5-sky-g-194-revolution-top/",
+        "price": 21498
+      }
+    ],
+    "make": "Mazda",
+    "model": "CX-5",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21498,
+    "correctedMedian": 21498,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.254Z"
+  },
+  {
+    "id": "sk_pofhf85z1",
+    "title": "Audi RS3 Sportback 2.5 TFSI quattro S tronic 35 00...",
+    "price": 39999,
+    "year": 2020,
+    "km": 35000,
+    "url": "https://www.autobazar.sk/27936008/audi-rs3-sportback-2-5-tfsi-quattro-s-tronic-35-000km/",
+    "fuel": "Benzín",
+    "location": "NR kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.974Z",
+    "fingerprint": "FUZZY:Audi|RS3|2020|40000|35000|NR",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936008/audi-rs3-sportback-2-5-tfsi-quattro-s-tronic-35-000km/",
+        "price": 39999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936008/audi-rs3-sportback-2-5-tfsi-quattro-s-tronic-35-000km/",
+        "price": 39999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936008/audi-rs3-sportback-2-5-tfsi-quattro-s-tronic-35-000km/",
+        "price": 39999
+      }
+    ],
+    "make": "Audi",
+    "model": "RS3",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 39999,
+    "correctedMedian": 39999,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.254Z"
+  },
+  {
+    "id": "sk_r7z0hia8n",
+    "title": "MERCEDES-BENZ GLC 220 d 4MATIC kupé",
+    "price": 90189,
+    "year": 2026,
+    "km": null,
+    "url": "https://www.autobazar.sk/27935995/mercedes-benz-glc-220-d-4matic-kupe/",
+    "fuel": "Diesel",
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.975Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLC|2026|90200|N/A|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935995/mercedes-benz-glc-220-d-4matic-kupe/",
+        "price": 90189
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935995/mercedes-benz-glc-220-d-4matic-kupe/",
+        "price": 90189
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935995/mercedes-benz-glc-220-d-4matic-kupe/",
+        "price": 90189
+      }
+    ],
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 92160,
+    "correctedMedian": 92160,
+    "kmReference": 60000,
+    "discount": 2.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 49,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.255Z"
+  },
+  {
+    "id": "sk_10bk4s7mk",
+    "title": "Dacia Jogger Extreme hybrid 155 7 miest",
+    "price": 26520,
+    "year": 2026,
+    "km": 4,
+    "url": "https://www.autobazar.sk/27935988/dacia-jogger-extreme-hybrid-155-7-miest/",
+    "fuel": "Hybrid",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.975Z",
+    "fingerprint": "FUZZY:Dacia|Jogger|2026|26500|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935988/dacia-jogger-extreme-hybrid-155-7-miest/",
+        "price": 26520
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935988/dacia-jogger-extreme-hybrid-155-7-miest/",
+        "price": 26520
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935988/dacia-jogger-extreme-hybrid-155-7-miest/",
+        "price": 26520
+      }
+    ],
+    "make": "Dacia",
+    "model": "Jogger",
+    "engine": "Hybrid",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 26520,
+    "correctedMedian": 26520,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.255Z"
+  },
+  {
+    "id": "sk_16zflqa3l",
+    "title": "Dacia Sandero Stepway Expression TCe 110",
+    "price": 17640,
+    "year": 2026,
+    "km": 1,
+    "url": "https://www.autobazar.sk/27935987/dacia-sandero-stepway-expression-tce-110/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.976Z",
+    "fingerprint": "FUZZY:Dacia|Sandero|2026|17600|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935987/dacia-sandero-stepway-expression-tce-110/",
+        "price": 17640
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935987/dacia-sandero-stepway-expression-tce-110/",
+        "price": 17640
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935987/dacia-sandero-stepway-expression-tce-110/",
+        "price": 17640
+      }
+    ],
+    "make": "Dacia",
+    "model": "Sandero",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 17640,
+    "correctedMedian": 17640,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.255Z"
+  },
+  {
+    "id": "sk_np8546egd",
+    "title": "Dacia Jogger Expression TCe 110 7 miest",
+    "price": 21690,
+    "year": 2026,
+    "km": 4,
+    "url": "https://www.autobazar.sk/27935985/dacia-jogger-expression-tce-110-7-miest/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.976Z",
+    "fingerprint": "FUZZY:Dacia|Jogger|2026|21700|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935985/dacia-jogger-expression-tce-110-7-miest/",
+        "price": 21690
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935985/dacia-jogger-expression-tce-110-7-miest/",
+        "price": 21690
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935985/dacia-jogger-expression-tce-110-7-miest/",
+        "price": 21690
+      }
+    ],
+    "make": "Dacia",
+    "model": "Jogger",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 22640,
+    "correctedMedian": 22640,
+    "kmReference": 60000,
+    "discount": 4.2,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 53,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.255Z"
+  },
+  {
+    "id": "sk_wpfdqh39l",
+    "title": "Dacia Jogger Journey TCe 110 5 miest",
+    "price": 22140,
+    "year": 2026,
+    "km": 4,
+    "url": "https://www.autobazar.sk/27935984/dacia-jogger-journey-tce-110-5-miest/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.976Z",
+    "fingerprint": "FUZZY:Dacia|Jogger|2026|22100|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935984/dacia-jogger-journey-tce-110-5-miest/",
+        "price": 22140
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935984/dacia-jogger-journey-tce-110-5-miest/",
+        "price": 22140
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935984/dacia-jogger-journey-tce-110-5-miest/",
+        "price": 22140
+      }
+    ],
+    "make": "Dacia",
+    "model": "Jogger",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 22640,
+    "correctedMedian": 22640,
+    "kmReference": 60000,
+    "discount": 2.2,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 49,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_5o58vxpob",
+    "title": "Dacia Duster journey Hybrid 140 (automat)",
+    "price": 20990,
+    "year": 2026,
+    "km": 3,
+    "url": "https://www.autobazar.sk/27935986/dacia-duster-journey-hybrid-140-automat/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.976Z",
+    "fingerprint": "FUZZY:Dacia|Duster|2026|21000|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935986/dacia-duster-journey-hybrid-140-automat/",
+        "price": 20990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935986/dacia-duster-journey-hybrid-140-automat/",
+        "price": 20990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935986/dacia-duster-journey-hybrid-140-automat/",
+        "price": 20990
+      }
+    ],
+    "make": "Dacia",
+    "model": "Duster",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21580,
+    "correctedMedian": 21580,
+    "kmReference": 60000,
+    "discount": 2.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 50,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_m9yzmig49",
+    "title": "Dacia Duster journey Eco-G 120",
+    "price": 21580,
+    "year": 2026,
+    "km": 3,
+    "url": "https://www.autobazar.sk/27935983/dacia-duster-journey-eco-g-120/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.019Z",
+    "fingerprint": "FUZZY:Dacia|Duster|2026|21600|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935976/dacia-duster-extreme-eco-g-120/",
+        "price": 21630
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935983/dacia-duster-journey-eco-g-120/",
+        "price": 21580
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935976/dacia-duster-extreme-eco-g-120/",
+        "price": 21630
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935983/dacia-duster-journey-eco-g-120/",
+        "price": 21580
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935976/dacia-duster-extreme-eco-g-120/",
+        "price": 21630
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935983/dacia-duster-journey-eco-g-120/",
+        "price": 21580
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935976/dacia-duster-extreme-eco-g-120/",
+        "price": 21630
+      }
+    ],
+    "make": "Dacia",
+    "model": "Duster",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21580,
+    "correctedMedian": 21580,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_v85c70m3m",
+    "title": "Dacia Sandero Stepway Expression TCe 110",
+    "price": 17080,
+    "year": 2026,
+    "km": 4,
+    "url": "https://www.autobazar.sk/27935981/dacia-sandero-stepway-expression-tce-110/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.019Z",
+    "fingerprint": "FUZZY:Dacia|Sandero|2026|17100|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935981/dacia-sandero-stepway-expression-tce-110/",
+        "price": 17080
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935981/dacia-sandero-stepway-expression-tce-110/",
+        "price": 17080
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935981/dacia-sandero-stepway-expression-tce-110/",
+        "price": 17080
+      }
+    ],
+    "make": "Dacia",
+    "model": "Sandero",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 17640,
+    "correctedMedian": 17640,
+    "kmReference": 60000,
+    "discount": 3.2,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 51,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_rryn7bk99",
+    "title": "Dacia Bigster extreme mild hybrid-G 140",
+    "price": 26730,
+    "year": 2026,
+    "km": 5,
+    "url": "https://www.autobazar.sk/27935977/dacia-bigster-extreme-mild-hybrid-g-140/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Dacia|Bigster|2026|26700|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935977/dacia-bigster-extreme-mild-hybrid-g-140/",
+        "price": 26730
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935977/dacia-bigster-extreme-mild-hybrid-g-140/",
+        "price": 26730
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935977/dacia-bigster-extreme-mild-hybrid-g-140/",
+        "price": 26730
+      }
+    ],
+    "make": "Dacia",
+    "model": "Bigster",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 26730,
+    "correctedMedian": 26730,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_zv51fk6s0",
+    "title": "Dacia Duster journey Eco-G 100",
+    "price": 21120,
+    "year": 2026,
+    "km": 3,
+    "url": "https://www.autobazar.sk/27935975/dacia-duster-journey-eco-g-100/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Dacia|Duster|2026|21100|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935975/dacia-duster-journey-eco-g-100/",
+        "price": 21120
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935975/dacia-duster-journey-eco-g-100/",
+        "price": 21120
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935975/dacia-duster-journey-eco-g-100/",
+        "price": 21120
+      }
+    ],
+    "make": "Dacia",
+    "model": "Duster",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21580,
+    "correctedMedian": 21580,
+    "kmReference": 60000,
+    "discount": 2.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 49,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_5bjg6cccm",
+    "title": "Renault Clio generation TCE 90",
+    "price": 16100,
+    "year": 2026,
+    "km": 3,
+    "url": "https://www.autobazar.sk/27935973/renault-clio-generation-tce-90/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Renault|Clio|2026|16100|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935973/renault-clio-generation-tce-90/",
+        "price": 16100
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935973/renault-clio-generation-tce-90/",
+        "price": 16100
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935973/renault-clio-generation-tce-90/",
+        "price": 16100
+      }
+    ],
+    "make": "Renault",
+    "model": "Clio",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16535,
+    "correctedMedian": 16535,
+    "kmReference": 60000,
+    "discount": 2.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 50,
+      "label": "✅ Štandard",
+      "color": "#fdda25",
+      "category": "Dobrá",
+      "estimate": "do 2 týždňov"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_dviv3f6so",
+    "title": "Renault Captur evolution TCe 115",
+    "price": 20398,
+    "year": 2026,
+    "km": 4,
+    "url": "https://www.autobazar.sk/27935969/renault-captur-evolution-tce-115/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Renault|Captur|2026|20400|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935969/renault-captur-evolution-tce-115/",
+        "price": 20398
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935969/renault-captur-evolution-tce-115/",
+        "price": 20398
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935969/renault-captur-evolution-tce-115/",
+        "price": 20398
+      }
+    ],
+    "make": "Renault",
+    "model": "Captur",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 20398,
+    "correctedMedian": 20398,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_j9g724q2v",
+    "title": "Renault Rafale esprit Alpine full hybrid E-Tech 20...",
+    "price": 46942,
+    "year": 2026,
+    "km": 4,
+    "url": "https://www.autobazar.sk/27935971/renault-rafale-esprit-alpine-full-hybrid-e-tech-200/",
+    "fuel": "Hybrid",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Renault|Rafale|2026|46900|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935971/renault-rafale-esprit-alpine-full-hybrid-e-tech-200/",
+        "price": 46942
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935971/renault-rafale-esprit-alpine-full-hybrid-e-tech-200/",
+        "price": 46942
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935971/renault-rafale-esprit-alpine-full-hybrid-e-tech-200/",
+        "price": 46942
+      }
+    ],
+    "make": "Renault",
+    "model": "Rafale",
+    "engine": "Hybrid",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 46942,
+    "correctedMedian": 46942,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.257Z"
+  },
+  {
+    "id": "sk_ju7z267jm",
+    "title": "Ford Transit Custom 320 L1H1 96 KW klima 2.0 ECOBL...",
+    "price": 18020,
+    "year": 2020,
+    "km": 126000,
+    "url": "https://www.autobazar.sk/27935953/ford-transit-custom-320-l1h1-96-kw-klima-2-0-ecoblue-trend/",
+    "fuel": "Diesel",
+    "location": "TT kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.021Z",
+    "fingerprint": "FUZZY:Ford|Transit|2020|18000|126000|TT",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935953/ford-transit-custom-320-l1h1-96-kw-klima-2-0-ecoblue-trend/",
+        "price": 18020
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935953/ford-transit-custom-320-l1h1-96-kw-klima-2-0-ecoblue-trend/",
+        "price": 18020
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935953/ford-transit-custom-320-l1h1-96-kw-klima-2-0-ecoblue-trend/",
+        "price": 18020
+      }
+    ],
+    "make": "Ford",
+    "model": "Transit",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 18020,
+    "correctedMedian": 18020,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.257Z"
+  },
+  {
+    "id": "sk_4hpvqnw52",
+    "title": "KIA CEED SW 1,5 T-GDi 7DCT PLATINUM",
+    "price": 24490,
+    "year": 2025,
+    "km": 27297,
+    "url": "https://www.autobazar.sk/27935945/kia-ceed-sw-1-5-t-gdi-7dct-platinum/",
+    "fuel": "Benzín",
+    "location": "KE kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.419Z",
+    "fingerprint": "FUZZY:Kia|CEED|2025|24500|27000|KE",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935945/kia-ceed-sw-1-5-t-gdi-7dct-platinum/",
+        "price": 24490
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935945/kia-ceed-sw-1-5-t-gdi-7dct-platinum/",
+        "price": 24490
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935945/kia-ceed-sw-1-5-t-gdi-7dct-platinum/",
+        "price": 24490
+      }
+    ],
+    "make": "Kia",
+    "model": "CEED",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24490,
+    "correctedMedian": 24490,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.257Z"
+  },
+  {
+    "id": "sk_6wjrb115z",
+    "title": "Mercedes-Benz GLS 350 d 4MATIC",
+    "price": 39999,
+    "year": 2016,
+    "km": 141750,
+    "url": "https://www.autobazar.sk/27664519/mercedes-benz-gls-350-d-4matic/",
+    "fuel": "Diesel",
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.419Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLS|2016|40000|142000|TN",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27664519/mercedes-benz-gls-350-d-4matic/",
+        "price": 39999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27664519/mercedes-benz-gls-350-d-4matic/",
+        "price": 39999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27664519/mercedes-benz-gls-350-d-4matic/",
+        "price": 39999
+      }
+    ],
+    "make": "Mercedes-Benz",
+    "model": "GLS",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 39999,
+    "correctedMedian": 39999,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.258Z"
+  },
+  {
+    "id": "sk_loxw6m9zk",
+    "title": "Mercedes-Benz SLK 230 Kompresor*Xenony*Automat*STK",
+    "price": 6600,
+    "year": 2004,
+    "km": 210000,
+    "url": "https://www.autobazar.sk/27935941/mercedes-benz-slk-230-kompresorxenonyautomatstk/",
+    "fuel": "Benzín",
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.419Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|SLK|2004|6600|210000|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935941/mercedes-benz-slk-230-kompresorxenonyautomatstk/",
+        "price": 6600
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935941/mercedes-benz-slk-230-kompresorxenonyautomatstk/",
+        "price": 6600
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935941/mercedes-benz-slk-230-kompresorxenonyautomatstk/",
+        "price": 6600
+      }
+    ],
+    "make": "Mercedes-Benz",
+    "model": "SLK",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [
+      "LED/Xenon"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 6600,
+    "correctedMedian": 6600,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.258Z"
+  },
+  {
+    "id": "sk_7d0xaajlm",
+    "title": "Toyota PROACE CITY VERSO Toyota Proace City Verso ...",
+    "price": 27490,
+    "year": 2025,
+    "km": 17136,
+    "url": "https://www.autobazar.sk/27935933/toyota-proace-city-verso-toyota-proace-city-verso-1-5-d-4d-130-short-family-a-t/",
+    "fuel": "Diesel",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.419Z",
+    "fingerprint": "FUZZY:Toyota|PROACE|2025|27500|17000|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935933/toyota-proace-city-verso-toyota-proace-city-verso-1-5-d-4d-130-short-family-a-t/",
+        "price": 27490
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935933/toyota-proace-city-verso-toyota-proace-city-verso-1-5-d-4d-130-short-family-a-t/",
+        "price": 27490
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935933/toyota-proace-city-verso-toyota-proace-city-verso-1-5-d-4d-130-short-family-a-t/",
+        "price": 27490
+      }
+    ],
+    "make": "Toyota",
+    "model": "PROACE",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 27490,
+    "correctedMedian": 27490,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.258Z"
+  },
+  {
+    "id": "sk_3smxovab9",
+    "title": "Citroën C3 PureTech 82 S&S C-Series",
+    "price": 11990,
+    "year": 2023,
+    "km": 23150,
+    "url": "https://www.autobazar.sk/27337373/citroen-c3-puretech-82-ss-c-series/",
+    "fuel": "Benzín",
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.419Z",
+    "fingerprint": "FUZZY:Citroën|C3|2023|12000|23000|ZA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27337373/citroen-c3-puretech-82-ss-c-series/",
+        "price": 11990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27337373/citroen-c3-puretech-82-ss-c-series/",
+        "price": 11990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27337373/citroen-c3-puretech-82-ss-c-series/",
+        "price": 11990
+      }
+    ],
+    "make": "Citroën",
+    "model": "C3",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 11990,
+    "correctedMedian": 11990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.258Z"
+  },
+  {
+    "id": "sk_wow0ytw4u",
+    "title": "Citroën Jumper 2,2 HDI- 121 kw - L4H2 Maxi",
+    "price": 21380,
+    "year": 2022,
+    "km": 119682,
+    "url": "https://www.autobazar.sk/27878022/citroen-jumper-2-2-hdi-121-kw-l4h2-maxi/",
+    "fuel": "Diesel",
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.420Z",
+    "fingerprint": "FUZZY:Citroën|Jumper|2022|21400|120000|ZA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27878022/citroen-jumper-2-2-hdi-121-kw-l4h2-maxi/",
+        "price": 21380
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27878022/citroen-jumper-2-2-hdi-121-kw-l4h2-maxi/",
+        "price": 21380
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27878022/citroen-jumper-2-2-hdi-121-kw-l4h2-maxi/",
+        "price": 21380
+      }
+    ],
+    "make": "Citroën",
+    "model": "Jumper",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21380,
+    "correctedMedian": 21380,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.259Z"
+  },
+  {
+    "id": "sk_7avpjwk59",
+    "title": "Fiat Ducato 2,3 MultiJet",
+    "price": 21500,
+    "year": 2010,
+    "km": 2887,
+    "url": "https://www.autobazar.sk/26343517/fiat-ducato-2-3-multijet/",
+    "fuel": "Diesel",
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.420Z",
+    "fingerprint": "FUZZY:Fiat|Ducato|2010|21500|3000|ZA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/26343517/fiat-ducato-2-3-multijet/",
+        "price": 21500
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/26343517/fiat-ducato-2-3-multijet/",
+        "price": 21500
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/26343517/fiat-ducato-2-3-multijet/",
+        "price": 21500
+      }
+    ],
+    "make": "Fiat",
+    "model": "Ducato",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21500,
+    "correctedMedian": 21500,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 15,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.259Z"
+  },
+  {
+    "id": "sk_uddjmmyj9",
+    "title": "Fiat Talento 1,6 MTJ 145 - 8 miestne",
+    "price": 14999,
+    "year": 2017,
+    "km": 216441,
+    "url": "https://www.autobazar.sk/27910433/fiat-talento-1-6-mtj-145-8-miestne/",
+    "fuel": "Diesel",
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.420Z",
+    "fingerprint": "FUZZY:Fiat|Talento|2017|15000|216000|ZA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27910433/fiat-talento-1-6-mtj-145-8-miestne/",
+        "price": 14999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27910433/fiat-talento-1-6-mtj-145-8-miestne/",
+        "price": 14999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27910433/fiat-talento-1-6-mtj-145-8-miestne/",
+        "price": 14999
+      }
+    ],
+    "make": "Fiat",
+    "model": "Talento",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 14999,
+    "correctedMedian": 14999,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.259Z"
+  },
+  {
+    "id": "sk_ipm26c9mu",
+    "title": "Ford Tourneo Custom 2.0 TDCi 170 Titanium X L1 T32...",
+    "price": 33999,
+    "year": 2022,
+    "km": 110407,
+    "url": "https://www.autobazar.sk/27759791/ford-tourneo-custom-2-0-tdci-170-titanium-x-l1-t320-a-t/",
+    "fuel": "Diesel",
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.420Z",
+    "fingerprint": "FUZZY:Ford|Tourneo|2022|34000|110000|ZA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27759791/ford-tourneo-custom-2-0-tdci-170-titanium-x-l1-t320-a-t/",
+        "price": 33999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27759791/ford-tourneo-custom-2-0-tdci-170-titanium-x-l1-t320-a-t/",
+        "price": 33999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27759791/ford-tourneo-custom-2-0-tdci-170-titanium-x-l1-t320-a-t/",
+        "price": 33999
+      }
+    ],
+    "make": "Ford",
+    "model": "Tourneo",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 33999,
+    "correctedMedian": 33999,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.259Z"
+  },
+  {
+    "id": "eu_Abm1bK26EN4",
+    "title": "Mazda CX-5 2, 5 SKY-G 194 Revolution Top",
+    "price": 21498,
+    "year": 2018,
+    "km": 103002,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/mazda-cx-5-2-5-sky-g-194-revolution-top/Abm1bK26EN4/",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.921Z",
+    "fingerprint": "FUZZY:Mazda|CX-5|2018|21500|103000|N/A",
+    "otherPortals": [],
+    "make": "Mazda",
+    "model": "CX-5",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21498,
+    "correctedMedian": 21498,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.259Z"
+  },
+  {
+    "id": "eu_Aeat25B3pXB",
+    "title": "BMW Rad 3 Coupé Coupé 320 I",
+    "price": 5750,
+    "year": 2007,
+    "km": 225000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/bmw-rad-3-coupe-coupe-320-i/Aeat25B3pXB/",
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.923Z",
+    "fingerprint": "FUZZY:BMW|Rad|2007|5800|225000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 5750,
+    "correctedMedian": 5750,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.260Z"
+  },
+  {
+    "id": "eu_AeVO1cEdZvQ",
+    "title": "Mercedes GLC Kupé 220 D 4-Matic Kupé",
+    "price": 90189,
+    "year": 2025,
+    "km": 5,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/mercedes-glc-kupe-220-d-4-matic-kupe/AeVO1cEdZvQ/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.924Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLC|2025|90200|0|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 92160,
+    "correctedMedian": 92160,
+    "kmReference": 60000,
+    "discount": 2.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 49,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.260Z"
+  },
+  {
+    "id": "eu_AeoimSQ5y15",
+    "title": "Mercedes GLC 220 D 4-Matic",
+    "price": 57900,
+    "year": 2023,
+    "km": 32179,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/mercedes-glc-220-d-4-matic/AeoimSQ5y15/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.925Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLC|2023|57900|32000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 57900,
+    "correctedMedian": 57900,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_Ae0e93PiM07",
+    "title": "Kia Pro_cee’d CEED SW 1.5 T-GDi 7DCT Platinum",
+    "price": 24490,
+    "year": 2025,
+    "km": 27297,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/kia-proceed-ceed-sw-15-t-gdi-7dct-platinum/Ae0e93PiM07/",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.925Z",
+    "fingerprint": "FUZZY:Kia|Pro_cee’d|2025|24500|27000|N/A",
+    "otherPortals": [],
+    "make": "Kia",
+    "model": "Pro_cee’d",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24490,
+    "correctedMedian": 24490,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_AbDV0lqxxvV",
+    "title": "Ford Transit Custom 320 L1H1 96 KW Klima 2.0 ECOBLUE TREND",
+    "price": 18020,
+    "year": 2020,
+    "km": 126000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/ford-transit-custom-320-l1h1-96-kw-klima-20-ecoblue-trend/AbDV0lqxxvV/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.885Z",
+    "fingerprint": "FUZZY:Ford|Transit|2020|18000|126000|N/A",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "Transit",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 18020,
+    "correctedMedian": 18020,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_Ae5Ady8NUYH",
+    "title": "Mercedes GLE SUV 450 MHEV 4Matic A/T",
+    "price": 52500,
+    "year": 2019,
+    "km": 147000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/mercedes-gle-suv-450-mhev-4matic-at/Ae5Ady8NUYH/",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.886Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLE|2019|52500|147000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 52500,
+    "correctedMedian": 52500,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_84rmu7v4i",
+    "title": "Mercedes-Benz GLS 350 D 4MATIC",
+    "price": 39999,
+    "year": 2016,
+    "km": 141750,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/mercedes-benz-gls-350-d-4matic/Amcv_yyf9KJ/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.891Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLS|2016|40000|142000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "GLS",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 39999,
+    "correctedMedian": 39999,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_AbRHzhrOtpz",
+    "title": "Toyota PROACE CITY VERSO Toyota Proace City Verso 1.5 D-4D 1",
+    "price": 27490,
+    "year": 2025,
+    "km": 17136,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/toyota-proace-city-verso-toyota-proace-city-verso-15-d-4d-130-short-family-at/AbRHzhrOtpz/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.892Z",
+    "fingerprint": "FUZZY:Toyota|PROACE|2025|27500|17000|N/A",
+    "otherPortals": [],
+    "make": "Toyota",
+    "model": "PROACE",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 27490,
+    "correctedMedian": 27490,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_AmKaAovRtTg",
+    "title": "Citroën C3 PureTech 82 S&S C-Series",
+    "price": 11990,
+    "year": 2023,
+    "km": 23150,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/citroen-c3-puretech-82-ss-c-series/AmKaAovRtTg/",
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.893Z",
+    "fingerprint": "FUZZY:Citroën|C3|2023|12000|23000|N/A",
+    "otherPortals": [],
+    "make": "Citroën",
+    "model": "C3",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 11990,
+    "correctedMedian": 11990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_Am5PG0qXYRT",
+    "title": "Ford Transit Custom 2,0 TDCi L1H1",
+    "price": 16990,
+    "year": 2019,
+    "km": 128628,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/ford-transit-custom-20-tdci-l1h1/Am5PG0qXYRT/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.895Z",
+    "fingerprint": "FUZZY:Ford|Transit|2019|17000|129000|N/A",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "Transit",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16990,
+    "correctedMedian": 16990,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_Ab9smCIUQ1F",
+    "title": "Iveco Daily 35S16",
+    "price": 15867,
+    "year": 2019,
+    "km": 300400,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/iveco-daily-35s16/Ab9smCIUQ1F/",
+    "transmission": null,
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.896Z",
+    "fingerprint": "FUZZY:Iveco|Daily|2019|15900|300000|N/A",
+    "otherPortals": [],
+    "make": "Iveco",
+    "model": "Daily",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 15867,
+    "correctedMedian": 15867,
+    "kmReference": 350000,
+    "discount": 0,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_sctgswqf5",
+    "title": "BMW X5 XDrive30d 30D Msport 7 Miestne",
+    "price": 22900,
+    "year": 2018,
+    "km": 229000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d-30d-msport-7-miestne/AeAt2_lgxnF/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:51:44.378Z",
+    "fingerprint": "FUZZY:BMW|X5|2018|22900|229000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 23900,
+    "correctedMedian": 23661,
+    "kmReference": 225000,
+    "discount": 3.2,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 26,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AeSCyUb7Qfu",
+    "title": "Kia Ceed 1.5 T-GDi GoldLED 118kW M6",
+    "price": 17900,
+    "year": 2024,
+    "km": 27000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/kia-ceed-15-t-gdi-goldled-118kw-m6/AeSCyUb7Qfu/",
+    "fuel": "Benzín",
+    "transmission": "6-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.905Z",
+    "fingerprint": "FUZZY:Kia|Ceed|2024|17900|27000|N/A",
+    "otherPortals": [],
+    "make": "Kia",
+    "model": "Ceed",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [
+      "LED/Xenon"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 17900,
+    "correctedMedian": 17900,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AeNBsQo5tOh",
+    "title": "Mini Cooper 1.6i 118PS AT",
+    "price": 5290,
+    "year": 2007,
+    "km": 135000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/mini-cooper-16i-118ps-at/AeNBsQo5tOh/",
+    "fuel": "Benzín",
+    "transmission": "6-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.907Z",
+    "fingerprint": "FUZZY:Mini|Cooper|2007|5300|135000|N/A",
+    "otherPortals": [],
+    "make": "Mini",
+    "model": "Cooper",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 5290,
+    "correctedMedian": 5290,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 15,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AeuJX2bRTBA",
+    "title": "Hyundai Tucson 1.6 T-GDi Style 130kW177HP M6",
+    "price": 16000,
+    "year": 2019,
+    "km": 124000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/hyundai-tucson-16-t-gdi-style-130kw177hp-m6/AeuJX2bRTBA/",
+    "fuel": "Benzín",
+    "transmission": "6-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.909Z",
+    "fingerprint": "FUZZY:Hyundai|Tucson|2019|16000|124000|N/A",
+    "otherPortals": [],
+    "make": "Hyundai",
+    "model": "Tucson",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16000,
+    "correctedMedian": 16000,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_Aea_Vf6GYdD",
+    "title": "Škoda Octavia Combi 1.6 TDI 110k Active DSG 81kW110HP A7",
+    "price": 8900,
+    "year": 2016,
+    "km": 220754,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/skoda-octavia-combi-16-tdi-110k-active-dsg-81kw110hp-a7/Aea_Vf6GYdD/",
+    "fuel": "Diesel",
+    "transmission": "Automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.909Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2016|8900|221000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 8900,
+    "correctedMedian": 8900,
+    "kmReference": 225000,
+    "discount": 0,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AerJKr708YJ",
+    "title": "Mercedes-Benz GLE SUV GLE 580 mHEV 4MATIC AT 360kW489HP A9",
+    "price": 85000,
+    "year": 2022,
+    "km": 52477,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/mercedes-benz-gle-suv-gle-580-mhev-4matic-at-360kw489hp-a9/AerJKr708YJ/",
+    "fuel": "Benzín",
+    "transmission": "9-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.811Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLE|2022|85000|52000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [
+      "Kamera"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 85000,
+    "correctedMedian": 85000,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.265Z"
+  },
+  {
+    "id": "autovia_AecOIaaT1MZ",
+    "title": "Volkswagen Multivan 2.0 BiTDI BMT Comfortline 4MOTION DSG 150kW204HP A7",
+    "price": 38000,
+    "year": 2018,
+    "km": 139529,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/volkswagen-multivan-20-bitdi-bmt-comfortline-4motion-dsg-150kw204hp-a7/AecOIaaT1MZ/",
+    "fuel": "Diesel",
+    "transmission": "7-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.812Z",
+    "fingerprint": "FUZZY:Volkswagen|Multivan|2018|38000|140000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Multivan",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 38000,
+    "correctedMedian": 38000,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.265Z"
+  },
+  {
+    "id": "autovia_Ae5T53oewHf",
+    "title": "BMW Rad 5 530d xDrive AT 195kW265HP A8",
+    "price": 30900,
+    "year": 2019,
+    "km": 114500,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/bmw-rad-5-530d-xdrive-at-195kw265hp-a8/Ae5T53oewHf/",
+    "fuel": "Diesel",
+    "transmission": "Automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.814Z",
+    "fingerprint": "FUZZY:BMW|Rad|2019|30900|115000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 30900,
+    "correctedMedian": 30900,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.266Z"
+  },
+  {
+    "id": "autovia_AeSXj3NE-7f",
+    "title": "Nissan 370 Z NISMO",
+    "price": 65000,
+    "year": 2018,
+    "km": 3700,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/nissan-370-z-nismo/AeSXj3NE-7f/",
+    "fuel": "Benzín",
+    "transmission": "Manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:07.035Z",
+    "fingerprint": "FUZZY:Nissan|370|2018|65000|4000|N/A",
+    "otherPortals": [],
+    "make": "Nissan",
+    "model": "370",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 65000,
+    "correctedMedian": 65000,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.266Z"
+  },
+  {
+    "id": "autovia_Aeea-m0URa6",
+    "title": "Mercedes-Benz EQB 350 4MATIC AMG 2024 facelift",
+    "price": 44990,
+    "year": 2024,
+    "km": 14466,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/mercedes-benz-eqb-350-4matic-amg-2024-facelift/Aeea-m0URa6/",
+    "fuel": "Elektromotor",
+    "transmission": "Automatická bezstupňová",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:07.037Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|EQB|2024|45000|14000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "EQB",
+    "engine": "Elektromotor",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 44990,
+    "correctedMedian": 44990,
+    "kmReference": 60000,
+    "discount": 0,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.267Z"
+  },
+  {
+    "id": "autovia_Ae3poNcjCcw",
+    "title": "BMW X6 M50i 390kW ZimnéLetné komplety, LaserLight, Soft Close, Plná výbava",
+    "price": 57499,
+    "year": 2020,
+    "km": 117003,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/bmw-x6-m50i-390kw-zimneletne-komplety-laserlight-soft-close-plna-vybava/Ae3poNcjCcw/",
+    "fuel": "Benzín",
+    "transmission": "8-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:07.038Z",
+    "fingerprint": "FUZZY:BMW|X6|2020|57500|117000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X6",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [
+      "LED/Xenon"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 57499,
+    "correctedMedian": 57499,
+    "kmReference": 150000,
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.267Z"
+  },
+  {
+    "id": "autovia_AmW0uGq5Zyb",
+    "title": "Volkswagen Tiguan 2.0 CR TDI 4-Motion SportStyle AT",
+    "price": 6490,
+    "year": 2010,
+    "km": 343000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/volkswagen-tiguan-20-cr-tdi-4-motion-sportstyle-a-t/AmW0uGq5Zyb/",
+    "fuel": "Diesel",
+    "transmission": "6-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:30.792Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2010|6500|343000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 6490,
+    "correctedMedian": 6490,
+    "kmReference": 350000,
+    "discount": 0,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "FAIR PRICE",
+    "score": 50,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.268Z"
   },
   {
     "id": "187221482",
@@ -11580,6 +19519,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "143 kW",
     "scrapedAt": "2026-01-06T13:37:19.506Z",
+    "fingerprint": "VIN:WAUZZZ8R8AA096599",
     "otherPortals": [],
     "make": "Audi",
     "model": "Q5",
@@ -11603,10 +19543,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.142Z"
+    "scoredAt": "2026-01-07T19:52:40.142Z"
   },
   {
     "id": "186798913",
@@ -11622,6 +19570,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "103 kW",
     "scrapedAt": "2026-01-06T13:37:19.533Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2012|4800|253000|Rimavská",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -11645,10 +19594,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.143Z"
+    "scoredAt": "2026-01-07T19:52:40.143Z"
   },
   {
     "id": "187196548",
@@ -11664,6 +19621,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "169 kW",
     "scrapedAt": "2026-01-06T13:37:19.534Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2016|17600|150000|Topoľčany",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -11673,10 +19631,10 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 17600,
-    "correctedMedian": 11654,
+    "correctedMedian": 11072,
     "kmReference": 150000,
-    "discount": -51,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -51 %",
+    "discount": -59,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -59 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 20,
@@ -11685,10 +19643,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.143Z"
+    "scoredAt": "2026-01-07T19:52:40.144Z"
   },
   {
     "id": "187179463",
@@ -11704,6 +19670,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "85 kW",
     "scrapedAt": "2026-01-06T13:37:19.535Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2022|14500|185000|Levice",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -11725,10 +19692,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.145Z"
   },
   {
     "id": "187179595",
@@ -11744,6 +19719,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "70 kW",
     "scrapedAt": "2026-01-06T13:37:19.536Z",
+    "fingerprint": "FUZZY:Volkswagen|T-Cross|2021|12200|174000|Levice",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "T-Cross",
@@ -11765,10 +19741,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.145Z"
   },
   {
     "id": "187179737",
@@ -11784,6 +19768,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "85 kW",
     "scrapedAt": "2026-01-06T13:37:19.536Z",
+    "fingerprint": "FUZZY:Seat|Arona|2020|11700|163000|Levice",
     "otherPortals": [],
     "make": "Seat",
     "model": "Arona",
@@ -11805,10 +19790,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.145Z"
   },
   {
     "id": "187179863",
@@ -11824,6 +19817,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "125 kW",
     "scrapedAt": "2026-01-06T13:37:19.537Z",
+    "fingerprint": "FUZZY:Hyundai|Ioniq|2021|22700|92000|Levice",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "Ioniq",
@@ -11845,10 +19839,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.145Z"
   },
   {
     "id": "187184588",
@@ -11864,6 +19866,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:37:19.540Z",
+    "fingerprint": "VIN:TMBJH7NP5L7025015",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -11885,10 +19888,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.146Z"
   },
   {
     "id": "186978995",
@@ -11904,6 +19915,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "132 kW",
     "scrapedAt": "2026-01-06T13:48:59.375Z",
+    "fingerprint": "FUZZY:Mazda|CX-30|2021|23500|77000|Zvolen",
     "otherPortals": [],
     "make": "Mazda",
     "model": "CX-30",
@@ -11927,10 +19939,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.144Z"
+    "scoredAt": "2026-01-07T19:52:40.146Z"
   },
   {
     "id": "186523648",
@@ -11946,6 +19966,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.387Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|S350|2011|12900|183000|Poprad",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "S350",
@@ -11967,10 +19988,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
+    "scoredAt": "2026-01-07T19:52:40.147Z"
   },
   {
     "id": "186893684",
@@ -11986,6 +20015,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.391Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|25000|123000|Žiar",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -11994,11 +20024,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24745,
-    "correctedMedian": 24745,
+    "originalMedian": 24990,
+    "correctedMedian": 24990,
     "kmReference": 150000,
-    "discount": -1,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -1 %",
+    "discount": 0,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -12007,50 +20037,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
-  },
-  {
-    "id": "186956306",
-    "title": "Škoda Karoq 1.5 TSI ACT Style DSG",
-    "price": 19690,
-    "year": 2020,
-    "km": 105258,
-    "url": "https://auto.bazos.sk/inzerat/186956306/skoda-karoq-15-tsi-act-style-dsg.php",
-    "location": "Prešov 080 01",
-    "vin": "TMBJR7NU1L2041745",
-    "transmission": "Automat",
-    "fuel": "Benzín",
-    "drive": "Predný",
-    "power": "110 kW",
-    "scrapedAt": "2026-01-06T13:48:59.392Z",
-    "otherPortals": [],
-    "make": "Škoda",
-    "model": "Karoq",
-    "engine": "Benzín Mid (110kW)",
-    "equipLevel": "Basic",
-    "features": [],
-    "kmSegment": "Mid (100k-200k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 19690,
-    "correctedMedian": 18479,
-    "kmReference": 150000,
-    "discount": -6.6,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 45,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
+    "scoredAt": "2026-01-07T19:52:40.148Z"
   },
   {
     "id": "186940956",
@@ -12066,6 +20064,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.392Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|23000|N/A|Košice",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -12076,7 +20075,7 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 22990,
+    "originalMedian": 21490,
     "correctedMedian": 20475,
     "kmReference": 60000,
     "discount": -12.3,
@@ -12089,54 +20088,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.145Z"
-  },
-  {
-    "id": "186947069",
-    "title": "Škoda Octavia Combi 2.0 TDI DSG F1 Ambition Navi Ťažné ACC",
-    "price": 10499,
-    "year": 2017,
-    "km": 198662,
-    "url": "https://auto.bazos.sk/inzerat/186947069/skoda-octavia-combi-20-tdi-dsg-f1-ambition-navi-tazne-acc.php",
-    "location": "Partizánske 958 01",
-    "vin": null,
-    "transmission": "Automat",
-    "fuel": "Diesel",
-    "drive": "Predný",
-    "power": "110 kW",
-    "scrapedAt": "2026-01-06T13:48:59.394Z",
-    "otherPortals": [],
-    "make": "Škoda",
-    "model": "Octavia",
-    "engine": "Diesel Mid (110kW)",
-    "equipLevel": "Medium",
-    "features": [
-      "Navigácia",
-      "Ťažné",
-      "ACC/Tempomat"
-    ],
-    "kmSegment": "Mid (100k-200k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 10499,
-    "correctedMedian": 9222,
-    "kmReference": 150000,
-    "discount": -13.9,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -14 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 20,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.146Z"
+    "scoredAt": "2026-01-07T19:52:40.149Z"
   },
   {
     "id": "186917268",
@@ -12152,6 +20115,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "147 kW",
     "scrapedAt": "2026-01-06T13:48:59.404Z",
+    "fingerprint": "FUZZY:Kia|Sorento|2016|17500|184000|Poprad",
     "otherPortals": [],
     "make": "Kia",
     "model": "Sorento",
@@ -12175,10 +20139,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.147Z"
+    "scoredAt": "2026-01-07T19:52:40.151Z"
   },
   {
     "id": "186916322",
@@ -12194,6 +20166,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.408Z",
+    "fingerprint": "FUZZY:Volkswagen|Multivan|2018|27500|230000|Poprad",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Multivan",
@@ -12218,10 +20191,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.151Z"
   },
   {
     "id": "186135423",
@@ -12237,6 +20218,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "105 kW",
     "scrapedAt": "2026-01-06T13:48:59.408Z",
+    "fingerprint": "FUZZY:BMW|X1|2017|16500|170000|Nitra",
     "otherPortals": [],
     "make": "BMW",
     "model": "X1",
@@ -12258,10 +20240,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.152Z"
   },
   {
     "id": "186908508",
@@ -12277,6 +20267,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.408Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2020|24900|N/A|Námestovo",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -12298,10 +20289,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.152Z"
   },
   {
     "id": "186717133",
@@ -12317,6 +20316,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": null,
     "scrapedAt": "2026-01-06T13:48:59.410Z",
+    "fingerprint": "FUZZY:Suzuki|SX4|2020|16800|81000|Prievidza",
     "otherPortals": [],
     "make": "Suzuki",
     "model": "SX4",
@@ -12340,10 +20340,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.148Z"
+    "scoredAt": "2026-01-07T19:52:40.152Z"
   },
   {
     "id": "186882345",
@@ -12359,6 +20367,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.411Z",
+    "fingerprint": "FUZZY:Audi|A3|2015|12000|194000|Partizánske",
     "otherPortals": [],
     "make": "Audi",
     "model": "A3",
@@ -12384,10 +20393,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.149Z"
+    "scoredAt": "2026-01-07T19:52:40.153Z"
   },
   {
     "id": "186879810",
@@ -12403,6 +20420,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "130 kW",
     "scrapedAt": "2026-01-06T13:48:59.412Z",
+    "fingerprint": "FUZZY:Kia|Sportage|2018|16900|78000|Zvolen",
     "otherPortals": [],
     "make": "Kia",
     "model": "Sportage",
@@ -12426,10 +20444,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.149Z"
+    "scoredAt": "2026-01-07T19:52:40.153Z"
   },
   {
     "id": "186868321",
@@ -12445,6 +20471,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.416Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2021|20000|N/A|Košice",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -12468,10 +20495,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.149Z"
+    "scoredAt": "2026-01-07T19:52:40.153Z"
   },
   {
     "id": "187213494",
@@ -12487,6 +20522,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "213 kW",
     "scrapedAt": "2026-01-06T13:48:59.424Z",
+    "fingerprint": "VIN:WP1ZZZ9PZ9LA02423",
     "otherPortals": [],
     "make": "Porsche",
     "model": "Cayenne",
@@ -12508,10 +20544,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.155Z"
   },
   {
     "id": "186848316",
@@ -12527,6 +20571,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "85 kW",
     "scrapedAt": "2026-01-06T13:48:59.426Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|10000|198000|Partizánske",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -12550,10 +20595,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.155Z"
   },
   {
     "id": "186848033",
@@ -12569,6 +20622,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "88 kW",
     "scrapedAt": "2026-01-06T13:48:59.427Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2016|11600|166000|Partizánske",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -12592,10 +20646,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.155Z"
   },
   {
     "id": "186847888",
@@ -12611,6 +20673,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "81 kW",
     "scrapedAt": "2026-01-06T13:48:59.427Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2017|11100|163000|Partizánske",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -12635,10 +20698,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.155Z"
   },
   {
     "id": "186846703",
@@ -12654,6 +20725,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "103 kW",
     "scrapedAt": "2026-01-06T13:48:59.427Z",
+    "fingerprint": "FUZZY:☝️☝️👉suzuki|Sx4|2018|15000|88000|Prievidza",
     "otherPortals": [],
     "make": "☝️☝️👉suzuki",
     "model": "Sx4",
@@ -12675,10 +20747,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.156Z"
   },
   {
     "id": "186840134",
@@ -12694,6 +20774,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "135 kW",
     "scrapedAt": "2026-01-06T13:48:59.427Z",
+    "fingerprint": "FUZZY:Volkswagen|Sharan|2017|18300|166000|Levice",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Sharan",
@@ -12715,10 +20796,67 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.150Z"
+    "scoredAt": "2026-01-07T19:52:40.156Z"
+  },
+  {
+    "id": "186364536",
+    "title": "Škoda Octavia 2.0 TDI 110 kW",
+    "price": 8699,
+    "year": 2014,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/186364536/skoda-octavia-20-tdi-110-kw.php",
+    "location": "Lučenec 984 01",
+    "vin": null,
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "drive": "Predný",
+    "power": "110 kW",
+    "scrapedAt": "2026-01-06T13:48:59.428Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2014|8700|N/A|Lučenec",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel Mid (110kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 8699,
+    "correctedMedian": 5985,
+    "kmReference": 60000,
+    "discount": -45.3,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -45 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.156Z"
   },
   {
     "id": "186834845",
@@ -12734,6 +20872,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "99 kW",
     "scrapedAt": "2026-01-06T13:48:59.435Z",
+    "fingerprint": "FUZZY:Kia|Ceed,|2014|7000|181000|Žilina",
     "otherPortals": [],
     "make": "Kia",
     "model": "Ceed,",
@@ -12755,10 +20894,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.151Z"
+    "scoredAt": "2026-01-07T19:52:40.157Z"
   },
   {
     "id": "186825017",
@@ -12774,6 +20921,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "85 kW",
     "scrapedAt": "2026-01-06T13:48:59.436Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2020|14700|168000|Levice",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -12795,10 +20943,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.151Z"
+    "scoredAt": "2026-01-07T19:52:40.157Z"
   },
   {
     "id": "186827568",
@@ -12814,6 +20970,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "300 kW",
     "scrapedAt": "2026-01-06T13:48:59.437Z",
+    "fingerprint": "FUZZY:BMW|X5|2011|15000|164000|Levice",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -12835,10 +20992,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.158Z"
   },
   {
     "id": "186544922",
@@ -12854,6 +21019,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T13:48:59.438Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2019|20500|157000|Rimavská",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -12875,10 +21041,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.158Z"
   },
   {
     "id": "187224783",
@@ -12894,6 +21068,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "103 kW",
     "scrapedAt": "2026-01-06T15:28:27.981Z",
+    "fingerprint": "FUZZY:Peugeot|BOXER|2020|16000|184000|Poprad",
     "otherPortals": [],
     "make": "Peugeot",
     "model": "BOXER",
@@ -12915,10 +21090,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.158Z"
   },
   {
     "id": "186870158",
@@ -12934,6 +21117,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "150 kW",
     "scrapedAt": "2026-01-06T15:28:28.011Z",
+    "fingerprint": "FUZZY:Volkswagen|ID.3|2020|17500|88000|Krupina",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "ID.3",
@@ -12957,10 +21141,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.152Z"
+    "scoredAt": "2026-01-07T19:52:40.159Z"
   },
   {
     "id": "187141769",
@@ -12976,6 +21168,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "81 kW",
     "scrapedAt": "2026-01-06T15:28:28.191Z",
+    "fingerprint": "FUZZY:Škoda|Scala|2021|12500|162000|Poprad",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Scala",
@@ -12997,10 +21190,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.160Z"
   },
   {
     "id": "187141267",
@@ -13016,6 +21217,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.192Z",
+    "fingerprint": "FUZZY:Audi|Q3|2022|20000|96000|Poprad",
     "otherPortals": [],
     "make": "Audi",
     "model": "Q3",
@@ -13037,10 +21239,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.161Z"
   },
   {
     "id": "187136248",
@@ -13056,6 +21266,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T15:28:28.210Z",
+    "fingerprint": "FUZZY:Volkswagen|Polo|2018|9900|64000|Lučenec",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Polo",
@@ -13077,10 +21288,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.161Z"
   },
   {
     "id": "187117109",
@@ -13096,6 +21315,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.212Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2020|15700|176000|Levice",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -13117,10 +21337,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.153Z"
+    "scoredAt": "2026-01-07T19:52:40.161Z"
   },
   {
     "id": "187097162",
@@ -13136,6 +21364,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "63 kW",
     "scrapedAt": "2026-01-06T15:28:28.449Z",
+    "fingerprint": "FUZZY:Kia|Rio|2018|8000|97000|Banská",
     "otherPortals": [],
     "make": "Kia",
     "model": "Rio",
@@ -13157,10 +21386,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.161Z"
   },
   {
     "id": "187073992",
@@ -13176,6 +21413,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "96 kW",
     "scrapedAt": "2026-01-06T15:28:28.507Z",
+    "fingerprint": "FUZZY:Citroën|BERLINGO|2018|15500|163000|Nitra",
     "otherPortals": [],
     "make": "Citroën",
     "model": "BERLINGO",
@@ -13197,10 +21435,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.162Z"
   },
   {
     "id": "187071941",
@@ -13216,6 +21462,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "77 kW",
     "scrapedAt": "2026-01-06T15:28:28.530Z",
+    "fingerprint": "FUZZY:⚠️škoda|FABIA|2011|4800|197000|Lučenec",
     "otherPortals": [],
     "make": "⚠️škoda",
     "model": "FABIA",
@@ -13237,10 +21484,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.163Z"
   },
   {
     "id": "185272395",
@@ -13256,6 +21511,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "115 kW",
     "scrapedAt": "2026-01-06T15:28:28.549Z",
+    "fingerprint": "VIN:WVGZZZ1TZJW057061",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Touran",
@@ -13277,10 +21533,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.163Z"
   },
   {
     "id": "187061297",
@@ -13296,6 +21560,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.589Z",
+    "fingerprint": "VIN:WVWZZZ3CZFP412207",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -13317,10 +21582,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.154Z"
+    "scoredAt": "2026-01-07T19:52:40.163Z"
   },
   {
     "id": "187062092",
@@ -13336,6 +21609,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.615Z",
+    "fingerprint": "FUZZY:Peugeot|Expert|2016|13500|194000|Levice",
     "otherPortals": [],
     "make": "Peugeot",
     "model": "Expert",
@@ -13357,10 +21631,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.165Z"
   },
   {
     "id": "187032172",
@@ -13376,6 +21658,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "150 kW",
     "scrapedAt": "2026-01-06T15:28:28.626Z",
+    "fingerprint": "FUZZY:Passat|R-line|2020|17500|184000|Lučenec",
     "otherPortals": [],
     "make": "Passat",
     "model": "R-line",
@@ -13399,10 +21682,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.166Z"
   },
   {
     "id": "187041893",
@@ -13418,6 +21709,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "88 kW",
     "scrapedAt": "2026-01-06T15:28:28.627Z",
+    "fingerprint": "FUZZY:Renault|Trafic|2015|9300|175000|Michalovce",
     "otherPortals": [],
     "make": "Renault",
     "model": "Trafic",
@@ -13439,10 +21731,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.166Z"
   },
   {
     "id": "187017309",
@@ -13458,6 +21758,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "85 kW",
     "scrapedAt": "2026-01-06T15:28:28.660Z",
+    "fingerprint": "VIN:VSSZZZ7MZ8V503560",
     "otherPortals": [],
     "make": "Seat",
     "model": "Alhambra",
@@ -13481,10 +21782,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.166Z"
   },
   {
     "id": "186993014",
@@ -13500,6 +21809,7 @@ window.scoredListingsData = [
     "drive": "4x4",
     "power": "176 kW",
     "scrapedAt": "2026-01-06T15:28:28.699Z",
+    "fingerprint": "VIN:WAUZZZ4F2BN019491",
     "otherPortals": [],
     "make": "Audi",
     "model": "A6",
@@ -13523,10 +21833,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.167Z"
   },
   {
     "id": "187012689",
@@ -13542,6 +21860,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "110 kW",
     "scrapedAt": "2026-01-06T15:28:28.705Z",
+    "fingerprint": "VIN:WVWZZZ3CZHE140865",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -13563,10 +21882,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.155Z"
+    "scoredAt": "2026-01-07T19:52:40.167Z"
   },
   {
     "id": "187214274",
@@ -13582,6 +21909,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": "150 kW",
     "scrapedAt": "2026-01-06T15:28:28.709Z",
+    "fingerprint": "FUZZY:Volkswagen|TOURAN|2020|14500|158000|Žilina",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "TOURAN",
@@ -13603,10 +21931,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.156Z"
+    "scoredAt": "2026-01-07T19:52:40.167Z"
   },
   {
     "id": "186969198",
@@ -13622,6 +21958,7 @@ window.scoredListingsData = [
     "drive": "Predný",
     "power": null,
     "scrapedAt": "2026-01-06T15:28:28.748Z",
+    "fingerprint": "FUZZY:Renault|Hydraulická|2007|18500|438000|Prešov",
     "otherPortals": [],
     "make": "Renault",
     "model": "Hydraulická",
@@ -13643,10 +21980,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.156Z"
+    "scoredAt": "2026-01-07T19:52:40.168Z"
   },
   {
     "id": "eu_baa4dihhe",
@@ -13659,6 +22004,7 @@ window.scoredListingsData = [
     "fuel": "Hybrid",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.735Z",
+    "fingerprint": "FUZZY:Kia|Ceed|2021|16900|91000|N/A",
     "otherPortals": [],
     "make": "Kia",
     "model": "Ceed",
@@ -13680,10 +22026,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.169Z"
   },
   {
     "id": "eu_AmTyxZhgPgC",
@@ -13696,6 +22050,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.737Z",
+    "fingerprint": "FUZZY:BMW|X5|2019|47000|120000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -13719,10 +22074,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.169Z"
   },
   {
     "id": "eu_AmIRekQy7ZD",
@@ -13735,6 +22098,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.737Z",
+    "fingerprint": "FUZZY:BMW|X3|2016|17000|179000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X3",
@@ -13761,10 +22125,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.169Z"
   },
   {
     "id": "eu_AmtH8Ibe022",
@@ -13777,6 +22149,7 @@ window.scoredListingsData = [
     "fuel": "Hybrid",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.738Z",
+    "fingerprint": "FUZZY:BMW|Rad|2019|50000|83000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -13800,10 +22173,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.169Z"
   },
   {
     "id": "eu_AmzfVoaKEbs",
@@ -13816,6 +22197,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.739Z",
+    "fingerprint": "FUZZY:BMW|Rad|2020|28500|127000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -13839,10 +22221,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.170Z"
   },
   {
     "id": "eu_AmpgG9lim8d",
@@ -13855,6 +22245,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.740Z",
+    "fingerprint": "FUZZY:BMW|Rad|2022|46000|82000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -13878,10 +22269,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.170Z"
   },
   {
     "id": "eu_AmlXJwVtCKn",
@@ -13894,6 +22293,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.740Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2022|32300|64000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -13905,10 +22305,10 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 32300,
-    "correctedMedian": 31953,
+    "correctedMedian": 29789,
     "kmReference": 60000,
-    "discount": -1.1,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -1 %",
+    "discount": -8.4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -13917,10 +22317,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.170Z"
   },
   {
     "id": "eu_nj0a5euhi",
@@ -13933,6 +22341,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.741Z",
+    "fingerprint": "FUZZY:Seat|Leon|2015|8600|194000|N/A",
     "otherPortals": [],
     "make": "Seat",
     "model": "Leon",
@@ -13954,10 +22363,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.170Z"
   },
   {
     "id": "eu_4uf8v9q5p",
@@ -13970,6 +22387,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.741Z",
+    "fingerprint": "FUZZY:Tesla|Model Y|2023|39200|43000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model Y",
@@ -13993,10 +22411,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.157Z"
+    "scoredAt": "2026-01-07T19:52:40.170Z"
   },
   {
     "id": "eu_AmwjW91iAts",
@@ -14009,6 +22435,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.742Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2012|8000|264000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -14032,10 +22459,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.170Z"
   },
   {
     "id": "eu_hs2cu2w3z",
@@ -14048,6 +22483,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.743Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2015|16000|168000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -14069,10 +22505,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.171Z"
   },
   {
     "id": "eu_rqkia5e3g",
@@ -14085,6 +22529,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:09.744Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2018|7800|181000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -14112,10 +22557,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.171Z"
   },
   {
     "id": "eu_Ae0mMITEEfu",
@@ -14128,6 +22581,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.515Z",
+    "fingerprint": "FUZZY:Renault|Clio|2011|2000|226000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -14175,10 +22629,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.171Z"
   },
   {
     "id": "eu_AeZZ6oT1j2Z",
@@ -14191,6 +22653,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.516Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|E Trieda|2006|2200|230000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "E Trieda",
@@ -14212,10 +22675,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.171Z"
   },
   {
     "id": "eu_p1pngyv91",
@@ -14228,6 +22699,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.516Z",
+    "fingerprint": "FUZZY:Ford|Mondeo|2020|14300|164000|N/A",
     "otherPortals": [],
     "make": "Ford",
     "model": "Mondeo",
@@ -14252,10 +22724,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.171Z"
   },
   {
     "id": "eu_fj5y59s0m",
@@ -14268,6 +22748,7 @@ window.scoredListingsData = [
     "fuel": "Hybrid",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.517Z",
+    "fingerprint": "FUZZY:Toyota|Auris|2014|8500|286000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -14305,10 +22786,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.171Z"
   },
   {
     "id": "eu_AemUPKx9jfo",
@@ -14321,6 +22810,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.518Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2015|9000|189000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -14342,10 +22832,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.172Z"
   },
   {
     "id": "eu_Ae3bCQG3Vo9",
@@ -14358,6 +22856,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.518Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2017|18500|199000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -14387,10 +22886,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.172Z"
   },
   {
     "id": "eu_AeSIPtXnn8p",
@@ -14403,6 +22910,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.518Z",
+    "fingerprint": "FUZZY:Honda|CR-V|2013|11400|239000|N/A",
     "otherPortals": [],
     "make": "Honda",
     "model": "CR-V",
@@ -14426,10 +22934,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.158Z"
+    "scoredAt": "2026-01-07T19:52:40.172Z"
   },
   {
     "id": "eu_AmuHzHfZpPB",
@@ -14442,6 +22958,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.520Z",
+    "fingerprint": "FUZZY:Volkswagen|ID.4|2022|25000|100000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "ID.4",
@@ -14465,10 +22982,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.173Z"
   },
   {
     "id": "eu_llrcxcad2",
@@ -14481,6 +23006,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.521Z",
+    "fingerprint": "FUZZY:Peugeot|4007|2008|4300|246000|N/A",
     "otherPortals": [],
     "make": "Peugeot",
     "model": "4007",
@@ -14502,10 +23028,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.173Z"
   },
   {
     "id": "eu_AekEhrDJA7r",
@@ -14518,6 +23052,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:24.522Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2021|24500|190000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -14545,10 +23080,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.173Z"
   },
   {
     "id": "eu_do3iy1sia",
@@ -14561,6 +23104,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.367Z",
+    "fingerprint": "FUZZY:Opel|Astra|2006|2000|188000|N/A",
     "otherPortals": [],
     "make": "Opel",
     "model": "Astra",
@@ -14582,10 +23126,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.173Z"
   },
   {
     "id": "eu_AeHYKYQ6OH5",
@@ -14598,6 +23150,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.367Z",
+    "fingerprint": "FUZZY:Renault|Thalia|2009|1200|150000|N/A",
     "otherPortals": [],
     "make": "Renault",
     "model": "Thalia",
@@ -14619,10 +23172,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.174Z"
   },
   {
     "id": "eu_t9v3fy8hm",
@@ -14635,6 +23196,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.368Z",
+    "fingerprint": "FUZZY:Citroën|C4|2011|3700|198000|N/A",
     "otherPortals": [],
     "make": "Citroën",
     "model": "C4",
@@ -14656,10 +23218,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.174Z"
   },
   {
     "id": "eu_t7ipmyavs",
@@ -14672,6 +23242,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.369Z",
+    "fingerprint": "FUZZY:Ford|S-Max|2010|6900|159000|N/A",
     "otherPortals": [],
     "make": "Ford",
     "model": "S-Max",
@@ -14693,10 +23264,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.174Z"
   },
   {
     "id": "eu_Ae89cFLavFH",
@@ -14709,6 +23288,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.369Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2012|5800|263000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -14730,10 +23310,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.174Z"
   },
   {
     "id": "eu_Aegb2qk0Rwl",
@@ -14746,6 +23334,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.369Z",
+    "fingerprint": "FUZZY:Audi|A6|2021|30500|179000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A6",
@@ -14767,10 +23356,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.174Z"
   },
   {
     "id": "eu_Ae1fV5KDb2m",
@@ -14783,6 +23380,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.370Z",
+    "fingerprint": "FUZZY:Ford|Fiesta|2010|2500|268000|N/A",
     "otherPortals": [],
     "make": "Ford",
     "model": "Fiesta",
@@ -14804,10 +23402,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.175Z"
   },
   {
     "id": "eu_AeAXIzNP0Qy",
@@ -14820,6 +23426,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.370Z",
+    "fingerprint": "FUZZY:Nissan|X-Trail|2020|169000|153000|N/A",
     "otherPortals": [],
     "make": "Nissan",
     "model": "X-Trail",
@@ -14843,10 +23450,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.159Z"
+    "scoredAt": "2026-01-07T19:52:40.175Z"
   },
   {
     "id": "eu_Aeey8fmJwDn",
@@ -14859,6 +23474,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.370Z",
+    "fingerprint": "FUZZY:Porsche|996|2001|72500|73000|N/A",
     "otherPortals": [],
     "make": "Porsche",
     "model": "996",
@@ -14880,10 +23496,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.176Z"
   },
   {
     "id": "eu_Aeemw0tF2li",
@@ -14896,6 +23520,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.371Z",
+    "fingerprint": "FUZZY:BMW|Rad|2006|10200|267000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -14917,10 +23542,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.176Z"
   },
   {
     "id": "eu_AmyxkfnSKrt",
@@ -14933,6 +23566,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.371Z",
+    "fingerprint": "FUZZY:Fiat|Ducato|2018|14100|183000|N/A",
     "otherPortals": [],
     "make": "Fiat",
     "model": "Ducato",
@@ -14954,10 +23588,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.177Z"
   },
   {
     "id": "eu_AeVBwaKwr1V",
@@ -14970,6 +23612,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:12:38.372Z",
+    "fingerprint": "FUZZY:Kia|Ceed|2019|8600|167000|N/A",
     "otherPortals": [],
     "make": "Kia",
     "model": "Ceed",
@@ -14991,10 +23634,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.177Z"
   },
   {
     "id": "eu_AmCvk7myuD2O",
@@ -15007,6 +23658,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.017Z",
+    "fingerprint": "FUZZY:Tesla|Model X|2020|66500|72000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model X",
@@ -15028,10 +23680,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.177Z"
   },
   {
     "id": "eu_Amw6Qdzi00K",
@@ -15044,6 +23704,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.018Z",
+    "fingerprint": "FUZZY:Tesla|Model S|2019|43000|61000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model S",
@@ -15065,10 +23726,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.177Z"
   },
   {
     "id": "eu_Am0OtagTww3",
@@ -15081,6 +23750,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.018Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2022|35700|19000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -15092,10 +23762,10 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 32300,
-    "correctedMedian": 32300,
+    "correctedMedian": 29789,
     "kmReference": 60000,
-    "discount": -10.4,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -10 %",
+    "discount": -19.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -20 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -15104,10 +23774,72 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.160Z"
+    "scoredAt": "2026-01-07T19:52:40.177Z"
+  },
+  {
+    "id": "eu_AmcImolRGKpP",
+    "title": "Tesla Model 3 Long Range 82kWh AWD",
+    "price": 29990,
+    "year": 2022,
+    "km": 25000,
+    "url": "https://www.autobazar.eu/detail/tesla-model-3-long-range-82kwh-awd/AmcImolRGKpP/",
+    "transmission": "Automat",
+    "fuel": "Elektro",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-06T20:13:07.020Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2022|30000|25000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/tesla-model-3-long-range-82kwh-awd/AmcImolRGKpP/",
+        "price": 29990
+      }
+    ],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 32300,
+    "correctedMedian": 29789,
+    "kmReference": 60000,
+    "discount": -0.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.178Z"
   },
   {
     "id": "eu_Aez40xKxV5L",
@@ -15120,6 +23852,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.021Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLS|2015|32000|170000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "GLS",
@@ -15141,10 +23874,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.178Z"
   },
   {
     "id": "eu_AeyKwQYcbp4",
@@ -15157,6 +23898,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.022Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2024|46700|37000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -15171,11 +23913,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 42585,
-    "correctedMedian": 42585,
+    "originalMedian": 38430,
+    "correctedMedian": 38430,
     "kmReference": 60000,
-    "discount": -9.8,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -10 %",
+    "discount": -21.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -22 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -15184,10 +23926,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.178Z"
   },
   {
     "id": "eu_AmqyoVsbwhUi",
@@ -15200,6 +23950,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.023Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|21300|137000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -15227,10 +23978,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.178Z"
   },
   {
     "id": "eu_Am6DuIeEWn4",
@@ -15243,6 +24002,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.024Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|27000|46000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -15251,11 +24011,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 25950,
-    "correctedMedian": 25950,
+    "originalMedian": 24900,
+    "correctedMedian": 24900,
     "kmReference": 60000,
-    "discount": -4,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -4 %",
+    "discount": -8.4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -15264,10 +24024,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.179Z"
   },
   {
     "id": "eu_AexqnDB7vxo",
@@ -15280,6 +24048,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:07.024Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2025|42400|0|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -15301,10 +24070,82 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.179Z"
+  },
+  {
+    "id": "eu_sap53as4d",
+    "title": "Škoda Octavia Combi 2.0 TDI Elegance/Style 4x4",
+    "price": 7900,
+    "year": 2015,
+    "km": 236000,
+    "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-elegancestyle-4x4/Am-nq13tkIU/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-06T20:13:44.144Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2015|7900|236000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-elegancestyle-4x4/Am-nq13tkIU/",
+        "price": 7900
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-elegancestyle-4x4/Am-nq13tkIU/",
+        "price": 7900
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-elegancestyle-4x4/Am-nq13tkIU/",
+        "price": 7900
+      }
+    ],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7900,
+    "correctedMedian": 7683,
+    "kmReference": 225000,
+    "discount": -2.8,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.179Z"
   },
   {
     "id": "eu_AmFw3JzrhgC",
@@ -15317,6 +24158,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.145Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2014|9000|297000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -15340,10 +24182,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.179Z"
   },
   {
     "id": "eu_AmhICoi0gB8",
@@ -15356,6 +24206,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.145Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|14400|166000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -15379,10 +24230,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.179Z"
   },
   {
     "id": "eu_p8ctga2h6",
@@ -15395,6 +24254,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.146Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2009|4500|247000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -15418,10 +24278,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.179Z"
   },
   {
     "id": "eu_AmUdtynF10D",
@@ -15434,6 +24302,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.146Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2019|19500|140000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -15445,10 +24314,10 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 19490,
-    "correctedMedian": 15425,
+    "correctedMedian": 15057,
     "kmReference": 150000,
-    "discount": -26.4,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -26 %",
+    "discount": -29.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -29 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -15457,10 +24326,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.179Z"
   },
   {
     "id": "eu_eo7u8apt9",
@@ -15473,7 +24350,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.146Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|12400|241000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-scout-dsg-4x4/AecDR2_92GN/",
+        "price": 12390
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-scout-dsg-4x4/AecDR2_92GN/",
@@ -15507,10 +24390,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.179Z"
   },
   {
     "id": "eu_AeZFDCAXP2h",
@@ -15523,6 +24414,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.146Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2020|26000|175000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -15546,10 +24438,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.180Z"
   },
   {
     "id": "eu_AeoARTsxMQg",
@@ -15562,6 +24462,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.147Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2022|29500|84000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -15572,11 +24473,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26500,
-    "correctedMedian": 24910,
+    "originalMedian": 28000,
+    "correctedMedian": 26320,
     "kmReference": 60000,
-    "discount": -18.4,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -18 %",
+    "discount": -12.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -12 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -15585,10 +24486,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.180Z"
   },
   {
     "id": "eu_igbxsilu2",
@@ -15601,7 +24510,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.147Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2022|32900|13000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-limuzina-147kw-automat/AeuF_WOzkAs/",
+        "price": 32900
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/skoda-octavia-limuzina-147kw-automat/AeuF_WOzkAs/",
@@ -15620,11 +24535,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26500,
-    "correctedMedian": 26500,
+    "originalMedian": 28000,
+    "correctedMedian": 28000,
     "kmReference": 60000,
-    "discount": -24.2,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -24 %",
+    "discount": -17.5,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -17 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -15633,10 +24548,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.161Z"
+    "scoredAt": "2026-01-07T19:52:40.181Z"
   },
   {
     "id": "eu_AeEpf2vDiTF",
@@ -15649,6 +24572,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.147Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2022|24500|112000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -15672,10 +24596,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.182Z"
   },
   {
     "id": "eu_5kzm278w6",
@@ -15688,7 +24620,13 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.148Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2019|16900|100000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-20-tsi-style-dsg-4x4-140kw190hp-a7/AeV5b-7vrXO/",
+        "price": 16900
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/skoda-octavia-20-tsi-style-dsg-4x4-140kw190hp-a7/AeV5b-7vrXO/",
@@ -15710,10 +24648,10 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 16900,
-    "correctedMedian": 15425,
+    "correctedMedian": 15057,
     "kmReference": 150000,
-    "discount": -9.6,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -10 %",
+    "discount": -12.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -12 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -15722,10 +24660,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.182Z"
   },
   {
     "id": "eu_9ui3pxlop",
@@ -15738,7 +24684,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.148Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2019|20000|124000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-184k-lk-dsg-4x4-135kw184hp-a7/Ae_060Qj4bJ/",
+        "price": 20000
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-184k-lk-dsg-4x4-135kw184hp-a7/Ae_060Qj4bJ/",
@@ -15760,10 +24712,10 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 19490,
-    "correctedMedian": 15425,
+    "correctedMedian": 15057,
     "kmReference": 150000,
-    "discount": -29.7,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -30 %",
+    "discount": -32.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -33 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -15772,10 +24724,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.183Z"
   },
   {
     "id": "eu_AmrLM5DV6GG",
@@ -15788,6 +24748,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.149Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2015|11000|248000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -15798,11 +24759,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
-    "originalMedian": 8700,
-    "correctedMedian": 8205,
+    "originalMedian": 7900,
+    "correctedMedian": 7450,
     "kmReference": 225000,
-    "discount": -34.1,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -34 %",
+    "discount": -47.6,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -48 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 20,
@@ -15811,10 +24772,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.184Z"
   },
   {
     "id": "eu_AmH9SFB6x05",
@@ -15827,6 +24796,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:13:44.149Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2016|12700|179000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -15837,11 +24807,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 12690,
-    "correctedMedian": 11024,
+    "originalMedian": 12795,
+    "correctedMedian": 11852,
     "kmReference": 150000,
-    "discount": -15.1,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -15 %",
+    "discount": -7.1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 20,
@@ -15850,10 +24820,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.184Z"
   },
   {
     "id": "eu_AmbcsKn0JFg",
@@ -15866,6 +24844,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.725Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|27900|163000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -15876,10 +24855,10 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 25814,
+    "originalMedian": 26645,
+    "correctedMedian": 25771,
     "kmReference": 150000,
-    "discount": -8.1,
+    "discount": -8.3,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
     "mileageWarning": null,
     "liquidity": {
@@ -15889,10 +24868,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.185Z"
   },
   {
     "id": "eu_Amc5FzvNwQB",
@@ -15905,6 +24892,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.726Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|23000|155000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -15915,11 +24903,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 20990,
-    "correctedMedian": 20728,
+    "originalMedian": 22300,
+    "correctedMedian": 20475,
     "kmReference": 150000,
-    "discount": -10.9,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -11 %",
+    "discount": -12.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -12 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 30,
@@ -15928,10 +24916,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.186Z"
   },
   {
     "id": "eu_yl0drm95e",
@@ -15944,7 +24940,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.727Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2018|24000|108000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-allspace-20-tdi-scr-bmt-comfortline-4motion-dsg/AmmsxUTPr_4/",
+        "price": 23990
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-allspace-20-tdi-scr-bmt-comfortline-4motion-dsg/AmmsxUTPr_4/",
@@ -15963,11 +24965,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 23500,
-    "correctedMedian": 22040,
+    "originalMedian": 23745,
+    "correctedMedian": 23745,
     "kmReference": 150000,
-    "discount": -8.9,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -9 %",
+    "discount": -1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -1 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 35,
@@ -15976,10 +24978,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.162Z"
+    "scoredAt": "2026-01-07T19:52:40.187Z"
   },
   {
     "id": "eu_Am2L5NXqOrF",
@@ -15992,6 +25002,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.728Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|21800|79000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16019,10 +25030,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.188Z"
   },
   {
     "id": "eu_ikffgdic9",
@@ -16035,7 +25054,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.728Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|32000|105000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-allspace-20-tdi-evo-4motion-highline-dsg-virtual/AmXRbn_71j6/",
+        "price": 31990
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-allspace-20-tdi-evo-4motion-highline-dsg-virtual/AmXRbn_71j6/",
@@ -16056,11 +25081,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24745,
-    "correctedMedian": 24745,
+    "originalMedian": 24990,
+    "correctedMedian": 24990,
     "kmReference": 150000,
-    "discount": -29.3,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -29 %",
+    "discount": -28,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -28 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -16069,10 +25094,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.188Z"
   },
   {
     "id": "eu_AbhemBLOz1R",
@@ -16085,6 +25118,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.728Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2023|40000|62000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -16106,10 +25140,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.189Z"
   },
   {
     "id": "eu_AezHtSKSsfZ",
@@ -16122,6 +25164,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.729Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|22300|163000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -16132,11 +25175,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 20990,
-    "correctedMedian": 20308,
+    "originalMedian": 22300,
+    "correctedMedian": 20475,
     "kmReference": 150000,
-    "discount": -9.8,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -10 %",
+    "discount": -8.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -9 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 30,
@@ -16145,10 +25188,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.189Z"
   },
   {
     "id": "eu_uwo9zjt9z",
@@ -16161,6 +25212,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.729Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|19500|163000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -16170,6 +25222,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/volkswagen-tiguan-15-tsi-evo-life-dsg-110kw150hp-a7/AeX7QUI-yhP/",
+        "price": 19500
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-15-tsi-evo-life-dsg-110kw150hp-a7/AeX7QUI-yhP/",
         "price": 19500
       },
       {
@@ -16198,10 +25255,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.190Z"
   },
   {
     "id": "eu_Am1DgB5jnDZ",
@@ -16214,6 +25279,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.730Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|30500|140000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16230,11 +25296,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24745,
-    "correctedMedian": 24745,
+    "originalMedian": 24990,
+    "correctedMedian": 24990,
     "kmReference": 150000,
-    "discount": -23.3,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -23 %",
+    "discount": -22,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -22 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -16243,10 +25309,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.190Z"
   },
   {
     "id": "eu_Am4dE0bg5Hf",
@@ -16259,6 +25333,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.730Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|29000|121000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -16269,10 +25344,10 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 26690,
+    "originalMedian": 26645,
+    "correctedMedian": 26645,
     "kmReference": 150000,
-    "discount": -8.6,
+    "discount": -8.8,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -9 %",
     "mileageWarning": null,
     "liquidity": {
@@ -16282,10 +25357,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.191Z"
   },
   {
     "id": "eu_AevHgSmC2Df",
@@ -16298,6 +25381,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.730Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|19900|108000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16325,10 +25409,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.191Z"
   },
   {
     "id": "eu_Aem4W0UopsD",
@@ -16341,6 +25433,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:17.730Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|17900|191000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16368,10 +25461,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.191Z"
   },
   {
     "id": "eu_AeLS7Nr2Tiv",
@@ -16384,6 +25485,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.943Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2017|17900|174000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16411,10 +25513,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.191Z"
   },
   {
     "id": "eu_Aej4yMpnnXS",
@@ -16427,6 +25537,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.944Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2016|20000|166000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16443,11 +25554,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 20000,
-    "correctedMedian": 19176,
+    "originalMedian": 17990,
+    "correctedMedian": 17249,
     "kmReference": 150000,
-    "discount": -4.3,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "discount": -15.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -16 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 20,
@@ -16456,10 +25567,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.191Z"
   },
   {
     "id": "eu_AezyMlaVzxt",
@@ -16472,6 +25591,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.944Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|18500|185000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16499,10 +25619,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.163Z"
+    "scoredAt": "2026-01-07T19:52:40.192Z"
   },
   {
     "id": "eu_AetoV379WjN",
@@ -16515,6 +25643,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.945Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|19600|250000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -16536,10 +25665,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.192Z"
   },
   {
     "id": "eu_Aeur4uL0V3F",
@@ -16552,6 +25689,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.945Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2017|21500|196000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16581,10 +25719,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.192Z"
   },
   {
     "id": "eu_AexSM2QxEos",
@@ -16597,6 +25743,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.946Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2011|8200|251000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16624,10 +25771,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.192Z"
   },
   {
     "id": "eu_AedMrW7WJsS",
@@ -16640,6 +25795,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.946Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2017|19500|109000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16669,10 +25825,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.192Z"
   },
   {
     "id": "eu_Ae0ZSNlX7fx",
@@ -16685,6 +25849,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.947Z",
+    "fingerprint": "FUZZY:Škoda|Tiguan|2010|6200|165000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16712,10 +25877,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.192Z"
   },
   {
     "id": "eu_9xpvpxssa",
@@ -16728,7 +25901,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.947Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2023|36500|93000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tdi-evo-r-line-4motion-dsg-110kw150hp-a7/AePYJWz-hcZ/",
+        "price": 36500
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tdi-evo-r-line-4motion-dsg-110kw150hp-a7/AePYJWz-hcZ/",
@@ -16762,10 +25941,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.193Z"
   },
   {
     "id": "eu_Ae94uJzrDln",
@@ -16778,6 +25965,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.948Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|32500|67000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16807,10 +25995,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.164Z"
+    "scoredAt": "2026-01-07T19:52:40.193Z"
   },
   {
     "id": "eu_Aec4SbsYTEw",
@@ -16823,6 +26019,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.949Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2017|23000|159000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -16852,10 +26049,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.193Z"
   },
   {
     "id": "eu_AmlxDVH4rIW",
@@ -16868,6 +26073,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.950Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|31700|133000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -16878,10 +26084,10 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 26690,
+    "originalMedian": 26645,
+    "correctedMedian": 26645,
     "kmReference": 150000,
-    "discount": -18.8,
+    "discount": -19,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -19 %",
     "mileageWarning": null,
     "liquidity": {
@@ -16891,10 +26097,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.193Z"
   },
   {
     "id": "eu_j503l3nwo",
@@ -16907,6 +26121,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:34.950Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|39900|64000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -16916,6 +26131,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/volkswagen-tiguan-20-tsi-r-line-4motion-dsg/AeAlz-TlYKd/",
+        "price": 39894
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tsi-r-line-4motion-dsg/AeAlz-TlYKd/",
         "price": 39894
       },
       {
@@ -16946,10 +26166,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.193Z"
   },
   {
     "id": "eu_Abd21zB3c9V",
@@ -16962,6 +26190,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.735Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|30300|94000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -16983,10 +26212,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.194Z"
   },
   {
     "id": "eu_AesCz3vlDwl",
@@ -16999,6 +26236,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.735Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2014|11000|179000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17026,10 +26264,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.194Z"
   },
   {
     "id": "eu_AeLjvnxEmvC",
@@ -17042,6 +26288,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.736Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|27200|70000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17069,10 +26316,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.195Z"
   },
   {
     "id": "eu_Am9k0v841PR",
@@ -17085,6 +26340,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.736Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|31000|116000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -17095,10 +26351,10 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 26690,
+    "originalMedian": 26645,
+    "correctedMedian": 26645,
     "kmReference": 150000,
-    "discount": -16.1,
+    "discount": -16.3,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -16 %",
     "mileageWarning": null,
     "liquidity": {
@@ -17108,10 +26364,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.195Z"
   },
   {
     "id": "eu_j3d3zpmdy",
@@ -17124,6 +26388,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.736Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2010|8000|289000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -17133,6 +26398,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/volkswagen-tiguan-20-tdi-125-kw-4motion-sportline/AmyA8-TJZws/",
+        "price": 7990
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tdi-125-kw-4motion-sportline/AmyA8-TJZws/",
         "price": 7990
       },
       {
@@ -17163,10 +26433,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.195Z"
   },
   {
     "id": "eu_AmCr0PuI6Dm",
@@ -17179,6 +26457,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.736Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2012|9000|269000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17206,10 +26485,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.195Z"
   },
   {
     "id": "eu_AmUygHvT3ow",
@@ -17222,6 +26509,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.737Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2011|9600|231000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17249,10 +26537,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.165Z"
+    "scoredAt": "2026-01-07T19:52:40.196Z"
   },
   {
     "id": "eu_3x0hh5zoa",
@@ -17265,6 +26561,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.737Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2012|12000|177000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -17274,6 +26571,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/volkswagen-tiguan-2-0tsi-dsg-155-kw-sport-4-motion/AmZmWNxviE_/",
+        "price": 11990
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-2-0tsi-dsg-155-kw-sport-4-motion/AmZmWNxviE_/",
         "price": 11990
       },
       {
@@ -17302,53 +26604,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
-  },
-  {
-    "id": "eu_AmdzGBSggCt",
-    "title": "Volkswagen Tiguan 2.0 TDI SCR BMT Comfortline DSG",
-    "price": 20990,
-    "year": 2019,
-    "km": 166183,
-    "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tdi-scr-bmt-comfortline-dsg/AmdzGBSggCt/",
-    "transmission": "Automat",
-    "fuel": "Diesel",
-    "portal": "Autobazar.eu",
-    "scrapedAt": "2026-01-06T20:14:50.738Z",
-    "otherPortals": [
-      {
-        "portal": "Autovia.sk",
-        "url": "https://www.autovia.sk/detail/volkswagen-tiguan-20-tdi-scr-bmt-comfortline-dsg/AmdzGBSggCt/",
-        "price": 20990
-      }
-    ],
-    "make": "Volkswagen",
-    "model": "Tiguan",
-    "engine": "Diesel",
-    "equipLevel": "Basic",
-    "features": [],
-    "kmSegment": "Mid (100k-200k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 20990,
-    "correctedMedian": 20141,
-    "kmReference": 150000,
-    "discount": -4.2,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 30,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.196Z"
   },
   {
     "id": "eu_Am0EPNKUauj",
@@ -17361,6 +26628,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.738Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2021|24500|160000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -17369,11 +26637,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24745,
-    "correctedMedian": 24126,
+    "originalMedian": 24990,
+    "correctedMedian": 24365,
     "kmReference": 150000,
-    "discount": -1.5,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -2 %",
+    "discount": -0.6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -1 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 30,
@@ -17382,10 +26650,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.197Z"
   },
   {
     "id": "eu_gymq38l77",
@@ -17398,7 +26674,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.739Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|26500|154000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-allspace-20-tdi-evo-200k-scr-4motion-elegance-dsg/AmED_J_0fh9/",
+        "price": 26490
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-allspace-20-tdi-evo-200k-scr-4motion-elegance-dsg/AmED_J_0fh9/",
@@ -17414,10 +26696,10 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 26453,
+    "originalMedian": 26645,
+    "correctedMedian": 26408,
     "kmReference": 150000,
-    "discount": -0.1,
+    "discount": -0.3,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
     "mileageWarning": null,
     "liquidity": {
@@ -17427,10 +26709,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.198Z"
   },
   {
     "id": "eu_AmxitQGujI2",
@@ -17443,6 +26733,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.739Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|26700|162000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -17453,10 +26744,10 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 25906,
+    "originalMedian": 26645,
+    "correctedMedian": 25862,
     "kmReference": 150000,
-    "discount": -3,
+    "discount": -3.2,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -3 %",
     "mileageWarning": null,
     "liquidity": {
@@ -17466,10 +26757,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.198Z"
   },
   {
     "id": "eu_AmHLMsLIly1",
@@ -17482,6 +26781,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:14:50.739Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2022|28800|140000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -17492,10 +26792,10 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 26690,
-    "correctedMedian": 26690,
+    "originalMedian": 26645,
+    "correctedMedian": 26645,
     "kmReference": 150000,
-    "discount": -7.9,
+    "discount": -8.1,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
     "mileageWarning": null,
     "liquidity": {
@@ -17505,10 +26805,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.198Z"
   },
   {
     "id": "eu_AbcHlMGpsdY",
@@ -17521,6 +26829,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.577Z",
+    "fingerprint": "FUZZY:BMW|X5|2025|119900|N/A|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17550,10 +26859,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.198Z"
   },
   {
     "id": "eu_45470dlgw",
@@ -17566,6 +26883,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.577Z",
+    "fingerprint": "FUZZY:BMW|X5|2025|109900|N/A|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17595,10 +26913,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.198Z"
   },
   {
     "id": "eu_AbbMOtqPk8zy",
@@ -17611,6 +26937,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.578Z",
+    "fingerprint": "FUZZY:BMW|X5|2025|113000|N/A|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17640,10 +26967,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.199Z"
   },
   {
     "id": "eu_AbCgxsBhEbru",
@@ -17656,6 +26991,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.578Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|96900|22000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17672,11 +27008,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 95000,
-    "correctedMedian": 95000,
+    "originalMedian": 92500,
+    "correctedMedian": 92500,
     "kmReference": 60000,
-    "discount": -2,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -2 %",
+    "discount": -4.8,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -5 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -17685,10 +27021,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.199Z"
   },
   {
     "id": "eu_AbxLP5SR20p",
@@ -17701,6 +27045,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.579Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|94900|21000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17717,11 +27062,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 87900,
-    "correctedMedian": 87900,
+    "originalMedian": 85900,
+    "correctedMedian": 85900,
     "kmReference": 60000,
-    "discount": -8,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
+    "discount": -10.5,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -10 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -17730,10 +27075,87 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.199Z"
+  },
+  {
+    "id": "eu_kzspfqxsm",
+    "title": "BMW X5 XDrive30d",
+    "price": 94900,
+    "year": 2023,
+    "km": 20765,
+    "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d/Ab5NZG8kW_5/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-06T20:15:17.579Z",
+    "fingerprint": "FUZZY:BMW|X5|2023|94900|21000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d/Ab5NZG8kW_5/",
+        "price": 94900
+      },
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/bmw-x5-xdrive30d/Ab5NZG8kW_5/",
+        "price": 94900
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d/Ab5NZG8kW_5/",
+        "price": 94900
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d/Ab5NZG8kW_5/",
+        "price": 94900
+      }
+    ],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 94900,
+    "correctedMedian": 90300,
+    "kmReference": 60000,
+    "discount": -5.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.199Z"
   },
   {
     "id": "eu_AbKuZQZjmlo",
@@ -17746,6 +27168,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.580Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|89900|26000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17762,11 +27185,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 87900,
-    "correctedMedian": 87900,
+    "originalMedian": 85900,
+    "correctedMedian": 85900,
     "kmReference": 60000,
-    "discount": -2.3,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -2 %",
+    "discount": -4.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -5 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -17775,10 +27198,72 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.166Z"
+    "scoredAt": "2026-01-07T19:52:40.199Z"
+  },
+  {
+    "id": "eu_1hefrvyqh",
+    "title": "BMW X5 XDrive40i",
+    "price": 95000,
+    "year": 2024,
+    "km": 8500,
+    "url": "https://www.autobazar.eu/detail-nove-auto/bmw-x5-xdrive40i/AbwZhwjtha_/",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-06T20:15:17.581Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|95000|9000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/bmw-x5-xdrive40i/AbwZhwjtha_/",
+        "price": 95000
+      }
+    ],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 92500,
+    "correctedMedian": 92500,
+    "kmReference": 60000,
+    "discount": -2.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.199Z"
   },
   {
     "id": "eu_AbzN6YOhKWW",
@@ -17791,6 +27276,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.583Z",
+    "fingerprint": "FUZZY:BMW|X5|2024|89900|24000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17807,11 +27293,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 87900,
-    "correctedMedian": 87900,
+    "originalMedian": 85900,
+    "correctedMedian": 85900,
     "kmReference": 60000,
-    "discount": -2.3,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -2 %",
+    "discount": -4.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -5 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -17820,10 +27306,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.200Z"
   },
   {
     "id": "eu_AeZo7u0z7wB",
@@ -17836,6 +27330,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.583Z",
+    "fingerprint": "FUZZY:BMW|X5|2007|8000|234000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -17860,10 +27355,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.201Z"
   },
   {
     "id": "eu_AeCAHFwgj00",
@@ -17876,6 +27379,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:17.584Z",
+    "fingerprint": "FUZZY:BMW|X5|2012|11000|258000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -17900,10 +27404,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.201Z"
   },
   {
     "id": "eu_Amczxo6orFA",
@@ -17916,6 +27428,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.015Z",
+    "fingerprint": "FUZZY:BMW|X5|2023|96000|50000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -17927,10 +27440,10 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 99000,
-    "correctedMedian": 94395,
+    "correctedMedian": 90300,
     "kmReference": 60000,
-    "discount": -1.7,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -2 %",
+    "discount": -6.3,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -6 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -17939,10 +27452,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.202Z"
   },
   {
     "id": "eu_AeQUh6n2SIx",
@@ -17955,6 +27476,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.016Z",
+    "fingerprint": "FUZZY:BMW|X5|2006|5200|444000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -17982,10 +27504,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.202Z"
   },
   {
     "id": "eu_AeWzKVvdSjy",
@@ -17998,6 +27528,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.016Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|S Trieda|2015|42000|182000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "S Trieda",
@@ -18019,10 +27550,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.203Z"
   },
   {
     "id": "eu_AeaitRkEK6F",
@@ -18035,6 +27574,7 @@ window.scoredListingsData = [
     "fuel": "Hybrid",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.017Z",
+    "fingerprint": "FUZZY:BMW|X5|2021|37500|155000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -18058,10 +27598,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.203Z"
   },
   {
     "id": "eu_Aehu4qvv3gI",
@@ -18074,6 +27622,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.017Z",
+    "fingerprint": "FUZZY:BMW|X5|2014|12500|240000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -18101,10 +27650,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.203Z"
   },
   {
     "id": "eu_AeeHFarYT55",
@@ -18117,6 +27674,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.018Z",
+    "fingerprint": "FUZZY:BMW|X5|2021|53900|105000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -18140,10 +27698,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.203Z"
   },
   {
     "id": "eu_k90y2sfx7",
@@ -18156,6 +27722,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.018Z",
+    "fingerprint": "FUZZY:BMW|X5|2023|99000|33000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -18165,6 +27732,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/bmw-x5-xdrive-m60i-mhev-at-390kw530hp-a8/AeJ9-YAmdlG/",
+        "price": 99000
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive-m60i-mhev-at-390kw530hp-a8/AeJ9-YAmdlG/",
         "price": 99000
       },
       {
@@ -18183,10 +27755,10 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 99000,
-    "correctedMedian": 94395,
+    "correctedMedian": 90300,
     "kmReference": 60000,
-    "discount": -4.9,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -5 %",
+    "discount": -9.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -10 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -18195,10 +27767,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.203Z"
   },
   {
     "id": "eu_1xppb8i5f",
@@ -18211,6 +27791,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.019Z",
+    "fingerprint": "FUZZY:BMW|X5|2014|24500|188000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -18220,6 +27801,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/bmw-x5-xdrive30d-a-t/Ae_2jgyhW88/",
+        "price": 24500
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d-at/Ae_2jgyhW88/",
         "price": 24500
       },
       {
@@ -18250,10 +27836,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.203Z"
   },
   {
     "id": "eu_hxy4pn4k7",
@@ -18266,6 +27860,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.019Z",
+    "fingerprint": "FUZZY:BMW|X5|2016|25900|180000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -18275,6 +27870,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/bmw-x5-xdrive40d-at-230kw313hp-a8/Ae_cfNkgAV8/",
+        "price": 25900
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive40d-at-230kw313hp-a8/Ae_cfNkgAV8/",
         "price": 25900
       },
       {
@@ -18305,10 +27905,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.167Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_AeLgs98JtDK",
@@ -18321,6 +27929,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.020Z",
+    "fingerprint": "FUZZY:BMW|X5|2021|48000|157000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -18351,10 +27960,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_AepDMHryV69",
@@ -18367,6 +27984,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.020Z",
+    "fingerprint": "FUZZY:BMW|X5|2014|24900|142000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -18394,10 +28012,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_AeZt7iKaN6M",
@@ -18410,6 +28036,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.021Z",
+    "fingerprint": "FUZZY:BMW|X5|2022|62000|84000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -18439,10 +28066,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_Ae96NYKpBPN",
@@ -18455,6 +28090,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.022Z",
+    "fingerprint": "FUZZY:BMW|X5|2015|26500|179000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -18484,10 +28120,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_AbAcIcwQZCV",
@@ -18500,6 +28144,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.022Z",
+    "fingerprint": "FUZZY:BMW|X5|2020|45000|83000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -18523,10 +28168,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_imhaludmz",
@@ -18539,7 +28192,13 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.022Z",
+    "fingerprint": "FUZZY:BMW|X5|2017|29300|113000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d-at/AmlL9Bo_LGw/",
+        "price": 29300
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive30d-at/AmlL9Bo_LGw/",
@@ -18560,11 +28219,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 25000,
-    "correctedMedian": 25000,
+    "originalMedian": 25900,
+    "correctedMedian": 25900,
     "kmReference": 150000,
-    "discount": -17.2,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -17 %",
+    "discount": -13.1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -13 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 35,
@@ -18573,10 +28232,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.204Z"
   },
   {
     "id": "eu_15gf6hmja",
@@ -18589,6 +28256,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:34.023Z",
+    "fingerprint": "FUZZY:BMW|X5|2015|33500|175000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -18598,6 +28266,11 @@ window.scoredListingsData = [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/bmw-x5-m50d-at/AeAKJEJq_ao/",
+        "price": 33500
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-m50d-at/AeAKJEJq_ao/",
         "price": 33500
       },
       {
@@ -18626,10 +28299,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.205Z"
   },
   {
     "id": "eu_AmKIE8xi0Tj",
@@ -18642,6 +28323,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:49.202Z",
+    "fingerprint": "FUZZY:BMW|X5|2020|49500|95000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -18696,10 +28378,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.205Z"
   },
   {
     "id": "eu_y6bqetqzm",
@@ -18712,6 +28402,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-06T20:15:49.204Z",
+    "fingerprint": "FUZZY:BMW|X5|2018|23900|229000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -18751,10 +28442,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.168Z"
+    "scoredAt": "2026-01-07T19:52:40.205Z"
   },
   {
     "id": "sk_hfpl6n7ib",
@@ -18767,6 +28466,7 @@ window.scoredListingsData = [
     "location": "BB kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.415Z",
+    "fingerprint": "FUZZY:Opel|Astra|2006|2200|151000|BB",
     "otherPortals": [],
     "make": "Opel",
     "model": "Astra",
@@ -18788,10 +28488,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.205Z"
   },
   {
     "id": "sk_xbavswtmw",
@@ -18804,6 +28512,7 @@ window.scoredListingsData = [
     "location": "PO kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2022|32900|103000|PO",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -18827,10 +28536,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.205Z"
   },
   {
     "id": "sk_q8emd5drn",
@@ -18843,6 +28560,7 @@ window.scoredListingsData = [
     "location": "PO kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2015|11000|248000|PO",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -18853,11 +28571,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
-    "originalMedian": 8700,
-    "correctedMedian": 8205,
+    "originalMedian": 7900,
+    "correctedMedian": 7450,
     "kmReference": 225000,
-    "discount": -34.1,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -34 %",
+    "discount": -47.6,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -48 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 20,
@@ -18866,10 +28584,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_idsb495sl",
@@ -18882,6 +28608,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Škoda|Roomster|2013|4200|238000|KE",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Roomster",
@@ -18903,10 +28630,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_vjbhaowdf",
@@ -18919,6 +28654,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Peugeot|308|2019|9300|170000|KE",
     "otherPortals": [],
     "make": "Peugeot",
     "model": "308",
@@ -18940,10 +28676,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_ovo26rnev",
@@ -18956,6 +28700,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Mini|Countryman|2011|6300|195000|KE",
     "otherPortals": [],
     "make": "Mini",
     "model": "Countryman",
@@ -18977,10 +28722,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_motpz840f",
@@ -18993,6 +28746,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Škoda|Roomster|2012|4700|180000|KE",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Roomster",
@@ -19014,10 +28768,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_z4gwstvrr",
@@ -19030,6 +28792,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Volkswagen|Touareg|2019|33900|61000|KE",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Touareg",
@@ -19053,10 +28816,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_uus63d2rp",
@@ -19069,6 +28840,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Renault|Master|2020|24500|299000|KE",
     "otherPortals": [],
     "make": "Renault",
     "model": "Master",
@@ -19090,10 +28862,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.206Z"
   },
   {
     "id": "sk_r2ra0beus",
@@ -19106,6 +28886,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:30.416Z",
+    "fingerprint": "FUZZY:Ford|Tourneo|2019|26900|88000|KE",
     "otherPortals": [],
     "make": "Ford",
     "model": "Tourneo",
@@ -19127,10 +28908,64 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.169Z"
+    "scoredAt": "2026-01-07T19:52:40.207Z"
+  },
+  {
+    "id": "sk_9erv0jqzw",
+    "title": "Tesla Model 3 Standard Range Plus 54kWh RWD",
+    "price": 24900,
+    "year": 2021,
+    "km": 51000,
+    "url": "https://www.autobazar.sk/27928653/tesla-model-3-standard-range-plus-54kwh-rwd/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-06T20:27:45.009Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|24900|51000|BA",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 23950,
+    "correctedMedian": 23950,
+    "kmReference": 60000,
+    "discount": -4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.207Z"
   },
   {
     "id": "sk_gvl64us9h",
@@ -19143,6 +28978,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.009Z",
+    "fingerprint": "FUZZY:Seat|Alhambra|2017|14900|176000|KE",
     "otherPortals": [],
     "make": "Seat",
     "model": "Alhambra",
@@ -19164,10 +29000,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.207Z"
   },
   {
     "id": "sk_gbled58sx",
@@ -19180,6 +29024,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.009Z",
+    "fingerprint": "FUZZY:Porsche|Cayman|2014|43900|167000|KE",
     "otherPortals": [],
     "make": "Porsche",
     "model": "Cayman",
@@ -19201,10 +29046,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.207Z"
   },
   {
     "id": "sk_jywly2wbc",
@@ -19217,6 +29070,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.009Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2022|28000|104000|BA",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -19240,49 +29094,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
-  },
-  {
-    "id": "sk_jurfzb8p0",
-    "title": "BMW Rad 5 Touring 520d mHEV xDrive AT 140kW190HP A8",
-    "price": 28900,
-    "year": 2022,
-    "km": 64000,
-    "url": "https://www.autobazar.sk/27921996/bmw-rad-5-touring-520d-mhev-xdrive-at-140kw190hp-a8/",
-    "fuel": null,
-    "location": null,
-    "portal": "Autobazar.sk",
-    "scrapedAt": "2026-01-06T20:27:45.010Z",
-    "otherPortals": [],
-    "make": "BMW",
-    "model": "Rad",
-    "engine": "Unknown",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 28900,
-    "correctedMedian": 28611,
-    "kmReference": 60000,
-    "discount": -1,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -1 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 45,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.207Z"
   },
   {
     "id": "sk_j77cdxmls",
@@ -19295,6 +29118,7 @@ window.scoredListingsData = [
     "location": "TT kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2015|9500|237000|TT",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -19316,10 +29140,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_249rt4uib",
@@ -19332,6 +29164,7 @@ window.scoredListingsData = [
     "location": "PO kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2011|6500|273000|PO",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -19353,10 +29186,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_6epu97e1g",
@@ -19369,6 +29210,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Opel|Astra|2013|4400|160000|BA",
     "otherPortals": [],
     "make": "Opel",
     "model": "Astra",
@@ -19390,10 +29232,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_d67hgnflk",
@@ -19406,6 +29256,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:45.010Z",
+    "fingerprint": "FUZZY:Fiat|500|2017|9800|66000|BA",
     "otherPortals": [],
     "make": "Fiat",
     "model": "500",
@@ -19427,10 +29278,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_1f5uf7fow",
@@ -19443,6 +29302,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.598Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|E trieda|2006|2200|230000|BA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -19480,10 +29340,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.208Z"
   },
   {
     "id": "sk_utkfp2hs5",
@@ -19496,6 +29364,7 @@ window.scoredListingsData = [
     "location": null,
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2021|25900|167000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -19517,10 +29386,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_o6hhf0upk",
@@ -19533,6 +29410,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|V trieda|2022|50000|160000|BA",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "V trieda",
@@ -19554,10 +29432,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.170Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_zf5jk1sqv",
@@ -19570,6 +29456,7 @@ window.scoredListingsData = [
     "location": "NR kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Peugeot|5008|2021|26700|91000|NR",
     "otherPortals": [],
     "make": "Peugeot",
     "model": "5008",
@@ -19591,10 +29478,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_g2bzlbvn3",
@@ -19607,6 +29502,7 @@ window.scoredListingsData = [
     "location": "NR kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2019|13500|192000|NR",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -19615,11 +29511,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 13490,
-    "correctedMedian": 12090,
+    "originalMedian": 11733,
+    "correctedMedian": 10516,
     "kmReference": 150000,
-    "discount": -11.6,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -12 %",
+    "discount": -28.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -28 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 30,
@@ -19628,10 +29524,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_4s8b43j19",
@@ -19644,7 +29548,14 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
-    "otherPortals": [],
+    "fingerprint": "FUZZY:BMW|X3|2018|21000|169000|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27915435/bmw-x3-xdrive20d-xline-at-140kw190hp-a8-5d-r-v-102018/",
+        "price": 20990
+      }
+    ],
     "make": "BMW",
     "model": "X3",
     "engine": "Unknown",
@@ -19667,10 +29578,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_qhvstvwyh",
@@ -19683,6 +29602,7 @@ window.scoredListingsData = [
     "location": "NR kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2021|24500|190000|NR",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -19704,10 +29624,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_fktxtol7w",
@@ -19720,6 +29648,7 @@ window.scoredListingsData = [
     "location": null,
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Audi|A6|2015|8500|240000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -19749,10 +29678,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_386kf6jjl",
@@ -19765,6 +29702,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Hyundai|i20|2013|5800|87000|KE",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "i20",
@@ -19786,10 +29724,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.209Z"
   },
   {
     "id": "sk_j3gsvs6em",
@@ -19802,6 +29748,7 @@ window.scoredListingsData = [
     "location": null,
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:27:58.599Z",
+    "fingerprint": "FUZZY:Kia|Opirus|2006|2200|186000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -19829,10 +29776,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.210Z"
   },
   {
     "id": "sk_3i658arxl",
@@ -19845,6 +29800,7 @@ window.scoredListingsData = [
     "location": "ZA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:22.932Z",
+    "fingerprint": "FUZZY:BMW|X3|2016|17000|179000|ZA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -19886,10 +29842,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.210Z"
   },
   {
     "id": "sk_4mbcvydic",
@@ -19902,6 +29866,7 @@ window.scoredListingsData = [
     "location": "TT kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:22.933Z",
+    "fingerprint": "FUZZY:Hyundai|i30|2017|7900|199000|TT",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -19939,10 +29904,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.171Z"
+    "scoredAt": "2026-01-07T19:52:40.210Z"
   },
   {
     "id": "sk_az0vm8il3",
@@ -19955,6 +29928,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:22.933Z",
+    "fingerprint": "FUZZY:BMW|Rad|2022|46000|82000|BA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -19994,10 +29968,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.210Z"
   },
   {
     "id": "sk_z72a2fivd",
@@ -20010,6 +29992,7 @@ window.scoredListingsData = [
     "location": null,
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:22.933Z",
+    "fingerprint": "FUZZY:Škoda|Rapid|2012|3500|432000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20049,10 +30032,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.210Z"
   },
   {
     "id": "sk_ghzh19lpj",
@@ -20065,6 +30056,7 @@ window.scoredListingsData = [
     "location": "TN kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:22.933Z",
+    "fingerprint": "FUZZY:Seat|Leon|2015|8600|194000|TN",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20102,10 +30094,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.211Z"
   },
   {
     "id": "sk_8k794q9vi",
@@ -20118,6 +30118,7 @@ window.scoredListingsData = [
     "location": "TN kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.840Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2012|8000|264000|TN",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20150,10 +30151,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.211Z"
   },
   {
     "id": "sk_rezdljvvf",
@@ -20166,6 +30175,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.840Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2015|16000|168000|KE",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20198,10 +30208,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.211Z"
   },
   {
     "id": "sk_o6i1l0nk2",
@@ -20214,6 +30232,7 @@ window.scoredListingsData = [
     "location": "TN kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.840Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2018|7800|181000|TN",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20246,10 +30265,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.172Z"
+    "scoredAt": "2026-01-07T19:52:40.211Z"
   },
   {
     "id": "sk_dh3pva6ul",
@@ -20262,6 +30289,7 @@ window.scoredListingsData = [
     "location": "KE kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.841Z",
+    "fingerprint": "FUZZY:Peugeot|4007|2008|4300|246000|KE",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20299,10 +30327,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.212Z"
   },
   {
     "id": "sk_wiqi7nw2h",
@@ -20315,6 +30351,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:42.841Z",
+    "fingerprint": "FUZZY:Volkswagen|ID.4|2022|25000|100000|BA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20349,10 +30386,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.212Z"
   },
   {
     "id": "sk_by3blijrn",
@@ -20365,6 +30410,7 @@ window.scoredListingsData = [
     "location": "BA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.620Z",
+    "fingerprint": "FUZZY:Mazda|CX-30|2020|20000|93000|BA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20397,10 +30443,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.212Z"
   },
   {
     "id": "sk_w1ud2hp91",
@@ -20413,6 +30467,7 @@ window.scoredListingsData = [
     "location": "TN kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.620Z",
+    "fingerprint": "FUZZY:Ford|S-Max|2010|6900|159000|TN",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20445,10 +30500,75 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.213Z"
+  },
+  {
+    "id": "sk_groe23q7v",
+    "title": "BMW rad 3 Touring 318d Touring A/T",
+    "price": 8999,
+    "year": 2015,
+    "km": 210000,
+    "url": "https://www.autobazar.sk/27901520/bmw-rad-3-touring-318d-touring-a-t/",
+    "fuel": "Diesel",
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-06T20:28:58.620Z",
+    "fingerprint": "FUZZY:BMW|rad|2015|9000|210000|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27901520/bmw-rad-3-touring-318d-touring-a-t/",
+        "price": 8999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27901520/bmw-rad-3-touring-318d-touring-a-t/",
+        "price": 8999
+      }
+    ],
+    "make": "BMW",
+    "model": "rad",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7999,
+    "correctedMedian": 7999,
+    "kmReference": 225000,
+    "discount": -12.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -13 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.213Z"
   },
   {
     "id": "sk_7e5n0l7rk",
@@ -20461,6 +30581,7 @@ window.scoredListingsData = [
     "location": "ZA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.621Z",
+    "fingerprint": "FUZZY:Audi|A6|2021|30500|179000|ZA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20493,10 +30614,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.213Z"
   },
   {
     "id": "sk_q1c7rd4c4",
@@ -20509,6 +30638,7 @@ window.scoredListingsData = [
     "location": "ZA kraj",
     "portal": "Autobazar.sk",
     "scrapedAt": "2026-01-06T20:28:58.621Z",
+    "fingerprint": "FUZZY:Porsche|996|2001|72500|73000|ZA",
     "otherPortals": [
       {
         "portal": "Autobazar.sk",
@@ -20536,10 +30666,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.213Z"
   },
   {
     "id": "eu_39dq87jm7",
@@ -20552,6 +30690,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.544Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2014|11500|157000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -20579,10 +30718,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.214Z"
   },
   {
     "id": "eu_AmX4ZXTtudQ",
@@ -20595,6 +30742,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.544Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2021|25000|169000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -20616,10 +30764,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.214Z"
   },
   {
     "id": "eu_Am9cgrA5J2h",
@@ -20632,6 +30788,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.544Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2004|2500|265000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -20655,10 +30812,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.214Z"
   },
   {
     "id": "eu_AelzQSnofZY",
@@ -20671,6 +30836,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.545Z",
+    "fingerprint": "FUZZY:Renault|Laguna|2011|6900|185000|N/A",
     "otherPortals": [],
     "make": "Renault",
     "model": "Laguna",
@@ -20692,10 +30858,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.216Z"
   },
   {
     "id": "eu_qb848cmnj",
@@ -20708,6 +30882,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.545Z",
+    "fingerprint": "FUZZY:Peugeot|208|2014|4200|194000|N/A",
     "otherPortals": [],
     "make": "Peugeot",
     "model": "208",
@@ -20729,10 +30904,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.216Z"
   },
   {
     "id": "eu_44a8hn59a",
@@ -20745,6 +30928,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.546Z",
+    "fingerprint": "FUZZY:Volkswagen|T5|2011|18900|252000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "T5",
@@ -20768,10 +30952,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.173Z"
+    "scoredAt": "2026-01-07T19:52:40.217Z"
   },
   {
     "id": "eu_Amo2z16UeDb",
@@ -20784,6 +30976,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:04.546Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|13500|181000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -20805,10 +30998,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.218Z"
   },
   {
     "id": "eu_AmFisPc7KJz",
@@ -20821,6 +31022,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.503Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|16400|194000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -20842,10 +31044,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.218Z"
   },
   {
     "id": "eu_AmbXswulYDh",
@@ -20858,6 +31068,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.503Z",
+    "fingerprint": "FUZZY:Honda|Civic|2020|14500|77000|N/A",
     "otherPortals": [],
     "make": "Honda",
     "model": "Civic",
@@ -20879,10 +31090,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.218Z"
   },
   {
     "id": "eu_AmQL6ojysIX",
@@ -20895,6 +31114,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.503Z",
+    "fingerprint": "FUZZY:Ford|Mustang|2016|19000|193000|N/A",
     "otherPortals": [],
     "make": "Ford",
     "model": "Mustang",
@@ -20916,10 +31136,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.219Z"
   },
   {
     "id": "eu_gddq75urj",
@@ -20932,6 +31160,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.503Z",
+    "fingerprint": "FUZZY:Fiat|Grande|2018|5300|151000|N/A",
     "otherPortals": [],
     "make": "Fiat",
     "model": "Grande",
@@ -20953,10 +31182,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.219Z"
   },
   {
     "id": "eu_Amx1LPzoQr4",
@@ -20969,6 +31206,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.503Z",
+    "fingerprint": "FUZZY:Audi|Q7|2016|26000|172000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "Q7",
@@ -20992,10 +31230,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.219Z"
   },
   {
     "id": "eu_AmV4L7hxZds",
@@ -21008,6 +31254,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.504Z",
+    "fingerprint": "FUZZY:BMW|Rad|2014|9500|276000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -21031,13 +31278,21 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z",
+    "scoredAt": "2026-01-07T19:52:40.219Z",
     "isSold": true,
-    "soldAt": "2026-01-07T16:30:43.309Z",
-    "soldTimeStr": "0h 37m"
+    "soldAt": "2026-01-07T19:52:44.803Z",
+    "soldTimeStr": "0h 0m"
   },
   {
     "id": "eu_AmGhTd1RAVf",
@@ -21050,6 +31305,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.504Z",
+    "fingerprint": "FUZZY:Audi|A4|2016|15000|196000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A4",
@@ -21071,10 +31327,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.220Z"
   },
   {
     "id": "eu_AeKOxaVi0qR",
@@ -21087,6 +31351,7 @@ window.scoredListingsData = [
     "fuel": "Hybrid",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.505Z",
+    "fingerprint": "FUZZY:Volvo|XC60|2022|39900|80000|N/A",
     "otherPortals": [],
     "make": "Volvo",
     "model": "XC60",
@@ -21108,10 +31373,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.220Z"
   },
   {
     "id": "eu_Amaqs2pYD6b",
@@ -21124,6 +31397,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:18.505Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2022|22200|183000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -21145,10 +31419,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.220Z"
   },
   {
     "id": "eu_te4tl4gds",
@@ -21161,6 +31443,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.146Z",
+    "fingerprint": "FUZZY:Subaru|Legacy|2010|5900|276000|N/A",
     "otherPortals": [],
     "make": "Subaru",
     "model": "Legacy",
@@ -21182,10 +31465,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_AeuTLXMqPGj",
@@ -21198,6 +31489,7 @@ window.scoredListingsData = [
     "fuel": "Elektro",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.147Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2023|43500|54000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -21212,11 +31504,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 35185,
-    "correctedMedian": 35185,
+    "originalMedian": 26870,
+    "correctedMedian": 26870,
     "kmReference": 60000,
-    "discount": -23.6,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -24 %",
+    "discount": -61.9,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -62 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -21225,10 +31517,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_Ambqla5HA7P",
@@ -21241,6 +31541,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.147Z",
+    "fingerprint": "FUZZY:Audi|Q7|2016|27800|210000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "Q7",
@@ -21264,10 +31565,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_AeuJUezcZ2F",
@@ -21280,6 +31589,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.147Z",
+    "fingerprint": "FUZZY:BMW|Rad|2012|12000|190000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -21303,10 +31613,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_Ae6vYml39iB",
@@ -21319,6 +31637,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.147Z",
+    "fingerprint": "FUZZY:Audi|A7|2019|44900|98000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A7",
@@ -21342,10 +31661,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_Ae0MRrN2YfB",
@@ -21358,6 +31685,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.148Z",
+    "fingerprint": "FUZZY:Volkswagen|T4|2001|7200|352000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "T4",
@@ -21379,10 +31707,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.221Z"
   },
   {
     "id": "eu_AmMRcNM6EnE",
@@ -21395,6 +31731,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.148Z",
+    "fingerprint": "FUZZY:BMW|X1|2023|33000|72000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X1",
@@ -21416,10 +31753,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.222Z"
   },
   {
     "id": "eu_AmOUvrbKuEs",
@@ -21432,6 +31777,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.149Z",
+    "fingerprint": "FUZZY:Volvo|XC60|2011|7900|247000|N/A",
     "otherPortals": [],
     "make": "Volvo",
     "model": "XC60",
@@ -21455,10 +31801,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.174Z"
+    "scoredAt": "2026-01-07T19:52:40.222Z"
   },
   {
     "id": "eu_Am2Xpv1jF3I",
@@ -21471,6 +31825,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.149Z",
+    "fingerprint": "FUZZY:Toyota|Urban|2009|5300|199000|N/A",
     "otherPortals": [],
     "make": "Toyota",
     "model": "Urban",
@@ -21494,10 +31849,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.222Z"
   },
   {
     "id": "eu_AewYUOyLehW",
@@ -21510,6 +31873,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.150Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2018|16900|191000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -21531,10 +31895,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.222Z"
   },
   {
     "id": "eu_AeJxDKtv1L6",
@@ -21547,6 +31919,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:08:34.151Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2012|2700|286000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Fabia",
@@ -21568,10 +31941,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.223Z"
   },
   {
     "id": "eu_AeJrudqi92Z",
@@ -21584,6 +31965,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:10:26.944Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|19300|181000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
@@ -21611,10 +31993,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.223Z"
   },
   {
     "id": "eu_8vvj3h57e",
@@ -21627,10 +32017,16 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T09:11:21.467Z",
+    "fingerprint": "FUZZY:BMW|X5|2015|24400|188000|N/A",
     "otherPortals": [
       {
         "portal": "Autovia.sk",
         "url": "https://www.autovia.sk/detail/bmw-x5-xdrive40d-at-230kw313hp-a8/Aeotvq_UG5k/",
+        "price": 24400
+      },
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/bmw-x5-xdrive40d-at-230kw313hp-a8/Aeotvq_UG5k/",
         "price": 24400
       },
       {
@@ -21661,10 +32057,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.223Z"
   },
   {
     "id": "autovia_Aet22MBAxYy",
@@ -21677,6 +32081,7 @@ window.scoredListingsData = [
     "transmission": "5-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.871Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2008|2600|465000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -21704,10 +32109,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.223Z"
   },
   {
     "id": "autovia_Aei5JAhJ_lY",
@@ -21720,7 +32133,13 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.878Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2019|16500|163000|N/A",
     "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-rs-dsg-4x4-135kw185hp-a7/Aei5JAhJ_lY/",
+        "price": 16500
+      },
       {
         "portal": "Autobazar.eu",
         "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-rs-dsg-4x4-135kw185hp-a7/Aei5JAhJ_lY/",
@@ -21737,10 +32156,10 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 19490,
-    "correctedMedian": 15425,
+    "correctedMedian": 15057,
     "kmReference": 150000,
-    "discount": -7,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
+    "discount": -9.6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -10 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 30,
@@ -21749,10 +32168,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.223Z"
   },
   {
     "id": "autovia_AegNQo9MN5m",
@@ -21765,6 +32192,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.881Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2020|15000|69000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -21788,10 +32216,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_AeJ1RLIKTF0",
@@ -21804,6 +32240,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.882Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2017|16000|259000|N/A",
     "otherPortals": [
       {
         "portal": "Autobazar.eu",
@@ -21831,10 +32268,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_AeotMgHp-Dc",
@@ -21847,6 +32292,7 @@ window.scoredListingsData = [
     "transmission": "Manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.882Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2014|3500|290000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Fabia",
@@ -21868,10 +32314,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_AeFmovwq4Ro",
@@ -21884,6 +32338,7 @@ window.scoredListingsData = [
     "transmission": "9-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.884Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLE|2015|20500|241000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "GLE",
@@ -21905,10 +32360,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_AelgWf0kBOk",
@@ -21921,6 +32384,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.884Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2011|6200|256000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -21942,10 +32406,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_AepsE99Krvy",
@@ -21958,6 +32430,7 @@ window.scoredListingsData = [
     "transmission": "5-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.885Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2011|5100|197000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -21979,10 +32452,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_Aeu6NK8DCIp",
@@ -21995,6 +32476,7 @@ window.scoredListingsData = [
     "transmission": "Manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.885Z",
+    "fingerprint": "FUZZY:Hyundai|i30|2015|5500|238000|N/A",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "i30",
@@ -22016,10 +32498,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.224Z"
   },
   {
     "id": "autovia_Ae33huNv_Gf",
@@ -22032,6 +32522,7 @@ window.scoredListingsData = [
     "transmission": "6-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:10.887Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2021|23500|84000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -22053,49 +32544,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
-  },
-  {
-    "id": "autovia_AeGm_zngg-b",
-    "title": "Volkswagen Touareg 3.0 V6 TDI SCR 286k R-Line 4Motion Tiptronic",
-    "price": 35999,
-    "year": 2018,
-    "km": 165500,
-    "url": "https://www.autovia.sk/detail/volkswagen-touareg-30-v6-tdi-scr-286k-r-line-4motion-tiptronic/AeGm_zngg-b/",
-    "fuel": "Diesel",
-    "transmission": "8-st. automatická",
-    "portal": "Autovia.sk",
-    "scrapedAt": "2026-01-07T10:36:10.888Z",
-    "otherPortals": [],
-    "make": "Volkswagen",
-    "model": "Touareg",
-    "engine": "Diesel",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "Mid (100k-200k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 35999,
-    "correctedMedian": 34604,
-    "kmReference": 150000,
-    "discount": -4,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 20,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
+    "scoredAt": "2026-01-07T19:52:40.225Z"
   },
   {
     "id": "autovia_AerXka4Bg_5",
@@ -22108,6 +32568,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.855Z",
+    "fingerprint": "FUZZY:Seat|Leon|2015|8900|67000|N/A",
     "otherPortals": [],
     "make": "Seat",
     "model": "Leon",
@@ -22129,47 +32590,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.175Z"
-  },
-  {
-    "id": "autovia_AewtqaBTsAk",
-    "title": "Ford Tourneo Custom Ford Tourneo Custom Van 95.6kw Manuál",
-    "price": 29900,
-    "year": 2022,
-    "km": 63000,
-    "url": "https://www.autovia.sk/detail/ford-tourneo-custom-ford-tourneo-custom-van-956kw-manual/AewtqaBTsAk/",
-    "fuel": "Diesel",
-    "transmission": "6-st. manuálna",
-    "portal": "Autovia.sk",
-    "scrapedAt": "2026-01-07T10:36:12.856Z",
-    "otherPortals": [],
-    "make": "Ford",
-    "model": "Tourneo",
-    "engine": "Diesel",
-    "equipLevel": "Basic",
-    "features": [],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 29900,
-    "correctedMedian": 29676,
-    "kmReference": 60000,
-    "discount": -0.8,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -1 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 45,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.225Z"
   },
   {
     "id": "autovia_Ae0c2BqKzao",
@@ -22182,6 +32614,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.857Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2016|9800|240000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -22203,10 +32636,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeMJcGgrdPa",
@@ -22219,6 +32660,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.857Z",
+    "fingerprint": "FUZZY:BMW|Rad|2012|9000|385000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -22243,10 +32685,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeoeeImZiax",
@@ -22259,6 +32709,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.858Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2021|21900|0|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -22280,10 +32731,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeGgvq5pHPt",
@@ -22296,6 +32755,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.860Z",
+    "fingerprint": "FUZZY:Audi|A4|2016|19300|206000|N/A",
     "otherPortals": [],
     "make": "Audi",
     "model": "A4",
@@ -22319,10 +32779,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeLnLOGYOak",
@@ -22335,6 +32803,7 @@ window.scoredListingsData = [
     "transmission": "6-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.860Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2012|6500|273000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -22356,10 +32825,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeWe0pxCEPo",
@@ -22372,6 +32849,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.862Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2015|9500|237000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -22380,11 +32858,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
-    "originalMedian": 8700,
-    "correctedMedian": 8450,
+    "originalMedian": 7900,
+    "correctedMedian": 7673,
     "kmReference": 225000,
-    "discount": -12.4,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -12 %",
+    "discount": -23.8,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -24 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 20,
@@ -22393,10 +32871,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeZZ6oT1j2Z",
@@ -22409,6 +32895,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:12.862Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|E trieda|2006|2200|230000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "E trieda",
@@ -22430,10 +32917,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_Ae7eDnI9YLE",
@@ -22446,6 +32941,7 @@ window.scoredListingsData = [
     "transmission": "5-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.266Z",
+    "fingerprint": "FUZZY:Ford|Focus|2007|2900|170000|N/A",
     "otherPortals": [],
     "make": "Ford",
     "model": "Focus",
@@ -22467,10 +32963,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeyjJS9TX2I",
@@ -22483,6 +32987,7 @@ window.scoredListingsData = [
     "transmission": "5-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.267Z",
+    "fingerprint": "FUZZY:Fiat|Panda|2006|1600|189000|N/A",
     "otherPortals": [],
     "make": "Fiat",
     "model": "Panda",
@@ -22504,10 +33009,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeAZFWB87sj",
@@ -22520,6 +33033,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.267Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2023|23500|183000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Superb",
@@ -22541,10 +33055,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.226Z"
   },
   {
     "id": "autovia_AeHLjFtaXaz",
@@ -22557,6 +33079,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.270Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLC|2015|20900|180000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "GLC",
@@ -22578,10 +33101,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_Ae9F7Ca9LTs",
@@ -22594,6 +33125,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.272Z",
+    "fingerprint": "FUZZY:BMW|X3|2014|19100|155000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X3",
@@ -22617,10 +33149,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_Ae0EazZCjKb",
@@ -22633,6 +33173,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.272Z",
+    "fingerprint": "FUZZY:Škoda|Karoq|2020|18900|179000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Karoq",
@@ -22654,10 +33195,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_Ae2VIGB6Brn",
@@ -22670,6 +33219,7 @@ window.scoredListingsData = [
     "transmission": "9-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.273Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|C trieda|2020|29900|93000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "C trieda",
@@ -22691,10 +33241,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_AeZTG41bc4Y",
@@ -22707,6 +33265,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.275Z",
+    "fingerprint": "FUZZY:Honda|Civic|2009|14800|167000|N/A",
     "otherPortals": [],
     "make": "Honda",
     "model": "Civic",
@@ -22728,10 +33287,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_Ae_LaIGeIEc",
@@ -22744,6 +33311,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:15.277Z",
+    "fingerprint": "FUZZY:Hyundai|Tucson|2021|27400|80000|N/A",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "Tucson",
@@ -22768,10 +33336,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_AeB_S1WDefQ",
@@ -22784,6 +33360,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.987Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|28000|60000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -22807,10 +33384,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_Aefh01F4pR5",
@@ -22823,6 +33408,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.988Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2025|51500|1000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -22844,10 +33430,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.227Z"
   },
   {
     "id": "autovia_AeeJEkWHrxe",
@@ -22860,6 +33454,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:17.988Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|27600|90000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -22881,10 +33476,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.176Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_AeDbI59_ZTj",
@@ -22897,6 +33500,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.861Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|19400|202000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -22918,10 +33522,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z"
   },
   {
     "id": "autovia_AmPEIKcfUmU",
@@ -22934,6 +33546,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.862Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|19500|167000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -22955,10 +33568,21 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.228Z",
+    "isSold": true,
+    "soldAt": "2026-01-07T19:52:44.803Z",
+    "soldTimeStr": "0h 0m"
   },
   {
     "id": "autovia_AeQKYh6iHBB",
@@ -22971,6 +33595,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.864Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|20900|166000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -22992,47 +33617,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
-  },
-  {
-    "id": "autovia_AmeA9B8TkOe",
-    "title": "Tesla Model 3 Standard Range Plus",
-    "price": 20990,
-    "year": 2020,
-    "km": 80198,
-    "url": "https://www.autovia.sk/detail/tesla-model-3-standard-range-plus/AmeA9B8TkOe/",
-    "fuel": "Elektromotor",
-    "transmission": "Automatická bezstupňová",
-    "portal": "Autovia.sk",
-    "scrapedAt": "2026-01-07T10:36:20.866Z",
-    "otherPortals": [],
-    "make": "Tesla",
-    "model": "Model 3",
-    "engine": "Elektromotor",
-    "equipLevel": "Basic",
-    "features": [],
-    "kmSegment": "Low (0-100k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 20990,
-    "correctedMedian": 19930,
-    "kmReference": 60000,
-    "discount": -5.3,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -5 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 45,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_AmE7TMjehgq",
@@ -23045,6 +33641,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.868Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|21500|193000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23068,10 +33665,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_AeoGWRjBefJ",
@@ -23084,6 +33689,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.868Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|21500|148000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23107,10 +33713,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_Ae2ZCjsyzLt",
@@ -23123,6 +33737,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.869Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|21500|157000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23146,10 +33761,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_AbIHJNcmwDA",
@@ -23162,6 +33785,7 @@ window.scoredListingsData = [
     "transmission": null,
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.870Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|21600|149000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23185,10 +33809,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_AmJtWk2PFHw",
@@ -23201,6 +33833,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.871Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|22000|101000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23222,10 +33855,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_Av_k0PwFAZ8",
@@ -23238,6 +33879,7 @@ window.scoredListingsData = [
     "transmission": null,
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.872Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|22000|149000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23261,10 +33903,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_Aee8wFNgPdX",
@@ -23277,6 +33927,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:20.872Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|22500|196000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23287,10 +33938,10 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24700,
-    "correctedMedian": 21860,
+    "originalMedian": 24795,
+    "correctedMedian": 21944,
     "kmReference": 150000,
-    "discount": -2.9,
+    "discount": -2.5,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -3 %",
     "mileageWarning": null,
     "liquidity": {
@@ -23300,10 +33951,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.229Z"
   },
   {
     "id": "autovia_AmCTtUn-s2j",
@@ -23316,6 +33975,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.448Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|22600|117000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23337,10 +33997,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_Ae-wpws3ufU",
@@ -23353,6 +34021,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.449Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|22700|130000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23374,10 +34043,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_AeCVFdhASUx3",
@@ -23390,6 +34067,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.450Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|23000|132000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23411,10 +34089,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_AbicA9b6Dibf",
@@ -23427,6 +34113,7 @@ window.scoredListingsData = [
     "transmission": "5-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.450Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|23000|140000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23450,10 +34137,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_AmgHNJVIHKO",
@@ -23466,6 +34161,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.452Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|23300|73000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23475,10 +34171,10 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 23900,
-    "correctedMedian": 22040,
+    "correctedMedian": 23123,
     "kmReference": 60000,
-    "discount": -5.7,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -6 %",
+    "discount": -0.8,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -1 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -23487,10 +34183,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_AvQrqrseFEL",
@@ -23503,6 +34207,7 @@ window.scoredListingsData = [
     "transmission": null,
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.453Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|23500|78000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23527,10 +34232,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_AmGDTCDSV6D",
@@ -23543,6 +34256,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.453Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|23900|61000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23552,10 +34266,10 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 23900,
-    "correctedMedian": 22040,
+    "correctedMedian": 23840,
     "kmReference": 60000,
-    "discount": -8.4,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
+    "discount": -0.3,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -23564,10 +34278,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_AmdYjeJWiVU",
@@ -23580,6 +34302,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.454Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|24000|106000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23603,10 +34326,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_Am1tEgVQ7vo",
@@ -23619,6 +34350,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.454Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|24000|89000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23642,10 +34374,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.177Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_AmSQbWHRyHW",
@@ -23658,6 +34398,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.455Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|24500|73000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23681,10 +34422,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.230Z"
   },
   {
     "id": "autovia_AmikCM91AkG",
@@ -23697,6 +34446,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.455Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|24600|117000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23720,10 +34470,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.231Z"
   },
   {
     "id": "autovia_Amrl5jAEYMH",
@@ -23736,6 +34494,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.455Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|24700|83000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23744,11 +34503,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
-    "originalMedian": 20990,
-    "correctedMedian": 19783,
+    "originalMedian": 22845,
+    "correctedMedian": 21531,
     "kmReference": 60000,
-    "discount": -24.9,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -25 %",
+    "discount": -14.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -15 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -23757,10 +34516,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.231Z"
   },
   {
     "id": "autovia_AeYIao3eCht",
@@ -23773,6 +34540,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.456Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|24800|148000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23796,10 +34564,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.231Z"
   },
   {
     "id": "autovia_AezErs4H1NK",
@@ -23812,6 +34588,7 @@ window.scoredListingsData = [
     "transmission": "5-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.458Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|24800|97000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23835,10 +34612,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.231Z"
   },
   {
     "id": "autovia_Am9uovSIBLY",
@@ -23851,6 +34636,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.459Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|24900|149000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23859,11 +34645,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24700,
-    "correctedMedian": 24700,
+    "originalMedian": 24795,
+    "correctedMedian": 24795,
     "kmReference": 150000,
-    "discount": -0.8,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -1 %",
+    "discount": -0.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -23872,10 +34658,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.231Z"
   },
   {
     "id": "autovia_AmlnnZHgp2s",
@@ -23888,6 +34682,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.459Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|24900|128000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23896,11 +34691,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 24700,
-    "correctedMedian": 24700,
+    "originalMedian": 24795,
+    "correctedMedian": 24795,
     "kmReference": 150000,
-    "discount": -0.8,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -1 %",
+    "discount": -0.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -23909,10 +34704,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.231Z"
   },
   {
     "id": "autovia_AewTIN6XfzI",
@@ -23925,6 +34728,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.460Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|25000|40000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23946,10 +34750,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.232Z"
   },
   {
     "id": "autovia_Abz8sUQfd6n",
@@ -23962,6 +34774,7 @@ window.scoredListingsData = [
     "transmission": "Automatická bezstupňová",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:23.461Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|25000|136000|N/A",
     "otherPortals": [],
     "make": "Tesla",
     "model": "Model 3",
@@ -23985,10 +34798,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.232Z"
   },
   {
     "id": "autovia_AeVLnKRRGl-",
@@ -24001,6 +34822,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:29.548Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|16900|155000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24022,13 +34844,21 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z",
+    "scoredAt": "2026-01-07T19:52:40.232Z",
     "isSold": true,
-    "soldAt": "2026-01-07T16:30:43.309Z",
-    "soldTimeStr": "0h 37m"
+    "soldAt": "2026-01-07T19:52:44.803Z",
+    "soldTimeStr": "0h 0m"
   },
   {
     "id": "autovia_Ae2r9uQ7fvP",
@@ -24041,6 +34871,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:29.549Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|18500|184000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24062,49 +34893,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
-  },
-  {
-    "id": "autovia_AeyKfmV0bNH",
-    "title": "Volkswagen Tiguan Allspace 2.0 TDI EVO SCR Trendline 4MOTION DSG 110kW150HP A7",
-    "price": 24990,
-    "year": 2021,
-    "km": 112024,
-    "url": "https://www.autovia.sk/detail/volkswagen-tiguan-allspace-20-tdi-evo-scr-trendline-4motion-dsg-110kw150hp-a7/AeyKfmV0bNH/",
-    "fuel": "Diesel",
-    "transmission": "7-st. automatická",
-    "portal": "Autovia.sk",
-    "scrapedAt": "2026-01-07T10:36:29.551Z",
-    "otherPortals": [],
-    "make": "Volkswagen",
-    "model": "Tiguan",
-    "engine": "Diesel",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "Mid (100k-200k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 24745,
-    "correctedMedian": 24745,
-    "kmReference": 150000,
-    "discount": -1,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -1 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 45,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.232Z"
   },
   {
     "id": "autovia_Aeh845OJaUN",
@@ -24117,6 +34917,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.953Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|26500|52000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24138,49 +34939,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
-  },
-  {
-    "id": "autovia_AevwvFO7Dog",
-    "title": "Volkswagen Tiguan 2.0 TDI SCR BMT 190k 4MOTION Highline DSG 140kW190HP A7",
-    "price": 23500,
-    "year": 2018,
-    "km": 133000,
-    "url": "https://www.autovia.sk/detail/volkswagen-tiguan-20-tdi-scr-bmt-190k-4motion-highline-dsg-140kw190hp-a7/AevwvFO7Dog/",
-    "fuel": "Diesel",
-    "transmission": "Automatická",
-    "portal": "Autovia.sk",
-    "scrapedAt": "2026-01-07T10:36:31.954Z",
-    "otherPortals": [],
-    "make": "Volkswagen",
-    "model": "Tiguan",
-    "engine": "Diesel",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "Mid (100k-200k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 23500,
-    "correctedMedian": 22040,
-    "kmReference": 150000,
-    "discount": -6.6,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
-    "mileageWarning": null,
-    "liquidity": {
-      "score": 35,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.232Z"
   },
   {
     "id": "autovia_AeouLcpg46Y",
@@ -24193,6 +34963,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.955Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2018|18400|232000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24214,10 +34985,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.178Z"
+    "scoredAt": "2026-01-07T19:52:40.233Z"
   },
   {
     "id": "autovia_AeHxcUemVlJ",
@@ -24230,6 +35009,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.956Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2018|21000|96000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24251,10 +35031,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.233Z"
   },
   {
     "id": "autovia_AeDTmiP7F-o",
@@ -24267,6 +35055,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.956Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2018|20000|88000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24290,10 +35079,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.233Z"
   },
   {
     "id": "autovia_AeruuRjRGZk",
@@ -24306,6 +35103,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.957Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2023|39500|42000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24329,10 +35127,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.233Z"
   },
   {
     "id": "autovia_AeZboOrg1nR",
@@ -24345,6 +35151,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.957Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2020|23500|162000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24366,10 +35173,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.233Z"
   },
   {
     "id": "autovia_AeCq0DOoYeX",
@@ -24382,6 +35197,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:31.962Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2018|20000|176000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24406,10 +35222,21 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.233Z",
+    "isSold": true,
+    "soldAt": "2026-01-07T19:52:44.803Z",
+    "soldTimeStr": "0h 0m"
   },
   {
     "id": "autovia_Am21Gs-hfwz",
@@ -24422,6 +35249,7 @@ window.scoredListingsData = [
     "transmission": "7-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:35.226Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2024|45000|19000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24433,10 +35261,10 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 44950,
-    "correctedMedian": 38840,
+    "correctedMedian": 39890,
     "kmReference": 60000,
-    "discount": -15.7,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -16 %",
+    "discount": -12.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -13 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -24445,10 +35273,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.234Z"
   },
   {
     "id": "autovia_AmK_RnCs3nK",
@@ -24461,6 +35297,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:35.229Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2008|5000|263000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24482,10 +35319,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.234Z"
   },
   {
     "id": "autovia_AmxdtJBDXBK",
@@ -24498,6 +35343,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:35.231Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2007|5500|161000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24519,10 +35365,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.234Z"
   },
   {
     "id": "autovia_Amk1j87TNe3",
@@ -24535,6 +35389,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:35.232Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2009|5600|260000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24543,11 +35398,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "High-Tier 2 (250k-300k)",
     "matchAccuracy": "specific",
-    "originalMedian": 5600,
-    "correctedMedian": 3920,
+    "originalMedian": 6150,
+    "correctedMedian": 4305,
     "kmReference": 275000,
-    "discount": -42.9,
-    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -43 %",
+    "discount": -30.1,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -30 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 0,
@@ -24556,10 +35411,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.234Z"
   },
   {
     "id": "autovia_AeYu6RMbiXc",
@@ -24572,6 +35435,7 @@ window.scoredListingsData = [
     "transmission": "6-st. manuálna",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:35.234Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2007|6000|247000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Tiguan",
@@ -24595,10 +35459,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "autovia_AeUI-wy8Pwo",
@@ -24611,6 +35483,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:38.070Z",
+    "fingerprint": "FUZZY:BMW|X5|2019|57000|97000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -24634,10 +35507,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "autovia_AeC51P9Jl12",
@@ -24650,6 +35531,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:38.073Z",
+    "fingerprint": "FUZZY:BMW|X5|2021|55000|108000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -24673,10 +35555,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.179Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "autovia_Aeco5lVzG5k",
@@ -24689,6 +35579,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:38.074Z",
+    "fingerprint": "FUZZY:BMW|X5|2018|29000|168000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -24712,10 +35603,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "autovia_Ae8LQ11stoS",
@@ -24728,6 +35627,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:38.075Z",
+    "fingerprint": "FUZZY:BMW|X5|2020|60000|155000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -24751,10 +35651,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "autovia_Ae5CjvZPg6z",
@@ -24767,6 +35675,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:38.077Z",
+    "fingerprint": "FUZZY:BMW|X5|2017|25000|191000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -24777,11 +35686,11 @@ window.scoredListingsData = [
     ],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 25000,
-    "correctedMedian": 22438,
+    "originalMedian": 25900,
+    "correctedMedian": 23245,
     "kmReference": 150000,
-    "discount": -11.4,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -11 %",
+    "discount": -7.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 20,
@@ -24790,10 +35699,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.235Z"
   },
   {
     "id": "autovia_Ae-BzW8D5f6",
@@ -24806,6 +35723,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:40.956Z",
+    "fingerprint": "FUZZY:BMW|X5|2022|64900|63000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -24829,10 +35747,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_AeucrMAVIh_",
@@ -24845,6 +35771,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:40.956Z",
+    "fingerprint": "FUZZY:BMW|X5|2017|26800|163000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -24853,11 +35780,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
-    "originalMedian": 25000,
-    "correctedMedian": 24219,
+    "originalMedian": 25900,
+    "correctedMedian": 25091,
     "kmReference": 150000,
-    "discount": -10.7,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -11 %",
+    "discount": -6.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 20,
@@ -24866,10 +35793,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_AmKi4WMfber",
@@ -24882,6 +35817,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.760Z",
+    "fingerprint": "FUZZY:BMW|X5|2012|5400|290000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -24905,10 +35841,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_Aew7QkXtnWO",
@@ -24921,7 +35865,14 @@ window.scoredListingsData = [
     "transmission": "6-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.761Z",
-    "otherPortals": [],
+    "fingerprint": "FUZZY:BMW|X5|2006|5500|178000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/bmw-x5-30-d/Aep2qxAcjnG/",
+        "price": 5500
+      }
+    ],
     "make": "BMW",
     "model": "X5",
     "engine": "Diesel",
@@ -24942,13 +35893,21 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z",
+    "scoredAt": "2026-01-07T19:52:40.236Z",
     "isSold": true,
-    "soldAt": "2026-01-07T16:30:43.309Z",
-    "soldTimeStr": "0h 37m"
+    "soldAt": "2026-01-07T19:52:44.803Z",
+    "soldTimeStr": "0h 0m"
   },
   {
     "id": "autovia_AmcELfbxfFa",
@@ -24961,6 +35920,7 @@ window.scoredListingsData = [
     "transmission": "6-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.762Z",
+    "fingerprint": "FUZZY:BMW|X5|2005|5800|242000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -24982,10 +35942,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.180Z"
+    "scoredAt": "2026-01-07T19:52:40.236Z"
   },
   {
     "id": "autovia_AmfsBON60ep",
@@ -24998,6 +35966,7 @@ window.scoredListingsData = [
     "transmission": "6-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.763Z",
+    "fingerprint": "FUZZY:BMW|X5|2007|6300|275000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -25006,11 +35975,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "High-Tier 2 (250k-300k)",
     "matchAccuracy": "specific",
-    "originalMedian": 6250,
-    "correctedMedian": 4375,
+    "originalMedian": 6775,
+    "correctedMedian": 4743,
     "kmReference": 275000,
-    "discount": -42.9,
-    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -43 %",
+    "discount": -31.8,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -32 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 0,
@@ -25019,10 +35988,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.181Z"
+    "scoredAt": "2026-01-07T19:52:40.237Z"
   },
   {
     "id": "autovia_Amn3MVbL2a9",
@@ -25035,6 +36012,7 @@ window.scoredListingsData = [
     "transmission": "8-st. automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.764Z",
+    "fingerprint": "FUZZY:BMW|X5|2011|6500|407000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -25058,10 +36036,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.181Z"
+    "scoredAt": "2026-01-07T19:52:40.237Z"
   },
   {
     "id": "autovia_AbCTeInF6kT",
@@ -25074,6 +36060,7 @@ window.scoredListingsData = [
     "transmission": "Automatická",
     "portal": "Autovia.sk",
     "scrapedAt": "2026-01-07T10:36:43.765Z",
+    "fingerprint": "FUZZY:BMW|X5|2008|6600|372000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "X5",
@@ -25082,11 +36069,11 @@ window.scoredListingsData = [
     "features": [],
     "kmSegment": "Level 300 (300k-400k)",
     "matchAccuracy": "specific",
-    "originalMedian": 6816,
-    "correctedMedian": 6063,
+    "originalMedian": 7032,
+    "correctedMedian": 6255,
     "kmReference": 350000,
-    "discount": -8.9,
-    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -9 %",
+    "discount": -5.5,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -6 %",
     "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
     "liquidity": {
       "score": 0,
@@ -25095,49 +36082,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
-    "dealType": "OVERPRICED",
-    "score": 20,
-    "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.181Z"
-  },
-  {
-    "id": "autovia_AeKA0EHD5gb",
-    "title": "BMW X5 3.0 D xDrive",
-    "price": 7032,
-    "year": 2008,
-    "km": 344453,
-    "url": "https://www.autovia.sk/detail/bmw-x5-30-d-xdrive/AeKA0EHD5gb/",
-    "fuel": "Diesel",
-    "transmission": "6-st. automatická",
-    "portal": "Autovia.sk",
-    "scrapedAt": "2026-01-07T10:36:43.765Z",
-    "otherPortals": [],
-    "make": "BMW",
-    "model": "X5",
-    "engine": "Diesel",
-    "equipLevel": "Basic",
-    "features": [
-      "4x4"
-    ],
-    "kmSegment": "Level 300 (300k-400k)",
-    "matchAccuracy": "specific",
-    "originalMedian": 6816,
-    "correctedMedian": 6816,
-    "kmReference": 350000,
-    "discount": -3.2,
-    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -3 %",
-    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
-    "liquidity": {
-      "score": 0,
-      "label": "🐌 Ležiak",
-      "color": "#ff4d4d",
-      "category": "Nízka",
-      "estimate": "1 mesiac+"
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
     },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.181Z"
+    "scoredAt": "2026-01-07T19:52:40.237Z"
   },
   {
     "id": "eu_AeXwePFKv4w",
@@ -25151,6 +36107,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:03.757Z",
+    "fingerprint": "FUZZY:Opel|Crossland|2018|7500|87000|N/A",
     "otherPortals": [],
     "make": "Opel",
     "model": "Crossland",
@@ -25172,10 +36129,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.181Z"
+    "scoredAt": "2026-01-07T19:52:40.238Z"
   },
   {
     "id": "eu_AmYNB0VsZCD",
@@ -25189,6 +36154,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:03.757Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2020|20500|81000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -25210,10 +36176,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.181Z"
+    "scoredAt": "2026-01-07T19:52:40.238Z"
   },
   {
     "id": "eu_AenSK8oGlkC",
@@ -25227,6 +36201,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:03.757Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|A Trieda|2017|11400|99000|N/A",
     "otherPortals": [],
     "make": "Mercedes-Benz",
     "model": "A Trieda",
@@ -25248,10 +36223,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.181Z"
+    "scoredAt": "2026-01-07T19:52:40.238Z"
   },
   {
     "id": "eu_AegNkOq40dV",
@@ -25265,6 +36248,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:03.758Z",
+    "fingerprint": "FUZZY:Seat|Alhambra|2016|7500|422000|N/A",
     "otherPortals": [],
     "make": "Seat",
     "model": "Alhambra",
@@ -25286,10 +36270,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.182Z"
+    "scoredAt": "2026-01-07T19:52:40.238Z"
   },
   {
     "id": "eu_AeNNV0cjR3q",
@@ -25303,6 +36295,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:03.759Z",
+    "fingerprint": "FUZZY:Toyota|Yaris|2013|7300|91000|N/A",
     "otherPortals": [],
     "make": "Toyota",
     "model": "Yaris",
@@ -25324,13 +36317,21 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.182Z",
+    "scoredAt": "2026-01-07T19:52:40.239Z",
     "isSold": true,
-    "soldAt": "2026-01-07T16:30:43.309Z",
-    "soldTimeStr": "0h 37m"
+    "soldAt": "2026-01-07T19:52:44.803Z",
+    "soldTimeStr": "0h 0m"
   },
   {
     "id": "eu_AmkxgFD2el1",
@@ -25344,6 +36345,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:03.759Z",
+    "fingerprint": "FUZZY:BMW|Rad|2023|36500|32000|N/A",
     "otherPortals": [],
     "make": "BMW",
     "model": "Rad",
@@ -25367,10 +36369,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.182Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_cxa0ost9k",
@@ -25384,6 +36394,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.922Z",
+    "fingerprint": "FUZZY:Hyundai|Tucson|2018|17900|83000|N/A",
     "otherPortals": [],
     "make": "Hyundai",
     "model": "Tucson",
@@ -25407,10 +36418,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_AmsQE0IZhFd",
@@ -25424,6 +36443,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.923Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2022|31400|166000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Kodiaq",
@@ -25445,10 +36465,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.183Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_AesqAyjIcoJ",
@@ -25462,6 +36490,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:17.925Z",
+    "fingerprint": "FUZZY:Ford|S-Max|2016|13500|155000|N/A",
     "otherPortals": [],
     "make": "Ford",
     "model": "S-Max",
@@ -25483,10 +36512,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.239Z"
   },
   {
     "id": "eu_x71bbhuno",
@@ -25500,6 +36537,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:33.743Z",
+    "fingerprint": "FUZZY:Volvo|V90|2019|28900|176000|N/A",
     "otherPortals": [],
     "make": "Volvo",
     "model": "V90",
@@ -25521,10 +36559,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.241Z"
   },
   {
     "id": "eu_zw7lase8r",
@@ -25538,6 +36584,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:33.744Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2019|14500|173000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Golf",
@@ -25559,10 +36606,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.241Z"
   },
   {
     "id": "eu_AmSNPwzaVcI",
@@ -25576,6 +36631,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:33.744Z",
+    "fingerprint": "FUZZY:Maserati|Ghibli|2014|15000|183000|N/A",
     "otherPortals": [],
     "make": "Maserati",
     "model": "Ghibli",
@@ -25599,10 +36655,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.241Z"
   },
   {
     "id": "eu_AmEP1LZsua0",
@@ -25616,6 +36680,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:33.746Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2010|3700|275000|N/A",
     "otherPortals": [],
     "make": "Volkswagen",
     "model": "Passat",
@@ -25637,10 +36702,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.241Z"
   },
   {
     "id": "eu_AmVY3m5miaK",
@@ -25654,6 +36727,7 @@ window.scoredListingsData = [
     "fuel": "Benzín",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:40:33.746Z",
+    "fingerprint": "FUZZY:Kia|Ceed|2023|14000|170000|N/A",
     "otherPortals": [],
     "make": "Kia",
     "model": "Ceed",
@@ -25675,10 +36749,18 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.242Z"
   },
   {
     "id": "eu_Am75Ftt71HW",
@@ -25692,6 +36774,7 @@ window.scoredListingsData = [
     "fuel": "Diesel",
     "portal": "Autobazar.eu",
     "scrapedAt": "2026-01-07T10:41:34.746Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2019|18000|114000|N/A",
     "otherPortals": [],
     "make": "Škoda",
     "model": "Octavia",
@@ -25703,10 +36786,10 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 19490,
-    "correctedMedian": 15425,
+    "correctedMedian": 15057,
     "kmReference": 150000,
-    "discount": -16.7,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -17 %",
+    "discount": -19.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -20 %",
     "mileageWarning": null,
     "liquidity": {
       "score": 45,
@@ -25715,9 +36798,6928 @@ window.scoredListingsData = [
       "category": "Nízka",
       "estimate": "1 mesiac+"
     },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:53:06.184Z"
+    "scoredAt": "2026-01-07T19:52:40.242Z"
+  },
+  {
+    "id": "187260329",
+    "title": "Volkswagen Golf Sportsvan 1.4 TSI BMT Highline",
+    "price": 12490,
+    "year": 2016,
+    "km": 132079,
+    "url": "https://auto.bazos.sk/inzerat/187260329/golf.php",
+    "location": "Prešov 080 01",
+    "vin": "WVWZZZAUZGW586245",
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "drive": "Predný",
+    "power": "92 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.302Z",
+    "fingerprint": "VIN:WVWZZZAUZGW586245",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Golf",
+    "engine": "Benzín Mid (92kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 12490,
+    "correctedMedian": 11072,
+    "kmReference": 150000,
+    "discount": -12.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -13 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.243Z"
+  },
+  {
+    "id": "187241577",
+    "title": "Skoda Octavia IV 1.5TSI 110Kw 84000km/Matrix/Acc",
+    "price": 18899,
+    "year": 2020,
+    "km": 84000,
+    "url": "https://auto.bazos.sk/inzerat/187241577/skoda-octavia-iv-15tsi-110kw-84000kmmatrixacc.php",
+    "location": "Kežmarok 060 01",
+    "vin": null,
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "drive": "Predný",
+    "power": "110 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.304Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2020|18900|84000|Kežmarok",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Benzín Mid (110kW)",
+    "equipLevel": "Medium",
+    "features": [
+      "LED/Xenon",
+      "ACC/Tempomat"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 18899,
+    "correctedMedian": 17765,
+    "kmReference": 60000,
+    "discount": -6.4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.243Z"
+  },
+  {
+    "id": "186996420",
+    "title": "Seat Leon cupra 2,0TSi 280 PS",
+    "price": 13999,
+    "year": 2014,
+    "km": 183000,
+    "url": "https://auto.bazos.sk/inzerat/186996420/seat-leon-cupra-20tsi-280-ps.php",
+    "location": "Rimavská Sobota 980 11",
+    "vin": null,
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "drive": "Predný",
+    "power": "280 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.304Z",
+    "fingerprint": "FUZZY:Seat|Leon|2014|14000|183000|Rimavská",
+    "otherPortals": [],
+    "make": "Seat",
+    "model": "Leon",
+    "engine": "Benzín Extreme (280kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 13999,
+    "correctedMedian": 9020,
+    "kmReference": 150000,
+    "discount": -55.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -55 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.243Z"
+  },
+  {
+    "id": "187227737",
+    "title": "MERCEDES ATEGO 1218 - TROJSTRANNÝ S3 SKLÁPAČ / VYKLÁPAČ EU5",
+    "price": 38000,
+    "year": 2012,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/187227737/mercedes-atego-1218-trojstranny-s3-sklapac-vyklapac-eu5.php",
+    "location": "Michalovce 079 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": null,
+    "drive": "Predný",
+    "power": "130 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:21:56.307Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|ATEGO|2012|38000|N/A|Michalovce",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "ATEGO",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 36500,
+    "correctedMedian": 36500,
+    "kmReference": 60000,
+    "discount": -4.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.244Z"
+  },
+  {
+    "id": "186953154",
+    "title": "Tesla Model 3 | Performance | 377kw | AWD | 82kwh",
+    "price": 24200,
+    "year": 2020,
+    "km": 96980,
+    "url": "https://auto.bazos.sk/inzerat/186953154/tesla-model-3-performance-377kw-awd-82kwh.php",
+    "location": "Ružomberok 034 73",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Elektro",
+    "drive": "4x4",
+    "power": "377 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.401Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|24200|97000|Ružomberok",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro Extreme (377kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24200,
+    "correctedMedian": 21963,
+    "kmReference": 60000,
+    "discount": -10.2,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -10 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.244Z"
+  },
+  {
+    "id": "187077280",
+    "title": "Tesla Model 3 Long Range AWD (2021) Najazdené: 93 000 km",
+    "price": 25499,
+    "year": 2021,
+    "km": 93000,
+    "url": "https://auto.bazos.sk/inzerat/187077280/tesla-model-3-long-range-awd-2021-najazdene-94-000-km.php",
+    "location": "Poprad 058 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Elektro",
+    "drive": "4x4",
+    "power": "11 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.401Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|25500|93000|Poprad",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro Base (11kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 25499,
+    "correctedMedian": 23395,
+    "kmReference": 60000,
+    "discount": -9,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -9 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.244Z"
+  },
+  {
+    "id": "186898946",
+    "title": "Tesla Model 3 Long Range 82kWh 4x4 REFRESH 2021 366KW",
+    "price": 25850,
+    "year": 2021,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/186898946/tesla-model-3-long-range-82kwh-4x4-refresh-2021-366kw.php",
+    "location": "Banská Bystrica 974 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Elektro",
+    "drive": "4x4",
+    "power": "366 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.402Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|25900|N/A|Banská",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro Extreme (366kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 25675,
+    "correctedMedian": 25675,
+    "kmReference": 60000,
+    "discount": -0.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.244Z"
+  },
+  {
+    "id": "186907256",
+    "title": "Tesla Model 3 SR Plus 2021- -REFRESH- Po servise",
+    "price": 20999,
+    "year": 2021,
+    "km": 95000,
+    "url": "https://auto.bazos.sk/inzerat/186907256/tesla-model-3-sr-plus-91tiskm-ncancm.php",
+    "location": "Košice 040 01",
+    "vin": "5YJ3E7EA6MF895364",
+    "transmission": "Automat",
+    "fuel": "Elektro",
+    "drive": "Predný",
+    "power": "239 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.403Z",
+    "fingerprint": "VIN:5YJ3E7EA6MF895364",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro Extreme (239kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 20999,
+    "correctedMedian": 19162,
+    "kmReference": 60000,
+    "discount": -9.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -10 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "186865582",
+    "title": "Tesla Model 3 Long Range 82kWh AWD, dual motor 20 745 € Mož",
+    "price": 24900,
+    "year": 2022,
+    "km": 187000,
+    "url": "https://auto.bazos.sk/inzerat/186865582/tesla-model-3-long-range-82kwh-awd-odpocet-dph-21-545-e-moz.php",
+    "location": "Senec 903 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Elektro",
+    "drive": "4x4",
+    "power": "366 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.403Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2022|24900|187000|Senec",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro Extreme (366kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24945,
+    "correctedMedian": 22638,
+    "kmReference": 150000,
+    "discount": -10,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -10 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "185793790",
+    "title": "Tesla Model 3 LONG RANGE DUAL MOTOR 366 KW AWD",
+    "price": 24990,
+    "year": 2022,
+    "km": 105600,
+    "url": "https://auto.bazos.sk/inzerat/185793790/tesla-model-3-long-range-dual-motor-366-kw-awd.php",
+    "location": "Dunajská Streda 929 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Elektro",
+    "drive": "4x4",
+    "power": "366 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.404Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2022|25000|106000|Dunajská",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro Extreme (366kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24945,
+    "correctedMedian": 24945,
+    "kmReference": 150000,
+    "discount": -0.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "186471899",
+    "title": "Tesla Model 3 75 KWH LONG-RANGE DUAL MOTOR . 366 KW ,TAZNE ,",
+    "price": 25500,
+    "year": 2021,
+    "km": 164000,
+    "url": "https://auto.bazos.sk/inzerat/186471899/tesla-model-3-75-kwh-long-range-dual-motor-366-kw-tazne-za.php",
+    "location": "Senec 903 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Elektro",
+    "drive": "4x4",
+    "power": "366 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:22.404Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|25500|164000|Senec",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektro Extreme (366kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "Ťažné"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 25500,
+    "correctedMedian": 24608,
+    "kmReference": 150000,
+    "discount": -3.6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "187080476",
+    "title": "Škoda Octavia 3 2.0 TDI 110kw SCOUT 4x4 198000KM",
+    "price": 10700,
+    "year": 2015,
+    "km": 198000,
+    "url": "https://auto.bazos.sk/inzerat/187080476/skoda-octavia-3-20-tdi-110kw-scout-4x4-198000km.php",
+    "location": "Čadca 023 57",
+    "vin": null,
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "110 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:48.955Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2015|10700|198000|Čadca",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel Mid (110kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 10700,
+    "correctedMedian": 9416,
+    "kmReference": 150000,
+    "discount": -13.6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -14 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "186628477",
+    "title": "Škoda Octavia Combi 2.0 TDI DSG F1 4x4 LED ACC Alcantara ťaž",
+    "price": 13999,
+    "year": 2017,
+    "km": 179918,
+    "url": "https://auto.bazos.sk/inzerat/186628477/skoda-octavia-combi-20-tdi-dsg-f1-4x4-led-acc-alcantara-taz.php",
+    "location": "Partizánske 958 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "110 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:48.955Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2017|14000|180000|Partizánske",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel Mid (110kW)",
+    "equipLevel": "Medium",
+    "features": [
+      "LED/Xenon",
+      "4x4",
+      "ACC/Tempomat"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 12249,
+    "correctedMedian": 11333,
+    "kmReference": 150000,
+    "discount": -23.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -24 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "186644746",
+    "title": "Ford Kuga 1.5 EcoBoost 182k ST Line X AWD A/T MODEL 2019",
+    "price": 14450,
+    "year": 2019,
+    "km": 89550,
+    "url": "https://auto.bazos.sk/inzerat/186644746/skoda-octavia-3-combi-facelift-16-tdi-model-2018-top.php",
+    "location": "Poltár 987 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "drive": "4x4",
+    "power": "182 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:48.955Z",
+    "fingerprint": "FUZZY:Ford|Kuga|2019|14500|90000|Poltár",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "Kuga",
+    "engine": "Benzín High (182kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 14450,
+    "correctedMedian": 13383,
+    "kmReference": 60000,
+    "discount": -8,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "186621342",
+    "title": "Škoda Octavia 3 facelift scout 2.0 TDi 110kw",
+    "price": 15500,
+    "year": 2018,
+    "km": 167000,
+    "url": "https://auto.bazos.sk/inzerat/186621342/skoda-octavia-3-facelift-scout-20-tdi-110kw.php",
+    "location": "Nitra 949 11",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "110 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:48.956Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|15500|167000|Nitra",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel Mid (110kW)",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 15500,
+    "correctedMedian": 14841,
+    "kmReference": 150000,
+    "discount": -4.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.245Z"
+  },
+  {
+    "id": "187210512",
+    "title": "Škoda Octavia Scout 4x4 2.0TDI automat",
+    "price": 7690,
+    "year": 2016,
+    "km": 297000,
+    "url": "https://auto.bazos.sk/inzerat/187210512/skoda-octavia-scout-4x4-20tdi-automat.php",
+    "location": "Galanta 925 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "135 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:22:48.957Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2016|7700|297000|Galanta",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel Mid-High (135kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7690,
+    "correctedMedian": 6177,
+    "kmReference": 275000,
+    "discount": -24.5,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -24 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "187067421",
+    "title": "BMW X5 F15 M-Packet Xdrive 3.0D 190kw",
+    "price": 16990,
+    "year": 2015,
+    "km": 295500,
+    "url": "https://auto.bazos.sk/inzerat/187067421/bmw-x5-f15-m-packet-xdrive-30d-190kw.php",
+    "location": "Prievidza 971 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "190 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.737Z",
+    "fingerprint": "FUZZY:BMW|X5|2015|17000|296000|Prievidza",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel High (190kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16990,
+    "correctedMedian": 13701,
+    "kmReference": 275000,
+    "discount": -24,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -24 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "186632936",
+    "title": "BMW X5 xdrive40d m-packet at 230kw 313hp",
+    "price": 28490,
+    "year": 2018,
+    "km": 174465,
+    "url": "https://auto.bazos.sk/inzerat/186632936/bmw-x5-xdrive40d-m-packet-at-230kw-313hp.php",
+    "location": "Košice 040 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "230 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.738Z",
+    "fingerprint": "FUZZY:BMW|X5|2018|28500|174000|Košice",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel Extreme (230kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 28490,
+    "correctedMedian": 26747,
+    "kmReference": 150000,
+    "discount": -6.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "187155165",
+    "title": "BMW X5 M50d",
+    "price": 32900,
+    "year": 2016,
+    "km": null,
+    "url": "https://auto.bazos.sk/inzerat/187155165/bmw-x5-m50d.php",
+    "location": "Žilina 013 01",
+    "vin": null,
+    "transmission": null,
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": null,
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.743Z",
+    "fingerprint": "FUZZY:BMW|X5|2016|32900|N/A|Žilina",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 32900,
+    "correctedMedian": 17220,
+    "kmReference": 60000,
+    "discount": -91.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -91 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "186393869",
+    "title": "BMW X5 XDrive45e A/T",
+    "price": 37490,
+    "year": 2021,
+    "km": 155800,
+    "url": "https://auto.bazos.sk/inzerat/186393869/bmw-x5-xdrive45e-at.php",
+    "location": "Skalica 908 51",
+    "vin": "WBATA610109G23439",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "drive": "4x4",
+    "power": "210 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.743Z",
+    "fingerprint": "VIN:WBATA610109G23439",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Benzín Extreme (210kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 37490,
+    "correctedMedian": 36946,
+    "kmReference": 150000,
+    "discount": -1.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "186886717",
+    "title": "BMW X5 30d xDrive Mpaket, Laser, H/K",
+    "price": 49990,
+    "year": 2020,
+    "km": 88000,
+    "url": "https://auto.bazos.sk/inzerat/186886717/bmw-x5-30d-xdrive-mpaket.php",
+    "location": "Košice-okolie 044 42",
+    "vin": "WBACV610809D43392",
+    "transmission": null,
+    "fuel": null,
+    "drive": "4x4",
+    "power": "195 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.745Z",
+    "fingerprint": "VIN:WBACV610809D43392",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Unknown",
+    "equipLevel": "Medium",
+    "features": [
+      "LED/Xenon",
+      "4x4"
+    ],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 49990,
+    "correctedMedian": 46491,
+    "kmReference": 60000,
+    "discount": -7.5,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "187220893",
+    "title": "BMW X5 M50d A/T xDrive 381k Panorama (diesel) kup.SR",
+    "price": 24490,
+    "year": 2016,
+    "km": 376321,
+    "url": "https://auto.bazos.sk/inzerat/187220893/bmw-x5-m50d-at-xdrive-381k-panorama-diesel-kupsr.php",
+    "location": "Galanta 924 01",
+    "vin": "WBAKS810600M51561",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "381 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.746Z",
+    "fingerprint": "VIN:WBAKS810600M51561",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel Extreme (381kW)",
+    "equipLevel": "Medium",
+    "features": [
+      "Panoráma",
+      "4x4"
+    ],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24490,
+    "correctedMedian": 22878,
+    "kmReference": 350000,
+    "discount": -7,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -7 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "186667279",
+    "title": "BMW X5 MSport 2018 3.0D 7 miestne DPH",
+    "price": 22900,
+    "year": 2018,
+    "km": 250000,
+    "url": "https://auto.bazos.sk/inzerat/186667279/bmw-x5-msport-2018-30d-7-miestne.php",
+    "location": "Nitra 951 36",
+    "vin": null,
+    "transmission": null,
+    "fuel": null,
+    "drive": "Predný",
+    "power": null,
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.746Z",
+    "fingerprint": "FUZZY:BMW|X5|2018|22900|250000|Nitra",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 22900,
+    "correctedMedian": 19465,
+    "kmReference": 275000,
+    "discount": -17.6,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -18 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.246Z"
+  },
+  {
+    "id": "187155472",
+    "title": "BMW X5 xDrive30d F15 A/T",
+    "price": 25500,
+    "year": 2015,
+    "km": 191500,
+    "url": "https://auto.bazos.sk/inzerat/187155472/bmw-x5-xdrive30d-f15-at.php",
+    "location": "Bardejov 085 01",
+    "vin": null,
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "drive": "4x4",
+    "power": "190 kW",
+    "portal": "Bazos",
+    "scrapedAt": "2026-01-07T18:23:44.751Z",
+    "fingerprint": "FUZZY:BMW|X5|2015|25500|192000|Bardejov",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel High (190kW)",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 25500,
+    "correctedMedian": 22854,
+    "kmReference": 150000,
+    "discount": -11.6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -12 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.247Z"
+  },
+  {
+    "id": "sk_ri5mwmtkz",
+    "title": "Škoda Karoq Škoda Karog",
+    "price": 21900,
+    "year": 2018,
+    "km": 181202,
+    "url": "https://www.autobazar.sk/27833574/skoda-karoq-skoda-karog/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.917Z",
+    "fingerprint": "FUZZY:Škoda|Karoq|2018|21900|181000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Karoq",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21900,
+    "correctedMedian": 20192,
+    "kmReference": 150000,
+    "discount": -8.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.247Z"
+  },
+  {
+    "id": "sk_ne873ib58",
+    "title": "BMW Rad 5 Touring 530d xDrive 190kW258HP A8",
+    "price": 13500,
+    "year": 2015,
+    "km": 242000,
+    "url": "https://www.autobazar.sk/27936017/bmw-rad-5-touring-530d-xdrive-190kw258hp-a8/",
+    "fuel": null,
+    "location": "NR kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.918Z",
+    "fingerprint": "FUZZY:BMW|Rad|2015|13500|242000|NR",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936017/bmw-rad-5-touring-530d-xdrive-190kw258hp-a8/",
+        "price": 13500
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936017/bmw-rad-5-touring-530d-xdrive-190kw258hp-a8/",
+        "price": 13500
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936017/bmw-rad-5-touring-530d-xdrive-190kw258hp-a8/",
+        "price": 13500
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936017/bmw-rad-5-touring-530d-xdrive-190kw258hp-a8/",
+        "price": 13500
+      }
+    ],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 13500,
+    "correctedMedian": 12926,
+    "kmReference": 225000,
+    "discount": -4.4,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.248Z"
+  },
+  {
+    "id": "sk_4v4tn076b",
+    "title": "Volkswagen CC 4x4 2.0tdi",
+    "price": 9500,
+    "year": 2014,
+    "km": 249000,
+    "url": "https://www.autobazar.sk/27936001/volkswagen-cc-4x4-2-0tdi/",
+    "fuel": null,
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.918Z",
+    "fingerprint": "FUZZY:Volkswagen|CC|2014|9500|249000|TN",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936001/volkswagen-cc-4x4-2-0tdi/",
+        "price": 9500
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936001/volkswagen-cc-4x4-2-0tdi/",
+        "price": 9500
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936001/volkswagen-cc-4x4-2-0tdi/",
+        "price": 9500
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936001/volkswagen-cc-4x4-2-0tdi/",
+        "price": 9500
+      }
+    ],
+    "make": "Volkswagen",
+    "model": "CC",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 9500,
+    "correctedMedian": 8930,
+    "kmReference": 225000,
+    "discount": -6.4,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.248Z"
+  },
+  {
+    "id": "sk_hls77pujm",
+    "title": "BMW Rad 5 525d xDrive 160kW218HP A8",
+    "price": 15000,
+    "year": 2015,
+    "km": 260000,
+    "url": "https://www.autobazar.sk/27788317/bmw-rad-5-525d-xdrive-160kw218hp-a8/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.918Z",
+    "fingerprint": "FUZZY:BMW|Rad|2015|15000|260000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/bmw-rad-5-525d-xdrive-160kw218hp-a8/Ae8sAkOZz-j/",
+        "price": 15000
+      }
+    ],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 15000,
+    "correctedMedian": 12750,
+    "kmReference": 275000,
+    "discount": -17.6,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -18 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.248Z"
+  },
+  {
+    "id": "sk_3wtutkbp6",
+    "title": "Škoda Fabia Combi 1.0 TSI Ambition 70kW95HP M5",
+    "price": 6900,
+    "year": 2020,
+    "km": 162375,
+    "url": "https://www.autobazar.sk/27935674/skoda-fabia-combi-1-0-tsi-ambition-70kw95hp-m5/",
+    "fuel": null,
+    "location": "BB kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.918Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2020|6900|162000|BB",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Fabia",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 6900,
+    "correctedMedian": 6687,
+    "kmReference": 150000,
+    "discount": -3.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.248Z"
+  },
+  {
+    "id": "sk_klxf84phb",
+    "title": "Škoda Kodiaq 2.0TDI DSG 4X4 140kW Soleil KOŽATOP STAV",
+    "price": 18990,
+    "year": 2020,
+    "km": 229000,
+    "url": "https://www.autobazar.sk/27912420/skoda-kodiaq-2-0tdi-dsg-4x4-140kw-soleil-kozatop-stav/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.919Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2020|19000|229000|BA",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Kodiaq",
+    "engine": "Unknown",
+    "equipLevel": "Medium",
+    "features": [
+      "Koža",
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 18990,
+    "correctedMedian": 18800,
+    "kmReference": 225000,
+    "discount": -1,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.248Z"
+  },
+  {
+    "id": "sk_v01vq9i5w",
+    "title": "Škoda Octavia Combi Octavia Combi 2.0 TDI Drive DSG EU6 110kW150HP A6",
+    "price": 11750,
+    "year": 2018,
+    "km": 172000,
+    "url": "https://www.autobazar.sk/27932250/skoda-octavia-combi-octavia-combi-2-0-tdi-drive-dsg-eu6-110kw150hp-a6/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.919Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2018|11800|172000|BA",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 11750,
+    "correctedMedian": 11104,
+    "kmReference": 150000,
+    "discount": -5.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.249Z"
+  },
+  {
+    "id": "sk_hksymvenb",
+    "title": "Peugeot 508 SW 2.0 BlueHDi Allure EAT6 133kW180HP A6",
+    "price": 7500,
+    "year": 2015,
+    "km": 165700,
+    "url": "https://www.autobazar.sk/27887545/peugeot-508-sw-2-0-bluehdi-allure-eat6-133kw180hp-a6/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.919Z",
+    "fingerprint": "FUZZY:Peugeot|508|2015|7500|166000|BA",
+    "otherPortals": [],
+    "make": "Peugeot",
+    "model": "508",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7500,
+    "correctedMedian": 7206,
+    "kmReference": 150000,
+    "discount": -4.1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.249Z"
+  },
+  {
+    "id": "sk_u3hzd2pb0",
+    "title": "Tesla Model Y Long Range Dual Motor",
+    "price": 28900,
+    "year": 2022,
+    "km": 170000,
+    "url": "https://www.autobazar.sk/27893681/tesla-model-y-long-range-dual-motor/",
+    "fuel": null,
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.919Z",
+    "fingerprint": "FUZZY:Tesla|Model Y|2022|28900|170000|ZA",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model Y",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 28900,
+    "correctedMedian": 27455,
+    "kmReference": 150000,
+    "discount": -5.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.249Z"
+  },
+  {
+    "id": "sk_z4cruk2vh",
+    "title": "Renault Master Master 2.5 dCi L2H2 3.5t 84kW114HP M6",
+    "price": 2500,
+    "year": 2006,
+    "km": 250000,
+    "url": "https://www.autobazar.sk/27893714/renault-master-master-2-5-dci-l2h2-3-5t-84kw114hp-m6/",
+    "fuel": null,
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.920Z",
+    "fingerprint": "FUZZY:Renault|Master|2006|2500|250000|ZA",
+    "otherPortals": [],
+    "make": "Renault",
+    "model": "Master",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 2500,
+    "correctedMedian": 1750,
+    "kmReference": 275000,
+    "discount": -42.9,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -43 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.249Z"
+  },
+  {
+    "id": "sk_o5ieh2n18",
+    "title": "Mercedes C trieda 220 d A/T",
+    "price": 14990,
+    "year": 2014,
+    "km": 227000,
+    "url": "https://www.autobazar.sk/27893717/mercedes-c-trieda-220-d-a-t/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:43:57.920Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|C trieda|2014|15000|227000|BA",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "C trieda",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 14990,
+    "correctedMedian": 14915,
+    "kmReference": 225000,
+    "discount": -0.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.249Z"
+  },
+  {
+    "id": "sk_k7ueuya68",
+    "title": "Škoda Roomster 1.6 TDI 66kW90HP M5",
+    "price": 3200,
+    "year": 2014,
+    "km": 366621,
+    "url": "https://www.autobazar.sk/27935873/skoda-roomster-1-6-tdi-66kw90hp-m5/",
+    "fuel": null,
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.443Z",
+    "fingerprint": "FUZZY:Škoda|Roomster|2014|3200|367000|TN",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Roomster",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 3200,
+    "correctedMedian": 3067,
+    "kmReference": 350000,
+    "discount": -4.3,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.250Z"
+  },
+  {
+    "id": "sk_pb4hex3ep",
+    "title": "Škoda Octavia Combi 1.6 TDI Ambition 4x4 77kW105HP M6",
+    "price": 7000,
+    "year": 2013,
+    "km": 271000,
+    "url": "https://www.autobazar.sk/27935955/skoda-octavia-combi-1-6-tdi-ambition-4x4-77kw105hp-m6/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.443Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2013|7000|271000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.eu",
+        "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-16-tdi-ambition-4x4-77kw105hp-m6/AehkBEBSPuo/",
+        "price": 7000
+      },
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/skoda-octavia-combi-16-tdi-ambition-4x4-77kw105hp-m6/AehkBEBSPuo/",
+        "price": 7000
+      }
+    ],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7000,
+    "correctedMedian": 4900,
+    "kmReference": 275000,
+    "discount": -42.9,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -43 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.250Z"
+  },
+  {
+    "id": "sk_ddeer533j",
+    "title": "Volkswagen Passat Variant Passat Variant 2.0 TDI BMT Comfortline DSG 110kW1...",
+    "price": 15500,
+    "year": 2015,
+    "km": 169500,
+    "url": "https://www.autobazar.sk/27833498/volkswagen-passat-variant-passat-variant-2-0-tdi-bmt-comfortline-dsg-110kw150hp-a6/",
+    "fuel": null,
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.443Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2015|15500|170000|ZA",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Passat",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 15500,
+    "correctedMedian": 14744,
+    "kmReference": 150000,
+    "discount": -5.1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.250Z"
+  },
+  {
+    "id": "sk_0dbd1st6y",
+    "title": "BMW rad 3 Touring 318d Touring xDrive. Luxury Line",
+    "price": 7999,
+    "year": 2015,
+    "km": 228237,
+    "url": "https://www.autobazar.sk/27935950/bmw-rad-3-touring-318d-touring-xdrive-luxury-line/",
+    "fuel": "Diesel",
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.443Z",
+    "fingerprint": "FUZZY:BMW|rad|2015|8000|228000|TN",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935950/bmw-rad-3-touring-318d-touring-xdrive-luxury-line/",
+        "price": 7999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935950/bmw-rad-3-touring-318d-touring-xdrive-luxury-line/",
+        "price": 7999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935950/bmw-rad-3-touring-318d-touring-xdrive-luxury-line/",
+        "price": 7999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935950/bmw-rad-3-touring-318d-touring-xdrive-luxury-line/",
+        "price": 7999
+      }
+    ],
+    "make": "BMW",
+    "model": "rad",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7999,
+    "correctedMedian": 7934,
+    "kmReference": 225000,
+    "discount": -0.8,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.250Z"
+  },
+  {
+    "id": "sk_lb76zujtf",
+    "title": "BMW M4 Coupé 331kw Automat",
+    "price": 47900,
+    "year": 2016,
+    "km": 77500,
+    "url": "https://www.autobazar.sk/27935946/bmw-m4-coupe-331kw-automat/",
+    "fuel": "Benzín",
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.443Z",
+    "fingerprint": "FUZZY:BMW|M4|2016|47900|78000|ZA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935946/bmw-m4-coupe-331kw-automat/",
+        "price": 47900
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935946/bmw-m4-coupe-331kw-automat/",
+        "price": 47900
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935946/bmw-m4-coupe-331kw-automat/",
+        "price": 47900
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935946/bmw-m4-coupe-331kw-automat/",
+        "price": 47900
+      }
+    ],
+    "make": "BMW",
+    "model": "M4",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 47900,
+    "correctedMedian": 45804,
+    "kmReference": 60000,
+    "discount": -4.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.250Z"
+  },
+  {
+    "id": "sk_bhivlpxul",
+    "title": "Renault Arkana e-tech",
+    "price": 16990,
+    "year": 2021,
+    "km": 98300,
+    "url": "https://www.autobazar.sk/27935939/renault-arkana-e-tech/",
+    "fuel": null,
+    "location": "NR kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.443Z",
+    "fingerprint": "FUZZY:Renault|Arkana|2021|17000|98000|NR",
+    "otherPortals": [],
+    "make": "Renault",
+    "model": "Arkana",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16990,
+    "correctedMedian": 15363,
+    "kmReference": 60000,
+    "discount": -10.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -11 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.250Z"
+  },
+  {
+    "id": "sk_2x0qzcquz",
+    "title": "Volkswagen Touareg II 3.0 V6 TDI BlueMotion Technology Mountain 150kW204HP ...",
+    "price": 20990,
+    "year": 2014,
+    "km": 153500,
+    "url": "https://www.autobazar.sk/27893660/volkswagen-touareg-ii-3-0-v6-tdi-bluemotion-technology-mountain-150kw204hp-a8/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.443Z",
+    "fingerprint": "FUZZY:Volkswagen|Touareg|2014|21000|154000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/volkswagen-touareg-ii-30-v6-tdi-bluemotion-technology-mountain-150kw204hp-a8/Ae2kCWpzBSb/",
+        "price": 20990
+      }
+    ],
+    "make": "Volkswagen",
+    "model": "Touareg",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 20990,
+    "correctedMedian": 20806,
+    "kmReference": 150000,
+    "discount": -0.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.250Z"
+  },
+  {
+    "id": "sk_xpqyjvmr7",
+    "title": "Mercedes-Benz CLS 350 4 matíc",
+    "price": 21000,
+    "year": 2015,
+    "km": 231000,
+    "url": "https://www.autobazar.sk/27893690/mercedes-benz-cls-350-4-matic/",
+    "fuel": null,
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.443Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|CLS|2015|21000|231000|ZA",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "CLS",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21000,
+    "correctedMedian": 20685,
+    "kmReference": 225000,
+    "discount": -1.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.251Z"
+  },
+  {
+    "id": "sk_6cpphh0k0",
+    "title": "Ford C-Max C-MAX 1.0 EcoBoost 125k Sport 92kW124HP M6",
+    "price": 8999,
+    "year": 2019,
+    "km": 81000,
+    "url": "https://www.autobazar.sk/27898051/ford-c-max-c-max-1-0-ecoboost-125k-sport-92kw124hp-m6/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.444Z",
+    "fingerprint": "FUZZY:Ford|C-Max|2019|9000|81000|BA",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "C-Max",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 8999,
+    "correctedMedian": 8527,
+    "kmReference": 60000,
+    "discount": -5.5,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.251Z"
+  },
+  {
+    "id": "sk_opbq7h6cb",
+    "title": "Mercedes-Benz E trieda 320d",
+    "price": 7990,
+    "year": 2004,
+    "km": 94500,
+    "url": "https://www.autobazar.sk/27852484/mercedes-benz-e-trieda-320d/",
+    "fuel": null,
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.444Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|E trieda|2004|8000|95000|ZA",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "E trieda",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7990,
+    "correctedMedian": 6612,
+    "kmReference": 60000,
+    "discount": -20.8,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -21 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 15,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.251Z"
+  },
+  {
+    "id": "sk_morfe1aa3",
+    "title": "Peugeot Traveller 2.0 BlueHDi 177 SS Business VIP Long EAT8 130kW177HP A8",
+    "price": 25000,
+    "year": 2022,
+    "km": 160500,
+    "url": "https://www.autobazar.sk/27935861/peugeot-traveller-2-0-bluehdi-177-ss-business-vip-long-eat8-130kw177hp-a8/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.444Z",
+    "fingerprint": "FUZZY:Peugeot|Traveller|2022|25000|161000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/peugeot-traveller-20-bluehdi-177-ss-business-vip-long-eat8-130kw177hp-a8/Aell4_wnBm2/",
+        "price": 25000
+      }
+    ],
+    "make": "Peugeot",
+    "model": "Traveller",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 25000,
+    "correctedMedian": 24344,
+    "kmReference": 150000,
+    "discount": -2.7,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.251Z"
+  },
+  {
+    "id": "sk_cu4znn9em",
+    "title": "Jaguar XE 2.0 I4D XE E-Performance Pure",
+    "price": 9900,
+    "year": 2016,
+    "km": 194000,
+    "url": "https://www.autobazar.sk/27935862/jaguar-xe-2-0-i4d-xe-e-performance-pure/",
+    "fuel": "Diesel",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.444Z",
+    "fingerprint": "FUZZY:Jaguar|XE|2016|9900|194000|PO",
+    "otherPortals": [],
+    "make": "Jaguar",
+    "model": "XE",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 9900,
+    "correctedMedian": 8811,
+    "kmReference": 150000,
+    "discount": -12.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -12 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.251Z"
+  },
+  {
+    "id": "sk_138dtwme2",
+    "title": "Fiat Dobló Cargo 1.4 T-Jet XL Base E6",
+    "price": 8490,
+    "year": 2018,
+    "km": 67350,
+    "url": "https://www.autobazar.sk/27608076/fiat-doblo-cargo-1-4-t-jet-xl-base-e6/",
+    "fuel": "Benzín",
+    "location": "TT kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:11.444Z",
+    "fingerprint": "FUZZY:Fiat|Dobló|2018|8500|67000|TT",
+    "otherPortals": [],
+    "make": "Fiat",
+    "model": "Dobló",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 8490,
+    "correctedMedian": 8334,
+    "kmReference": 60000,
+    "discount": -1.9,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.252Z"
+  },
+  {
+    "id": "sk_eekrd9080",
+    "title": "Škoda Fabia Combi 1.0 TSI Style",
+    "price": 8290,
+    "year": 2020,
+    "km": 153100,
+    "url": "https://www.autobazar.sk/27606804/skoda-fabia-combi-1-0-tsi-style/",
+    "fuel": "Benzín",
+    "location": "TT kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.316Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2020|8300|153000|TT",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Fabia",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7595,
+    "correctedMedian": 7536,
+    "kmReference": 150000,
+    "discount": -10,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -10 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.252Z"
+  },
+  {
+    "id": "sk_s8nqpu06c",
+    "title": "Mercedes-Benz CLA Shooting Brake CLA SB 180 90kW122HP M6",
+    "price": 10500,
+    "year": 2017,
+    "km": 260000,
+    "url": "https://www.autobazar.sk/27932655/mercedes-benz-cla-shooting-brake-cla-sb-180-90kw122hp-m6/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.317Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|CLA|2017|10500|260000|BA",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 10500,
+    "correctedMedian": 8925,
+    "kmReference": 275000,
+    "discount": -17.6,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -18 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.252Z"
+  },
+  {
+    "id": "sk_r47q0mad4",
+    "title": "Mercedes-Benz CLS 450 4Matic",
+    "price": 43990,
+    "year": 2019,
+    "km": 89600,
+    "url": "https://www.autobazar.sk/27928281/mercedes-benz-cls-450-4matic/",
+    "fuel": null,
+    "location": "KE kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.317Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|CLS|2019|44000|90000|KE",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "CLS",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 43990,
+    "correctedMedian": 40735,
+    "kmReference": 60000,
+    "discount": -8,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.252Z"
+  },
+  {
+    "id": "sk_rx9fh3yr7",
+    "title": "Volkswagen Golf Variant 2.0 TDI Highline DSG 110kW150HP A7",
+    "price": 11490,
+    "year": 2018,
+    "km": 199700,
+    "url": "https://www.autobazar.sk/27815921/volkswagen-golf-variant-2-0-tdi-highline-dsg-110kw150hp-a7/",
+    "fuel": null,
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.317Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2018|11500|200000|ZA",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Golf",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 11490,
+    "correctedMedian": 10062,
+    "kmReference": 150000,
+    "discount": -14.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -14 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.252Z"
+  },
+  {
+    "id": "sk_qiy5atbjx",
+    "title": "Škoda Superb 2.5 TDI V6 Elegance AT 120kW163HP A5",
+    "price": 3000,
+    "year": 2006,
+    "km": 255537,
+    "url": "https://www.autobazar.sk/27935688/skoda-superb-2-5-tdi-v6-elegance-at-120kw163hp-a5/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.317Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2006|3000|256000|BA",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Superb",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 3000,
+    "correctedMedian": 2100,
+    "kmReference": 275000,
+    "discount": -42.9,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -43 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.253Z"
+  },
+  {
+    "id": "sk_nhv0qee6i",
+    "title": "Volkswagen Passat Variant 2.0 TDI Elegance DSG",
+    "price": 24600,
+    "year": 2019,
+    "km": 109000,
+    "url": "https://www.autobazar.sk/27894449/volkswagen-passat-variant-2-0-tdi-elegance-dsg/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.318Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2019|24600|109000|BA",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Passat",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24600,
+    "correctedMedian": 16475,
+    "kmReference": 150000,
+    "discount": -49.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -49 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.253Z"
+  },
+  {
+    "id": "sk_8hv4k9mqx",
+    "title": "BMW X1 sDrive 20i mHEV AT 115kW156HP A7",
+    "price": 34900,
+    "year": 2023,
+    "km": 76599,
+    "url": "https://www.autobazar.sk/27935649/bmw-x1-sdrive-20i-mhev-at-115kw156hp-a7/",
+    "fuel": null,
+    "location": "KE kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.318Z",
+    "fingerprint": "FUZZY:BMW|X1|2023|34900|77000|KE",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X1",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 34900,
+    "correctedMedian": 33452,
+    "kmReference": 60000,
+    "discount": -4.3,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.253Z"
+  },
+  {
+    "id": "sk_loyf5a5bg",
+    "title": "BMW Rad 7 730d xDrive AT 195kW265HP A8",
+    "price": 17990,
+    "year": 2016,
+    "km": 369995,
+    "url": "https://www.autobazar.sk/27935646/bmw-rad-7-730d-xdrive-at-195kw265hp-a8/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.318Z",
+    "fingerprint": "FUZZY:BMW|Rad|2016|18000|370000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/bmw-rad-7-730d-xdrive-at-195kw265hp-a8/Ae0MvJ6IKLe/",
+        "price": 17990
+      }
+    ],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 17990,
+    "correctedMedian": 17091,
+    "kmReference": 350000,
+    "discount": -5.3,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.254Z"
+  },
+  {
+    "id": "sk_mz1opzw9b",
+    "title": "BMW Rad 4 Gran Coupé BMW Rad 4 Gran Coupé",
+    "price": 59000,
+    "year": 2022,
+    "km": 30000,
+    "url": "https://www.autobazar.sk/27932519/bmw-rad-4-gran-coupe-bmw-rad-4-gran-coupe/",
+    "fuel": null,
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:25.318Z",
+    "fingerprint": "FUZZY:BMW|Rad|2022|59000|30000|ZA",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 43950,
+    "correctedMedian": 34913,
+    "kmReference": 60000,
+    "discount": -69,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -69 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.254Z"
+  },
+  {
+    "id": "sk_yw2eontbt",
+    "title": "Škoda Octavia 1, 5 G-tec NAVI, TEMPOM. CARPLAY",
+    "price": 11733,
+    "year": 2019,
+    "km": 159000,
+    "url": "https://www.autobazar.sk/27936020/skoda-octavia-1-5-g-tec-navi-tempom-carplay/",
+    "fuel": null,
+    "location": null,
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.973Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2019|11700|159000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936020/skoda-octavia-1-5-g-tec-navi-tempom-carplay/",
+        "price": 11733
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936020/skoda-octavia-1-5-g-tec-navi-tempom-carplay/",
+        "price": 11733
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936020/skoda-octavia-1-5-g-tec-navi-tempom-carplay/",
+        "price": 11733
+      }
+    ],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [
+      "Navigácia"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 11733,
+    "correctedMedian": 11469,
+    "kmReference": 150000,
+    "discount": -2.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.254Z"
+  },
+  {
+    "id": "sk_kr6j5wi0x",
+    "title": "Volkswagen Golf 1.2 TSI Comfortline",
+    "price": 4300,
+    "year": 2010,
+    "km": 178000,
+    "url": "https://www.autobazar.sk/27936019/volkswagen-golf-1-2-tsi-comfortline/",
+    "fuel": "Benzín",
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.973Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2010|4300|178000|TN",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936019/volkswagen-golf-1-2-tsi-comfortline/",
+        "price": 4300
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936019/volkswagen-golf-1-2-tsi-comfortline/",
+        "price": 4300
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936019/volkswagen-golf-1-2-tsi-comfortline/",
+        "price": 4300
+      }
+    ],
+    "make": "Volkswagen",
+    "model": "Golf",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 4300,
+    "correctedMedian": 3698,
+    "kmReference": 150000,
+    "discount": -16.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -16 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.254Z"
+  },
+  {
+    "id": "sk_mldtayzpp",
+    "title": "Volkswagen Tiguan 2.0 TDI SCR BMT 4MOTION DSG, 110...",
+    "price": 17990,
+    "year": 2016,
+    "km": 177816,
+    "url": "https://www.autobazar.sk/27936016/volkswagen-tiguan-2-0-tdi-scr-bmt-4motion-dsg-110kw-a7-5d-aj-na-splatky-protiucet/",
+    "fuel": "Diesel",
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.974Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2016|18000|178000|TN",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936016/volkswagen-tiguan-2-0-tdi-scr-bmt-4motion-dsg-110kw-a7-5d-aj-na-splatky-protiucet/",
+        "price": 17990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936016/volkswagen-tiguan-2-0-tdi-scr-bmt-4motion-dsg-110kw-a7-5d-aj-na-splatky-protiucet/",
+        "price": 17990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936016/volkswagen-tiguan-2-0-tdi-scr-bmt-4motion-dsg-110kw-a7-5d-aj-na-splatky-protiucet/",
+        "price": 17990
+      }
+    ],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 17990,
+    "correctedMedian": 16739,
+    "kmReference": 150000,
+    "discount": -7.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.254Z"
+  },
+  {
+    "id": "sk_s9i232hqz",
+    "title": "Audi A7 Audi A7 3.0 BiTDI 235KW",
+    "price": 29999,
+    "year": 2016,
+    "km": 161000,
+    "url": "https://www.autobazar.sk/27936010/audi-a7-audi-a7-3-0-bitdi-235kw/",
+    "fuel": "Diesel",
+    "location": "NR kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.974Z",
+    "fingerprint": "FUZZY:Audi|A7|2016|30000|161000|NR",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936010/audi-a7-audi-a7-3-0-bitdi-235kw/",
+        "price": 29999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936010/audi-a7-audi-a7-3-0-bitdi-235kw/",
+        "price": 29999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27936010/audi-a7-audi-a7-3-0-bitdi-235kw/",
+        "price": 29999
+      }
+    ],
+    "make": "Audi",
+    "model": "A7",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 29999,
+    "correctedMedian": 29174,
+    "kmReference": 150000,
+    "discount": -2.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.254Z"
+  },
+  {
+    "id": "sk_fzi2d8362",
+    "title": "Tesla Model 3 Long Range Dual Motor",
+    "price": 20910,
+    "year": 2019,
+    "km": 166000,
+    "url": "https://www.autobazar.sk/27868755/tesla-model-3-long-range-dual-motor/",
+    "fuel": null,
+    "location": "NR kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.974Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2019|20900|166000|NR",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27868755/tesla-model-3-long-range-dual-motor/",
+        "price": 20910
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27868755/tesla-model-3-long-range-dual-motor/",
+        "price": 20910
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27868755/tesla-model-3-long-range-dual-motor/",
+        "price": 20910
+      }
+    ],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 20910,
+    "correctedMedian": 20074,
+    "kmReference": 150000,
+    "discount": -4.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.254Z"
+  },
+  {
+    "id": "sk_d19g04tbn",
+    "title": "Nissan Qashqai 1.2 DIG-T Tekna Xtronic",
+    "price": 10700,
+    "year": 2015,
+    "km": 90000,
+    "url": "https://www.autobazar.sk/27935999/nissan-qashqai-1-2-dig-t-tekna-xtronic/",
+    "fuel": "Benzín",
+    "location": "NR kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.975Z",
+    "fingerprint": "FUZZY:Nissan|Qashqai|2015|10700|90000|NR",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935999/nissan-qashqai-1-2-dig-t-tekna-xtronic/",
+        "price": 10700
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935999/nissan-qashqai-1-2-dig-t-tekna-xtronic/",
+        "price": 10700
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935999/nissan-qashqai-1-2-dig-t-tekna-xtronic/",
+        "price": 10700
+      }
+    ],
+    "make": "Nissan",
+    "model": "Qashqai",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 10700,
+    "correctedMedian": 9898,
+    "kmReference": 60000,
+    "discount": -8.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.255Z"
+  },
+  {
+    "id": "sk_pe23mi18z",
+    "title": "MERCEDES-BENZ GLC 300 d 4MATIC kupé",
+    "price": 94131,
+    "year": 2026,
+    "km": null,
+    "url": "https://www.autobazar.sk/27935996/mercedes-benz-glc-300-d-4matic-kupe/",
+    "fuel": "Diesel",
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.975Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLC|2026|94100|N/A|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935996/mercedes-benz-glc-300-d-4matic-kupe/",
+        "price": 94131
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935996/mercedes-benz-glc-300-d-4matic-kupe/",
+        "price": 94131
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935996/mercedes-benz-glc-300-d-4matic-kupe/",
+        "price": 94131
+      }
+    ],
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 92160,
+    "correctedMedian": 92160,
+    "kmReference": 60000,
+    "discount": -2.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.255Z"
+  },
+  {
+    "id": "sk_0b6i8i8jk",
+    "title": "MERCEDES-BENZ GLC 220 d 4MATIC",
+    "price": 57900,
+    "year": 2023,
+    "km": 202332179,
+    "url": "https://www.autobazar.sk/27935994/mercedes-benz-glc-220-d-4matic/",
+    "fuel": "Diesel",
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.975Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLC|2023|57900|202332000|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935994/mercedes-benz-glc-220-d-4matic/",
+        "price": 57900
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935994/mercedes-benz-glc-220-d-4matic/",
+        "price": 57900
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935994/mercedes-benz-glc-220-d-4matic/",
+        "price": 57900
+      }
+    ],
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Level 500 (Zombie Tier)",
+    "matchAccuracy": "specific",
+    "originalMedian": 57900,
+    "correctedMedian": 8685,
+    "kmReference": 550000,
+    "discount": -566.7,
+    "dealReason": "Segment: Level 500 (Zombie Tier) | Cena vs upravený medián: -567 %",
+    "mileageWarning": "💀 Kritický stav životnosti",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.255Z"
+  },
+  {
+    "id": "sk_view8dkk6",
+    "title": "MERCEDES-BENZ 314 KA 4X2 4325",
+    "price": 16900,
+    "year": 2020,
+    "km": 264404,
+    "url": "https://www.autobazar.sk/27935993/mercedes-benz-314-ka-4x2-4325/",
+    "fuel": "Diesel",
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.975Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|314|2020|16900|264000|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935993/mercedes-benz-314-ka-4x2-4325/",
+        "price": 16900
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935993/mercedes-benz-314-ka-4x2-4325/",
+        "price": 16900
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935993/mercedes-benz-314-ka-4x2-4325/",
+        "price": 16900
+      }
+    ],
+    "make": "Mercedes-Benz",
+    "model": "314",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16900,
+    "correctedMedian": 14365,
+    "kmReference": 275000,
+    "discount": -17.6,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -18 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.255Z"
+  },
+  {
+    "id": "sk_tsh7idr4t",
+    "title": "Predám Škodu Octavia RS MK2 2.0tfsi BWA",
+    "price": 4600,
+    "year": 2006,
+    "km": 243240,
+    "url": "https://www.autobazar.sk/27935989/predam-skodu-octavia-rs-mk2-2-0tfsi-bwa/",
+    "fuel": "Benzín",
+    "location": "BB kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:44:46.975Z",
+    "fingerprint": "FUZZY:Predám|Škodu|2006|4600|243000|BB",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935989/predam-skodu-octavia-rs-mk2-2-0tfsi-bwa/",
+        "price": 4600
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935989/predam-skodu-octavia-rs-mk2-2-0tfsi-bwa/",
+        "price": 4600
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935989/predam-skodu-octavia-rs-mk2-2-0tfsi-bwa/",
+        "price": 4600
+      }
+    ],
+    "make": "Predám",
+    "model": "Škodu",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 4600,
+    "correctedMedian": 4180,
+    "kmReference": 225000,
+    "discount": -10,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -10 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.255Z"
+  },
+  {
+    "id": "sk_5t01s9wq6",
+    "title": "Dacia Jogger Journey TCe 110 7 miest",
+    "price": 23140,
+    "year": 2026,
+    "km": 4,
+    "url": "https://www.autobazar.sk/27935982/dacia-jogger-journey-tce-110-7-miest/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.019Z",
+    "fingerprint": "FUZZY:Dacia|Jogger|2026|23100|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935979/dacia-jogger-journey-tce-110-7-miest/",
+        "price": 23140
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935982/dacia-jogger-journey-tce-110-7-miest/",
+        "price": 23140
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935979/dacia-jogger-journey-tce-110-7-miest/",
+        "price": 23140
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935982/dacia-jogger-journey-tce-110-7-miest/",
+        "price": 23140
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935979/dacia-jogger-journey-tce-110-7-miest/",
+        "price": 23140
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935982/dacia-jogger-journey-tce-110-7-miest/",
+        "price": 23140
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935979/dacia-jogger-journey-tce-110-7-miest/",
+        "price": 23140
+      }
+    ],
+    "make": "Dacia",
+    "model": "Jogger",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 22640,
+    "correctedMedian": 22640,
+    "kmReference": 60000,
+    "discount": -2.2,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_zr0io83ni",
+    "title": "Dacia Sandero Stepway Extreme TCe 110",
+    "price": 23087,
+    "year": 2026,
+    "km": 4,
+    "url": "https://www.autobazar.sk/27935980/dacia-sandero-stepway-extreme-tce-110/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.019Z",
+    "fingerprint": "FUZZY:Dacia|Sandero|2026|23100|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935980/dacia-sandero-stepway-extreme-tce-110/",
+        "price": 23087
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935980/dacia-sandero-stepway-extreme-tce-110/",
+        "price": 23087
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935980/dacia-sandero-stepway-extreme-tce-110/",
+        "price": 23087
+      }
+    ],
+    "make": "Dacia",
+    "model": "Sandero",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 17640,
+    "correctedMedian": 17640,
+    "kmReference": 60000,
+    "discount": -30.9,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -31 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_yqjo94sdo",
+    "title": "Dacia Duster Extreme Eco-G 120",
+    "price": 22080,
+    "year": 2026,
+    "km": 1,
+    "url": "https://www.autobazar.sk/27935978/dacia-duster-extreme-eco-g-120/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.019Z",
+    "fingerprint": "FUZZY:Dacia|Duster|2026|22100|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935978/dacia-duster-extreme-eco-g-120/",
+        "price": 22080
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935978/dacia-duster-extreme-eco-g-120/",
+        "price": 22080
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935978/dacia-duster-extreme-eco-g-120/",
+        "price": 22080
+      }
+    ],
+    "make": "Dacia",
+    "model": "Duster",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21580,
+    "correctedMedian": 21580,
+    "kmReference": 60000,
+    "discount": -2.3,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_4pt4mw6g5",
+    "title": "Renault Trafic Kombi L2 Equilibre Blue dCi 150",
+    "price": 34719,
+    "year": 2026,
+    "km": 5,
+    "url": "https://www.autobazar.sk/27935974/renault-trafic-kombi-l2-equilibre-blue-dci-150/",
+    "fuel": "Diesel",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Renault|Trafic|2026|34700|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935974/renault-trafic-kombi-l2-equilibre-blue-dci-150/",
+        "price": 34719
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935974/renault-trafic-kombi-l2-equilibre-blue-dci-150/",
+        "price": 34719
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935974/renault-trafic-kombi-l2-equilibre-blue-dci-150/",
+        "price": 34719
+      }
+    ],
+    "make": "Renault",
+    "model": "Trafic",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 31978,
+    "correctedMedian": 31978,
+    "kmReference": 60000,
+    "discount": -8.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -9 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_w99bf5jro",
+    "title": "Renault Clio generation TCE 90",
+    "price": 16970,
+    "year": 2026,
+    "km": 3,
+    "url": "https://www.autobazar.sk/27935972/renault-clio-generation-tce-90/",
+    "fuel": "Benzín",
+    "location": "PO kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Renault|Clio|2026|17000|0|PO",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935972/renault-clio-generation-tce-90/",
+        "price": 16970
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935972/renault-clio-generation-tce-90/",
+        "price": 16970
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935972/renault-clio-generation-tce-90/",
+        "price": 16970
+      }
+    ],
+    "make": "Renault",
+    "model": "Clio",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16535,
+    "correctedMedian": 16535,
+    "kmReference": 60000,
+    "discount": -2.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.256Z"
+  },
+  {
+    "id": "sk_375338juo",
+    "title": "Volkswagen Golf 1.2 TSI Comfortline",
+    "price": 8849,
+    "year": 2014,
+    "km": 61878,
+    "url": "https://www.autobazar.sk/27779238/volkswagen-golf-1-2-tsi-comfortline/",
+    "fuel": "Benzín",
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2014|8800|62000|TN",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27779238/volkswagen-golf-1-2-tsi-comfortline/",
+        "price": 8849
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27779238/volkswagen-golf-1-2-tsi-comfortline/",
+        "price": 8849
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27779238/volkswagen-golf-1-2-tsi-comfortline/",
+        "price": 8849
+      }
+    ],
+    "make": "Volkswagen",
+    "model": "Golf",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 8849,
+    "correctedMedian": 8807,
+    "kmReference": 60000,
+    "discount": -0.5,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.257Z"
+  },
+  {
+    "id": "sk_sn353ts2p",
+    "title": "Citroën C4 Cactus PureTech 82 MT/5 2016 / AJ NA SP...",
+    "price": 5990,
+    "year": 2016,
+    "km": 180315,
+    "url": "https://www.autobazar.sk/27935956/citroen-c4-cactus-puretech-82-mt-5-2016-aj-na-splatky-protiucet/",
+    "fuel": "Benzín",
+    "location": "TN kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:00.020Z",
+    "fingerprint": "FUZZY:Citroën|C4|2016|6000|180000|TN",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935956/citroen-c4-cactus-puretech-82-mt-5-2016-aj-na-splatky-protiucet/",
+        "price": 5990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935956/citroen-c4-cactus-puretech-82-mt-5-2016-aj-na-splatky-protiucet/",
+        "price": 5990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27935956/citroen-c4-cactus-puretech-82-mt-5-2016-aj-na-splatky-protiucet/",
+        "price": 5990
+      }
+    ],
+    "make": "Citroën",
+    "model": "C4",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 5990,
+    "correctedMedian": 5536,
+    "kmReference": 150000,
+    "discount": -8.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.257Z"
+  },
+  {
+    "id": "sk_689ary95z",
+    "title": "Volkswagen Passat Variant 2.0 TDI 190k BMT Highline DSG",
+    "price": 14999,
+    "year": 2017,
+    "km": 185000,
+    "url": "https://www.autobazar.sk/27927296/volkswagen-passat-variant-2-0-tdi-190k-bmt-highline-dsg/",
+    "fuel": null,
+    "location": "NR kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.419Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2017|15000|185000|NR",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27927296/volkswagen-passat-variant-2-0-tdi-190k-bmt-highline-dsg/",
+        "price": 14999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27927296/volkswagen-passat-variant-2-0-tdi-190k-bmt-highline-dsg/",
+        "price": 14999
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27927296/volkswagen-passat-variant-2-0-tdi-190k-bmt-highline-dsg/",
+        "price": 14999
+      }
+    ],
+    "make": "Volkswagen",
+    "model": "Passat",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 14999,
+    "correctedMedian": 13687,
+    "kmReference": 150000,
+    "discount": -9.6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -10 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.258Z"
+  },
+  {
+    "id": "sk_wjylpsne6",
+    "title": "Škoda Fabia 1.4 TDI Style 66kW90HP M5",
+    "price": 6100,
+    "year": 2016,
+    "km": 290000,
+    "url": "https://www.autobazar.sk/27927284/skoda-fabia-1-4-tdi-style-66kw90hp-m5/",
+    "fuel": null,
+    "location": "BA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.419Z",
+    "fingerprint": "FUZZY:Škoda|Fabia|2016|6100|290000|BA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27927284/skoda-fabia-1-4-tdi-style-66kw90hp-m5/",
+        "price": 6100
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27927284/skoda-fabia-1-4-tdi-style-66kw90hp-m5/",
+        "price": 6100
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27927284/skoda-fabia-1-4-tdi-style-66kw90hp-m5/",
+        "price": 6100
+      }
+    ],
+    "make": "Škoda",
+    "model": "Fabia",
+    "engine": "Unknown",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 6100,
+    "correctedMedian": 4991,
+    "kmReference": 275000,
+    "discount": -22.2,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -22 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.258Z"
+  },
+  {
+    "id": "sk_t0ecmguae",
+    "title": "Citroën Berlingo 1,5 HDi Family",
+    "price": 13990,
+    "year": 2018,
+    "km": 144005,
+    "url": "https://www.autobazar.sk/27811735/citroen-berlingo-1-5-hdi-family/",
+    "fuel": "Diesel",
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.419Z",
+    "fingerprint": "FUZZY:Citroën|Berlingo|2018|14000|144000|ZA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27811735/citroen-berlingo-1-5-hdi-family/",
+        "price": 13990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27811735/citroen-berlingo-1-5-hdi-family/",
+        "price": 13990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27811735/citroen-berlingo-1-5-hdi-family/",
+        "price": 13990
+      }
+    ],
+    "make": "Citroën",
+    "model": "Berlingo",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 13990,
+    "correctedMedian": 11025,
+    "kmReference": 150000,
+    "discount": -26.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -27 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.258Z"
+  },
+  {
+    "id": "sk_ogcyxxe8c",
+    "title": "Citroën C4 Cactus PureTech 82 Shine",
+    "price": 7990,
+    "year": 2017,
+    "km": 84348,
+    "url": "https://www.autobazar.sk/27803439/citroen-c4-cactus-puretech-82-shine/",
+    "fuel": "Benzín",
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.420Z",
+    "fingerprint": "FUZZY:Citroën|C4|2017|8000|84000|ZA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27803439/citroen-c4-cactus-puretech-82-shine/",
+        "price": 7990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27803439/citroen-c4-cactus-puretech-82-shine/",
+        "price": 7990
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27803439/citroen-c4-cactus-puretech-82-shine/",
+        "price": 7990
+      }
+    ],
+    "make": "Citroën",
+    "model": "C4",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7990,
+    "correctedMedian": 7504,
+    "kmReference": 60000,
+    "discount": -6.5,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.258Z"
+  },
+  {
+    "id": "sk_zmyq5ysh7",
+    "title": "Ford Focus Kombi 2.0 TDCi EcoBlue Titanium A/T",
+    "price": 12900,
+    "year": 2020,
+    "km": 177160,
+    "url": "https://www.autobazar.sk/27812248/ford-focus-kombi-2-0-tdci-ecoblue-titanium-a-t/",
+    "fuel": "Diesel",
+    "location": "ZA kraj",
+    "portal": "Autobazar.sk",
+    "scrapedAt": "2026-01-07T19:45:17.420Z",
+    "fingerprint": "FUZZY:Ford|Focus|2020|12900|177000|ZA",
+    "otherPortals": [
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27812248/ford-focus-kombi-2-0-tdci-ecoblue-titanium-a-t/",
+        "price": 12900
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27812248/ford-focus-kombi-2-0-tdci-ecoblue-titanium-a-t/",
+        "price": 12900
+      },
+      {
+        "portal": "Autobazar.sk",
+        "url": "https://www.autobazar.sk/27812248/ford-focus-kombi-2-0-tdci-ecoblue-titanium-a-t/",
+        "price": 12900
+      }
+    ],
+    "make": "Ford",
+    "model": "Focus",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 12900,
+    "correctedMedian": 12024,
+    "kmReference": 150000,
+    "discount": -7.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.259Z"
+  },
+  {
+    "id": "eu_Am8uS0HMNJZ",
+    "title": "Volkswagen Golf 1.2 TSI Comfortline",
+    "price": 4300,
+    "year": 2010,
+    "km": 178000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/volkswagen-golf-12-tsi-comfortline/Am8uS0HMNJZ/",
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.922Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2010|4300|178000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Golf",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 4300,
+    "correctedMedian": 3698,
+    "kmReference": 150000,
+    "discount": -16.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -16 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.259Z"
+  },
+  {
+    "id": "eu_AefFcwcbd0K",
+    "title": "BMW Rad 5 Touring 530d XDrive 190kW258HP A8",
+    "price": 13500,
+    "year": 2015,
+    "km": 242000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/bmw-rad-5-touring-530d-xdrive-190kw258hp-a8/AefFcwcbd0K/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.922Z",
+    "fingerprint": "FUZZY:BMW|Rad|2015|13500|242000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/bmw-rad-5-touring-530d-xdrive-190kw258hp-a8/AefFcwcbd0K/",
+        "price": 13500
+      }
+    ],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 13500,
+    "correctedMedian": 12926,
+    "kmReference": 225000,
+    "discount": -4.4,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.259Z"
+  },
+  {
+    "id": "eu_pao0p9rrd",
+    "title": "Volkswagen Tiguan 2.0 TDI SCR BMT 4MOTION DSG, 110kW, A7, 5d",
+    "price": 17990,
+    "year": 2016,
+    "km": 177816,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-20-tdi-scr-bmt-4motion-dsg-110kw-a7-5d-aj-na-splatky-protiucet/AmFtOnjvF_T/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.922Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2016|18000|178000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 17990,
+    "correctedMedian": 16739,
+    "kmReference": 150000,
+    "discount": -7.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.260Z"
+  },
+  {
+    "id": "eu_AeSblwYBCJ8",
+    "title": "Renault Koleos 2.0 DCi Dynamiq",
+    "price": 1600,
+    "year": 2010,
+    "km": 245000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/renault-koleos-20-dci-dynamiq/AeSblwYBCJ8/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.923Z",
+    "fingerprint": "FUZZY:Renault|Koleos|2010|1600|245000|N/A",
+    "otherPortals": [],
+    "make": "Renault",
+    "model": "Koleos",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 1600,
+    "correctedMedian": 1440,
+    "kmReference": 225000,
+    "discount": -11.1,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -11 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.260Z"
+  },
+  {
+    "id": "eu_AeCtRIh4Zt5",
+    "title": "Audi A7 Audi A7 3.0 BiTDI 235KW",
+    "price": 29999,
+    "year": 2016,
+    "km": 161000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/audi-a7-audi-a7-30-bitdi-235kw/AeCtRIh4Zt5/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.923Z",
+    "fingerprint": "FUZZY:Audi|A7|2016|30000|161000|N/A",
+    "otherPortals": [],
+    "make": "Audi",
+    "model": "A7",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 29999,
+    "correctedMedian": 29174,
+    "kmReference": 150000,
+    "discount": -2.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -3 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.260Z"
+  },
+  {
+    "id": "eu_y2x38gufs",
+    "title": "BMW Rad 5 530i XDrive A/T",
+    "price": 26000,
+    "year": 2017,
+    "km": 143677,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/bmw-rad-5-530i-xdrive-at/AewOCD96EV_/",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.923Z",
+    "fingerprint": "FUZZY:BMW|Rad|2017|26000|144000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 26000,
+    "correctedMedian": 24350,
+    "kmReference": 150000,
+    "discount": -6.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.260Z"
+  },
+  {
+    "id": "eu_e9ij4phqj",
+    "title": "Mercedes GLC Kupé 300 D 4-Matic Kupé",
+    "price": 94131,
+    "year": 2025,
+    "km": 5,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/mercedes-glc-kupe-300-d-4-matic-kupe/AeJ-y1I4PRO/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.924Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GLC|2025|94100|0|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 92160,
+    "correctedMedian": 92160,
+    "kmReference": 60000,
+    "discount": -2.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.260Z"
+  },
+  {
+    "id": "eu_AexQSMvnIrd",
+    "title": "Volkswagen CC 4x4 2.0tdi",
+    "price": 9500,
+    "year": 2014,
+    "km": 249000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/volkswagen-cc-4x4-20tdi/AexQSMvnIrd/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:47:59.924Z",
+    "fingerprint": "FUZZY:Volkswagen|CC|2014|9500|249000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/volkswagen-cc-4x4-20tdi/AexQSMvnIrd/",
+        "price": 9500
+      }
+    ],
+    "make": "Volkswagen",
+    "model": "CC",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 9500,
+    "correctedMedian": 8930,
+    "kmReference": 225000,
+    "discount": -6.4,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.260Z"
+  },
+  {
+    "id": "eu_AeMdPEo7Naw",
+    "title": "Renault Kangoo 1.5 DCi 85k Authentique",
+    "price": 1500,
+    "year": 2009,
+    "km": 90000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/renault-kangoo-15-dci-85k-authentique/AeMdPEo7Naw/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:15.687Z",
+    "fingerprint": "FUZZY:Renault|Kangoo|2009|1500|90000|N/A",
+    "otherPortals": [],
+    "make": "Renault",
+    "model": "Kangoo",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 1500,
+    "correctedMedian": 1275,
+    "kmReference": 60000,
+    "discount": -17.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -18 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 15,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_AeLKZv6gOhG",
+    "title": "Škoda Kodiaq 2.0 TDI SCR Sportline DSG",
+    "price": 23999,
+    "year": 2018,
+    "km": 160000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/skoda-kodiaq-20-tdi-scr-sportline-dsg/AeLKZv6gOhG/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:15.688Z",
+    "fingerprint": "FUZZY:Škoda|Kodiaq|2018|24000|160000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Kodiaq",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 23999,
+    "correctedMedian": 21473,
+    "kmReference": 150000,
+    "discount": -11.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -12 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_9zo0fnvm8",
+    "title": "Fiat Tipo 1.4",
+    "price": 7890,
+    "year": 2016,
+    "km": 86400,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/fiat-tipo-14/Aeo_dti7CLR/",
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:15.688Z",
+    "fingerprint": "FUZZY:Fiat|Tipo|2016|7900|86000|N/A",
+    "otherPortals": [],
+    "make": "Fiat",
+    "model": "Tipo",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7890,
+    "correctedMedian": 7369,
+    "kmReference": 60000,
+    "discount": -7.1,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -7 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_AeoH0O2GIvL",
+    "title": "BMW Rad 5 Touring 520d AT 140kW190HP A8",
+    "price": 23190,
+    "year": 2018,
+    "km": 157000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/bmw-rad-5-touring-520d-at-140kw190hp-a8/AeoH0O2GIvL/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:15.688Z",
+    "fingerprint": "FUZZY:BMW|Rad|2018|23200|157000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "Rad",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 23190,
+    "correctedMedian": 22784,
+    "kmReference": 150000,
+    "discount": -1.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_AmSbFNLn7xt",
+    "title": "Volkswagen Golf 1.2 TSI Comfortline",
+    "price": 8849,
+    "year": 2014,
+    "km": 61878,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/volkswagen-golf-12-tsi-comfortline/AmSbFNLn7xt/",
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:15.688Z",
+    "fingerprint": "FUZZY:Volkswagen|Golf|2014|8800|62000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Golf",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 8849,
+    "correctedMedian": 8807,
+    "kmReference": 60000,
+    "discount": -0.5,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: 0 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_AmJbFekhYC9",
+    "title": "Citroën C4 Cactus PureTech 82 MT/5 2016 / AJ NA SPLÁTKY / PR",
+    "price": 5990,
+    "year": 2016,
+    "km": 180315,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/citroen-c4-cactus-puretech-82-mt5-2016-aj-na-splatky-protiucet/AmJbFekhYC9/",
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.884Z",
+    "fingerprint": "FUZZY:Citroën|C4|2016|6000|180000|N/A",
+    "otherPortals": [],
+    "make": "Citroën",
+    "model": "C4",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 5990,
+    "correctedMedian": 5536,
+    "kmReference": 150000,
+    "discount": -8.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_ie1tdpov4",
+    "title": "BMW M4 Coupé 331kw Automat",
+    "price": 47900,
+    "year": 2016,
+    "km": 77500,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/bmw-m4-coupe-331kw-automat/Ae3K-afsvJu/",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.887Z",
+    "fingerprint": "FUZZY:BMW|M4|2016|47900|78000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "M4",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 47900,
+    "correctedMedian": 45804,
+    "kmReference": 60000,
+    "discount": -4.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_Ae6y9GHoBFX",
+    "title": "Mitsubishi Outlander 2.0 DI-D Instyle",
+    "price": 4450,
+    "year": 2008,
+    "km": 185000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/mitsubishi-outlander-20-di-d-instyle/Ae6y9GHoBFX/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.889Z",
+    "fingerprint": "FUZZY:Mitsubishi|Outlander|2008|4500|185000|N/A",
+    "otherPortals": [],
+    "make": "Mitsubishi",
+    "model": "Outlander",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 4450,
+    "correctedMedian": 3671,
+    "kmReference": 150000,
+    "discount": -21.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -21 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.261Z"
+  },
+  {
+    "id": "eu_AefYna3g9gz",
+    "title": "Renault Arkana E-Tech",
+    "price": 16990,
+    "year": 2021,
+    "km": 98300,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/renault-arkana-e-tech/AefYna3g9gz/",
+    "transmission": "Automat",
+    "fuel": "Hybrid",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.891Z",
+    "fingerprint": "FUZZY:Renault|Arkana|2021|17000|98000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/renault-arkana-e-tech/AefYna3g9gz/",
+        "price": 16990
+      }
+    ],
+    "make": "Renault",
+    "model": "Arkana",
+    "engine": "Hybrid",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 16990,
+    "correctedMedian": 15363,
+    "kmReference": 60000,
+    "discount": -10.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -11 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_AmZlgDl6llV",
+    "title": "Citroën Berlingo 1,5 HDi Family",
+    "price": 13990,
+    "year": 2018,
+    "km": 144005,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/citroen-berlingo/AmZlgDl6llV/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.892Z",
+    "fingerprint": "FUZZY:Citroën|Berlingo|2018|14000|144000|N/A",
+    "otherPortals": [],
+    "make": "Citroën",
+    "model": "Berlingo",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 13990,
+    "correctedMedian": 11025,
+    "kmReference": 150000,
+    "discount": -26.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -27 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_ow9npih4q",
+    "title": "Citroën C4 Cactus PureTech 82 Shine",
+    "price": 7990,
+    "year": 2017,
+    "km": 84348,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/citroen-c4-cactus-puretech-82-shine/Am-8iPMSRiD/",
+    "transmission": "Manuál",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.894Z",
+    "fingerprint": "FUZZY:Citroën|C4|2017|8000|84000|N/A",
+    "otherPortals": [],
+    "make": "Citroën",
+    "model": "C4",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7990,
+    "correctedMedian": 7504,
+    "kmReference": 60000,
+    "discount": -6.5,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 35,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_AmIkVSoVm4w",
+    "title": "Ford Focus Kombi 2.0 TDCi EcoBlue Titanium A/T",
+    "price": 12900,
+    "year": 2020,
+    "km": 177160,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/ford-focus-kombi-20-tdci-ecoblue-titanium-at/AmIkVSoVm4w/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.894Z",
+    "fingerprint": "FUZZY:Ford|Focus|2020|12900|177000|N/A",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "Focus",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 12900,
+    "correctedMedian": 12024,
+    "kmReference": 150000,
+    "discount": -7.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_84ra9r2g5",
+    "title": "Ford Tourneo Custom 2,0 TDCi ACTIVE",
+    "price": 39999,
+    "year": 2022,
+    "km": 24200,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/ford-tourneo-custom-2-0-tdci-active/AmC_2tCzSrR9/",
+    "transmission": "Manuál",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.895Z",
+    "fingerprint": "FUZZY:Ford|Tourneo|2022|40000|24000|N/A",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "Tourneo",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 34950,
+    "correctedMedian": 34950,
+    "kmReference": 60000,
+    "discount": -14.4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -14 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_zessp8omp",
+    "title": "Iveco Daily 35S16 Daily S HC Poškozený Motor",
+    "price": 15006,
+    "year": 2020,
+    "km": 230800,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/iveco-daily-35s16-daily-s-hc-poskozeny-motor/AbRkPHO_r2O/",
+    "transmission": null,
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:48:29.896Z",
+    "fingerprint": "FUZZY:Iveco|Daily|2020|15000|231000|N/A",
+    "otherPortals": [],
+    "make": "Iveco",
+    "model": "Daily",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 15006,
+    "correctedMedian": 14788,
+    "kmReference": 225000,
+    "discount": -1.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_3a0du49fi",
+    "title": "Škoda Octavia Combi 2.0 TDI 184k Drive DSG 4x4 EU6 135kW184H",
+    "price": 12900,
+    "year": 2016,
+    "km": 175000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-20-tdi-184k-drive-dsg-4x4-eu6-135kw184hp-a6/Aelt_7w_VOO/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:49:32.744Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2016|12900|175000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 12795,
+    "correctedMedian": 11995,
+    "kmReference": 150000,
+    "discount": -7.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_AmCowMOKNvU",
+    "title": "Škoda Octavia Combi Scout 4x4 Automat 2.0 TDI DSG Druhý Maji",
+    "price": 12490,
+    "year": 2015,
+    "km": 185514,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/skoda-octavia-combi-scout-4x4-automat-20-tdi-dsg-druhy-majitel/AmCowMOKNvU/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:49:32.754Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2015|12500|186000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 12490,
+    "correctedMedian": 11381,
+    "kmReference": 150000,
+    "discount": -9.7,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -10 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_Ae9ahaEj7VE",
+    "title": "Volkswagen Tiguan Allspace 2.0. TDI",
+    "price": 24900,
+    "year": 2019,
+    "km": 160000,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-allspace-20-tdi/Ae9ahaEj7VE/",
+    "transmission": "Automat",
+    "fuel": "Diesel",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:50:33.450Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2019|24900|160000|N/A",
+    "otherPortals": [
+      {
+        "portal": "Autovia.sk",
+        "url": "https://www.autovia.sk/detail/volkswagen-tiguan-allspace-20-tdi/Ae9ahaEj7VE/",
+        "price": 24900
+      }
+    ],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 22300,
+    "correctedMedian": 20475,
+    "kmReference": 150000,
+    "discount": -21.6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -22 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_ukbn1thd4",
+    "title": "Volkswagen Tiguan Limited 1,5 ETfsi- 2025",
+    "price": 38990,
+    "year": 2025,
+    "km": 4500,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/volkswagen-tiguan-limited-15-etfsi-2025/AeGi-k846Mh/",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:50:33.451Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2025|39000|5000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 36990,
+    "correctedMedian": 36990,
+    "kmReference": 60000,
+    "discount": -5.4,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.262Z"
+  },
+  {
+    "id": "eu_AetEVl7RS5v",
+    "title": "Mercedes-Benz CLS 450 4Matic",
+    "price": 43990,
+    "year": 2019,
+    "km": 89600,
+    "location": null,
+    "url": "https://www.autobazar.eu/detail/mercedes-benz-cls-450-4matic/AetEVl7RS5v/",
+    "transmission": "Automat",
+    "fuel": "Benzín",
+    "portal": "Autobazar.eu",
+    "scrapedAt": "2026-01-07T19:51:29.714Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|CLS|2019|44000|90000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "CLS",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 43990,
+    "correctedMedian": 40735,
+    "kmReference": 60000,
+    "discount": -8,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AeKC2jcSDCC",
+    "title": "Jeep Grand Cherokee 4x4 3.0 CRD 250koní Overland LCD Panorama",
+    "price": 15990,
+    "year": 2015,
+    "km": 171000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/jeep-grand-cherokee-4x4-30-crd-250koni-overland-lcd-panorama/AeKC2jcSDCC/",
+    "fuel": "Diesel",
+    "transmission": "8-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.894Z",
+    "fingerprint": "FUZZY:Jeep|Grand|2015|16000|171000|N/A",
+    "otherPortals": [],
+    "make": "Jeep",
+    "model": "Grand",
+    "engine": "Diesel",
+    "equipLevel": "Medium",
+    "features": [
+      "Panoráma",
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 15990,
+    "correctedMedian": 15151,
+    "kmReference": 150000,
+    "discount": -5.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AeIO1gC8mPh",
+    "title": "Mercedes C trieda 220 d AT",
+    "price": 14990,
+    "year": 2014,
+    "km": 227000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/mercedes-c-trieda-220-d-a-t/AeIO1gC8mPh/",
+    "fuel": "Diesel",
+    "transmission": "7-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.895Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|C trieda|2014|15000|227000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "C trieda",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 14990,
+    "correctedMedian": 14915,
+    "kmReference": 225000,
+    "discount": -0.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AeKQUnR2iEA",
+    "title": "Volkswagen Passat Variant Passat Variant 2.0 TDI BMT Comfortline DSG 110kW150HP A6",
+    "price": 15500,
+    "year": 2015,
+    "km": 169500,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/volkswagen-passat-variant-passat-variant-20-tdi-bmt-comfortline-dsg-110kw150hp-a6/AeKQUnR2iEA/",
+    "fuel": "Diesel",
+    "transmission": "Automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.897Z",
+    "fingerprint": "FUZZY:Volkswagen|Passat|2015|15500|170000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Passat",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 15500,
+    "correctedMedian": 14744,
+    "kmReference": 150000,
+    "discount": -5.1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_Ae5-ZlX85jT",
+    "title": "Mercedes-Benz CLS 350 4 matíc",
+    "price": 21000,
+    "year": 2015,
+    "km": 231000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/mercedes-benz-cls-350-4-matic/Ae5-ZlX85jT/",
+    "fuel": "Diesel",
+    "transmission": "9-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.902Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|CLS|2015|21000|231000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "CLS",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21000,
+    "correctedMedian": 20685,
+    "kmReference": 225000,
+    "discount": -1.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AeilLDilmtF",
+    "title": "Tesla Model Y Long Range Dual Motor",
+    "price": 28900,
+    "year": 2021,
+    "km": 170000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/tesla-model-y-long-range-dual-motor/AeilLDilmtF/",
+    "fuel": "Elektromotor",
+    "transmission": "Automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.903Z",
+    "fingerprint": "FUZZY:Tesla|Model Y|2021|28900|170000|N/A",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model Y",
+    "engine": "Elektromotor",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 28900,
+    "correctedMedian": 27455,
+    "kmReference": 150000,
+    "discount": -5.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AeGrPEmly6w",
+    "title": "Škoda Roomster 1.6 TDI 66kW90HP M5",
+    "price": 3200,
+    "year": 2014,
+    "km": 366621,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/skoda-roomster-16-tdi-66kw90hp-m5/AeGrPEmly6w/",
+    "fuel": "Diesel",
+    "transmission": "5-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.904Z",
+    "fingerprint": "FUZZY:Škoda|Roomster|2014|3200|367000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Roomster",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 3200,
+    "correctedMedian": 3067,
+    "kmReference": 350000,
+    "discount": -4.3,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.263Z"
+  },
+  {
+    "id": "autovia_AeXHSgKXyaq",
+    "title": "Škoda Superb 2.5 TDI V6 Elegance AT 120kW163HP A5",
+    "price": 3000,
+    "year": 2006,
+    "km": 255537,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/skoda-superb-25-tdi-v6-elegance-at-120kw163hp-a5/AeXHSgKXyaq/",
+    "fuel": "Diesel",
+    "transmission": "Automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:01.911Z",
+    "fingerprint": "FUZZY:Škoda|Superb|2006|3000|256000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Superb",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 3000,
+    "correctedMedian": 2100,
+    "kmReference": 275000,
+    "discount": -42.9,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -43 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.264Z"
+  },
+  {
+    "id": "autovia_AerlkjV12yi",
+    "title": "BMW X1 sDrive 20i mHEV AT 115kW156HP A7",
+    "price": 34900,
+    "year": 2023,
+    "km": 76599,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/bmw-x1-sdrive-20i-mhev-at-115kw156hp-a7/AerlkjV12yi/",
+    "fuel": "Benzín",
+    "transmission": "7-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.805Z",
+    "fingerprint": "FUZZY:BMW|X1|2023|34900|77000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X1",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 34900,
+    "correctedMedian": 33452,
+    "kmReference": 60000,
+    "discount": -4.3,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.264Z"
+  },
+  {
+    "id": "autovia_AemPA1VyCbz",
+    "title": "Opel Astra J Enjoy 1.4T 103kW 2016 1. maj. TOP stav, serv. kniha",
+    "price": 7200,
+    "year": 2016,
+    "km": 170184,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/opel-astra-j-enjoy-14t-103kw-2016-1-maj-top-stav-serv-kniha/AemPA1VyCbz/",
+    "fuel": "Benzín",
+    "transmission": "6-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.806Z",
+    "fingerprint": "FUZZY:Opel|Astra|2016|7200|170000|N/A",
+    "otherPortals": [],
+    "make": "Opel",
+    "model": "Astra",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7200,
+    "correctedMedian": 6837,
+    "kmReference": 150000,
+    "discount": -5.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.264Z"
+  },
+  {
+    "id": "autovia_AeZhV7Rua3H",
+    "title": "Mercedes-Benz ML 350",
+    "price": 15590,
+    "year": 2013,
+    "km": 261990,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/mercedes-benz-ml-350/AeZhV7Rua3H/",
+    "fuel": "Diesel",
+    "transmission": "Automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.807Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|ML|2013|15600|262000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "ML",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 15590,
+    "correctedMedian": 10913,
+    "kmReference": 275000,
+    "discount": -42.9,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -43 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.264Z"
+  },
+  {
+    "id": "autovia_AeyMqotHi2I",
+    "title": "Subaru Outback 3.6",
+    "price": 9900,
+    "year": 2011,
+    "km": 249000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/subaru-outback-36/AeyMqotHi2I/",
+    "fuel": "Benzín",
+    "transmission": "Automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.808Z",
+    "fingerprint": "FUZZY:Subaru|Outback|2011|9900|249000|N/A",
+    "otherPortals": [],
+    "make": "Subaru",
+    "model": "Outback",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 9900,
+    "correctedMedian": 8712,
+    "kmReference": 225000,
+    "discount": -13.6,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -14 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.265Z"
+  },
+  {
+    "id": "autovia_AeyMqtlgjRA",
+    "title": "Škoda Octavia 1.8 TSI Elegance 118kW160HP M6",
+    "price": 3000,
+    "year": 2008,
+    "km": 262000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/skoda-octavia-18-tsi-elegance-118kw160hp-m6/AeyMqtlgjRA/",
+    "fuel": "Benzín",
+    "transmission": "6-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.808Z",
+    "fingerprint": "FUZZY:Škoda|Octavia|2008|3000|262000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Octavia",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 3000,
+    "correctedMedian": 2100,
+    "kmReference": 275000,
+    "discount": -42.9,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -43 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.265Z"
+  },
+  {
+    "id": "autovia_AeShU0-KrHY",
+    "title": "Opel Astra Classic",
+    "price": 1199,
+    "year": 2007,
+    "km": 89435,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/opel-astra-classic/AeShU0-KrHY/",
+    "fuel": "Benzín",
+    "transmission": "5-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.810Z",
+    "fingerprint": "FUZZY:Opel|Astra|2007|1200|89000|N/A",
+    "otherPortals": [],
+    "make": "Opel",
+    "model": "Astra",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 1199,
+    "correctedMedian": 1023,
+    "kmReference": 60000,
+    "discount": -17.3,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -17 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 15,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.265Z"
+  },
+  {
+    "id": "autovia_Ae8duXiOBM3",
+    "title": "Volkswagen Touareg Touareg 3.0 V6 TDI SCR 286k R-Line 4Motion Tiptronic 210kW285HP A8",
+    "price": 44990,
+    "year": 2018,
+    "km": 155000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/volkswagen-touareg-touareg-30-v6-tdi-scr-286k-r-line-4motion-tiptronic-210kw285hp-a8/Ae8duXiOBM3/",
+    "fuel": "Diesel",
+    "transmission": "8-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.812Z",
+    "fingerprint": "FUZZY:Volkswagen|Touareg|2018|45000|155000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Touareg",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 40495,
+    "correctedMedian": 39989,
+    "kmReference": 150000,
+    "discount": -12.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -13 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.266Z"
+  },
+  {
+    "id": "autovia_Aen5rPjzZN1",
+    "title": "Mercedes-Benz CLA Shooting Brake CLA SB 180 90kW122HP M6",
+    "price": 10500,
+    "year": 2017,
+    "km": 260000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/mercedes-benz-cla-shooting-brake-cla-sb-180-90kw122hp-m6/Aen5rPjzZN1/",
+    "fuel": "Benzín",
+    "transmission": "6-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.813Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|CLA|2017|10500|260000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 10500,
+    "correctedMedian": 8925,
+    "kmReference": 275000,
+    "discount": -17.6,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -18 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.266Z"
+  },
+  {
+    "id": "autovia_AeIgrJb6cIC",
+    "title": "Citroën C2 , 1,1 44 kw MP 3dv",
+    "price": 1000,
+    "year": 2007,
+    "km": 87820,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/citroen-c2-11-44-kw-mp-3dv/AeIgrJb6cIC/",
+    "fuel": "Benzín",
+    "transmission": "5-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.813Z",
+    "fingerprint": "FUZZY:Citroën|C2|2007|1000|88000|N/A",
+    "otherPortals": [],
+    "make": "Citroën",
+    "model": "C2",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 1000,
+    "correctedMedian": 861,
+    "kmReference": 60000,
+    "discount": -16.2,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -16 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 15,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.266Z"
+  },
+  {
+    "id": "autovia_AerDV2r_3Nq",
+    "title": "Škoda Karoq 1.5 TSI ACT EVO Sportline DSG 110kW150HP A7",
+    "price": 19900,
+    "year": 2021,
+    "km": 165627,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/skoda-karoq-15-tsi-act-evo-sportline-dsg-110kw150hp-a7/AerDV2r_3Nq/",
+    "fuel": "Benzín",
+    "transmission": "7-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.814Z",
+    "fingerprint": "FUZZY:Škoda|Karoq|2021|19900|166000|N/A",
+    "otherPortals": [],
+    "make": "Škoda",
+    "model": "Karoq",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 19900,
+    "correctedMedian": 19123,
+    "kmReference": 150000,
+    "discount": -4.1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.266Z"
+  },
+  {
+    "id": "autovia_AeE5gQOGUG6",
+    "title": "Mercedes-Benz GL GL 350 CDI BlueTEC 4MATIC 190kW258HP A7",
+    "price": 25690,
+    "year": 2015,
+    "km": 169870,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/mercedes-benz-gl-gl-350-cdi-bluetec-4matic-190kw258hp-a7/AeE5gQOGUG6/",
+    "fuel": "Diesel",
+    "transmission": "7-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:04.815Z",
+    "fingerprint": "FUZZY:Mercedes-Benz|GL|2015|25700|170000|N/A",
+    "otherPortals": [],
+    "make": "Mercedes-Benz",
+    "model": "GL",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 25690,
+    "correctedMedian": 24414,
+    "kmReference": 150000,
+    "discount": -5.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.266Z"
+  },
+  {
+    "id": "autovia_Ae3w8VLWcoy",
+    "title": "Toyota Proace Kombi 2.0 D-4D 140 L2 A8 106kW144HP A8",
+    "price": 21800,
+    "year": 2021,
+    "km": 172864,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/toyota-proace-kombi-20-d-4d-140-l2-a8-106kw144hp-a8/Ae3w8VLWcoy/",
+    "fuel": "Diesel",
+    "transmission": "8-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:07.035Z",
+    "fingerprint": "FUZZY:Toyota|Proace|2021|21800|173000|N/A",
+    "otherPortals": [],
+    "make": "Toyota",
+    "model": "Proace",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 21800,
+    "correctedMedian": 20554,
+    "kmReference": 150000,
+    "discount": -6.1,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -6 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.266Z"
+  },
+  {
+    "id": "autovia_AexM7y-xuwv",
+    "title": "BMW M6 F13",
+    "price": 34900,
+    "year": 2015,
+    "km": 167000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/bmw-m6-f13/AexM7y-xuwv/",
+    "fuel": "Benzín",
+    "transmission": "7-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:07.036Z",
+    "fingerprint": "FUZZY:BMW|M6|2015|34900|167000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "M6",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 34900,
+    "correctedMedian": 33417,
+    "kmReference": 150000,
+    "discount": -4.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.267Z"
+  },
+  {
+    "id": "autovia_AeNc3RpFP88",
+    "title": "Ford Mondeo 2.0 TDCi Duratorq Manager 110kW150HP M6",
+    "price": 5490,
+    "year": 2017,
+    "km": 295000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/ford-mondeo-20-tdci-duratorq-manager-110kw150hp-m6/AeNc3RpFP88/",
+    "fuel": "Diesel",
+    "transmission": "6-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:07.039Z",
+    "fingerprint": "FUZZY:Ford|Mondeo|2017|5500|295000|N/A",
+    "otherPortals": [],
+    "make": "Ford",
+    "model": "Mondeo",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 5490,
+    "correctedMedian": 4433,
+    "kmReference": 275000,
+    "discount": -23.8,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -24 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.267Z"
+  },
+  {
+    "id": "autovia_Amrt-cjkKqC",
+    "title": "Tesla Model 3 Long Range AWD 366kw",
+    "price": 24990,
+    "year": 2021,
+    "km": 152279,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/tesla-model-3-long-range-awd-366kw/Amrt-cjkKqC/",
+    "fuel": "Elektromotor",
+    "transmission": "Automatická bezstupňová",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:15.480Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2021|25000|152000|N/A",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektromotor",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 24795,
+    "correctedMedian": 24654,
+    "kmReference": 150000,
+    "discount": -1.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -1 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 30,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.267Z"
+  },
+  {
+    "id": "autovia_Abskkcju_kV",
+    "title": "Tesla Model 3 Standard Range Plus 54kWh RWD",
+    "price": 24990,
+    "year": 2020,
+    "km": 65911,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/tesla-model-3-standard-range-plus-54kwh-rwd/Abskkcju_kV/",
+    "fuel": "Elektromotor",
+    "transmission": "Automatická bezstupňová",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:15.481Z",
+    "fingerprint": "FUZZY:Tesla|Model 3|2020|25000|66000|N/A",
+    "otherPortals": [],
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Elektromotor",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Low (0-100k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 22845,
+    "correctedMedian": 22507,
+    "kmReference": 60000,
+    "discount": -11,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -11 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 45,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.267Z"
+  },
+  {
+    "id": "autovia_AvtjqjE9KxG",
+    "title": "VW Tiguan 1.4 TSI Serv.kniha, Park. senzory",
+    "price": 6300,
+    "year": 2011,
+    "km": 178247,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/vw-tiguan-14-tsi-servkniha-park-senzory/AvtjqjE9KxG/",
+    "fuel": "Benzín",
+    "transmission": "6-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:30.792Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2011|6300|178000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "Mid (100k-200k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 6300,
+    "correctedMedian": 5410,
+    "kmReference": 150000,
+    "discount": -16.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -16 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 20,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.267Z"
+  },
+  {
+    "id": "autovia_AmX4NNMn81S",
+    "title": "Volkswagen Tiguan 2.0 CR TDI 4-Motion TrackField AT",
+    "price": 6700,
+    "year": 2009,
+    "km": 297027,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/volkswagen-tiguan-20-cr-tdi-4-motion-trackandfield-at/AmX4NNMn81S/",
+    "fuel": "Diesel",
+    "transmission": "6-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:30.793Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2009|6700|297000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 6150,
+    "correctedMedian": 3831,
+    "kmReference": 275000,
+    "discount": -74.9,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -75 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.268Z"
+  },
+  {
+    "id": "autovia_Aml1QGAll0D",
+    "title": "Volkswagen Tiguan 1.4 TSI 4-Motion TrackField",
+    "price": 6800,
+    "year": 2009,
+    "km": 235000,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/volkswagen-tiguan-14-tsi-4-motion-trackandfield/Aml1QGAll0D/",
+    "fuel": "Benzín",
+    "transmission": "6-st. manuálna",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:30.793Z",
+    "fingerprint": "FUZZY:Volkswagen|Tiguan|2009|6800|235000|N/A",
+    "otherPortals": [],
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "engine": "Benzín",
+    "equipLevel": "Basic",
+    "features": [],
+    "kmSegment": "High-Tier 1 (200k-250k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 6800,
+    "correctedMedian": 6460,
+    "kmReference": 225000,
+    "discount": -5.3,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -5 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.268Z"
+  },
+  {
+    "id": "autovia_AeSqH4FbH4C",
+    "title": "BMW X5 XDrive30d",
+    "price": 7200,
+    "year": 2008,
+    "km": 313670,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/bmw-x5-xdrive30d/AeSqH4FbH4C/",
+    "fuel": "Diesel",
+    "transmission": "6-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:38.321Z",
+    "fingerprint": "FUZZY:BMW|X5|2008|7200|314000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "Level 300 (300k-400k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 7032,
+    "correctedMedian": 7032,
+    "kmReference": 350000,
+    "discount": -2.4,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -2 %",
+    "mileageWarning": "⚠️ Vysoký nájazd – preverte servisnú históriu",
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.268Z"
+  },
+  {
+    "id": "autovia_Am59mQHtPmA",
+    "title": "BMW X5 xDrive 3,0d 173 kw AT6 AJ NA SPLÁTKY  PROTIÚČET",
+    "price": 7300,
+    "year": 2007,
+    "km": 292342,
+    "location": null,
+    "url": "https://www.autovia.sk/detail/bmw-x5-xdrive-30d-173-kw-at6-aj-na-splatky-protiucet/Am59mQHtPmA/",
+    "fuel": "Diesel",
+    "transmission": "6-st. automatická",
+    "portal": "Autovia.sk",
+    "scrapedAt": "2026-01-07T19:52:38.322Z",
+    "fingerprint": "FUZZY:BMW|X5|2007|7300|292000|N/A",
+    "otherPortals": [],
+    "make": "BMW",
+    "model": "X5",
+    "engine": "Diesel",
+    "equipLevel": "Basic",
+    "features": [
+      "4x4"
+    ],
+    "kmSegment": "High-Tier 2 (250k-300k)",
+    "matchAccuracy": "specific",
+    "originalMedian": 6775,
+    "correctedMedian": 4331,
+    "kmReference": 275000,
+    "discount": -68.5,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -69 %",
+    "mileageWarning": null,
+    "liquidity": {
+      "score": 0,
+      "label": "🐌 Ležiak",
+      "color": "#ff4d4d",
+      "category": "Nízka",
+      "estimate": "1 mesiac+"
+    },
+    "seller": {
+      "type": "Súkromná osoba",
+      "icon": "👤",
+      "color": "#00ff88",
+      "listingsCount": 0,
+      "isPrivate": true
+    },
+    "negotiationScore": 40,
+    "dealType": "OVERPRICED",
+    "score": 20,
+    "isFiltered": false,
+    "scoredAt": "2026-01-07T19:52:40.268Z"
   }
 ];

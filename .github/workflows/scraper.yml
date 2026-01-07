@@ -83,6 +83,16 @@ jobs:
             listings.json
             market_values.json
             scored_listings.json
+            scored_listings_data.js
+            scored_listings_metadata.json
             notified_deals.json
             debug*.png
           retention-days: 7
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "AutoRadar Bot"
+          git config --global user.email "bot@autoradar.sk"
+          git add listings.json market_values.json scored_listings.json scored_listings_data.js scored_listings_metadata.json notified_deals.json cookies.json
+          git commit -m "Auto-update: Scraper cycle [skip ci]" || echo "No changes to commit"
+          git push

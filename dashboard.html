@@ -142,6 +142,69 @@
             font-size: 1rem;
         }
 
+        /* TOGGLE SWITCH */
+        .toggle-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 6px 14px;
+            background: rgba(255, 215, 0, 0.05);
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            user-select: none;
+        }
+
+        .toggle-container:hover {
+            background: rgba(255, 215, 0, 0.1);
+            border-color: rgba(255, 215, 0, 0.3);
+        }
+
+        .toggle-container.active {
+            background: rgba(255, 215, 0, 0.12);
+            border-color: var(--golden);
+        }
+
+        .toggle-switch {
+            width: 34px;
+            height: 18px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        .toggle-container.active .toggle-switch {
+            background: var(--golden);
+        }
+
+        .toggle-knob {
+            width: 14px;
+            height: 14px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .toggle-container.active .toggle-knob {
+            left: 18px;
+        }
+
+        .toggle-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-main);
+            text-transform: uppercase;
+        }
+
+        .toggle-container.active .toggle-label {
+            color: var(--golden);
+        }
+
         /* GRID */
         main {
             padding: 2rem 5%;
@@ -626,13 +689,23 @@
             </div>
 
             <div class="filter-group">
-                <label> Zoradiť</label>
+                <label>Zoradiť</label>
                 <select id="sort-by">
+                    <option value="best">🌟 Najlepšie dealy</option>
                     <option value="discount">Zľava (%)</option>
                     <option value="price-asc">Cena (najlacnejšie)</option>
                     <option value="year-desc">Ročník (najnovšie)</option>
                     <option value="km-asc">Kilometre (najmenej)</option>
                 </select>
+            </div>
+
+            <div class="filter-group" style="margin-left: auto;">
+                <div id="golden-toggle" class="toggle-container">
+                    <div class="toggle-switch">
+                        <div class="toggle-knob"></div>
+                    </div>
+                    <span class="toggle-label">Len Golden Deals</span>
+                </div>
             </div>
         </div>
     </div>
@@ -791,13 +864,14 @@
             const fuel = $('filter-fuel').value;
             const drive = $('filter-drive').value;
             const sort = $('sort-by').value;
-
             const minYear = parseInt($('year-min').value) || 0;
             const maxYear = parseInt($('year-max').value) || 9999;
             const minPrice = parseInt($('price-min').value) || 0;
             const maxPrice = parseInt($('price-max').value) || 999999;
+            const onlyGolden = $('golden-toggle').classList.contains('active');
 
             let filtered = allListings.filter(l => {
+                const matchesGolden = !onlyGolden || l.dealType === 'GOLDEN DEAL';
                 const matchesSearch = !search ||
                     l.title.toLowerCase().includes(search) ||
                     (l.engine && l.engine.toLowerCase().includes(search)) ||
@@ -825,11 +899,17 @@
                 const matchesYear = l.year >= minYear && l.year <= maxYear;
                 const matchesPrice = l.price >= minPrice && l.price <= maxPrice;
 
-                return matchesSearch && matchesMake && matchesDeal && matchesTrans && matchesFuel && matchesDrive && matchesYear && matchesPrice && !l.isFiltered;
+                return matchesGolden && matchesSearch && matchesMake && matchesDeal && matchesTrans && matchesFuel && matchesDrive && matchesYear && matchesPrice && !l.isFiltered;
             });
 
-            // Sorting
-            if (sort === 'discount') filtered.sort((a, b) => b.discount - a.discount);
+            if (sort === 'best') {
+                filtered.sort((a, b) => {
+                    if (a.dealType === 'GOLDEN DEAL' && b.dealType !== 'GOLDEN DEAL') return -1;
+                    if (a.dealType !== 'GOLDEN DEAL' && b.dealType === 'GOLDEN DEAL') return 1;
+                    if (b.discount !== a.discount) return b.discount - a.discount;
+                    return (b.liquidity?.score || 0) - (a.liquidity?.score || 0);
+                });
+            } else if (sort === 'discount') filtered.sort((a, b) => b.discount - a.discount);
             else if (sort === 'price-asc') filtered.sort((a, b) => a.price - b.price);
             else if (sort === 'year-desc') filtered.sort((a, b) => b.year - a.year);
             else if (sort === 'km-asc') filtered.sort((a, b) => (a.km || 999999) - (b.km || 999999));
@@ -939,6 +1019,11 @@
             el.addEventListener('input', renderListings);
             el.addEventListener('change', renderListings);
         });
+
+        $('golden-toggle').onclick = () => {
+            $('golden-toggle').classList.toggle('active');
+            renderListings();
+        };
 
         init();
     </script>

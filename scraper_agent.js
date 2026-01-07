@@ -433,4 +433,27 @@ console.log('⏱️  Interval: 60-120 seconds (randomized)');
 console.log('🛡️  Stealth: ENABLED');
 console.log('Press CTRL+C to stop\n');
 
-mainLoop();
+if (process.argv.includes('--once')) {
+    (async () => {
+        try {
+            let configs = [null];
+            if (fs.existsSync(CONFIG.SEARCH_CONFIGS_FILE)) {
+                try {
+                    const data = fs.readFileSync(CONFIG.SEARCH_CONFIGS_FILE, 'utf-8');
+                    configs = [null, ...JSON.parse(data)];
+                } catch (e) { }
+            }
+            for (const config of configs) {
+                await scrapeBazos(config);
+                await new Promise(resolve => setTimeout(resolve, 5000));
+            }
+            console.log('\n✅ Single pass completed.');
+            process.exit(0);
+        } catch (e) {
+            console.error(e);
+            process.exit(1);
+        }
+    })();
+} else {
+    mainLoop();
+}
