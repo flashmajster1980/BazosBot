@@ -423,7 +423,14 @@
                 $('loader').style.display = 'none';
             } catch (error) {
                 console.error(error);
-                $('listings-grid').innerHTML = '<h2>Chyba pri načítavaní dát.</h2>';
+                $('loader').style.display = 'none';
+                $('listings-grid').innerHTML = `
+                    <div style="grid-column: 1/-1; text-align: center; padding: 50px;">
+                        <h2>Ups! Dáta sa nenačítali.</h2>
+                        <p style="color:var(--text-muted); margin-top:10px;">Chyba: ${error.message}</p>
+                        <p style="margin-top:20px;">Skúste prosím <b>vynútiť obnovenie (Ctrl + F5)</b>.</p>
+                    </div>
+                `;
             }
         }
 
