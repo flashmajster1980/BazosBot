@@ -29,7 +29,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "186948416",
@@ -66,7 +66,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "186948690",
@@ -100,7 +100,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "187066901",
@@ -132,7 +132,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "eu_AmP6NzwG41u",
@@ -161,7 +161,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Ae89cFLavFH",
@@ -190,7 +190,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Aertym64EpY",
@@ -225,7 +225,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmHFw9GvxNM",
@@ -260,7 +260,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.950Z"
   },
   {
     "id": "eu_lzoyxqujw",
@@ -302,7 +302,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_AmTsfCm2sh5",
@@ -331,7 +331,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AmPGy43vXce",
@@ -360,7 +360,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_Amj4FaHUKzm",
@@ -391,7 +391,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeAxJHNjDqk",
@@ -428,7 +428,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AmczXnARwjT",
@@ -465,7 +465,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "eu_b88bs0yqm",
@@ -512,7 +512,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "autovia_AenmKh24fj2",
@@ -541,7 +541,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeFTkDj2PYH",
@@ -572,7 +572,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_AbUL89ZgvWi",
@@ -596,14 +596,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 2 (250k-300k)",
     "matchAccuracy": "specific",
     "originalMedian": 7990,
-    "correctedMedian": 6704,
+    "correctedMedian": 6616,
     "kmReference": 275000,
-    "discount": 25.4,
-    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: 25 %",
+    "discount": 24.4,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: 24 %",
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeS8J7L0Qff",
@@ -634,7 +634,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "eu_AmgKFTWlHhZ",
@@ -666,7 +666,7 @@ window.scoredListingsData = [
     "dealType": "GOLDEN DEAL",
     "score": 95,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "187064228",
@@ -698,7 +698,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "eu_Ae1M5Uh4vYI",
@@ -727,7 +727,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AmcImolRGKpP",
@@ -764,7 +764,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_Aeno16r2Eh0",
@@ -801,7 +801,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_sap53as4d",
@@ -843,7 +843,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_Ae79ZEcrdQg",
@@ -880,7 +880,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_7ssowpqfw",
@@ -925,7 +925,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AmR0A54kzej",
@@ -956,7 +956,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_Amm2ILMWUh0",
@@ -993,7 +993,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "eu_fwlucp478",
@@ -1022,7 +1022,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "autovia_AexqnDB7vxo",
@@ -1051,7 +1051,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AmuGoPvyQ7P",
@@ -1082,7 +1082,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_Am5KBwfjCHT",
@@ -1111,7 +1111,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_Am9NcN61WQJ",
@@ -1140,7 +1140,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AmdufXWSI5b",
@@ -1169,7 +1169,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AmtUuKaDt5Z",
@@ -1198,7 +1198,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AemPeh_RsoT",
@@ -1229,7 +1229,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "eu_1mk8csysr",
@@ -1261,7 +1261,7 @@ window.scoredListingsData = [
     "dealType": "GOOD DEAL",
     "score": 75,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "187218477",
@@ -1295,7 +1295,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.926Z"
+    "scoredAt": "2026-01-07T15:32:49.936Z"
   },
   {
     "id": "187188007",
@@ -1327,7 +1327,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.926Z"
+    "scoredAt": "2026-01-07T15:32:49.936Z"
   },
   {
     "id": "186472345",
@@ -1359,7 +1359,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.926Z"
+    "scoredAt": "2026-01-07T15:32:49.936Z"
   },
   {
     "id": "187192253",
@@ -1391,7 +1391,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.926Z"
+    "scoredAt": "2026-01-07T15:32:49.936Z"
   },
   {
     "id": "187179984",
@@ -1423,7 +1423,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "186983162",
@@ -1455,7 +1455,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "187188254",
@@ -1487,7 +1487,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "187180734",
@@ -1519,7 +1519,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "186988259",
@@ -1551,7 +1551,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "186983759",
@@ -1585,7 +1585,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "186982632",
@@ -1617,7 +1617,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "187136866",
@@ -1651,7 +1651,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "186966588",
@@ -1683,7 +1683,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "187149240",
@@ -1715,7 +1715,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "186951386",
@@ -1747,7 +1747,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "186921237",
@@ -1779,7 +1779,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "186942246",
@@ -1811,7 +1811,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.930Z"
+    "scoredAt": "2026-01-07T15:32:49.939Z"
   },
   {
     "id": "186515773",
@@ -1843,7 +1843,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.930Z"
+    "scoredAt": "2026-01-07T15:32:49.939Z"
   },
   {
     "id": "186996939",
@@ -1875,7 +1875,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.930Z"
+    "scoredAt": "2026-01-07T15:32:49.939Z"
   },
   {
     "id": "186924940",
@@ -1907,7 +1907,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.930Z"
+    "scoredAt": "2026-01-07T15:32:49.939Z"
   },
   {
     "id": "186924816",
@@ -1939,7 +1939,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.930Z"
+    "scoredAt": "2026-01-07T15:32:49.939Z"
   },
   {
     "id": "186818266",
@@ -1974,7 +1974,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.930Z"
+    "scoredAt": "2026-01-07T15:32:49.939Z"
   },
   {
     "id": "186892268",
@@ -2008,7 +2008,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186896699",
@@ -2040,7 +2040,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "187155531",
@@ -2072,7 +2072,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186893567",
@@ -2106,7 +2106,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186891847",
@@ -2138,7 +2138,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186884073",
@@ -2172,7 +2172,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186886041",
@@ -2204,7 +2204,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "187041881",
@@ -2236,7 +2236,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186713183",
@@ -2270,7 +2270,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186867184",
@@ -2304,7 +2304,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "187191479",
@@ -2338,7 +2338,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186863861",
@@ -2370,7 +2370,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186854684",
@@ -2402,7 +2402,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186705161",
@@ -2434,7 +2434,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186856160",
@@ -2468,7 +2468,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186849918",
@@ -2500,7 +2500,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186849716",
@@ -2532,7 +2532,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.942Z"
   },
   {
     "id": "187197764",
@@ -2567,7 +2567,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.942Z"
   },
   {
     "id": "186364536",
@@ -2599,7 +2599,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.942Z"
   },
   {
     "id": "186837052",
@@ -2631,7 +2631,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "186831087",
@@ -2663,7 +2663,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "187189218",
@@ -2695,7 +2695,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "185727507",
@@ -2729,7 +2729,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "186761709",
@@ -2761,7 +2761,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "186831194",
@@ -2793,7 +2793,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "186829425",
@@ -2825,7 +2825,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "187177425",
@@ -2860,7 +2860,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "187021056",
@@ -2894,7 +2894,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "186870147",
@@ -2928,7 +2928,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187116120",
@@ -2960,7 +2960,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187181412",
@@ -2994,7 +2994,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187098843",
@@ -3028,7 +3028,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187169201",
@@ -3060,7 +3060,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187147545",
@@ -3094,7 +3094,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187142282",
@@ -3126,7 +3126,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187148948",
@@ -3160,7 +3160,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187101516",
@@ -3192,7 +3192,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187096797",
@@ -3227,7 +3227,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187094829",
@@ -3259,7 +3259,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187084028",
@@ -3291,7 +3291,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187080985",
@@ -3323,7 +3323,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187073110",
@@ -3355,7 +3355,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187072939",
@@ -3389,7 +3389,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187072125",
@@ -3421,7 +3421,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187065855",
@@ -3455,7 +3455,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "186588701",
@@ -3487,7 +3487,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187037687",
@@ -3522,7 +3522,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187019488",
@@ -3554,7 +3554,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "186525476",
@@ -3588,7 +3588,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187012888",
@@ -3622,7 +3622,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187012808",
@@ -3656,7 +3656,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "187009719",
@@ -3690,7 +3690,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "186995806",
@@ -3724,7 +3724,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "186993235",
@@ -3756,7 +3756,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "187185715",
@@ -3788,7 +3788,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "187189301",
@@ -3820,7 +3820,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "186669980",
@@ -3854,7 +3854,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_j6lp04wix",
@@ -3885,7 +3885,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_wtaeg7fur",
@@ -3914,7 +3914,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_AmvSO72y2nB",
@@ -3945,7 +3945,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_Am4pB5GNVkt",
@@ -3974,7 +3974,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_AezZhnzQHbn",
@@ -4003,7 +4003,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_AmcSaF4l3kh",
@@ -4032,7 +4032,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_ab2ieh33d",
@@ -4061,7 +4061,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_AmigfxIWFad",
@@ -4090,7 +4090,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_gfvmq1wqd",
@@ -4121,7 +4121,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_AmpPC5U7hvu",
@@ -4150,7 +4150,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_xv6gt9ina",
@@ -4179,7 +4179,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_AekLRC1Y7NB",
@@ -4208,7 +4208,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_Aec51g3eLu3",
@@ -4237,7 +4237,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_Ami2eXLAw0h1",
@@ -4268,7 +4268,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AeVdTi2Bt7E",
@@ -4297,7 +4297,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_32hrn8mx4",
@@ -4328,7 +4328,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Aev6uzgD6ZL",
@@ -4357,7 +4357,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AeWxR7Rn8uG",
@@ -4386,7 +4386,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Aeq5AT7q7n1",
@@ -4415,7 +4415,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AeYE8WzqABY",
@@ -4450,7 +4450,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Ae5o6dF5C0B",
@@ -4479,7 +4479,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Aemvuq5K5YG",
@@ -4516,7 +4516,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AmaI5epqRwU",
@@ -4551,7 +4551,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AeA7spXIwoe",
@@ -4586,7 +4586,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_Ae75VUK5jJf",
@@ -4615,7 +4615,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AebZflmHJ7g",
@@ -4644,7 +4644,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_Ae08VLh0Jl4",
@@ -4675,7 +4675,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_Aepp9ZMfyg4",
@@ -4706,7 +4706,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_h19v41rnu",
@@ -4748,7 +4748,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AbUnrH45P7k",
@@ -4777,7 +4777,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmJnN3MalGI",
@@ -4806,7 +4806,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmJVfTdrc8D",
@@ -4843,7 +4843,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.950Z"
   },
   {
     "id": "eu_Am8RG9btcBD",
@@ -4872,7 +4872,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.950Z"
   },
   {
     "id": "eu_AmcOG62amTN",
@@ -4901,7 +4901,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.950Z"
   },
   {
     "id": "eu_uh99m32hw",
@@ -4946,7 +4946,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.950Z"
   },
   {
     "id": "eu_Am7jsscNPRW",
@@ -4977,7 +4977,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_9u2trs3ww",
@@ -5022,7 +5022,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AepS74LMGdy",
@@ -5059,7 +5059,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_d6cin29tt",
@@ -5104,7 +5104,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AeRnbsaF6ZZ",
@@ -5141,7 +5141,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_g0ezn8ziu",
@@ -5188,7 +5188,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_Am8WfzyW4N2",
@@ -5223,7 +5223,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AmSISrNsSMt",
@@ -5260,7 +5260,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AmPnPOOtpx7",
@@ -5289,7 +5289,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AbKhS4njBXg",
@@ -5326,7 +5326,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_5heocdud0",
@@ -5373,7 +5373,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_kzspfqxsm",
@@ -5420,7 +5420,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AbBv9PZd9X4",
@@ -5457,7 +5457,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_8bin7ypvq",
@@ -5494,7 +5494,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_1hefrvyqh",
@@ -5531,7 +5531,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_a7hmh8agy",
@@ -5573,7 +5573,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeR9ranDuFUa",
@@ -5605,7 +5605,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_lsa7lf0es",
@@ -5647,7 +5647,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_r4xi4rre6",
@@ -5694,7 +5694,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeCG3v6KWmi",
@@ -5731,7 +5731,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "eu_1o2geuw2o",
@@ -5773,7 +5773,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "eu_AmzO6UEsPVN",
@@ -5810,7 +5810,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "sk_lhleqpi1d",
@@ -5839,7 +5839,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_esm6z1o6m",
@@ -5868,7 +5868,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_yxmfa4a8t",
@@ -5897,7 +5897,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_fjfn0c9p6",
@@ -5926,7 +5926,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_k629k9mhk",
@@ -5955,7 +5955,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_8lv1atg5a",
@@ -5984,7 +5984,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_9erv0jqzw",
@@ -6013,7 +6013,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_b62qx1sr4",
@@ -6042,7 +6042,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_gyhmbd4ka",
@@ -6071,7 +6071,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_2o82icd7c",
@@ -6116,7 +6116,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_nlplozjcr",
@@ -6145,7 +6145,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_qpgge9myj",
@@ -6174,7 +6174,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_5wetj13on",
@@ -6205,7 +6205,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_gbvnnd2th",
@@ -6234,7 +6234,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_2geelmqwu",
@@ -6269,7 +6269,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_i6117wha3",
@@ -6298,7 +6298,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_up5930io9",
@@ -6327,7 +6327,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_8c1kprgbl",
@@ -6372,7 +6372,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_hfxtdqlue",
@@ -6417,7 +6417,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_6cgzomyzy",
@@ -6457,7 +6457,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_kmc90395p",
@@ -6497,7 +6497,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_wy5ulc9cr",
@@ -6539,7 +6539,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_b8p70j8wy",
@@ -6579,7 +6579,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_qt90hvo41",
@@ -6621,7 +6621,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_616wyppo0",
@@ -6661,7 +6661,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_72muwc5ga",
@@ -6703,7 +6703,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_gj86z7wyo",
@@ -6745,7 +6745,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_pxgyye4qf",
@@ -6785,7 +6785,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_oiuiijhrs",
@@ -6825,7 +6825,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_groe23q7v",
@@ -6865,7 +6865,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "sk_kg15qhcpy",
@@ -6907,7 +6907,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "sk_kk3u79nry",
@@ -6942,7 +6942,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "sk_xghqzhuzt",
@@ -6979,7 +6979,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_Ae8skdyEI76",
@@ -7008,7 +7008,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_AbWgcXgE8aM",
@@ -7037,7 +7037,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_AmXbaGK9I1I",
@@ -7066,7 +7066,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_AmDYGYa2mmF",
@@ -7097,7 +7097,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_AeVQBu5ZuFl",
@@ -7126,7 +7126,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_AeRSX05yJRy",
@@ -7155,7 +7155,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_AeUualIUehJ",
@@ -7184,7 +7184,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_5twdgock1",
@@ -7215,7 +7215,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_AmZqs2cDEBL",
@@ -7246,7 +7246,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_Amma9zo0vkI",
@@ -7277,7 +7277,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_Am02uWIjhOF",
@@ -7306,7 +7306,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_2d23e4zqg",
@@ -7335,7 +7335,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_nb76ejdcf",
@@ -7366,7 +7366,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AmPpXOCCrFkZ",
@@ -7397,7 +7397,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AeTlu5Is2um",
@@ -7426,7 +7426,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AeS4UWmiQjG",
@@ -7455,7 +7455,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AeaUZh2W97J",
@@ -7486,7 +7486,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AeQSAlgAXxW",
@@ -7515,7 +7515,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AmuEzaP91eE",
@@ -7544,7 +7544,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_334dyzwmg",
@@ -7573,7 +7573,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_Ae2BRxzW8rm",
@@ -7602,7 +7602,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AeMXM4BkjvU",
@@ -7631,7 +7631,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "eu_fjdtpbq6u",
@@ -7671,7 +7671,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_Ae6muYwVFOW",
@@ -7700,7 +7700,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_AeEDm_xRTh-",
@@ -7729,7 +7729,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_AepvKmfSeaK",
@@ -7758,7 +7758,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_AedYBoP_lha",
@@ -7787,7 +7787,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_Aew3vr_TR4d",
@@ -7816,7 +7816,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AelaL2p_p8c",
@@ -7845,7 +7845,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeFOa5TDMrO",
@@ -7874,7 +7874,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AetWpXvT0bN",
@@ -7903,7 +7903,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeZ3J-VcmQN",
@@ -7934,7 +7934,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeVdTi2Bt7E",
@@ -7963,7 +7963,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeTV4kGAvJW",
@@ -7992,7 +7992,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeU4mPGQdQI",
@@ -8023,7 +8023,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_Aepk8J-tmy8",
@@ -8052,7 +8052,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_Ae9hCROg5tq",
@@ -8083,7 +8083,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AegCEh5r2fQ",
@@ -8112,7 +8112,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeqrvqtKs3X",
@@ -8141,7 +8141,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeaDKLWkyUh",
@@ -8170,7 +8170,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeTBTbX9aGl",
@@ -8199,7 +8199,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeF94glhvFV",
@@ -8230,7 +8230,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AebZflmHJ7g",
@@ -8259,7 +8259,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AmzR3XV_wO-",
@@ -8288,7 +8288,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AmXJD_ecxdz",
@@ -8317,7 +8317,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AbVjvVMvGN_",
@@ -8346,7 +8346,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeIgJGPGo_r",
@@ -8375,7 +8375,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_Am9QVS9giJ1",
@@ -8404,7 +8404,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_Amn9OwCOdBX",
@@ -8433,7 +8433,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AmccS8-pxYc",
@@ -8462,7 +8462,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AejVCL7b8at",
@@ -8491,7 +8491,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.966Z"
   },
   {
     "id": "autovia_Aeo7tcYB3Ad",
@@ -8520,7 +8520,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.966Z"
   },
   {
     "id": "autovia_AeQPN2v-6u_",
@@ -8551,7 +8551,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_AbyZeIs2oo3",
@@ -8580,7 +8580,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_Ae1w4qbTfBT",
@@ -8611,7 +8611,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeikhSp818D",
@@ -8642,7 +8642,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeYNSCmK62j",
@@ -8673,7 +8673,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeDny5a7pf2",
@@ -8704,7 +8704,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeVlNPQeNGr",
@@ -8735,7 +8735,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeBNA_Z6UUT",
@@ -8766,7 +8766,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeGiaOVlFjVd",
@@ -8797,7 +8797,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeF_Q2Cpk-T",
@@ -8828,7 +8828,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AmdfkPAFWi9",
@@ -8859,7 +8859,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeYTxt22mCn",
@@ -8888,7 +8888,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "autovia_AmoaO7Ka6LN",
@@ -8919,7 +8919,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "autovia_AmFsySsPr7p",
@@ -8948,7 +8948,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "eu_Ae73B379kGr",
@@ -8978,7 +8978,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "eu_AmR00b0Ea1Z",
@@ -9010,7 +9010,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_Aeaco4Ac6qt",
@@ -9040,7 +9040,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_ebe716jf3",
@@ -9073,7 +9073,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_drju1aahx",
@@ -9103,7 +9103,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_Am1dJ2xiAwX",
@@ -9133,7 +9133,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_AmP2cuY6mQI",
@@ -9165,7 +9165,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_wedeanp3r",
@@ -9197,7 +9197,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_AmnQGNPil1d",
@@ -9229,7 +9229,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "eu_AmN0gnp8yYG",
@@ -9261,7 +9261,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "eu_AmyjPQtdiSc",
@@ -9291,7 +9291,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "autovia_AexGr4mz7LO",
@@ -9321,7 +9321,7 @@ window.scoredListingsData = [
     "dealType": "FAIR PRICE",
     "score": 50,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.957Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "187221482",
@@ -9348,14 +9348,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 12990,
-    "correctedMedian": 12794,
+    "correctedMedian": 12599,
     "kmReference": 225000,
-    "discount": -1.5,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -2 %",
+    "discount": -3.1,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -3 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.925Z"
+    "scoredAt": "2026-01-07T15:32:49.933Z"
   },
   {
     "id": "186798913",
@@ -9389,7 +9389,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.926Z"
+    "scoredAt": "2026-01-07T15:32:49.936Z"
   },
   {
     "id": "187196548",
@@ -9421,7 +9421,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.926Z"
+    "scoredAt": "2026-01-07T15:32:49.936Z"
   },
   {
     "id": "187179463",
@@ -9453,7 +9453,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.936Z"
   },
   {
     "id": "187179595",
@@ -9485,7 +9485,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "187179737",
@@ -9517,7 +9517,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "187179863",
@@ -9549,7 +9549,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "187184588",
@@ -9581,7 +9581,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "186978995",
@@ -9615,7 +9615,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.927Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "186523648",
@@ -9640,14 +9640,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 12900,
-    "correctedMedian": 11849,
+    "correctedMedian": 10797,
     "kmReference": 150000,
-    "discount": -8.9,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -9 %",
+    "discount": -19.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -19 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.937Z"
   },
   {
     "id": "186893684",
@@ -9679,7 +9679,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "186956306",
@@ -9711,7 +9711,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "186940956",
@@ -9745,7 +9745,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "186947069",
@@ -9781,7 +9781,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.928Z"
+    "scoredAt": "2026-01-07T15:32:49.938Z"
   },
   {
     "id": "186917268",
@@ -9815,7 +9815,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186916322",
@@ -9850,7 +9850,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186135423",
@@ -9882,7 +9882,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186908508",
@@ -9914,7 +9914,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186717133",
@@ -9948,7 +9948,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.931Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186882345",
@@ -9984,7 +9984,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.940Z"
   },
   {
     "id": "186879810",
@@ -10018,7 +10018,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186868321",
@@ -10052,7 +10052,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "187213494",
@@ -10084,7 +10084,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.941Z"
   },
   {
     "id": "186848316",
@@ -10118,7 +10118,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.932Z"
+    "scoredAt": "2026-01-07T15:32:49.942Z"
   },
   {
     "id": "186848033",
@@ -10152,7 +10152,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.942Z"
   },
   {
     "id": "186847888",
@@ -10187,7 +10187,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.942Z"
   },
   {
     "id": "186846703",
@@ -10219,7 +10219,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.942Z"
   },
   {
     "id": "186840134",
@@ -10251,7 +10251,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.942Z"
   },
   {
     "id": "186834845",
@@ -10283,7 +10283,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "186825017",
@@ -10315,7 +10315,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.933Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "186827568",
@@ -10340,14 +10340,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 14990,
-    "correctedMedian": 14465,
+    "correctedMedian": 13941,
     "kmReference": 150000,
-    "discount": -3.6,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "discount": -7.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.943Z"
   },
   {
     "id": "186544922",
@@ -10379,7 +10379,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187224783",
@@ -10411,7 +10411,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "186870158",
@@ -10445,7 +10445,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.934Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187141769",
@@ -10477,7 +10477,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187141267",
@@ -10509,7 +10509,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187136248",
@@ -10541,7 +10541,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187117109",
@@ -10573,7 +10573,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187097162",
@@ -10605,7 +10605,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.944Z"
   },
   {
     "id": "187073992",
@@ -10637,7 +10637,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.935Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187071941",
@@ -10662,14 +10662,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 4760,
-    "correctedMedian": 4201,
+    "correctedMedian": 3641,
     "kmReference": 150000,
-    "discount": -13.3,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -13 %",
+    "discount": -30.7,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -31 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "185272395",
@@ -10701,7 +10701,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187061297",
@@ -10733,7 +10733,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187062092",
@@ -10765,7 +10765,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187032172",
@@ -10799,7 +10799,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187041893",
@@ -10831,7 +10831,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.936Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187017309",
@@ -10858,14 +10858,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 3999,
-    "correctedMedian": 3779,
+    "correctedMedian": 3559,
     "kmReference": 225000,
-    "discount": -5.8,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -6 %",
+    "discount": -12.4,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -12 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "186993014",
@@ -10899,7 +10899,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187012689",
@@ -10931,7 +10931,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.945Z"
   },
   {
     "id": "187214274",
@@ -10963,7 +10963,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "186969198",
@@ -10995,7 +10995,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.937Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_baa4dihhe",
@@ -11024,7 +11024,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_AmTyxZhgPgC",
@@ -11055,7 +11055,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_AmIRekQy7ZD",
@@ -11089,7 +11089,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_AmtH8Ibe022",
@@ -11120,7 +11120,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_AmzfVoaKEbs",
@@ -11151,7 +11151,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_AmpgG9lim8d",
@@ -11182,7 +11182,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_AmlXJwVtCKn",
@@ -11213,7 +11213,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.946Z"
   },
   {
     "id": "eu_nj0a5euhi",
@@ -11242,7 +11242,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_4uf8v9q5p",
@@ -11273,7 +11273,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_AmwjW91iAts",
@@ -11304,7 +11304,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_hs2cu2w3z",
@@ -11333,7 +11333,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_rqkia5e3g",
@@ -11368,7 +11368,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_Ae0mMITEEfu",
@@ -11416,14 +11416,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 2000,
-    "correctedMedian": 1995,
+    "correctedMedian": 1990,
     "kmReference": 225000,
-    "discount": -0.3,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: 0 %",
+    "discount": -0.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.938Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_AeZZ6oT1j2Z",
@@ -11445,14 +11445,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 2200,
-    "correctedMedian": 2173,
+    "correctedMedian": 2145,
     "kmReference": 225000,
-    "discount": -1.3,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
+    "discount": -2.6,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -3 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_p1pngyv91",
@@ -11484,7 +11484,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_fj5y59s0m",
@@ -11529,7 +11529,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_AemUPKx9jfo",
@@ -11558,7 +11558,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_Ae3bCQG3Vo9",
@@ -11595,7 +11595,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_AeSIPtXnn8p",
@@ -11619,14 +11619,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 11400,
-    "correctedMedian": 11001,
+    "correctedMedian": 10602,
     "kmReference": 225000,
-    "discount": -3.6,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -4 %",
+    "discount": -7.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -8 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.947Z"
   },
   {
     "id": "eu_AmuHzHfZpPB",
@@ -11657,7 +11657,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_llrcxcad2",
@@ -11679,14 +11679,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 4299,
-    "correctedMedian": 4078,
+    "correctedMedian": 3856,
     "kmReference": 225000,
-    "discount": -5.4,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -5 %",
+    "discount": -11.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -11 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AekEhrDJA7r",
@@ -11721,7 +11721,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_do3iy1sia",
@@ -11743,14 +11743,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 2000,
-    "correctedMedian": 1810,
+    "correctedMedian": 1620,
     "kmReference": 150000,
-    "discount": -10.5,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -11 %",
+    "discount": -23.5,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -23 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AeHYKYQ6OH5",
@@ -11772,14 +11772,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 1200,
-    "correctedMedian": 1199,
+    "correctedMedian": 1197,
     "kmReference": 150000,
-    "discount": -0.1,
+    "discount": -0.2,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_t9v3fy8hm",
@@ -11801,14 +11801,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 3700,
-    "correctedMedian": 3251,
+    "correctedMedian": 2803,
     "kmReference": 150000,
-    "discount": -13.8,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -14 %",
+    "discount": -32,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -32 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_t7ipmyavs",
@@ -11830,14 +11830,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 6890,
-    "correctedMedian": 6729,
+    "correctedMedian": 6569,
     "kmReference": 150000,
-    "discount": -2.4,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -2 %",
+    "discount": -4.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Aegb2qk0Rwl",
@@ -11866,7 +11866,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Ae1fV5KDb2m",
@@ -11895,7 +11895,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AeAXIzNP0Qy",
@@ -11926,7 +11926,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Aeey8fmJwDn",
@@ -11948,14 +11948,14 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 72500,
-    "correctedMedian": 70234,
+    "correctedMedian": 67969,
     "kmReference": 60000,
-    "discount": -3.2,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -3 %",
+    "discount": -6.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -7 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Aeemw0tF2li",
@@ -11984,7 +11984,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AmyxkfnSKrt",
@@ -12013,7 +12013,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.939Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AeVBwaKwr1V",
@@ -12042,7 +12042,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_AmCvk7myuD2O",
@@ -12071,7 +12071,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Amw6Qdzi00K",
@@ -12100,7 +12100,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Am0OtagTww3",
@@ -12131,7 +12131,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.948Z"
   },
   {
     "id": "eu_Aez40xKxV5L",
@@ -12160,7 +12160,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AeyKwQYcbp4",
@@ -12195,7 +12195,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmqyoVsbwhUi",
@@ -12230,7 +12230,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_Am6DuIeEWn4",
@@ -12259,7 +12259,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AexqnDB7vxo",
@@ -12288,7 +12288,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmFw3JzrhgC",
@@ -12319,7 +12319,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmhICoi0gB8",
@@ -12350,7 +12350,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_p8ctga2h6",
@@ -12374,14 +12374,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 4500,
-    "correctedMedian": 4249,
+    "correctedMedian": 3997,
     "kmReference": 225000,
-    "discount": -5.9,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -6 %",
+    "discount": -12.6,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -13 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmUdtynF10D",
@@ -12412,7 +12412,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_eo7u8apt9",
@@ -12454,7 +12454,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AeZFDCAXP2h",
@@ -12485,7 +12485,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AeoARTsxMQg",
@@ -12516,7 +12516,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_igbxsilu2",
@@ -12556,7 +12556,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AeEpf2vDiTF",
@@ -12587,7 +12587,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_5kzm278w6",
@@ -12629,7 +12629,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_9ui3pxlop",
@@ -12671,7 +12671,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmrLM5DV6GG",
@@ -12702,7 +12702,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.940Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmH9SFB6x05",
@@ -12733,7 +12733,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_AmbcsKn0JFg",
@@ -12764,7 +12764,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.949Z"
   },
   {
     "id": "eu_Amc5FzvNwQB",
@@ -12795,7 +12795,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.950Z"
   },
   {
     "id": "eu_yl0drm95e",
@@ -12835,7 +12835,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.950Z"
   },
   {
     "id": "eu_Am2L5NXqOrF",
@@ -12870,7 +12870,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.950Z"
   },
   {
     "id": "eu_ikffgdic9",
@@ -12912,7 +12912,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_AbhemBLOz1R",
@@ -12941,7 +12941,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_AezHtSKSsfZ",
@@ -12972,7 +12972,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_uwo9zjt9z",
@@ -13017,7 +13017,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_Am1DgB5jnDZ",
@@ -13054,7 +13054,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_Am4dE0bg5Hf",
@@ -13085,7 +13085,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_AevHgSmC2Df",
@@ -13120,7 +13120,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_Aem4W0UopsD",
@@ -13155,7 +13155,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_AeLS7Nr2Tiv",
@@ -13190,7 +13190,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_Aej4yMpnnXS",
@@ -13227,7 +13227,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_AezyMlaVzxt",
@@ -13262,7 +13262,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_AetoV379WjN",
@@ -13291,7 +13291,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_Aeur4uL0V3F",
@@ -13328,7 +13328,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_AexSM2QxEos",
@@ -13363,7 +13363,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_AedMrW7WJsS",
@@ -13400,7 +13400,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.941Z"
+    "scoredAt": "2026-01-07T15:32:49.951Z"
   },
   {
     "id": "eu_Ae0ZSNlX7fx",
@@ -13428,14 +13428,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 6200,
-    "correctedMedian": 5963,
+    "correctedMedian": 5726,
     "kmReference": 150000,
-    "discount": -4,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "discount": -8.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_9xpvpxssa",
@@ -13477,7 +13477,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_Ae94uJzrDln",
@@ -13514,7 +13514,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_Aec4SbsYTEw",
@@ -13551,7 +13551,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AmlxDVH4rIW",
@@ -13582,7 +13582,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_j503l3nwo",
@@ -13629,7 +13629,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_Abd21zB3c9V",
@@ -13658,7 +13658,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AesCz3vlDwl",
@@ -13693,7 +13693,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AeLjvnxEmvC",
@@ -13728,7 +13728,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_Am9k0v841PR",
@@ -13759,7 +13759,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_j3d3zpmdy",
@@ -13799,14 +13799,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 2 (250k-300k)",
     "matchAccuracy": "specific",
     "originalMedian": 7990,
-    "correctedMedian": 6550,
+    "correctedMedian": 6308,
     "kmReference": 275000,
-    "discount": -22,
-    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -22 %",
+    "discount": -26.7,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -27 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AmCr0PuI6Dm",
@@ -13841,7 +13841,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AmUygHvT3ow",
@@ -13869,14 +13869,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 9590,
-    "correctedMedian": 9449,
+    "correctedMedian": 9309,
     "kmReference": 225000,
-    "discount": -1.5,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
+    "discount": -3,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -3 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_3x0hh5zoa",
@@ -13914,14 +13914,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 11945,
-    "correctedMedian": 11130,
+    "correctedMedian": 10314,
     "kmReference": 150000,
-    "discount": -7.7,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
+    "discount": -16.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -16 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.942Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_AmdzGBSggCt",
@@ -13956,7 +13956,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_Am0EPNKUauj",
@@ -13985,7 +13985,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.952Z"
   },
   {
     "id": "eu_gymq38l77",
@@ -14022,7 +14022,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AmxitQGujI2",
@@ -14053,7 +14053,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AmHLMsLIly1",
@@ -14084,7 +14084,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AbcHlMGpsdY",
@@ -14121,7 +14121,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_45470dlgw",
@@ -14158,7 +14158,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AbbMOtqPk8zy",
@@ -14195,7 +14195,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.943Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AbCgxsBhEbru",
@@ -14232,7 +14232,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AbxLP5SR20p",
@@ -14269,7 +14269,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AbKuZQZjmlo",
@@ -14306,7 +14306,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AbzN6YOhKWW",
@@ -14343,7 +14343,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeZo7u0z7wB",
@@ -14368,14 +14368,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 8000,
-    "correctedMedian": 7816,
+    "correctedMedian": 7631,
     "kmReference": 225000,
-    "discount": -2.4,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -2 %",
+    "discount": -4.8,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -5 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeCAHFwgj00",
@@ -14407,7 +14407,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_Amczxo6orFA",
@@ -14438,7 +14438,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeQUh6n2SIx",
@@ -14473,7 +14473,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeWzKVvdSjy",
@@ -14502,7 +14502,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeaitRkEK6F",
@@ -14533,7 +14533,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_Aehu4qvv3gI",
@@ -14568,7 +14568,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeeHFarYT55",
@@ -14599,7 +14599,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_k90y2sfx7",
@@ -14646,7 +14646,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_1xppb8i5f",
@@ -14693,7 +14693,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_hxy4pn4k7",
@@ -14740,7 +14740,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeLgs98JtDK",
@@ -14778,7 +14778,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AepDMHryV69",
@@ -14813,7 +14813,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_AeZt7iKaN6M",
@@ -14850,7 +14850,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.944Z"
+    "scoredAt": "2026-01-07T15:32:49.953Z"
   },
   {
     "id": "eu_Ae96NYKpBPN",
@@ -14887,7 +14887,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "eu_AbAcIcwQZCV",
@@ -14918,7 +14918,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "eu_imhaludmz",
@@ -14960,7 +14960,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "eu_15gf6hmja",
@@ -15005,7 +15005,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "eu_AmKIE8xi0Tj",
@@ -15067,7 +15067,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "eu_y6bqetqzm",
@@ -15114,7 +15114,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "sk_hfpl6n7ib",
@@ -15136,14 +15136,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 2190,
-    "correctedMedian": 2185,
+    "correctedMedian": 2180,
     "kmReference": 150000,
-    "discount": -0.2,
+    "discount": -0.4,
     "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: 0 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "sk_xbavswtmw",
@@ -15174,7 +15174,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "sk_q8emd5drn",
@@ -15205,7 +15205,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "sk_idsb495sl",
@@ -15227,14 +15227,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 4200,
-    "correctedMedian": 4066,
+    "correctedMedian": 3931,
     "kmReference": 225000,
-    "discount": -3.3,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -3 %",
+    "discount": -6.8,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -7 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "sk_vjbhaowdf",
@@ -15263,7 +15263,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "sk_ovo26rnev",
@@ -15285,14 +15285,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 6300,
-    "correctedMedian": 5584,
+    "correctedMedian": 4868,
     "kmReference": 150000,
-    "discount": -12.8,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -13 %",
+    "discount": -29.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -29 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.954Z"
   },
   {
     "id": "sk_motpz840f",
@@ -15314,14 +15314,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 4700,
-    "correctedMedian": 4348,
+    "correctedMedian": 3997,
     "kmReference": 150000,
-    "discount": -8.1,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -8 %",
+    "discount": -17.6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -18 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_z4gwstvrr",
@@ -15352,7 +15352,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_uus63d2rp",
@@ -15381,7 +15381,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_r2ra0beus",
@@ -15410,7 +15410,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_gvl64us9h",
@@ -15439,7 +15439,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.945Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_gbled58sx",
@@ -15468,7 +15468,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_jywly2wbc",
@@ -15499,7 +15499,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_jurfzb8p0",
@@ -15530,7 +15530,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_j77cdxmls",
@@ -15559,7 +15559,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_249rt4uib",
@@ -15588,7 +15588,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_6epu97e1g",
@@ -15610,14 +15610,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 4400,
-    "correctedMedian": 4290,
+    "correctedMedian": 4180,
     "kmReference": 150000,
-    "discount": -2.6,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -3 %",
+    "discount": -5.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_d67hgnflk",
@@ -15646,7 +15646,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_1f5uf7fow",
@@ -15684,14 +15684,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 2200,
-    "correctedMedian": 2173,
+    "correctedMedian": 2145,
     "kmReference": 225000,
-    "discount": -1.3,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
+    "discount": -2.6,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -3 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_utkfp2hs5",
@@ -15720,7 +15720,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.955Z"
   },
   {
     "id": "sk_o6hhf0upk",
@@ -15749,7 +15749,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_zf5jk1sqv",
@@ -15778,7 +15778,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_g2bzlbvn3",
@@ -15807,7 +15807,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.946Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_4s8b43j19",
@@ -15838,7 +15838,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_qhvstvwyh",
@@ -15867,7 +15867,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_fktxtol7w",
@@ -15904,7 +15904,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_386kf6jjl",
@@ -15926,14 +15926,14 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 5800,
-    "correctedMedian": 5409,
+    "correctedMedian": 5017,
     "kmReference": 60000,
-    "discount": -7.2,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -7 %",
+    "discount": -15.6,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -16 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_j3gsvs6em",
@@ -15961,14 +15961,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 2200,
-    "correctedMedian": 1999,
+    "correctedMedian": 1799,
     "kmReference": 150000,
-    "discount": -10,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -10 %",
+    "discount": -22.3,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -22 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.956Z"
   },
   {
     "id": "sk_3i658arxl",
@@ -16017,7 +16017,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_4mbcvydic",
@@ -16062,7 +16062,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_az0vm8il3",
@@ -16109,7 +16109,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_z72a2fivd",
@@ -16156,7 +16156,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_ghzh19lpj",
@@ -16201,7 +16201,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_8k794q9vi",
@@ -16241,7 +16241,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_rezdljvvf",
@@ -16281,7 +16281,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_o6i1l0nk2",
@@ -16321,7 +16321,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.947Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_dh3pva6ul",
@@ -16359,14 +16359,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 4299,
-    "correctedMedian": 4078,
+    "correctedMedian": 3856,
     "kmReference": 225000,
-    "discount": -5.4,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -5 %",
+    "discount": -11.5,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -11 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_wiqi7nw2h",
@@ -16408,7 +16408,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_by3blijrn",
@@ -16448,7 +16448,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_w1ud2hp91",
@@ -16481,14 +16481,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 6890,
-    "correctedMedian": 6729,
+    "correctedMedian": 6569,
     "kmReference": 150000,
-    "discount": -2.4,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -2 %",
+    "discount": -4.9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.957Z"
   },
   {
     "id": "sk_7e5n0l7rk",
@@ -16528,7 +16528,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "sk_q1c7rd4c4",
@@ -16556,14 +16556,14 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 72500,
-    "correctedMedian": 70234,
+    "correctedMedian": 67969,
     "kmReference": 60000,
-    "discount": -3.2,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -3 %",
+    "discount": -6.7,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -7 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_39dq87jm7",
@@ -16598,7 +16598,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_AmX4ZXTtudQ",
@@ -16627,7 +16627,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_Am9cgrA5J2h",
@@ -16658,7 +16658,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_AelzQSnofZY",
@@ -16680,14 +16680,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 6900,
-    "correctedMedian": 6296,
+    "correctedMedian": 5693,
     "kmReference": 150000,
-    "discount": -9.6,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -10 %",
+    "discount": -21.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -21 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.958Z"
   },
   {
     "id": "eu_qb848cmnj",
@@ -16716,7 +16716,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_44a8hn59a",
@@ -16747,7 +16747,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_Amo2z16UeDb",
@@ -16776,7 +16776,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.949Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_AmFisPc7KJz",
@@ -16805,7 +16805,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_AmbXswulYDh",
@@ -16834,7 +16834,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_AmQL6ojysIX",
@@ -16863,7 +16863,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_gddq75urj",
@@ -16892,7 +16892,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_Amx1LPzoQr4",
@@ -16923,7 +16923,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_AmV4L7hxZds",
@@ -16954,7 +16954,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_AmGhTd1RAVf",
@@ -16983,7 +16983,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_AeKOxaVi0qR",
@@ -17012,7 +17012,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_Amaqs2pYD6b",
@@ -17041,7 +17041,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.959Z"
   },
   {
     "id": "eu_te4tl4gds",
@@ -17063,14 +17063,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 2 (250k-300k)",
     "matchAccuracy": "specific",
     "originalMedian": 5900,
-    "correctedMedian": 5002,
+    "correctedMedian": 4990,
     "kmReference": 275000,
-    "discount": -17.9,
+    "discount": -18.2,
     "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -18 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AeuTLXMqPGj",
@@ -17105,7 +17105,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_Ambqla5HA7P",
@@ -17136,7 +17136,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AeuJUezcZ2F",
@@ -17160,14 +17160,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 12000,
-    "correctedMedian": 10800,
+    "correctedMedian": 9600,
     "kmReference": 150000,
-    "discount": -11.1,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -11 %",
+    "discount": -25,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -25 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_Ae6vYml39iB",
@@ -17198,7 +17198,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_Ae0MRrN2YfB",
@@ -17220,14 +17220,14 @@ window.scoredListingsData = [
     "kmSegment": "Level 300 (300k-400k)",
     "matchAccuracy": "specific",
     "originalMedian": 7200,
-    "correctedMedian": 7164,
+    "correctedMedian": 7128,
     "kmReference": 350000,
-    "discount": -0.5,
+    "discount": -1,
     "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -1 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AmMRcNM6EnE",
@@ -17256,7 +17256,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AmOUvrbKuEs",
@@ -17280,14 +17280,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 7890,
-    "correctedMedian": 7454,
+    "correctedMedian": 7018,
     "kmReference": 225000,
-    "discount": -5.8,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -6 %",
+    "discount": -12.4,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -12 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_Am2Xpv1jF3I",
@@ -17311,14 +17311,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 5290,
-    "correctedMedian": 4643,
+    "correctedMedian": 3997,
     "kmReference": 150000,
-    "discount": -13.9,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -14 %",
+    "discount": -32.4,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -32 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AewYUOyLehW",
@@ -17347,7 +17347,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.950Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AeJxDKtv1L6",
@@ -17369,14 +17369,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 2 (250k-300k)",
     "matchAccuracy": "specific",
     "originalMedian": 2700,
-    "correctedMedian": 2232,
+    "correctedMedian": 2169,
     "kmReference": 275000,
-    "discount": -21,
-    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -21 %",
+    "discount": -24.5,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -24 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.960Z"
   },
   {
     "id": "eu_AeJrudqi92Z",
@@ -17411,7 +17411,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "eu_8vvj3h57e",
@@ -17453,7 +17453,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_Aet22MBAxYy",
@@ -17481,14 +17481,14 @@ window.scoredListingsData = [
     "kmSegment": "Level 400 (400k-500k)",
     "matchAccuracy": "specific",
     "originalMedian": 2550,
-    "correctedMedian": 1227,
+    "correctedMedian": 1179,
     "kmReference": 450000,
-    "discount": -107.8,
-    "dealReason": "Segment: Level 400 (400k-500k) | Cena vs upravený medián: -108 %",
+    "discount": -116.2,
+    "dealReason": "Segment: Level 400 (400k-500k) | Cena vs upravený medián: -116 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_Aei5JAhJ_lY",
@@ -17525,7 +17525,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_AegNQo9MN5m",
@@ -17556,7 +17556,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_AeJ1RLIKTF0",
@@ -17591,7 +17591,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_AeotMgHp-Dc",
@@ -17620,7 +17620,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_AeFmovwq4Ro",
@@ -17649,7 +17649,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_AelgWf0kBOk",
@@ -17678,7 +17678,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_AepsE99Krvy",
@@ -17700,14 +17700,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 5100,
-    "correctedMedian": 4501,
+    "correctedMedian": 3902,
     "kmReference": 150000,
-    "discount": -13.3,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -13 %",
+    "discount": -30.7,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -31 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_Aeu6NK8DCIp",
@@ -17736,7 +17736,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.961Z"
   },
   {
     "id": "autovia_Ae33huNv_Gf",
@@ -17765,7 +17765,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeGm_zngg-b",
@@ -17796,7 +17796,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AerXka4Bg_5",
@@ -17825,7 +17825,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AewtqaBTsAk",
@@ -17854,7 +17854,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_Ae0c2BqKzao",
@@ -17883,7 +17883,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeMJcGgrdPa",
@@ -17908,14 +17908,14 @@ window.scoredListingsData = [
     "kmSegment": "Level 300 (300k-400k)",
     "matchAccuracy": "specific",
     "originalMedian": 9000,
-    "correctedMedian": 8213,
+    "correctedMedian": 7425,
     "kmReference": 350000,
-    "discount": -9.6,
-    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -10 %",
+    "discount": -21.2,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -21 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeoeeImZiax",
@@ -17944,7 +17944,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeGgvq5pHPt",
@@ -17975,7 +17975,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.951Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeLnLOGYOak",
@@ -18004,7 +18004,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeWe0pxCEPo",
@@ -18033,7 +18033,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeZZ6oT1j2Z",
@@ -18055,14 +18055,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 2200,
-    "correctedMedian": 2173,
+    "correctedMedian": 2145,
     "kmReference": 225000,
-    "discount": -1.3,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -1 %",
+    "discount": -2.6,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -3 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_Ae7eDnI9YLE",
@@ -18084,14 +18084,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 2890,
-    "correctedMedian": 2749,
+    "correctedMedian": 2608,
     "kmReference": 150000,
-    "discount": -5.1,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -5 %",
+    "discount": -10.8,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -11 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeyjJS9TX2I",
@@ -18113,14 +18113,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 1600,
-    "correctedMedian": 1444,
+    "correctedMedian": 1288,
     "kmReference": 150000,
-    "discount": -10.8,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -11 %",
+    "discount": -24.2,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -24 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeAZFWB87sj",
@@ -18149,7 +18149,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.962Z"
   },
   {
     "id": "autovia_AeHLjFtaXaz",
@@ -18178,7 +18178,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_Ae9F7Ca9LTs",
@@ -18209,7 +18209,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_Ae0EazZCjKb",
@@ -18238,7 +18238,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_Ae2VIGB6Brn",
@@ -18267,7 +18267,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeZTG41bc4Y",
@@ -18289,14 +18289,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 14800,
-    "correctedMedian": 14190,
+    "correctedMedian": 13579,
     "kmReference": 150000,
-    "discount": -4.3,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -4 %",
+    "discount": -9,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -9 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_Ae_LaIGeIEc",
@@ -18328,7 +18328,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeB_S1WDefQ",
@@ -18359,7 +18359,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_Aefh01F4pR5",
@@ -18388,7 +18388,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeeJEkWHrxe",
@@ -18417,7 +18417,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.963Z"
   },
   {
     "id": "autovia_AeDbI59_ZTj",
@@ -18446,7 +18446,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AmPEIKcfUmU",
@@ -18475,7 +18475,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.952Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AeQKYh6iHBB",
@@ -18504,7 +18504,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AmeA9B8TkOe",
@@ -18533,7 +18533,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AmE7TMjehgq",
@@ -18564,7 +18564,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AeoGWRjBefJ",
@@ -18595,7 +18595,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_Ae2ZCjsyzLt",
@@ -18626,7 +18626,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AbIHJNcmwDA",
@@ -18657,7 +18657,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AmJtWk2PFHw",
@@ -18686,7 +18686,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_Av_k0PwFAZ8",
@@ -18717,7 +18717,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_Aee8wFNgPdX",
@@ -18748,7 +18748,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AmCTtUn-s2j",
@@ -18777,7 +18777,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_Ae-wpws3ufU",
@@ -18806,7 +18806,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AeCVFdhASUx3",
@@ -18835,7 +18835,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AbicA9b6Dibf",
@@ -18866,7 +18866,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AmgHNJVIHKO",
@@ -18895,7 +18895,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.964Z"
   },
   {
     "id": "autovia_AvQrqrseFEL",
@@ -18927,7 +18927,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AmGDTCDSV6D",
@@ -18956,7 +18956,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AmdYjeJWiVU",
@@ -18987,7 +18987,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_Am1tEgVQ7vo",
@@ -19018,7 +19018,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AmSQbWHRyHW",
@@ -19049,7 +19049,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AmikCM91AkG",
@@ -19080,7 +19080,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_Amrl5jAEYMH",
@@ -19109,7 +19109,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AeYIao3eCht",
@@ -19140,7 +19140,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AezErs4H1NK",
@@ -19171,7 +19171,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.953Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_Am9uovSIBLY",
@@ -19200,7 +19200,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AmlnnZHgp2s",
@@ -19229,7 +19229,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AewTIN6XfzI",
@@ -19258,7 +19258,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_Abz8sUQfd6n",
@@ -19289,7 +19289,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AeVLnKRRGl-",
@@ -19318,7 +19318,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_Ae2r9uQ7fvP",
@@ -19347,7 +19347,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AeyKfmV0bNH",
@@ -19378,7 +19378,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_Aeh845OJaUN",
@@ -19407,7 +19407,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AevwvFO7Dog",
@@ -19438,7 +19438,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.965Z"
   },
   {
     "id": "autovia_AeouLcpg46Y",
@@ -19467,7 +19467,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_AeHxcUemVlJ",
@@ -19496,7 +19496,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_AeDTmiP7F-o",
@@ -19527,7 +19527,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_AeruuRjRGZk",
@@ -19558,7 +19558,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_AeZboOrg1nR",
@@ -19587,7 +19587,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_AeCq0DOoYeX",
@@ -19619,7 +19619,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.954Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_Am21Gs-hfwz",
@@ -19650,7 +19650,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_AmK_RnCs3nK",
@@ -19679,7 +19679,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.967Z"
   },
   {
     "id": "autovia_AmxdtJBDXBK",
@@ -19701,14 +19701,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 5490,
-    "correctedMedian": 5334,
+    "correctedMedian": 5177,
     "kmReference": 150000,
-    "discount": -2.9,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -3 %",
+    "discount": -6,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -6 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_Amk1j87TNe3",
@@ -19737,7 +19737,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeYu6RMbiXc",
@@ -19761,14 +19761,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 6000,
-    "correctedMedian": 5670,
+    "correctedMedian": 5340,
     "kmReference": 225000,
-    "discount": -5.8,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -6 %",
+    "discount": -12.4,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -12 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeUI-wy8Pwo",
@@ -19799,7 +19799,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeC51P9Jl12",
@@ -19830,7 +19830,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_Aeco5lVzG5k",
@@ -19861,7 +19861,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_Ae8LQ11stoS",
@@ -19892,7 +19892,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_Ae5CjvZPg6z",
@@ -19923,7 +19923,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_Ae-BzW8D5f6",
@@ -19954,7 +19954,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AeucrMAVIh_",
@@ -19983,7 +19983,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.968Z"
   },
   {
     "id": "autovia_AmKi4WMfber",
@@ -20007,14 +20007,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 2 (250k-300k)",
     "matchAccuracy": "specific",
     "originalMedian": 5400,
-    "correctedMedian": 4418,
+    "correctedMedian": 4246,
     "kmReference": 275000,
-    "discount": -22.2,
-    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -22 %",
+    "discount": -27.2,
+    "dealReason": "Segment: High-Tier 2 (250k-300k) | Cena vs upravený medián: -27 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "autovia_Aew7QkXtnWO",
@@ -20036,14 +20036,14 @@ window.scoredListingsData = [
     "kmSegment": "Mid (100k-200k)",
     "matchAccuracy": "specific",
     "originalMedian": 5500,
-    "correctedMedian": 5121,
+    "correctedMedian": 4743,
     "kmReference": 150000,
-    "discount": -7.4,
-    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -7 %",
+    "discount": -16,
+    "dealReason": "Segment: Mid (100k-200k) | Cena vs upravený medián: -16 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "autovia_AmcELfbxfFa",
@@ -20065,14 +20065,14 @@ window.scoredListingsData = [
     "kmSegment": "High-Tier 1 (200k-250k)",
     "matchAccuracy": "specific",
     "originalMedian": 5800,
-    "correctedMedian": 5561,
+    "correctedMedian": 5321,
     "kmReference": 225000,
-    "discount": -4.3,
-    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -4 %",
+    "discount": -9,
+    "dealReason": "Segment: High-Tier 1 (200k-250k) | Cena vs upravený medián: -9 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "autovia_AmfsBON60ep",
@@ -20101,7 +20101,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "autovia_Amn3MVbL2a9",
@@ -20132,7 +20132,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "autovia_AbCTeInF6kT",
@@ -20154,14 +20154,14 @@ window.scoredListingsData = [
     "kmSegment": "Level 300 (300k-400k)",
     "matchAccuracy": "specific",
     "originalMedian": 6816,
-    "correctedMedian": 6439,
+    "correctedMedian": 6063,
     "kmReference": 350000,
-    "discount": -2.5,
-    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -2 %",
+    "discount": -8.9,
+    "dealReason": "Segment: Level 300 (300k-400k) | Cena vs upravený medián: -9 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "autovia_AeKA0EHD5gb",
@@ -20192,7 +20192,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.955Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "eu_AeXwePFKv4w",
@@ -20222,7 +20222,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "eu_AmYNB0VsZCD",
@@ -20252,7 +20252,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "eu_AenSK8oGlkC",
@@ -20282,7 +20282,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.969Z"
   },
   {
     "id": "eu_AegNkOq40dV",
@@ -20312,7 +20312,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.970Z"
   },
   {
     "id": "eu_AeNNV0cjR3q",
@@ -20335,14 +20335,14 @@ window.scoredListingsData = [
     "kmSegment": "Low (0-100k)",
     "matchAccuracy": "specific",
     "originalMedian": 7300,
-    "correctedMedian": 6734,
+    "correctedMedian": 6169,
     "kmReference": 60000,
-    "discount": -8.4,
-    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -8 %",
+    "discount": -18.3,
+    "dealReason": "Segment: Low (0-100k) | Cena vs upravený medián: -18 %",
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_AmkxgFD2el1",
@@ -20374,7 +20374,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_cxa0ost9k",
@@ -20406,7 +20406,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_AmsQE0IZhFd",
@@ -20436,7 +20436,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.978Z"
   },
   {
     "id": "eu_AesqAyjIcoJ",
@@ -20466,7 +20466,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "eu_x71bbhuno",
@@ -20496,7 +20496,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "eu_zw7lase8r",
@@ -20526,7 +20526,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "eu_AmSNPwzaVcI",
@@ -20558,7 +20558,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "eu_AmEP1LZsua0",
@@ -20588,7 +20588,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.956Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "eu_AmVY3m5miaK",
@@ -20618,7 +20618,7 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.957Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   },
   {
     "id": "eu_Am75Ftt71HW",
@@ -20650,6 +20650,6 @@ window.scoredListingsData = [
     "dealType": "OVERPRICED",
     "score": 20,
     "isFiltered": false,
-    "scoredAt": "2026-01-07T15:31:41.957Z"
+    "scoredAt": "2026-01-07T15:32:49.979Z"
   }
 ];

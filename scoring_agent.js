@@ -332,16 +332,30 @@ function scoreListings(listings, marketValues) {
             correctedMedian = 1000; // Fixed scrap price rule
         }
 
-        // 3. KM PENALTY (Dynamic): -2.5% for every 10,000 km above ref
+        // 3. KM PENALTY (Dynamic)
         const kmAboveRef = (listing.km || refKm) - refKm;
         if (kmAboveRef > 0 && kmSegmentKey !== 'zombie') {
+            const age = Math.max(1, currentYear - listing.year);
             const penaltySteps = kmAboveRef / 10000;
-            const penaltyPercent = penaltySteps * 0.025;
+            let penaltyPercent = penaltySteps * 0.025;
+
+            // AGE PENALTY: Double penalty for cars older than 12 years
+            if (age > 12) {
+                penaltyPercent *= 2;
+            }
+
             correctedMedian *= (1 - penaltyPercent);
         }
 
-        // 4. EQUIPMENT BONUS (Skip if Level 400 or Zombie)
+        // 4. EQUIPMENT BONUS & RISK
         if (matchAccuracy === 'broad' && kmSegmentKey !== 'level400' && kmSegmentKey !== 'zombie') {
+            // Filter features for RISK: over 250k km, 4x4 is a risk, not a value add
+            const filteredFeatures = (listing.features || []).filter(f => {
+                if (listing.km > 250000 && (f === '4x4' || f === 'Automat')) return false;
+                return true;
+            });
+
+            // Adjust equip level bonus based on remaining features
             if (equip.level === 'Full') correctedMedian *= 1.12;
             else if (equip.level === 'Medium') correctedMedian *= 1.05;
         }
