@@ -329,7 +329,7 @@ function scoreListings(listings, marketValues) {
         } else if (kmSegmentKey === 'level400') {
             correctedMedian *= 0.50; // -50%
         } else if (kmSegmentKey === 'zombie') {
-            correctedMedian = 1000; // Fixed scrap price rule
+            correctedMedian = Math.max(1000, medianPrice * 0.15); // Fixed scrap price or 15% of median
         }
 
         // 3. KM PENALTY (Dynamic)
@@ -367,7 +367,8 @@ function scoreListings(listings, marketValues) {
         }
 
         // ENSURE POSITIVE
-        correctedMedian = Math.max(kmSegmentKey === 'zombie' ? 1000 : medianPrice * 0.2, correctedMedian);
+        const minZombiePrice = Math.max(1000, medianPrice * 0.15);
+        correctedMedian = Math.max(kmSegmentKey === 'zombie' ? minZombiePrice : medianPrice * 0.2, correctedMedian);
 
         // 6. Calculate Final Score & Deal Type
         const discount = ((correctedMedian - listing.price) / correctedMedian) * 100;
