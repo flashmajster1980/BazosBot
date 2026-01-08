@@ -1,20 +1,91 @@
-const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
+require('dotenv').config();
 
-const DB_PATH = path.join(__dirname, 'bot_database.sqlite');
+// Abstraction layer for DB operations
+const dbAsync = {
+    run: null,
+    get: null,
+    all: null
+};
 
-const db = new sqlite3.Database(DB_PATH, (err) => {
-    if (err) {
-        console.error('❌ Error opening database:', err.message);
-    } else {
-        console.log('✅ Connected to SQLite database.');
-        initializeSchema();
-    }
-});
+let dbType = 'sqlite'; // 'sqlite' or 'postgres'
 
-function initializeSchema() {
+// Initialize Connection
+if (process.env.DATABASE_URL) {
+    // --- POSTGRESQL (Production) ---
+    console.log('🐘 Connecting to PostgreSQL...');
+    const { Pool } = require('pg');
+    const pool = new Pool({
+        connectionString: process.env.DATABASE_URL,
+        ssl: { rejectUnauthorized: false } // Required for Render
+    });
+
+    dbType = 'postgres';
+
+    // Wrapper functions for Postgres
+    dbAsync.run = async (sql, params = []) => {
+        // Convert SQLite ? to Postgres $1, $2, etc.
+        let i = 1;
+        const pgSql = sql.replace(/\?/g, () => `$${i++}`);
+        const res = await pool.query(pgSql, params);
+        return { changes: res.rowCount, lastID: null }; // Postgres doesn't return lastID easily in generic Run
+    };
+
+    dbAsync.get = async (sql, params = []) => {
+        let i = 1;
+        const pgSql = sql.replace(/\?/g, () => `$${i++}`);
+        const res = await pool.query(pgSql, params);
+        return res.rows[0];
+    };
+
+    dbAsync.all = async (sql, params = []) => {
+        let i = 1;
+        const pgSql = sql.replace(/\?/g, () => `$${i++}`);
+        const res = await pool.query(pgSql, params);
+        return res.rows;
+    };
+
+    initPostgresSchema(pool);
+
+} else {
+    // --- SQLITE (Local Development) ---
+    console.log('📂 Connecting to SQLite (Local)...');
+    const sqlite3 = require('sqlite3').verbose();
+    const db = new sqlite3.Database(path.join(__dirname, 'bot_database.sqlite'));
+
+    dbType = 'sqlite';
+
+    // Promisify SQLite functions
+    dbAsync.run = (sql, params = []) => new Promise((resolve, reject) => {
+        db.run(sql, params, function (err) {
+            if (err) reject(err);
+            else resolve(this);
+        });
+    });
+
+    dbAsync.get = (sql, params = []) => new Promise((resolve, reject) => {
+        db.get(sql, params, (err, row) => {
+            if (err) reject(err);
+            else resolve(row);
+        });
+    });
+
+    dbAsync.all = (sql, params = []) => new Promise((resolve, reject) => {
+        db.all(sql, params, (err, rows) => {
+            if (err) reject(err);
+            else resolve(rows);
+        });
+    });
+
+    initSQLiteSchema(db);
+}
+
+
+// --- SCHEMA INITIALIZATION ---
+
+function initSQLiteSchema(db) {
     db.serialize(() => {
-        // Table listings: Všetky údaje o inzeráte
+        // Listings Table
         db.run(`CREATE TABLE IF NOT EXISTS listings (
             id TEXT PRIMARY KEY,
             url TEXT,
@@ -25,9 +96,9 @@ function initializeSchema() {
             model TEXT,
             year INTEGER,
             km INTEGER,
-            price INTEGER,
+            price REAL,
             fuel TEXT,
-            power TEXT,
+            power INTEGER,
             engine TEXT,
             equip_level TEXT,
             transmission TEXT,
@@ -37,160 +108,141 @@ function initializeSchema() {
             seller_name TEXT,
             phone TEXT,
             seller_type TEXT,
-            deal_score REAL,
-            liquidity_score REAL,
-            risk_score INTEGER DEFAULT 0,
-            ai_verdict TEXT,
-            ai_risk_level INTEGER,
-            is_sold INTEGER DEFAULT 0,
-            sold_at DATETIME,
-            last_checked DATETIME,
             scraped_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-            updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            is_sold INTEGER DEFAULT 0,
+            deal_score REAL,
+            liquidity_score REAL
         )`);
 
-        // Table price_history: Ukladanie zmien ceny
+        // Price History
         db.run(`CREATE TABLE IF NOT EXISTS price_history (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             listing_id TEXT,
-            price INTEGER,
+            price REAL,
             checked_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-            FOREIGN KEY (listing_id) REFERENCES listings (id)
+            FOREIGN KEY(listing_id) REFERENCES listings(id)
         )`);
 
-        // Table market_stats: Denný medián trhu pre modely
-        db.run(`CREATE TABLE IF NOT EXISTS market_stats (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            model TEXT,
-            year INTEGER,
-            median_price REAL,
-            date DATE DEFAULT CURRENT_DATE
-        )`);
-
-        // Table users: Používatelia a predplatné
+        // Users
         db.run(`CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT UNIQUE,
             password TEXT,
-            subscription_status TEXT DEFAULT 'basic',
-            created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            subscription_status TEXT DEFAULT 'free',
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            google_id TEXT UNIQUE,
+            avatar_url TEXT
         )`);
 
-        console.log('✅ Database schema initialized.');
+        console.log('✅ SQLite schema initialized.');
     });
 }
 
-/**
- * Promisified database operations
- */
-const dbAsync = {
-    run: (sql, params = []) => new Promise((resolve, reject) => {
-        db.run(sql, params, function (err) {
-            if (err) reject(err);
-            else resolve(this);
-        });
-    }),
-    get: (sql, params = []) => new Promise((resolve, reject) => {
-        db.get(sql, params, (err, row) => {
-            if (err) reject(err);
-            else resolve(row);
-        });
-    }),
-    all: (sql, params = []) => new Promise((resolve, reject) => {
-        db.all(sql, params, (err, rows) => {
-            if (err) reject(err);
-            else resolve(rows);
-        });
-    })
-};
+async function initPostgresSchema(pool) {
+    try {
+        // Listings
+        await pool.query(`CREATE TABLE IF NOT EXISTS listings (
+            id TEXT PRIMARY KEY,
+            url TEXT,
+            portal TEXT,
+            title TEXT,
+            description TEXT,
+            make TEXT,
+            model TEXT,
+            year INTEGER,
+            km INTEGER,
+            price REAL,
+            fuel TEXT,
+            power INTEGER,
+            engine TEXT,
+            equip_level TEXT,
+            transmission TEXT,
+            drive TEXT,
+            vin TEXT,
+            location TEXT,
+            seller_name TEXT,
+            phone TEXT,
+            seller_type TEXT,
+            scraped_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            is_sold INTEGER DEFAULT 0,
+            deal_score REAL,
+            liquidity_score REAL
+        )`);
 
-const { extractMakeModel } = require('./utils');
+        // Price History
+        await pool.query(`CREATE TABLE IF NOT EXISTS price_history (
+            id SERIAL PRIMARY KEY,
+            listing_id TEXT,
+            price REAL,
+            checked_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (listing_id) REFERENCES listings(id)
+        )`);
 
-async function identifySellerType(sellerName, phone, dbAsync) {
-    if (!phone && !sellerName) return 'Neznámy';
+        // Users
+        await pool.query(`CREATE TABLE IF NOT EXISTS users (
+            id SERIAL PRIMARY KEY,
+            username TEXT UNIQUE,
+            password TEXT,
+            subscription_status TEXT DEFAULT 'free',
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            google_id TEXT UNIQUE,
+            avatar_url TEXT
+        )`);
 
-    // 1. Check database for other cars under the same phone or name
-    let count = 0;
-    if (phone) {
-        const result = await dbAsync.get('SELECT COUNT(*) as cnt FROM listings WHERE phone = ?', [phone]);
-        count = result.cnt;
-    } else if (sellerName) {
-        const result = await dbAsync.get('SELECT COUNT(*) as cnt FROM listings WHERE seller_name = ?', [sellerName]);
-        count = result.cnt;
+        console.log('✅ PostgreSQL schema initialized.');
+    } catch (err) {
+        console.error('❌ Error initializing Postgres schema:', err.message);
     }
-
-    if (count >= 3) {
-        return '🏢 Bazár / Predajca';
-    }
-
-    // 2. Name check for civilian-like names
-    const civilianNames = ['peter', 'jozef', 'marek', 'michal', 'jan', 'pavol', 'martin', 'stefan', 'ivan', 'igor', 'lucia', 'maria', 'jana'];
-    const lowerName = (sellerName || '').toLowerCase();
-
-    if (civilianNames.some(name => lowerName.includes(name))) {
-        return '👤 Súkromná osoba';
-    }
-
-    return count > 1 ? '🏢 Malý predajca' : '👤 Súkromná osoba';
 }
 
-/**
- * Main logic to save or update a listing with price history
- */
+// Helpers
+async function identifySellerType(sellerName, requestDb) {
+    if (!sellerName) return 'Private';
+    const lower = sellerName.toLowerCase();
+
+    // Keyword heuristics
+    if (lower.includes('auto') || lower.includes('car') || lower.includes('s.r.o') || lower.includes('gmbh')) {
+        return 'Dealer';
+    }
+
+    // DB Check (if user has many listings)
+    try {
+        const result = await requestDb.get(`SELECT COUNT(*) as count FROM listings WHERE seller_name = ?`, [sellerName]);
+        if (result && result.count > 3) return 'Dealer';
+    } catch (e) { /* ignore */ }
+
+    return 'Private';
+}
+
 async function upsertListing(listing) {
     try {
-        // Extract make/model if missing
-        if (!listing.make || !listing.model) {
-            const { make, model } = extractMakeModel(listing.title || '');
-            listing.make = listing.make || make;
-            listing.model = listing.model || model;
-        }
-
-        const existing = await dbAsync.get('SELECT price, id FROM listings WHERE id = ?', [listing.id]);
+        const existing = await dbAsync.get('SELECT * FROM listings WHERE id = ?', [listing.id]);
 
         if (existing) {
-            // Check if price changed
+            // Price Change Logic
             if (existing.price !== listing.price) {
-                console.log(`💰 Price change for [${listing.id}]: ${existing.price}€ -> ${listing.price}€`);
-
-                // Update listing price and updated_at
-                await dbAsync.run(
-                    `UPDATE listings SET 
-                        price = ?, 
-                        deal_score = ?, 
-                        liquidity_score = ?, 
-                        engine = ?,
-                        equip_level = ?,
-                        updated_at = CURRENT_TIMESTAMP 
-                    WHERE id = ?`,
-                    [listing.price, listing.deal_score || null, listing.liquidity_score || null, listing.engine || null, listing.equip_level || null, listing.id]
-                );
-
-                // Add to history
+                console.log(`📉 Price change for ${listing.id}: ${existing.price} -> ${listing.price}`);
                 await dbAsync.run(
                     'INSERT INTO price_history (listing_id, price) VALUES (?, ?)',
                     [listing.id, listing.price]
                 );
-            } else {
-                // Update listing price and updated_at
-                await dbAsync.run(
-                    `UPDATE listings SET 
-                        price = ?, 
-                        deal_score = ?, 
-                        liquidity_score = ?, 
-                        engine = ?,
-                        equip_level = ?,
-                        updated_at = CURRENT_TIMESTAMP 
-                    WHERE id = ?`,
-                    [listing.price, listing.deal_score || null, listing.liquidity_score || null, listing.engine || null, listing.equip_level || null, listing.id]
-                );
             }
+            // Update essentials
+            await dbAsync.run(
+                `UPDATE listings SET 
+                    price = ?, 
+                    updated_at = ${dbType === 'postgres' ? 'NOW()' : "datetime('now')"},
+                    is_sold = 0
+                WHERE id = ?`,
+                [listing.price, listing.id]
+            );
         } else {
-            // Identify seller type
-            const sellerType = await identifySellerType(listing.seller_name, listing.phone, dbAsync);
-            listing.seller_type = listing.seller_type || sellerType;
+            // New Listing
+            const sellerType = await identifySellerType(listing.seller_name, dbAsync);
 
-            // Create new record
+            // Explicit Column List for safety
             await dbAsync.run(
                 `INSERT INTO listings (
                     id, url, portal, title, description, make, model, 
@@ -202,52 +254,17 @@ async function upsertListing(listing) {
                     listing.make, listing.model, listing.year, listing.km, listing.price,
                     listing.fuel || null, listing.power || null, listing.engine || null, listing.equip_level || null,
                     listing.transmission || null, listing.drive || null, listing.vin || null, listing.location || null,
-                    listing.seller_name || null, listing.phone || null, listing.seller_type || null,
+                    listing.seller_name || null, listing.phone || null, sellerType,
                     listing.deal_score || null, listing.liquidity_score || null
                 ]
             );
 
-            // Add first entry to history
-            await dbAsync.run(
-                'INSERT INTO price_history (listing_id, price) VALUES (?, ?)',
-                [listing.id, listing.price]
-            );
-
-            console.log(`✨ NEW record in DB: [${listing.id}] ${listing.make} ${listing.model}`);
+            // Init history
+            await dbAsync.run('INSERT INTO price_history (listing_id, price) VALUES (?, ?)', [listing.id, listing.price]);
         }
     } catch (err) {
-        console.error(`❌ Error in upsertListing for ${listing.id}:`, err.message);
+        console.error(`❌ DB Upsert Error (${listing.id}):`, err.message);
     }
 }
 
-async function saveMarketStat(model, year, medianPrice) {
-    try {
-        // Avoid duplicate entries for same day
-        const today = new Date().toISOString().split('T')[0];
-        const existing = await dbAsync.get(
-            'SELECT id FROM market_stats WHERE model = ? AND year = ? AND date = ?',
-            [model, year, today]
-        );
-
-        if (existing) {
-            await dbAsync.run(
-                'UPDATE market_stats SET median_price = ? WHERE id = ?',
-                [medianPrice, existing.id]
-            );
-        } else {
-            await dbAsync.run(
-                'INSERT INTO market_stats (model, year, median_price, date) VALUES (?, ?, ?, ?)',
-                [model, year, medianPrice, today]
-            );
-        }
-    } catch (err) {
-        console.error(`❌ Error in saveMarketStat:`, err.message);
-    }
-}
-
-module.exports = {
-    db,
-    dbAsync,
-    upsertListing,
-    saveMarketStat
-};
+module.exports = { dbAsync, upsertListing, identifySellerType };
