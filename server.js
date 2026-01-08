@@ -67,6 +67,73 @@ app.get('/api/me', (req, res) => {
     }
 });
 
+const fs = require('fs');
+const { scoreListings } = require('./scoring_agent');
+const LOG_FILE = path.join(__dirname, 'server.log');
+
+// Helper to log key events
+function logActivity(msg) {
+    const entry = `[${new Date().toISOString()}] ${msg}\n`;
+    fs.appendFileSync(LOG_FILE, entry);
+}
+
+// ========================================
+// ADMIN ROUTES
+// ========================================
+
+app.get('/admin/debug', (req, res) => {
+    // Ideally protect this with a password or check req.session.user.isAdmin
+    res.sendFile(path.join(__dirname, 'admin_debug.html'));
+});
+
+app.get('/api/admin/logs', (req, res) => {
+    if (fs.existsSync(LOG_FILE)) {
+        // Read last 2000 chars roughly or logic to get last N lines
+        const stats = fs.statSync(LOG_FILE);
+        const fileSize = stats.size;
+        const bufferSize = Math.min(10000, fileSize);
+        const buffer = Buffer.alloc(bufferSize);
+        const fd = fs.openSync(LOG_FILE, 'r');
+        fs.readSync(fd, buffer, 0, bufferSize, fileSize - bufferSize);
+        fs.closeSync(fd);
+        res.send(buffer.toString());
+    } else {
+        res.send('No logs active yet.');
+    }
+});
+
+app.get('/api/admin/inspect/:id', async (req, res) => {
+    try {
+        const listing = await dbAsync.get('SELECT * FROM listings WHERE id = ?', [req.params.id]);
+        if (!listing) return res.status(404).json({ error: 'Listing not found' });
+
+        // Load Market Values
+        const marketValuesFile = path.join(__dirname, 'market_values.json');
+        if (!fs.existsSync(marketValuesFile)) return res.status(500).json({ error: 'Market values missing' });
+
+        const marketValues = JSON.parse(fs.readFileSync(marketValuesFile, 'utf-8'));
+
+        // RE-RUN SCORING logic specifically for this listing
+        // We pass it as a single-item array
+        // We need to pass dbAsync for history checks
+        const result = await scoreListings([listing], marketValues, dbAsync);
+
+        if (!result.scoredListings || result.scoredListings.length === 0) {
+            return res.status(500).json({ error: 'Scoring failed for this item.' });
+        }
+
+        const calculated = result.scoredListings[0];
+
+        // Log this action
+        logActivity(`Admin Inspected ID: ${req.params.id} | Score: ${calculated.score}`);
+
+        res.json({ calculated });
+    } catch (err) {
+        logActivity(`Error inspecting ${req.params.id}: ${err.message}`);
+        res.status(500).json({ error: err.message });
+    }
+});
+
 // ========================================
 // STRIPE PAYMENT ROUTES
 // ========================================
@@ -75,6 +142,8 @@ app.post('/api/create-checkout-session', async (req, res) => {
     if (!req.session.user) return res.status(401).json({ error: 'Please login first' });
 
     try {
+        logActivity(`User ${req.session.user.username} initiated checkout.`);
+
         const session = await stripe.checkout.sessions.create({
             payment_method_types: ['card'],
             line_items: [{
@@ -101,17 +170,20 @@ app.post('/api/create-checkout-session', async (req, res) => {
         if (process.env.DEMO_MODE === 'true') {
             await dbAsync.run('UPDATE users SET subscription_status = ? WHERE id = ?', ['premium', req.session.user.id]);
             req.session.user.subscription = 'premium';
+            logActivity(`User ${req.session.user.username} upgraded to PREMIUM (DEMO mode).`);
         }
 
         res.json({ url: session.url });
     } catch (err) {
         console.error('Stripe Error:', err.message);
+        logActivity(`Stripe Error: ${err.message}`);
 
         // Fallback for user without Stripe key
         if (err.message.includes('api_key')) {
             // Simulujeme úspešný upgrade pre testovanie
             await dbAsync.run('UPDATE users SET subscription_status = ? WHERE id = ?', ['premium', req.session.user.id]);
             req.session.user.subscription = 'premium';
+            logActivity(`User ${req.session.user.username} upgraded (No Stripe Key Fallback).`);
             return res.json({ url: '/?success=true&demo=true' });
         }
 

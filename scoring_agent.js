@@ -758,5 +758,21 @@ async function run() {
     console.log('\n✅ Scoring Agent - COMPLETED');
 }
 
-// Run the agent
-run();
+// ========================================
+// EXPORTS
+// ========================================
+module.exports = {
+    scoreListings,
+    extractMakeModel,
+    calculateRiskScore,
+    CONFIG
+};
+
+// ========================================
+// MAIN EXECUTION (only if run directly)
+// ========================================
+if (require.main === module) {
+    run();
+}
+
+

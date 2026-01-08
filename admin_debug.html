@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Debugger</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --border: #334155;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Unbounded', sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 20px;
+        }
+
+        .panel {
+            background: var(--bg-card);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            height: calc(100vh - 40px);
+            overflow-y: auto;
+        }
+
+        .details-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .search {
+            width: 100%;
+            padding: 10px;
+            background: #0f172a;
+            border: 1px solid var(--border);
+            color: white;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+
+        .listing-item {
+            padding: 10px;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            transition: bg 0.2s;
+        }
+
+        .listing-item:hover {
+            background: #334155;
+        }
+
+        .listing-item.active {
+            background: var(--accent);
+            color: #000;
+        }
+
+        .listing-title {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .listing-meta {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .listing-item.active .listing-meta {
+            color: #1e293b;
+        }
+
+        .section {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .section-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .formula {
+            font-family: monospace;
+            background: #000;
+            padding: 10px;
+            border-radius: 4px;
+            color: #86efac;
+            font-size: 0.85rem;
+        }
+
+        .json-dump {
+            font-family: monospace;
+            font-size: 0.75rem;
+            background: #000;
+            padding: 10px;
+            border-radius: 6px;
+            color: #cbd5e1;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+
+        .log-panel {
+            grid-column: 1 / -1;
+            background: #000;
+            color: #ccc;
+            font-family: monospace;
+            padding: 15px;
+            height: 300px;
+            overflow-y: auto;
+            border: 1px solid var(--border);
+        }
+
+        .btn {
+            padding: 8px 16px;
+            background: var(--accent);
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .btn-recalc {
+            background: var(--warning);
+            width: 100%;
+        }
+
+        .tag {
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            background: var(--bg-dark);
+        }
+
+        .tag-danger {
+            color: var(--danger);
+            border: 1px solid var(--danger);
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🛠️ Logic Inspector</h1>
+        <a href="/" class="btn" style="text-decoration: none; color: black;">Back to Dashboard</a>
+    </header>
+
+    <div class="container">
+        <!-- LEFT: LISTINGS LIST -->
+        <div class="panel">
+            <input type="text" class="search" placeholder="Search ID or Title..." oninput="filterListings(this.value)">
+            <div id="listings-list">Loading...</div>
+        </div>
+
+        <!-- RIGHT: INSPECTOR -->
+        <div class="panel details-panel" id="inspector">
+            <div style="opacity: 0.5; text-align: center; margin-top: 50px;">Select a listing to inspect logic.</div>
+        </div>
+    </div>
+
+    <h2 style="margin-top: 30px;">📜 Activity Logs</h2>
+    <div class="log-panel" id="logs">Loading logs...</div>
+
+    <script>
+        let listings = [];
+        let currentListingId = null;
+
+        async function init() {
+            // Load listings
+            const res = await fetch('/api/listings?limit=100'); // Load more for debug
+            const data = await res.json();
+            listings = data.listings;
+            renderListings(listings);
+            loadLogs();
+        }
+
+        function renderListings(list) {
+            const container = document.getElementById('listings-list');
+            container.innerHTML = list.map(l => `
+                <div class="listing-item" onclick="inspect('${l.id}')" id="item-${l.id}">
+                    <div class="listing-title">${l.title}</div>
+                    <div class="listing-meta">
+                        ${l.formatted_price} | ${l.id}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterListings(query) {
+            const filtered = listings.filter(l => l.title.toLowerCase().includes(query.toLowerCase()) || l.id.includes(query));
+            renderListings(filtered);
+        }
+
+        async function inspect(id) {
+            currentListingId = id;
+            document.querySelectorAll('.listing-item').forEach(el => el.classList.remove('active'));
+            const el = document.getElementById(`item-${id}`);
+            if (el) el.classList.add('active');
+
+            document.getElementById('inspector').innerHTML = 'Loading breakdown...';
+
+            const res = await fetch(`/api/admin/inspect/${id}`);
+            const data = await res.json();
+
+            if (data.error) {
+                document.getElementById('inspector').innerHTML = `<div style="color:red">${data.error}</div>`;
+                return;
+            }
+
+            renderInspector(data);
+        }
+
+        function renderInspector(data) {
+            const l = data.calculated;
+
+            const riskBreakdown = l.risk.color === '#00ff88' ? 'No major risks detected.' :
+                `Level: ${l.risk.level} (${l.risk.score} pts)`; // Simplified, real breakdown needs logic extraction
+
+            let html = `
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <h2>${l.make} ${l.model} (${l.year})</h2>
+                    <button class="btn btn-recalc" onclick="recalc('${l.id}')">⚡ Force Recalculate</button>
+                </div>
+
+                <!-- PRICE CALCULATION -->
+                <div class="section">
+                    <div class="section-title">Price Verification</div>
+                    <div class="row"><span>Segment</span> <span>${l.kmSegment}</span></div>
+                    <div class="row"><span>Accuracy</span> <span>${l.matchAccuracy}</span></div>
+                    <div class="row"><span>Original Median</span> <span>${l.originalMedian} €</span></div>
+                    
+                    <div class="formula">
+                        Base: ${l.originalMedian} €<br>
+                        - Mileage Penalty: ${l.km > 200000 ? 'Yes' : 'No'}<br>
+                        = Corrected: <b>${l.correctedMedian} €</b>
+                    </div>
+                    
+                    <div class="row" style="margin-top:10px;">
+                        <span>Listed Price</span> 
+                        <span style="font-weight:bold; font-size:1.1rem;">${l.price} €</span>
+                    </div>
+                    <div class="row">
+                        <span>Discount</span> 
+                        <span style="${l.discount > 0 ? 'color:#22c55e' : 'color:#ef4444'}">${l.discount}%</span>
+                    </div>
+                </div>
+
+                <!-- RISK -->
+                <div class="section">
+                    <div class="section-title">Risk Audit (Score: ${l.risk.score})</div>
+                    <div class="row"><span>Flag Level</span> <span style="color:${l.risk.color}">${l.risk.level}</span></div>
+                    <div style="font-size:0.85rem; color:#94a3b8; margin-top:5px;">${riskBreakdown}</div>
+                    ${!l.vin ? '<div class="tag tag-danger" style="display:inline-block; margin-top:5px;">MISSING VIN</div>' : ''}
+                    ${l.year < 2015 && l.km < 100000 ? '<div class="tag tag-danger" style="margin-top:5px;">SUSPICIOUS MILEAGE</div>' : ''}
+                </div>
+
+                <!-- RAW DATA -->
+                <div class="section">
+                    <div class="section-title">Raw Data Object</div>
+                    <div class="json-dump">${JSON.stringify(l, null, 2)}</div>
+                </div>
+            `;
+
+            document.getElementById('inspector').innerHTML = html;
+        }
+
+        async function recalc(id) {
+            const btn = document.querySelector('.btn-recalc');
+            btn.innerText = 'Calculating...';
+            await inspect(id);
+            btn.innerText = 'Done!';
+            setTimeout(() => btn.innerText = '⚡ Force Recalculate', 2000);
+        }
+
+        async function loadLogs() {
+            const res = await fetch('/api/admin/logs');
+            const txt = await res.text();
+            document.getElementById('logs').innerText = txt;
+        }
+
+        init();
+    </script>
+</body>
+
+</html>
