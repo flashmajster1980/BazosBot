@@ -52,6 +52,97 @@ const BAD_KEYWORDS = [
 // ========================================
 
 // Feature extraction matching market_value_agent.js
+const BASE_PRICES = JSON.parse(fs.readFileSync(path.join(__dirname, 'original_prices.json'), 'utf-8'));
+
+// ========================================
+// EXPERT VALUATION LOGIC
+// ========================================
+function estimateOriginalPrice(listing) {
+    let basePrice = 25000;
+    const make = listing.make || '';
+    const model = listing.model || '';
+
+    for (const [dbMake, models] of Object.entries(BASE_PRICES)) {
+        if (make.toLowerCase().includes(dbMake.toLowerCase())) {
+            for (const [dbModel, price] of Object.entries(models)) {
+                if (model.toLowerCase().includes(dbModel.toLowerCase()) || listing.title.toLowerCase().includes(dbModel.toLowerCase())) {
+                    basePrice = price;
+                    break;
+                }
+            }
+        }
+    }
+    const kw = listing.power;
+    if (kw) {
+        const val = parseInt(kw);
+        if (val > 140) basePrice *= 1.25;
+        else if (val > 110) basePrice *= 1.10;
+    }
+    const year = listing.year;
+    if (year > 2015) {
+        const inflation = (year - 2015) * 0.03;
+        basePrice *= (1 + inflation);
+    }
+    return Math.round(basePrice);
+}
+
+function calculateDepreciation(originalPrice, year, segment) {
+    const age = new Date().getFullYear() - year;
+    if (age < 0) return originalPrice;
+    let retentionRate = 0.85;
+    if (segment === 'Premium') retentionRate = 0.82;
+    if (age === 0) return originalPrice * 0.85;
+    let depreciatedPrice = originalPrice * Math.pow(retentionRate, age);
+    if (depreciatedPrice < 1000) depreciatedPrice = 1000;
+    return Math.round(depreciatedPrice);
+}
+
+function applyMileageCorrection(price, listing) {
+    const age = new Date().getFullYear() - listing.year;
+    const fuel = listing.fuel || 'Diesel';
+    const km = listing.km || 0;
+    let annualNorm = 15000;
+    if (fuel.includes('Diesel')) annualNorm = 25000;
+    if (fuel.includes('Elektro')) annualNorm = 12000;
+    const expectedKm = Math.max(10000, age * annualNorm);
+    const diff = km - expectedKm;
+    let rate = 0.04;
+    if (price > 30000) rate = 0.08;
+    const correction = -(diff * rate);
+    let psychPenalty = 0;
+    if (km > 200000) psychPenalty -= 1000;
+    if (km > 300000) psychPenalty -= 2000;
+    return Math.round(price + correction + psychPenalty);
+}
+
+function applyFeatures(price, listing) {
+    let finalPrice = price;
+    const text = (listing.title + ' ' + (listing.description || '')).toLowerCase();
+    const features = [];
+    if (text.includes('4x4') || text.includes('4wd') || text.includes('quattro') || text.includes('4motion')) {
+        finalPrice += 1200; features.push('4x4 pohon (+1200€)');
+    }
+    if (listing.transmission === 'Automat' || text.includes('dsg') || text.includes('automat')) {
+        finalPrice += 1200; features.push('Automat (+1200€)');
+    }
+    if (text.includes('panorama') || text.includes('strešné okno')) {
+        finalPrice += 500; features.push('Panoráma (+500€)');
+    }
+    if (text.includes('koža') || text.includes('alcantara') || text.includes('leather')) {
+        finalPrice += 600; features.push('Kožený interiér (+600€)');
+    }
+    if (text.includes('full led') || text.includes('matrix') || text.includes('xenon')) {
+        finalPrice += 700; features.push('Lepšie svetlá (+700€)');
+    }
+    if (text.includes('virtual cockpit') || text.includes('digitálny štít')) {
+        finalPrice += 400; features.push('Virtual Cockpit (+400€)');
+    }
+    if (text.includes('dph') || text.includes('odpočet')) {
+        features.push('Možný odpočet DPH (Výhoda)');
+    }
+    return { price: Math.round(finalPrice), features };
+}
+
 function extractEngine(listing) {
     let engine = 'Unknown';
     if (listing.fuel && listing.power) {
@@ -640,6 +731,40 @@ async function scoreListings(listings, marketValues, dbAsync) {
             mileageWarning = '⚠️ Vysoký nájazd – preverte servisnú históriu';
         }
 
+
+
+        // --- EXPERT VALUATION ---
+        const pStart = estimateOriginalPrice(listing);
+        let fairPriceVal = calculateDepreciation(pStart, listing.year, 'Standard');
+        fairPriceVal = applyMileageCorrection(fairPriceVal, listing);
+        let { price: finalFairPrice, features: expertFeatures } = applyFeatures(fairPriceVal, listing);
+        if (finalFairPrice < 500) finalFairPrice = 500;
+
+        const diffPercent = ((listing.price - finalFairPrice) / finalFairPrice) * 100;
+        let verdictLabel = 'Férová cena';
+        if (diffPercent < -15) verdictLabel = 'SUPER CENA';
+        else if (diffPercent < -5) verdictLabel = 'Dobrá cena';
+        else if (diffPercent > 20) verdictLabel = 'Predražené';
+        else if (diffPercent > 10) verdictLabel = 'Vyššia cena';
+
+        const cons = [];
+        if (listing.km > 200000) cons.push('Vysoký nájazd (>200k)');
+        if (!listing.location) cons.push('Chýba lokácia');
+
+        const expertAnalysis = `
+### 🧐 Expertný Odhad
+**Odhadovaná Férová Cena:** ${finalFairPrice.toLocaleString()} € - ${(finalFairPrice * 1.1).toLocaleString()} €
+**Pôvodná cena (odhad):** ${pStart.toLocaleString()} €
+**Verdikt:** ${verdictLabel} (${diffPercent > 0 ? '+' : ''}${Math.round(diffPercent)}% vs odhad)
+
+**Plusy:**
+${expertFeatures.length > 0 ? expertFeatures.map(p => `- ${p}`).join('\n') : '- Štandardná výbava'}
+
+**Poznámky:**
+${cons.length > 0 ? cons.map(c => `- ${c}`).join('\n') : '- Bez zjavných rizík z popisu'}
+        `.trim();
+        // -----------------------
+
         const risk = calculateRiskScore(listing, correctedMedian);
 
         scoredListings.push({
@@ -663,6 +788,7 @@ async function scoreListings(listings, marketValues, dbAsync) {
             freshDiscount,
             priceHistory: historyEntries,
             risk,
+            aiVerdict: expertAnalysis,
             score: finalScore,
             isFiltered: keywordCheck.isFiltered,
             transmission: transmission, // Inferred or original
@@ -720,14 +846,7 @@ async function run() {
         // Progress log
         if (count % 100 === 0) console.log(`   ⏳ Updated ${count}/${scoredListings.length} listings...`);
 
-        // AI INSPECTION TRIGGER - Only for Golden Deals (to speed up processing)
-        if (scored.dealType === 'GOLDEN DEAL' && !scored.aiVerdict) {
-            const aiResult = await analyzeListingDescription(scored.title, scored.description || '');
-            if (aiResult) {
-                scored.aiVerdict = aiResult.verdict;
-                scored.aiRiskLevel = aiResult.risk_level;
-            }
-        }
+
 
         await dbAsync.run(
             'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ?, deal_type = ?, discount = ?, corrected_median = ?, negotiation_score = ?, transmission = ?, drive = ?, make = ?, model = ? WHERE id = ?',
