@@ -1,5 +1,5 @@
 # Use Node.js LTS with Debian base for better Puppeteer support
-FROM node:18-bullseye-slim
+FROM node:20-bullseye-slim
 
 # Install Chrome dependencies
 RUN apt-get update && apt-get install -y \
