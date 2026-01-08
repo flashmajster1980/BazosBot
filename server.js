@@ -280,6 +280,27 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'dashboard.html'));
 });
 
+const { exec } = require('child_process');
+
+// BACKGROUND SCRAPER TASK (runs every 10 minutes)
+function runScraperInBackground() {
+    console.log('⏰ Starting background scrape job...');
+    exec('node scraper_agent.js', (error, stdout, stderr) => {
+        if (error) {
+            console.error(`❌ Scraper Error: ${error.message}`);
+            return;
+        }
+        if (stderr) console.error(`⚠️ Scraper Stderr: ${stderr}`);
+        console.log(`✅ Scraper Output:\n${stdout}`);
+    });
+}
+
+// Run immediately on start (optional, maybe delay 1 min)
+setTimeout(runScraperInBackground, 60000);
+
+// Schedule every 10 minutes
+setInterval(runScraperInBackground, 10 * 60 * 1000);
+
 app.listen(PORT, () => {
     console.log(`🚀 AutoRadar Server running at http://localhost:${PORT}`);
 });
