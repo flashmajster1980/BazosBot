@@ -440,8 +440,8 @@ async function scrapeBazos(searchConfig = null) {
     try {
         const premiumUser = await dbAsync.get("SELECT id FROM users WHERE subscription_status = 'premium' LIMIT 1");
 
-        if (premiumUser) {
-            console.log('💎 Premium user active. Triggering AI & Notifications Pipeline...');
+        if (true || premiumUser) { // DISABLED CHECK FOR DEBUGGING
+            console.log('💎 Premium check bypassed. Triggering AI & Notifications Pipeline...');
 
             exec('node scoring_agent.js', (err, stdout, stderr) => {
                 if (err) { console.error('Scoring Error:', err.message); return; }

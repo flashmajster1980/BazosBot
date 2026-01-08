@@ -357,7 +357,7 @@ app.get('/api/listings', async (req, res) => {
             const isGolden = listing.deal_type === 'GOLDEN DEAL';
             const isHotLiquidity = listing.liquidity_score >= 80;
 
-            const isLocked = (isGolden || isHotLiquidity) && !isPremium;
+            const isLocked = false; // (isGolden || isHotLiquidity) && !isPremium; // DISABLED FOR DEBUGGING
 
             if (isLocked) {
                 return {
