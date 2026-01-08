@@ -377,10 +377,11 @@ async function scoreListings(listings, marketValues, dbAsync) {
     let goldenDeals = 0;
     let goodDeals = 0;
     let filtered = 0;
+    const { dbType } = require('./database');
     const marketHistoryData = await dbAsync.all(`
         SELECT model, year, median_price, date 
         FROM market_stats 
-        WHERE date >= date('now', '-30 days')
+        WHERE date >= ${dbType === 'postgres' ? "CURRENT_DATE - INTERVAL '30 days'" : "date('now', '-30 days')"}
     `);
 
     // Group history for quick lookup
@@ -708,7 +709,7 @@ async function run() {
         }
 
         await dbAsync.run(
-            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ? WHERE id = ?',
+            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ?, deal_type = ?, discount = ?, corrected_median = ? WHERE id = ?',
             [
                 scored.score,
                 scored.liquidity ? scored.liquidity.score : null,
@@ -717,6 +718,9 @@ async function run() {
                 scored.equipLevel,
                 scored.aiVerdict || null,
                 scored.aiRiskLevel || null,
+                scored.dealType || null,
+                scored.discount || null,
+                scored.correctedMedian || null,
                 scored.id
             ]
         );

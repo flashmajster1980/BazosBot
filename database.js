@@ -188,6 +188,16 @@ async function initPostgresSchema(pool) {
             google_id TEXT UNIQUE,
             avatar_url TEXT
         )`);
+
+        await pool.query(`CREATE TABLE IF NOT EXISTS market_stats (
+            id SERIAL PRIMARY KEY,
+            model TEXT,
+            year INTEGER,
+            median_price REAL,
+            count INTEGER,
+            date DATE DEFAULT CURRENT_DATE,
+            UNIQUE(model, year, date)
+        )`);
         console.log('✅ PostgreSQL schema fully initialized.');
     } catch (err) {
         console.error('❌ Error initializing Postgres schema:', err.message);
@@ -255,4 +265,4 @@ async function upsertListing(listing) {
     }
 }
 
-module.exports = { dbAsync, upsertListing, identifySellerType };
+module.exports = { dbAsync, upsertListing, identifySellerType, dbType };
