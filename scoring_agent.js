@@ -89,11 +89,26 @@ function estimateOriginalPrice(listing) {
 function calculateDepreciation(originalPrice, year, segment) {
     const age = new Date().getFullYear() - year;
     if (age < 0) return originalPrice;
-    let retentionRate = 0.85;
-    if (segment === 'Premium') retentionRate = 0.82;
-    if (age === 0) return originalPrice * 0.85;
+
+    // RECALIBRATION 2.0 (Market Reality)
+    // Old logic was too strict (0.85). Real market holds value better (0.89 - 0.91).
+    let retentionRate = 0.89;
+
+    if (segment === 'Premium') retentionRate = 0.86; // Still drops faster but less strict
+    if (age === 0) return originalPrice * 0.90; // Only 10% drop instant
+
     let depreciatedPrice = originalPrice * Math.pow(retentionRate, age);
-    if (depreciatedPrice < 1000) depreciatedPrice = 1000;
+
+    // MARKET INFLATION FACTOR
+    // Used cars older than 4 years are inflated by ~20-30% on current market
+    if (age > 4) {
+        depreciatedPrice *= 1.25;
+    }
+
+    // BRAND PREMIUM (Slovak market loves VW/Skoda/Audi)
+    // Instead of complex logic, we just maintain a slightly higher floor
+    if (depreciatedPrice < 1500) depreciatedPrice = 1500;
+
     return Math.round(depreciatedPrice);
 }
 
