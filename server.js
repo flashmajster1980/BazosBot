@@ -321,7 +321,7 @@ app.get('/api/listings', async (req, res) => {
     try {
         const {
             page = 1, limit = 24, search, make, fuel, trans, drive,
-            minYear, maxYear, minPrice, maxPrice, onlyGolden, sort = 'best'
+            minYear, maxYear, minPrice, maxPrice, maxKm, onlyGolden, sort = 'best'
         } = req.query;
 
         // AUTH CHECK
@@ -336,50 +336,38 @@ app.get('/api/listings', async (req, res) => {
         if (make && make !== 'all') { query += ' AND make = ?'; params.push(make); }
         if (fuel && fuel !== 'all') { query += ' AND fuel LIKE ?'; params.push(`%${fuel}%`); }
         if (trans && trans !== 'all') { query += ' AND transmission LIKE ?'; params.push(`%${trans === 'Automat' ? 'Auto' : 'Man'}%`); }
-        if (drive && drive !== 'all') { query += ' AND (drive LIKE ? OR features LIKE ?)'; params.push(`%${drive}%`, `%${drive}%`); }
+        if (drive && drive !== 'all') { query += ' AND drive LIKE ?'; params.push(`%${drive}%`); }
         if (minYear) { query += ' AND year >= ?'; params.push(parseInt(minYear)); }
         if (maxYear) { query += ' AND year <= ?'; params.push(parseInt(maxYear)); }
         if (minPrice) { query += ' AND price >= ?'; params.push(parseInt(minPrice)); }
         if (maxPrice) { query += ' AND price <= ?'; params.push(parseInt(maxPrice)); }
+        if (maxKm) { query += ' AND km <= ?'; params.push(parseInt(maxKm)); }
         if (onlyGolden === 'true') { query += " AND deal_type = 'GOLDEN DEAL'"; }
 
         let orderBy = 'ORDER BY scraped_at DESC';
-        if (sort === 'price-asc') orderBy = 'ORDER BY price ASC';
+        if (sort === 'best') orderBy = "ORDER BY CASE WHEN deal_type = 'GOLDEN DEAL' THEN 0 ELSE 1 END, discount DESC";
+        else if (sort === 'price-asc') orderBy = 'ORDER BY price ASC';
         else if (sort === 'year-desc') orderBy = 'ORDER BY year DESC';
         else if (sort === 'km-asc') orderBy = 'ORDER BY km ASC';
         else if (sort === 'discount') orderBy = 'ORDER BY discount DESC';
 
+        console.log(`🔍 [SQL] ${query} ${orderBy}`, params);
         const data = await dbAsync.all(`${query} ${orderBy} LIMIT ? OFFSET ?`, [...params, parseInt(limit), offset]);
         const total = await dbAsync.get(`SELECT COUNT(*) as count FROM (${query})`, params);
+        const globalTotal = await dbAsync.get(`SELECT COUNT(*) as count FROM listings WHERE is_sold = 0`);
 
-        // PAYWALL LOGIC: Mask data for non-premium users
-        const processedData = data.map(listing => {
-            const isGolden = listing.deal_type === 'GOLDEN DEAL';
-            const isHotLiquidity = listing.liquidity_score >= 80;
-
-            const isLocked = false; // (isGolden || isHotLiquidity) && !isPremium; // DISABLED FOR DEBUGGING
-
-            if (isLocked) {
-                return {
-                    ...listing,
-                    url: null, // REMOVE URL
-                    seller_name: 'Premium Member Only', // MASK SELLER
-                    phone: null, // MASK PHONE
-                    dealReason: '🔒 Tento deal vidia iba Premium členovia',
-                    description: listing.description ? listing.description.substring(0, 50) + '...' : '',
-                    location: 'Slovensko (Premium)',
-                    isLocked: true // Frontend Flag
-                };
-            }
-            return { ...listing, isLocked: false };
-        });
+        const goldenStats = await dbAsync.get(`SELECT COUNT(*) as count FROM listings WHERE deal_type = 'GOLDEN DEAL' AND is_sold = 0`);
+        const goodStats = await dbAsync.get(`SELECT COUNT(*) as count FROM listings WHERE deal_type = 'GOOD DEAL' AND is_sold = 0`);
 
         res.json({
-            listings: processedData,
+            listings: data, // No masking, raw data only
             total: total.count,
+            globalTotal: globalTotal.count,
+            goldenTotal: goldenStats.count,
+            goodTotal: goodStats.count,
             page: parseInt(page),
             pages: Math.ceil(total.count / limit),
-            user: user // Send user info to frontend for UI state
+            user: req.user
         });
     } catch (err) {
         res.status(500).json({ error: err.message });

@@ -100,6 +100,38 @@
             box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
         }
 
+        .header-stats {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-left: 25px;
+            padding-left: 25px;
+            border-left: 1px solid var(--border);
+        }
+
+        .stat-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .stat-value {
+            color: var(--accent);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .stat-value.golden {
+            color: var(--golden);
+            background: rgba(245, 158, 11, 0.1);
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
         /* FILTERS */
         .filters-container {
             padding: 1.5rem 5%;
@@ -186,6 +218,27 @@
         .badge-golden {
             background: var(--golden);
             color: #000;
+        }
+
+        .card-golden {
+            border: 2px solid var(--golden) !important;
+            box-shadow: 0 0 20px rgba(245, 158, 11, 0.15);
+        }
+
+        .btn-history {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-history:hover {
+            border-color: var(--accent);
+            color: var(--accent);
         }
 
         .title {
@@ -389,7 +442,12 @@
 
 
     <header>
-        <div class="logo"><span>📡</span> AutoRadar</div>
+        <div style="display:flex; align-items:center;">
+            <div class="logo"><span>📡</span> AutoRadar</div>
+            <div class="header-stats" id="header-stats">
+                <!-- Populated by JS -->
+            </div>
+        </div>
         <div class="user-menu" id="user-menu">
             <!-- Populated by JS -->
         </div>
@@ -400,24 +458,60 @@
             <input type="text" id="search" class="search-box" placeholder="Hľadať v inzerátoch (model, motor...)">
         </div>
         <div class="filter-row">
-            <div class="filter-group"><label>Značka</label><select id="filter-make">
+            <div class="filter-group"><label>Značka</label>
+                <select id="filter-make">
                     <option value="all">Všetky značky</option>
-                </select></div>
-            <div class="filter-group"><label>Palivo</label><select id="filter-fuel">
+                </select>
+            </div>
+            <div class="filter-group"><label>Palivo</label>
+                <select id="filter-fuel">
                     <option value="all">Všetky</option>
                     <option value="Diesel">Diesel</option>
                     <option value="Benzín">Benzín</option>
                     <option value="Elektro">Elektro</option>
-                </select></div>
-            <div class="filter-group"><label>Zoradiť</label><select id="sort-by">
+                </select>
+            </div>
+            <div class="filter-group"><label>Prevodovka</label>
+                <select id="filter-trans">
+                    <option value="all">Všetky</option>
+                    <option value="Automat">Automat</option>
+                    <option value="Manuál">Manuál</option>
+                </select>
+            </div>
+            <div class="filter-group"><label>Pohon</label>
+                <select id="filter-drive">
+                    <option value="all">Všetky</option>
+                    <option value="Predný">Predný</option>
+                    <option value="Zadný">Zadný</option>
+                    <option value="4x4">4x4</option>
+                </select>
+            </div>
+            <div class="filter-group"><label>Zoradiť</label>
+                <select id="sort-by">
                     <option value="best">🌟 Naj dealy</option>
                     <option value="discount">Zľava %</option>
                     <option value="year-desc">Najnovšie</option>
-                </select></div>
-            <div class="filter-group" style="flex-direction: row; align-items: center; gap: 8px;">
+                    <option value="price-asc">Najlacnejšie</option>
+                </select>
+            </div>
+        </div>
+        <div class="filter-row" style="margin-top: 10px;">
+            <div class="filter-group"><label>Rok od</label><input type="number" id="min-year" placeholder="2015"
+                    style="width: 80px;"></div>
+            <div class="filter-group"><label>Rok do</label><input type="number" id="max-year" placeholder="2024"
+                    style="width: 80px;"></div>
+            <div class="filter-group"><label>Cena od</label><input type="number" id="min-price" placeholder="0"
+                    style="width: 90px;"></div>
+            <div class="filter-group"><label>Cena do</label><input type="number" id="max-price" placeholder="50000"
+                    style="width: 90px;"></div>
+            <div class="filter-group"><label>KM do</label><input type="number" id="max-km" placeholder="150000"
+                    style="width: 100px;"></div>
+            <div class="filter-group" style="flex-direction: row; align-items: center; gap: 8px; margin-top: 20px;">
                 <input type="checkbox" id="only-golden" style="width: auto;">
                 <label for="only-golden" style="cursor: pointer; margin: 0;">Iba Golden 🌟</label>
             </div>
+            <button class="btn" style="margin-top: 20px; padding: 8px 15px;"
+                onclick="fetchListings()">Filtrovať</button>
         </div>
     </div>
 
@@ -456,18 +550,15 @@
         function renderUserMenu() {
             const menu = $('user-menu');
             if (currentUser) {
-                const isPremium = currentUser.subscription_status === 'premium';
                 const avatar = currentUser.avatar_url || `https://ui-avatars.com/api/?name=${currentUser.username}&background=random`;
-
                 menu.innerHTML = `
                     <div style="display:flex; align-items:center; gap:10px;">
                         <img src="${avatar}" style="width:32px; height:32px; border-radius:50%; border:2px solid var(--accent);">
                         <div style="font-size:0.9rem; line-height:1.2;">
                             <div style="font-weight:700;">${currentUser.username}</div> 
-                            <span style="color:${isPremium ? 'var(--golden)' : '#999'}; font-size:0.75rem;">${isPremium ? 'PREMIUM 👑' : 'Basic Plan'}</span>
+                            <span style="color:var(--accent); font-size:0.75rem;">Administrator</span>
                         </div>
                     </div>
-                    ${!isPremium ? '<button class="btn-auth btn-premium" onclick="buyPremium()">UPGRADE 💎</button>' : ''}
                     <button class="btn-auth" onclick="logout()">Odhlásiť</button>
                 `;
             } else {
@@ -482,6 +573,13 @@
                 search: $('search').value,
                 make: $('filter-make').value,
                 fuel: $('filter-fuel').value,
+                trans: $('filter-trans').value,
+                drive: $('filter-drive').value,
+                minYear: $('min-year').value,
+                maxYear: $('max-year').value,
+                minPrice: $('min-price').value,
+                maxPrice: $('max-price').value,
+                maxKm: $('max-km').value,
                 sort: $('sort-by').value,
                 onlyGolden: $('only-golden').checked
             });
@@ -490,7 +588,15 @@
             const data = await res.json();
             allListings = data.listings;
 
-            $('stats-summary').innerHTML = `Nájdených <strong>${data.total}</strong> výsledkov ${data.total > 0 ? `(strana ${data.page} z ${data.pages})` : ''}`;
+            $('header-stats').innerHTML = `
+                <div class="stat-badge">🚗 <span class="stat-value">${data.globalTotal}</span> áut</div>
+                <div class="stat-badge">👑 <span class="stat-value golden">${data.goldenTotal}</span> <span style="color:var(--golden)">Golden</span></div>
+            `;
+
+            $('stats-summary').innerHTML = `
+                Nájdených <strong>${data.total}</strong> výsledkov pre aktuálny filter
+                ${data.total > 0 ? ` | strana ${data.page} z ${data.pages}` : ''}
+            `;
 
             // Re-sync user state from API response if provided
             if (data.user) { currentUser = data.user; renderUserMenu(); }
@@ -502,53 +608,117 @@
         }
 
         function createCard(l) {
-            const isLocked = l.isLocked;
-            const badgeClass = l.dealType ? l.dealType.toLowerCase().split(' ')[0] : 'fair';
+            const isGolden = (l.deal_type || l.dealType) === 'GOLDEN DEAL';
+            const dealType = (l.deal_type || l.dealType || 'FAIR');
+            const badgeClass = dealType.toLowerCase().split(' ')[0];
+            const risk_score = l.risk_score || l.riskScore || 0;
+            const liquidity_score = l.liquidity_score || l.liquidityScore || 0;
+            const negotiation_score = l.negotiation_score || l.negotiationScore || 0;
 
-            // If locked, we blur the content div
-            const contentClass = isLocked ? 'blur-content' : '';
+            const riskColor = risk_score > 60 ? '#ef4444' : (risk_score > 30 ? '#f59e0b' : '#10b981');
+            const liqColor = liquidity_score >= 80 ? '#10b981' : (liquidity_score >= 50 ? '#f59e0b' : '#ef4444');
+            const liqLabel = liquidity_score >= 80 ? 'Vysoká' : (liquidity_score >= 50 ? 'Dobrá' : 'Nízka');
+
+            // Portal Icons
+            const portalEmoji = l.portal.includes('Bazos') ? '🅱️' : (l.portal.includes('Autobazar.eu') ? '🇪🇺' : (l.portal.includes('Autovia') ? '🅰️' : '🇸🇰'));
 
             return `
-                <div class="card">
-                    ${isLocked ? `
-                        <div class="lock-overlay">
-                            <div class="lock-icon">🔒</div>
-                            <div class="lock-text">PREMIUM DEAL</div>
-                            <button class="btn-unlock" onclick="buyPremium()">Odomknúť</button>
+                <div class="card ${isGolden ? 'card-golden' : ''}">
+                    ${l.discount >= 10 ? `<div style="position:absolute; top:20px; right:0; background:#ef4444; color:white; padding:4px 12px; border-radius:10px 0 0 10px; font-weight:700; z-index:10;">-${Math.round(l.discount)}%</div>` : ''}
+                    
+                    <div class="card-header">
+                        <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+                            <span class="badge badge-${badgeClass}">${dealType}</span>
                         </div>
-                    ` : ''}
-                    
-                    ${l.discount >= 10 && !isLocked ? `<div style="position:absolute; top:20px; right:0; background:#ef4444; color:white; padding:4px 12px; border-radius:10px 0 0 10px; font-weight:700;">-${l.discount}%</div>` : ''}
-                    
-                    <div class="card-header ${contentClass}">
-                        <span class="badge badge-${badgeClass}">${l.dealType || 'Locked'}</span>
                         <h3 class="title">${l.title}</h3>
-                        <div class="meta">
-                            <span>📅 ${l.year}</span> <span>🛣️ ${l.km ? l.km.toLocaleString() : '?'} km</span>
+                        <div class="meta" style="margin-bottom:8px;">
+                            <span>📅 ${l.year || '?'}</span> 
+                            <span>🛣️ ${l.km ? l.km.toLocaleString() : '?'} km</span>
+                            <span>⛽ ${l.fuel || '?'}</span>
                         </div>
-                        <div class="meta">
-                             <span>⛽ ${l.fuel || '?'}</span> <span>📍 ${l.location || '?'}</span>
+                        <div class="meta" style="font-size:0.8rem; color:#888;">
+                             <span>⚙️ ${l.transmission || '?'}</span> 
+                             <span>🎡 ${l.drive || '?'}</span>
+                        </div>
+                        <div style="font-size:0.8rem; color:var(--accent); margin-top:5px;">
+                            📍 ${l.location ? `${l.location}, Slovensko` : 'Slovensko'}
+                        </div>
+                        <div style="font-size:0.8rem; color:#888; margin-top:3px;">
+                            ${(l.seller_type || l.sellerType) === 'Dealer' ? '🏢 Bazár / Dealer' : ((l.seller_type || l.sellerType) === 'Private' ? '👤 Súkromná osoba' : '🤝 Predajca: ?')}
                         </div>
                     </div>
                     
                     <div class="price-row">
-                        <div class="price">${l.price.toLocaleString()} €</div>
-                        <div style="font-size:0.8rem; color:#888;">Trh: ${l.correctedMedian ? l.correctedMedian.toLocaleString() : '?'} €</div>
+                        <div>
+                            <div class="price">${l.price.toLocaleString()} €</div>
+                            <button class="btn-history" onclick="showHistory('${l.id}', '${l.title.replace(/'/g, "\\'")}')">📊 História</button>
+                        </div>
+                        <div style="text-align:right;">
+                            <div style="font-size:0.75rem; color:#888; text-transform:uppercase; font-weight:700;">Trhová cena</div>
+                            <div style="font-size:1.1rem; color:#fff; font-weight:600;">${(l.corrected_median || l.correctedMedian) ? (l.corrected_median || l.correctedMedian).toLocaleString() : '?'} €</div>
+                        </div>
                     </div>
 
-                    ${l.ai_verdict && !isLocked ? `
-                        <div style="padding: 10px 20px; background: rgba(56, 189, 248, 0.1); border-top: 1px solid rgba(56, 189, 248, 0.2);">
-                            <div style="font-size: 0.85rem; color: #38bdf8; font-weight: 600; margin-bottom: 4px;">🤖 AI Verdikt (Risk: ${l.ai_risk_level || '?'}/10)</div>
-                            <div style="font-size: 0.8rem; color: #cbd5e1;">"${l.ai_verdict}"</div>
+                    <div style="padding: 12px 20px; display: flex; justify-content: space-between; font-size: 0.75rem; border-top: 1px solid var(--border); background: rgba(255,255,255,0.02);">
+                        <div title="Likvidita: Pravdepodobnosť rýchleho predaja">🔥 <span style="color:${liqColor}">${liqLabel} (${liquidity_score})</span></div>
+                        <div title="Riziko inzerátu: Technický a predajný stav">⚠️ <span style="color:${riskColor}">Riziko: ${risk_score}/100</span></div>
+                        <div title="Možná zľava: Odhad priestoru na vyjednávanie">🤝 <span>Zjedn.: ${Math.round(negotiation_score)}%</span></div>
+                    </div>
+
+                    ${l.ai_verdict ? `
+                        <div style="padding: 12px 20px; background: rgba(56, 189, 248, 0.05); border-top: 1px solid rgba(56, 189, 248, 0.1);">
+                            <div style="font-size: 0.8rem; color: #38bdf8; font-weight: 700; margin-bottom: 4px; display:flex; align-items:center; gap:5px;">
+                                🤖 AI ANALÝZA <span style="font-size:0.7rem; padding:2px 6px; background:rgba(56,189,248,0.2); border-radius:4px;">Risk: ${(l.ai_risk_level || l.aiRiskLevel) || '?'}/10</span>
+                            </div>
+                            <div style="font-size: 0.8rem; color: #cbd5e1; font-style: italic; line-height:1.4;">"${l.ai_verdict || l.aiVerdict}"</div>
                         </div>
                     ` : ''}
 
-                    <div class="card-footer ${contentClass}">
-                        <div style="color: #666;">${l.portal}</div>
-                        ${l.url ? `<a href="${l.url}" target="_blank" class="btn">Pozrieť</a>` : '<button class="btn" disabled style="opacity:0.5; cursor:not-allowed;">Odkaz skrytý</button>'}
+                    <div class="card-footer">
+                        <div style="display:flex; flex-direction:column; gap:2px;">
+                            <div style="font-size:0.7rem; color:#555; opacity: 0.5;">ID: ${l.id}</div>
+                            <div style="font-size:0.75rem; color:var(--text-muted);">${portalEmoji} ${l.portal}</div>
+                        </div>
+                        <a href="${l.url}" target="_blank" class="btn">OTVORIŤ INZERÁT</a>
                     </div>
                 </div>
             `;
+        }
+
+        async function showHistory(id, title) {
+            Swal.fire({
+                title: title,
+                html: '<canvas id="historyChart"></canvas>',
+                width: '600px',
+                didOpen: async () => {
+                    const res = await fetch(`/api/listings/${id}/history`);
+                    const history = await res.json();
+
+                    if (!history.length) {
+                        document.getElementById('historyChart').parentElement.innerHTML = '<p style="padding:20px;">Žiadna zaznamenaná história cien.</p>';
+                        return;
+                    }
+
+                    new Chart(document.getElementById('historyChart'), {
+                        type: 'line',
+                        data: {
+                            labels: history.map(h => new Date(h.date).toLocaleDateString()),
+                            datasets: [{
+                                label: 'Cena (€)',
+                                data: history.map(h => h.price),
+                                borderColor: '#fdda25',
+                                tension: 0.1,
+                                fill: false
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: { legend: { display: false } },
+                            scales: { y: { beginAtZero: false } }
+                        }
+                    });
+                }
+            });
         }
 
         function populateFilters() {

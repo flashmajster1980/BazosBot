@@ -113,7 +113,8 @@ async function initSQLiteSchema(db) {
             corrected_median REAL,
             ai_verdict TEXT,
             ai_risk_level INTEGER,
-            risk_score INTEGER
+            risk_score INTEGER,
+            negotiation_score REAL
         )`);
 
         db.run(`CREATE TABLE IF NOT EXISTS price_history (
@@ -170,7 +171,8 @@ async function initPostgresSchema(pool) {
             corrected_median REAL,
             ai_verdict TEXT,
             ai_risk_level INTEGER,
-            risk_score INTEGER
+            risk_score INTEGER,
+            negotiation_score REAL
         )`);
 
         await pool.query(`CREATE TABLE IF NOT EXISTS price_history (
@@ -230,15 +232,31 @@ async function upsertListing(listing) {
                     price = ?, 
                     updated_at = ${dbType === 'postgres' ? 'NOW()' : "datetime('now')"},
                     is_sold = 0,
+                    year = COALESCE(?, year),
+                    km = COALESCE(?, km),
+                    fuel = COALESCE(?, fuel),
+                    transmission = COALESCE(?, transmission),
+                    drive = COALESCE(?, drive),
                     deal_score = ?,
                     liquidity_score = ?,
                     deal_type = ?,
                     discount = ?,
                     corrected_median = ?,
                     ai_verdict = ?,
-                    ai_risk_level = ?
+                    ai_risk_level = ?,
+                    risk_score = ?,
+                    negotiation_score = ?,
+                    seller_type = ?
                 WHERE id = ?`,
-                [listing.price, listing.deal_score, listing.liquidity_score, listing.deal_type, listing.discount, listing.corrected_median, listing.ai_verdict, listing.ai_risk_level, listing.id]
+                [
+                    listing.price,
+                    listing.year, listing.km, listing.fuel, listing.transmission, listing.drive,
+                    listing.deal_score, listing.liquidity_score, listing.deal_type, listing.discount,
+                    listing.corrected_median, listing.ai_verdict, listing.ai_risk_level,
+                    listing.risk_score, listing.negotiation_score,
+                    listing.seller_type || await identifySellerType(listing.seller_name, dbAsync),
+                    listing.id
+                ]
             );
         } else {
             const sellerType = await identifySellerType(listing.seller_name, dbAsync);
@@ -247,8 +265,8 @@ async function upsertListing(listing) {
                     id, url, portal, title, description, make, model, 
                     year, km, price, fuel, power, engine, equip_level, transmission, drive, 
                     vin, location, seller_name, phone, seller_type, deal_score, liquidity_score,
-                    deal_type, discount, corrected_median, ai_verdict, ai_risk_level
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+                    deal_type, discount, corrected_median, ai_verdict, ai_risk_level, risk_score, negotiation_score
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
                 [
                     listing.id, listing.url, listing.portal, listing.title, listing.description || null,
                     listing.make, listing.model, listing.year, listing.km, listing.price,
@@ -257,7 +275,7 @@ async function upsertListing(listing) {
                     listing.seller_name || null, listing.phone || null, sellerType,
                     listing.deal_score || null, listing.liquidity_score || null,
                     listing.deal_type || null, listing.discount || null, listing.corrected_median || null,
-                    listing.ai_verdict || null, listing.ai_risk_level || null
+                    listing.ai_verdict || null, listing.ai_risk_level || null, listing.risk_score || null, listing.negotiation_score || null
                 ]
             );
             await dbAsync.run('INSERT INTO price_history (listing_id, price) VALUES (?, ?)', [listing.id, listing.price]);

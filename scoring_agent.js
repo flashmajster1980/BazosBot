@@ -253,7 +253,7 @@ function calculateLiquidity(listing, discount, age) {
     if (discount > 0) score += (discount * 2);
 
     // Kilometers
-    if (listing.km < 150000) score += 15;
+    if (listing.km && listing.km < 150000) score += 15;
     else if (listing.km > 300000) score -= 30;
 
     // Age
@@ -454,6 +454,22 @@ async function scoreListings(listings, marketValues, dbAsync) {
         // -------------------------
         // -------------------------
 
+        // --- TECH DATA INFERENCE (If missing from scraper) ---
+        const lowerText = (listing.title + ' ' + (listing.description || '')).toLowerCase();
+
+        let transmission = listing.transmission;
+        if (!transmission) {
+            if (lowerText.match(/automat|dsg|tiptronic|s-tronic|stronic|7g-tronic|9g-tronic/)) transmission = 'Automat';
+            else if (lowerText.match(/manuál|manual|6st\.|5st\./)) transmission = 'Manuál';
+        }
+
+        let drive = listing.drive;
+        if (!drive) {
+            if (lowerText.match(/4x4|4wd|awd|quattro|4motion|x-drive|xdrive|allgrip/)) drive = '4x4';
+            else if (lowerText.match(/zadný|zadny|rwd/)) drive = 'Zadný';
+            else drive = 'Predný';
+        }
+
         const engine = extractEngine(listing);
         const equip = extractEquipmentScore(listing);
         const keywordCheck = checkBadKeywords(listing.title);
@@ -649,6 +665,8 @@ async function scoreListings(listings, marketValues, dbAsync) {
             risk,
             score: finalScore,
             isFiltered: keywordCheck.isFiltered,
+            transmission: transmission, // Inferred or original
+            drive: drive,               // Inferred or original
             scoredAt: new Date().toISOString()
         });
 
@@ -696,11 +714,14 @@ async function run() {
     console.log(`💾 Saving scores back to Database...`);
     const { analyzeListingDescription } = require('./services/aiService');
 
+    let count = 0;
     for (const scored of scoredListings) {
-        // AI INSPECTION TRIGGER
-        if (scored.score > 15 && !scored.aiVerdict) { // Check logic: score vs deal_score (variable name is finalScore/score)
-            // We use 'score' property here which holds the Deal Score
-            // Check if we should analyze
+        count++;
+        // Progress log
+        if (count % 100 === 0) console.log(`   ⏳ Updated ${count}/${scoredListings.length} listings...`);
+
+        // AI INSPECTION TRIGGER - Only for Golden Deals (to speed up processing)
+        if (scored.dealType === 'GOLDEN DEAL' && !scored.aiVerdict) {
             const aiResult = await analyzeListingDescription(scored.title, scored.description || '');
             if (aiResult) {
                 scored.aiVerdict = aiResult.verdict;
@@ -709,7 +730,7 @@ async function run() {
         }
 
         await dbAsync.run(
-            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ?, deal_type = ?, discount = ?, corrected_median = ? WHERE id = ?',
+            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ?, deal_type = ?, discount = ?, corrected_median = ?, negotiation_score = ?, transmission = ?, drive = ?, make = ?, model = ? WHERE id = ?',
             [
                 scored.score,
                 scored.liquidity ? scored.liquidity.score : null,
@@ -721,10 +742,16 @@ async function run() {
                 scored.dealType || null,
                 scored.discount || null,
                 scored.correctedMedian || null,
+                scored.negotiationScore || 0,
+                scored.transmission,
+                scored.drive,
+                scored.make,
+                scored.model,
                 scored.id
             ]
         );
     }
+    console.log(`✅ All ${scoredListings.length} listings updated in Database.`);
 
     // Save scored listings (for dashboard compatibility)
     fs.writeFileSync(CONFIG.SCORED_LISTINGS_FILE, JSON.stringify(scoredListings, null, 2));

@@ -149,6 +149,26 @@ async function run() {
                     }
                 }
 
+                // Transmission detection
+                let transmission = null;
+                if (combinedText.toLowerCase().match(/automat|dsg|tiptronic|s-tronic|stronic|7g-tronic|9g-tronic/)) transmission = 'Automat';
+                else if (combinedText.toLowerCase().match(/manuál|manual|6st\.|5st\./)) transmission = 'Manuál';
+
+                // Drive detection
+                let drive = null;
+                if (combinedText.toLowerCase().match(/4x4|4wd|awd|quattro|4motion|x-drive|xdrive|allgrip/)) drive = '4x4';
+                else if (combinedText.toLowerCase().match(/zadný|zadny|rwd/)) drive = 'Zadný';
+                else drive = 'Predný';
+
+                // Fuel detection
+                let fuel = null;
+                const lowerText = combinedText.toLowerCase();
+                if (lowerText.match(/diesel|nafta|tdi|crd|cdti/)) fuel = 'Diesel';
+                else if (lowerText.match(/benzín|benzin|tsi|tfsi|fsi|mpi/)) fuel = 'Benzín';
+                else if (lowerText.match(/elektro|electric|ev/)) fuel = 'Elektro';
+                else if (lowerText.match(/hybrid/)) fuel = 'Hybrid';
+                else if (lowerText.match(/lpg/)) fuel = 'LPG';
+
                 // Variant detection
                 let variant = 'Standard Range';
                 const titleLower = title.toLowerCase();
@@ -177,11 +197,15 @@ async function run() {
 
                 const has_fast_charging = !titleLower.includes('bez ccs') && !titleLower.includes('no ccs');
 
+                // Extract location
+                const locElem = item.querySelector('div.inzeratylok');
+                const location = locElem ? locElem.innerText.replace(/\n/g, ' ').trim() : null;
+
                 // Only include if we have price
                 results.push({
                     title,
                     price,
-                    km: km || 0,
+                    km: km || null,
                     year: year || new Date().getFullYear(),
                     variant,
                     battery_kwh,
@@ -189,6 +213,10 @@ async function run() {
                     has_fast_charging,
                     is_private: true,
                     link,
+                    transmission,
+                    drive,
+                    fuel,
+                    location,
                     first_registration: year ? `01-${year}` : '',
                     market: 'SK'  // Slovak market identifier
                 });

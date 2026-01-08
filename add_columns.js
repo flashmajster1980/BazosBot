@@ -16,7 +16,8 @@ async function addColumns() {
             'ALTER TABLE listings ADD COLUMN IF NOT EXISTS corrected_median REAL',
             'ALTER TABLE listings ADD COLUMN IF NOT EXISTS ai_verdict TEXT',
             'ALTER TABLE listings ADD COLUMN IF NOT EXISTS ai_risk_level INTEGER',
-            'ALTER TABLE listings ADD COLUMN IF NOT EXISTS risk_score INTEGER'
+            'ALTER TABLE listings ADD COLUMN IF NOT EXISTS risk_score INTEGER',
+            'ALTER TABLE listings ADD COLUMN IF NOT EXISTS negotiation_score REAL'
         ];
 
         for (const sql of columns) {

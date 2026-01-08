@@ -34,7 +34,7 @@ async function enrichBazos(page, listing) {
             `UPDATE listings SET 
                 year = COALESCE(year, ?), 
                 km = COALESCE(km, ?), 
-                location = ?, 
+                location = COALESCE(?, location), 
                 seller_name = COALESCE(seller_name, ?),
                 seller_type = ?
             WHERE id = ?`,
@@ -67,7 +67,7 @@ async function enrichAutobazarSK(page, listing) {
 
         await dbAsync.run(
             `UPDATE listings SET 
-                location = ?, 
+                location = COALESCE(?, location), 
                 seller_name = COALESCE(seller_name, ?),
                 seller_type = ?,
                 year = COALESCE(year, ?),
@@ -104,7 +104,7 @@ async function enrichAutobazarEU(page, listing) {
             `UPDATE listings SET 
                 year = COALESCE(year, ?), 
                 km = COALESCE(km, ?), 
-                location = ?, 
+                location = COALESCE(?, location), 
                 seller_name = COALESCE(seller_name, ?),
                 seller_type = ?
             WHERE id = ?`,
@@ -121,9 +121,9 @@ async function run() {
 
     const incomplete = await dbAsync.all(`
         SELECT * FROM listings 
-        WHERE (location IS NULL OR location LIKE '%kraj%' OR year IS NULL OR km IS NULL OR seller_type IS NULL)
+        WHERE (location IS NULL OR location LIKE '%kraj%' OR year IS NULL OR km IS NULL OR km = 0 OR seller_type IS NULL)
         AND is_sold = 0
-        AND scraped_at > datetime('now', '-2 hours')
+        AND scraped_at > datetime('now', '-24 hours')
         LIMIT 200
     `);
 

@@ -364,8 +364,8 @@ function analyzeMarketValues(listings) {
             continue;
         }
 
-        // Skip if no valid year
-        if (!listing.year || listing.year < CONFIG.MIN_YEAR) {
+        // Skip if no valid year or KM
+        if (!listing.year || listing.year < CONFIG.MIN_YEAR || !listing.km || listing.km === 0) {
             skipped++;
             continue;
         }
