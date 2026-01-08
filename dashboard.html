@@ -1086,12 +1086,17 @@
                 } catch (err) { console.warn('API History Fetch failed', err); }
             }
 
-            if (!history || history.length <= 1) {
-                msg.innerText = history && history.length === 1 ? 'Cena stabilná od pridania.' : 'História nie je k dispozícii.';
+            if (!history || history.length < 1) {
+                msg.innerText = 'História nie je k dispozícii.';
                 return;
             }
 
-            msg.innerText = '';
+            if (history.length === 1) {
+                msg.innerText = 'Cena stabilná od pridania.';
+            } else {
+                msg.innerText = '';
+            }
+
             renderChart(id, history);
         }
 
