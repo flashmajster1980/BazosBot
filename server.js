@@ -43,6 +43,9 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'dashboard.html'));
 });
 
+// Redirect old dashboard route to root
+app.get('/dashboard', (req, res) => res.redirect('/'));
+
 app.listen(PORT, '0.0.0.0', () => {
     console.log('--- SERVER IS RUNNING ON 0.0.0.0:10000 ---');
 
@@ -113,8 +116,8 @@ app.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'em
 app.get('/auth/google/callback',
     passport.authenticate('google', { failureRedirect: '/login' }),
     (req, res) => {
-        // Successful authentication
-        res.redirect('/dashboard');
+        // Successful authentication - redirect to root (dashboard)
+        res.redirect('/');
     }
 );
 
