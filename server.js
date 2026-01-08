@@ -394,15 +394,37 @@ const { exec } = require('child_process');
 // BACKGROUND SCRAPER TASK (runs every 10 minutes)
 async function startScraper() {
     const run = () => {
-        logActivity('⏰ Starting background scrape job...');
-        exec('node scraper_agent.js', (error, stdout, stderr) => {
-            if (error) {
-                logActivity(`❌ Scraper Error: ${error.message}`);
-                return;
-            }
-            if (stderr) logActivity(`⚠️ Scraper Stderr: ${stderr}`);
-            logActivity(`✅ Scraper Output:\n${stdout.substring(0, 500)}... (truncated)`);
+        logActivity('⏰ Starting background scrape job (ALL PORTALS)...');
+
+        // 1. Bazos (Immediate)
+        exec('node scraper_agent.js --once', (error, stdout, stderr) => {
+            if (error) logActivity(`❌ Bazos Scraper Error: ${error.message}`);
+            else logActivity(`✅ Bazos Scraper Finished`);
         });
+
+        // 2. Autobazar.sk (30s delay)
+        setTimeout(() => {
+            exec('node autobazar_sk_agent.js --once', (error, stdout, stderr) => {
+                if (error) logActivity(`❌ Autobazar.sk Scraper Error: ${error.message}`);
+                else logActivity(`✅ Autobazar.sk Scraper Finished`);
+            });
+        }, 30000);
+
+        // 3. Autobazar.EU (60s delay)
+        setTimeout(() => {
+            exec('node autobazar_eu_agent.js --once', (error, stdout, stderr) => {
+                if (error) logActivity(`❌ Autobazar.EU Scraper Error: ${error.message}`);
+                else logActivity(`✅ Autobazar.EU Scraper Finished`);
+            });
+        }, 60000);
+
+        // 4. Autovia (90s delay)
+        setTimeout(() => {
+            exec('node autovia_agent.js --once', (error, stdout, stderr) => {
+                if (error) logActivity(`❌ Autovia Scraper Error: ${error.message}`);
+                else logActivity(`✅ Autovia Scraper Finished`);
+            });
+        }, 90000);
     };
 
     // Initial run
