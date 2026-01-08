@@ -1071,25 +1071,28 @@
 
             container.style.display = 'block';
             const msg = $(`msg-${id}`);
-            msg.innerText = 'Načítavam históriu...';
 
-            try {
-                const response = await fetch(`/api/listings/${id}/history`);
-                if (!response.ok) throw new Error('Nepodarilo sa načítať históriu');
+            // 1. Skúsime nájsť dáta v už načítaných listingoch (pre GitHub Pages)
+            const listing = allListings.find(l => l.id === id);
+            let history = listing ? listing.priceHistory : null;
 
-                const data = await response.json();
-
-                if (data.length <= 1) {
-                    msg.innerText = 'Cena stabilná od pridania.';
-                    return;
-                }
-
-                msg.innerText = '';
-                renderChart(id, data);
-            } catch (err) {
-                msg.innerText = 'História nedostupná (ostruhajte API)';
-                console.error(err);
+            // 2. Ak dáta nie sú v JSONe, skúsime API (pre lokálny development)
+            if (!history || history.length === 0) {
+                msg.innerText = 'Načítavam históriu z API...';
+                try {
+                    const baseUrl = window.location.protocol === 'file:' ? 'http://localhost:3000' : '';
+                    const response = await fetch(`${baseUrl}/api/listings/${id}/history`);
+                    if (response.ok) history = await response.json();
+                } catch (err) { console.warn('API History Fetch failed', err); }
             }
+
+            if (!history || history.length <= 1) {
+                msg.innerText = history && history.length === 1 ? 'Cena stabilná od pridania.' : 'História nie je k dispozícii.';
+                return;
+            }
+
+            msg.innerText = '';
+            renderChart(id, history);
         }
 
         function renderChart(id, history) {

@@ -434,16 +434,16 @@ async function scoreListings(listings, marketValues, dbAsync) {
             };
         }
 
-        // --- FRESH DISCOUNT CHECK (Last 48h) ---
+        // --- PRICE HISTORY (For Charts) ---
         const historyEntries = await dbAsync.all(
-            'SELECT price, checked_at FROM price_history WHERE listing_id = ? ORDER BY checked_at DESC LIMIT 2',
+            'SELECT price, checked_at as date FROM price_history WHERE listing_id = ? ORDER BY checked_at ASC',
             [listing.id]
         );
 
         if (historyEntries.length >= 2) {
-            const currentPrice = historyEntries[0].price;
-            const prevPrice = historyEntries[1].price;
-            const changeDate = new Date(historyEntries[0].checked_at);
+            const currentPrice = historyEntries[historyEntries.length - 1].price;
+            const prevPrice = historyEntries[historyEntries.length - 2].price;
+            const changeDate = new Date(historyEntries[historyEntries.length - 1].date);
             const fortyEightHoursAgo = new Date(Date.now() - 48 * 60 * 60 * 1000);
 
             if (currentPrice < prevPrice && changeDate > fortyEightHoursAgo) {
@@ -644,6 +644,7 @@ async function scoreListings(listings, marketValues, dbAsync) {
             dealType: dealInfo.type,
             priceTrend,
             freshDiscount,
+            priceHistory: historyEntries,
             risk,
             score: finalScore,
             isFiltered: keywordCheck.isFiltered,
