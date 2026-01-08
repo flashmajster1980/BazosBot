@@ -421,6 +421,8 @@ async function scoreListings(listings, marketValues, dbAsync) {
             : null;
 
         let priceTrend = null;
+        let freshDiscount = false;
+
         if (avg30DayPrice) {
             const diff = ((listing.price - avg30DayPrice) / avg30DayPrice) * 100;
             priceTrend = {
@@ -431,6 +433,24 @@ async function scoreListings(listings, marketValues, dbAsync) {
                 isDropping: diff <= -5
             };
         }
+
+        // --- FRESH DISCOUNT CHECK (Last 48h) ---
+        const historyEntries = await dbAsync.all(
+            'SELECT price, checked_at FROM price_history WHERE listing_id = ? ORDER BY checked_at DESC LIMIT 2',
+            [listing.id]
+        );
+
+        if (historyEntries.length >= 2) {
+            const currentPrice = historyEntries[0].price;
+            const prevPrice = historyEntries[1].price;
+            const changeDate = new Date(historyEntries[0].checked_at);
+            const fortyEightHoursAgo = new Date(Date.now() - 48 * 60 * 60 * 1000);
+
+            if (currentPrice < prevPrice && changeDate > fortyEightHoursAgo) {
+                freshDiscount = true;
+            }
+        }
+        // -------------------------
         // -------------------------
 
         const engine = extractEngine(listing);
@@ -623,6 +643,7 @@ async function scoreListings(listings, marketValues, dbAsync) {
             negotiationScore,
             dealType: dealInfo.type,
             priceTrend,
+            freshDiscount,
             risk,
             score: finalScore,
             isFiltered: keywordCheck.isFiltered,

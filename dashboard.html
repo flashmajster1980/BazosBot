@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;600;700&display=swap"
         rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         :root {
             --bg-body: #0a0c10;
@@ -578,6 +579,65 @@
             animation: risk-pulse 2s infinite;
             border-color: #ef4444 !important;
         }
+
+        @keyframes discount-blink {
+            0% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.7;
+                transform: scale(1.05);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .fresh-discount-tag {
+            display: inline-block;
+            background: #ef4444;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.6rem;
+            font-weight: 800;
+            margin-left: 5px;
+            animation: discount-blink 1.5s infinite;
+            vertical-align: middle;
+            text-transform: uppercase;
+        }
+
+        .history-chart-container {
+            display: none;
+            margin-top: 15px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .btn-history {
+            background: transparent;
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn-history:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
     </style>
 </head>
 
@@ -931,6 +991,7 @@
                     <div class="price-row">
                         <div class="price">
                             ${price} €
+                            ${l.freshDiscount ? `<span class="fresh-discount-tag">🔥 ČERSTVÁ ZĽAVA</span>` : ''}
                             ${l.priceTrend ? `
                                 <span style="font-size: 0.8rem; color: ${l.priceTrend.color}; margin-left: 5px;" title="${l.priceTrend.label}">
                                     ${l.priceTrend.icon} ${l.priceTrend.diff}%
@@ -978,8 +1039,15 @@
                     </div>
                     ` : ''}
                     <div class="card-footer">
-                        <div class="portal-name">${l.portal}</div>
+                        <div style="display: flex; gap: 10px; align-items: center;">
+                            <div class="portal-name">${l.portal || 'Bazos'}</div>
+                            <button class="btn-history" onclick="toggleHistory('${l.id}')">📊 História</button>
+                        </div>
                         <a href="${l.url}" target="_blank" class="btn">Pozrieť</a>
+                    </div>
+                    <div id="history-${l.id}" class="history-chart-container">
+                        <canvas id="canvas-${l.id}"></canvas>
+                        <p id="msg-${l.id}" style="font-size: 0.65rem; color: var(--text-muted); text-align: center; margin-top: 5px;"></p>
                     </div>
                 </div>
             `;
@@ -991,6 +1059,79 @@
             $('golden-toggle').classList.toggle('active');
             renderListings();
         };
+
+        const charts = {};
+
+        async function toggleHistory(id) {
+            const container = $(`history-${id}`);
+            if (container.style.display === 'block') {
+                container.style.display = 'none';
+                return;
+            }
+
+            container.style.display = 'block';
+            const msg = $(`msg-${id}`);
+            msg.innerText = 'Načítavam históriu...';
+
+            try {
+                const response = await fetch(`/api/listings/${id}/history`);
+                if (!response.ok) throw new Error('Nepodarilo sa načítať históriu');
+
+                const data = await response.json();
+
+                if (data.length <= 1) {
+                    msg.innerText = 'Cena stabilná od pridania.';
+                    return;
+                }
+
+                msg.innerText = '';
+                renderChart(id, data);
+            } catch (err) {
+                msg.innerText = 'História nedostupná (ostruhajte API)';
+                console.error(err);
+            }
+        }
+
+        function renderChart(id, history) {
+            const ctx = document.getElementById(`canvas-${id}`).getContext('2d');
+
+            if (charts[id]) charts[id].destroy();
+
+            charts[id] = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: history.map(h => new Date(h.date).toLocaleDateString('sk-SK')),
+                    datasets: [{
+                        label: 'Cena (€)',
+                        data: history.map(h => h.price),
+                        borderColor: '#fdda25',
+                        backgroundColor: 'rgba(253, 218, 37, 0.1)',
+                        borderWidth: 2,
+                        tension: 0.3,
+                        fill: true,
+                        pointRadius: 3,
+                        pointBackgroundColor: '#fdda25'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            grid: { color: 'rgba(255,255,255,0.05)' },
+                            ticks: { color: '#94a3b8', font: { size: 10 } }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: '#94a3b8', font: { size: 9 } }
+                        }
+                    }
+                }
+            });
+        }
 
         init();
     </script>
