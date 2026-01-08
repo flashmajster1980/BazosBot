@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrácia | AutoRadar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex items-center justify-center p-4">
+
+    <div class="max-w-md w-full bg-gray-800 rounded-2xl shadow-xl overflow-hidden border border-gray-700">
+        <!-- Header -->
+        <div
+            class="bg-gray-9000 p-8 text-center border-b border-gray-700 bg-gradient-to-r from-emerald-900 to-gray-900">
+            <h1 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-400">
+                Vytvor si účet</h1>
+            <p class="text-gray-400 mt-2 text-sm">Pridaj sa k AutoRadaru</p>
+        </div>
+
+        <!-- Form Container -->
+        <div class="p-8">
+            <!-- Register Form -->
+            <form id="registerForm" onsubmit="handleRegister(event)" class="space-y-4">
+                <div>
+                    <label class="block text-gray-400 text-sm font-medium mb-1">Email / Meno</label>
+                    <input type="text" id="username"
+                        class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-3 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition"
+                        required>
+                </div>
+                <div>
+                    <label class="block text-gray-400 text-sm font-medium mb-1">Heslo</label>
+                    <input type="password" id="password"
+                        class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-3 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition"
+                        required>
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-3 rounded-lg shadow-lg hover:shadow-emerald-500/30 transition duration-200">
+                    Registrovať sa
+                </button>
+            </form>
+
+            <div class="mt-6 text-center text-sm text-gray-400">
+                Už máš účet? <a href="/login" class="text-emerald-400 hover:text-emerald-300 font-medium">Prihlás sa</a>
+            </div>
+
+            <div id="errorMsg" class="mt-4 text-center text-red-400 text-sm hidden"></div>
+        </div>
+    </div>
+
+    <script>
+        async function handleRegister(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const errorMsg = document.getElementById('errorMsg');
+
+            try {
+                const res = await fetch('/api/register', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password })
+                });
+
+                const data = await res.json();
+                if (res.ok) {
+                    alert('Registrácia úspešná! Teraz sa môžeš prihlásiť.');
+                    window.location.href = '/login';
+                } else {
+                    errorMsg.textContent = data.error || 'Registration failed';
+                    errorMsg.classList.remove('hidden');
+                }
+            } catch (err) {
+                errorMsg.textContent = 'Chyba servera. Skús to neskôr.';
+                errorMsg.classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+
+</html>

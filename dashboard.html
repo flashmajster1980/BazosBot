@@ -385,21 +385,8 @@
         <div class="spinner"></div>
     </div>
 
-    <!-- AUTH MODAL -->
-    <div id="auth-modal">
-        <div class="modal-content">
-            <h2 id="modal-title">Prihlásenie</h2>
-            <div class="form-group">
-                <input type="text" id="username" placeholder="Používateľské meno">
-            </div>
-            <div class="form-group">
-                <input type="password" id="password" placeholder="Heslo">
-            </div>
-            <button class="btn-submit" onclick="handleAuth()">Pokračovať</button>
-            <div class="toggle-auth" onclick="toggleAuthMode()">Nemáš účet? Zaregistruj sa</div>
-            <div class="toggle-auth" onclick="closeModal()" style="color: #ef4444;">Zatvoriť</div>
-        </div>
-    </div>
+    <!-- AUTH MODAL REMOVED - Using dedicated pages -->
+
 
     <header>
         <div class="logo"><span>📡</span> AutoRadar</div>
@@ -461,17 +448,22 @@
         function renderUserMenu() {
             const menu = $('user-menu');
             if (currentUser) {
-                const isPremium = currentUser.subscription === 'premium';
+                const isPremium = currentUser.subscription_status === 'premium';
+                const avatar = currentUser.avatar_url || `https://ui-avatars.com/api/?name=${currentUser.username}&background=random`;
+
                 menu.innerHTML = `
-                    <div style="font-size:0.9rem;">
-                        👤 <b>${currentUser.username}</b> 
-                        <span style="color:${isPremium ? 'var(--golden)' : '#999'}">(${isPremium ? 'PREMIUM 👑' : 'Basic'})</span>
+                    <div style="display:flex; align-items:center; gap:10px;">
+                        <img src="${avatar}" style="width:32px; height:32px; border-radius:50%; border:2px solid var(--accent);">
+                        <div style="font-size:0.9rem; line-height:1.2;">
+                            <div style="font-weight:700;">${currentUser.username}</div> 
+                            <span style="color:${isPremium ? 'var(--golden)' : '#999'}; font-size:0.75rem;">${isPremium ? 'PREMIUM 👑' : 'Basic Plan'}</span>
+                        </div>
                     </div>
                     ${!isPremium ? '<button class="btn-auth btn-premium" onclick="buyPremium()">UPGRADE 💎</button>' : ''}
                     <button class="btn-auth" onclick="logout()">Odhlásiť</button>
                 `;
             } else {
-                menu.innerHTML = `<button class="btn-auth" onclick="openModal()">Prihlásiť sa</button>`;
+                menu.innerHTML = `<button class="btn-auth" onclick="window.location.href='/login'">Prihlásiť sa</button>`;
             }
         }
 
@@ -559,45 +551,15 @@
                 `<button class="btn" onclick="fetchListings(${Math.max(1, currentPage - 1)})">Predošlá</button> <span>${currentPage} / ${totalPages}</span> <button class="btn" onclick="fetchListings(${Math.min(totalPages, currentPage + 1)})">Ďalšia</button>` : '';
         }
 
-        // AUTH HANDLERS
-        function openModal() { $('auth-modal').style.display = 'flex'; }
-        function closeModal() { $('auth-modal').style.display = 'none'; }
-        function toggleAuthMode() {
-            isRegisterMode = !isRegisterMode;
-            $('modal-title').innerText = isRegisterMode ? 'Registrácia' : 'Prihlásenie';
-            document.querySelector('.toggle-auth').innerText = isRegisterMode ? 'Máš účet? Prihlás sa' : 'Nemáš účet? Zaregistruj sa';
-        }
-
-        async function handleAuth() {
-            const u = $('username').value;
-            const p = $('password').value;
-            const endpoint = isRegisterMode ? '/api/register' : '/api/login';
-
-            const res = await fetch(endpoint, {
-                method: 'POST', headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ username: u, password: p })
-            });
-            const data = await res.json();
-
-            if (res.ok) {
-                closeModal();
-                Swal.fire('Úspech', data.message, 'success');
-                checkAuth();
-                fetchListings(); // Refresh to unlock if premium
-            } else {
-                Swal.fire('Chyba', data.error, 'error');
-            }
-        }
+        // Legacy modal handlers removed
 
         async function logout() {
             await fetch('/api/logout', { method: 'POST' });
-            currentUser = null;
-            renderUserMenu();
-            fetchListings(); // Refresh to lock content
+            window.location.href = '/login';
         }
 
         async function buyPremium() {
-            if (!currentUser) { openModal(); return; }
+            if (!currentUser) { window.location.href = '/login'; return; }
             const res = await fetch('/api/create-checkout-session', { method: 'POST' });
             const data = await res.json();
             if (data.url) window.location.href = data.url;

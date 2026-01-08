@@ -4,6 +4,8 @@ const cors = require('cors');
 const { dbAsync } = require('./database');
 const path = require('path');
 const session = require('express-session');
+const passport = require('./auth_config');
+const bcrypt = require('bcrypt');
 const stripePackage = require('stripe');
 // Safe Stripe Initialization
 let stripe;
@@ -62,17 +64,27 @@ app.use(session({
     cookie: { secure: false } // Set to true if using HTTPS
 }));
 
+// Initialize Passport
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Serve HTML Pages
+app.get('/login', (req, res) => res.sendFile(path.join(__dirname, 'login.html')));
+app.get('/register', (req, res) => res.sendFile(path.join(__dirname, 'register.html')));
+
 // ========================================
 // AUTHENTICATION ROUTES
 // ========================================
 
 // Mock Registration for demo (or real simple one)
+// 1. Password Registration with Bcrypt
 app.post('/api/register', async (req, res) => {
     const { username, password } = req.body;
     try {
+        const hashedPassword = await bcrypt.hash(password, 10);
         await dbAsync.run(
-            'INSERT INTO users (username, password, subscription_status) VALUES (?, ?, ?)',
-            [username, password, 'basic']
+            'INSERT INTO users (username, password, subscription_status, avatar_url) VALUES (?, ?, ?, ?, ?)',
+            [username, hashedPassword, 'free', 'https://www.gravatar.com/avatar/?d=mp']
         );
         res.json({ message: 'User registered successfully' });
     } catch (err) {
@@ -80,29 +92,41 @@ app.post('/api/register', async (req, res) => {
     }
 });
 
-app.post('/api/login', async (req, res) => {
-    const { username, password } = req.body;
-    try {
-        const user = await dbAsync.get('SELECT * FROM users WHERE username = ? AND password = ?', [username, password]);
-        if (user) {
-            req.session.user = { id: user.id, username: user.username, subscription: user.subscription_status };
-            res.json({ message: 'Login successful', user: req.session.user });
-        } else {
-            res.status(401).json({ error: 'Invalid credentials' });
-        }
-    } catch (err) {
-        res.status(500).json({ error: err.message });
-    }
+// 2. Local Login with Passport
+app.post('/api/login', (req, res, next) => {
+    passport.authenticate('local', (err, user, info) => {
+        if (err) return next(err);
+        if (!user) return res.status(401).json({ error: info.message });
+
+        req.logIn(user, (err) => {
+            if (err) return next(err);
+            return res.json({ message: 'Login successful', user });
+        });
+    })(req, res, next);
 });
+
+// 3. Google OAuth Routes
+app.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
+
+app.get('/auth/google/callback',
+    passport.authenticate('google', { failureRedirect: '/login' }),
+    (req, res) => {
+        // Successful authentication
+        res.redirect('/dashboard');
+    }
+);
 
 app.post('/api/logout', (req, res) => {
-    req.session.destroy();
-    res.json({ message: 'Logged out' });
+    req.logout((err) => {
+        if (err) return res.status(500).json({ error: 'Logout failed' });
+        res.json({ message: 'Logged out' });
+    });
 });
 
+
 app.get('/api/me', (req, res) => {
-    if (req.session.user) {
-        res.json({ user: req.session.user });
+    if (req.user) {
+        res.json({ user: req.user });
     } else {
         res.status(401).json({ error: 'Not authenticated' });
     }
@@ -180,7 +204,7 @@ app.get('/api/admin/inspect/:id', async (req, res) => {
 // ========================================
 
 app.post('/api/create-checkout-session', async (req, res) => {
-    if (!req.session.user) return res.status(401).json({ error: 'Please login first' });
+    if (!req.user) return res.status(401).json({ error: 'Please login first' });
 
     // Check if Stripe is operational
     if (!stripe) {
@@ -250,8 +274,8 @@ app.get('/api/listings', async (req, res) => {
         } = req.query;
 
         // AUTH CHECK
-        const user = req.session.user;
-        const isPremium = user && user.subscription === 'premium';
+        const user = req.user;
+        const isPremium = user && user.subscription_status === 'premium'; // Note: DB column name is subscription_status
 
         const offset = (page - 1) * limit;
         let query = 'SELECT * FROM listings WHERE is_sold = 0';

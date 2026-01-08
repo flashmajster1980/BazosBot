@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prihlásenie | AutoRadar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex items-center justify-center p-4">
+
+    <div class="max-w-md w-full bg-gray-800 rounded-2xl shadow-xl overflow-hidden border border-gray-700">
+        <!-- Header -->
+        <div class="bg-gray-9000 p-8 text-center border-b border-gray-700 bg-gradient-to-r from-blue-900 to-gray-900">
+            <h1 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">
+                AutoRadar</h1>
+            <p class="text-gray-400 mt-2 text-sm">Tvoj osobný vyhľadávač áut</p>
+        </div>
+
+        <!-- Form Container -->
+        <div class="p-8">
+            <h2 class="text-2xl font-semibold mb-6 text-center">Vitaj späť</h2>
+
+            <!-- Google Login -->
+            <a href="/auth/google"
+                class="flex items-center justify-center w-full bg-white text-gray-900 font-medium py-3 px-4 rounded-lg hover:bg-gray-100 transition duration-200 mb-6 group">
+                <img src="https://www.svgrepo.com/show/475656/google-color.svg"
+                    class="w-6 h-6 mr-3 group-hover:scale-110 transition-transform" alt="Google">
+                Prihlásiť sa cez Google
+            </a>
+
+            <div class="relative flex py-5 items-center">
+                <div class="flex-grow border-t border-gray-600"></div>
+                <span class="flex-shrink mx-4 text-gray-500 text-sm">alebo cez email</span>
+                <div class="flex-grow border-t border-gray-600"></div>
+            </div>
+
+            <!-- Login Form -->
+            <form id="loginForm" onsubmit="handleLogin(event)" class="space-y-4">
+                <div>
+                    <label class="block text-gray-400 text-sm font-medium mb-1">Email / Meno</label>
+                    <input type="text" id="username"
+                        class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-3 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+                        required>
+                </div>
+                <div>
+                    <label class="block text-gray-400 text-sm font-medium mb-1">Heslo</label>
+                    <input type="password" id="password"
+                        class="w-full bg-gray-700 border border-gray-600 text-white rounded-lg px-4 py-3 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition"
+                        required>
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 rounded-lg shadow-lg hover:shadow-blue-500/30 transition duration-200">
+                    Prihlásiť sa
+                </button>
+            </form>
+
+            <div class="mt-6 text-center text-sm text-gray-400">
+                Nemáš ešte účet? <a href="/register" class="text-blue-400 hover:text-blue-300 font-medium">Zaregistruj
+                    sa</a>
+            </div>
+
+            <div id="errorMsg" class="mt-4 text-center text-red-400 text-sm hidden"></div>
+        </div>
+    </div>
+
+    <script>
+        async function handleLogin(e) {
+            e.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const errorMsg = document.getElementById('errorMsg');
+
+            try {
+                const res = await fetch('/api/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ username, password })
+                });
+
+                const data = await res.json();
+                if (res.ok) {
+                    window.location.href = '/dashboard'; // Redirect to dashboard
+                } else {
+                    errorMsg.textContent = data.error || 'Login failed';
+                    errorMsg.classList.remove('hidden');
+                }
+            } catch (err) {
+                errorMsg.textContent = 'Chyba servera. Skús to neskôr.';
+                errorMsg.classList.remove('hidden');
+            }
+        }
+    </script>
+</body>
+
+</html>
