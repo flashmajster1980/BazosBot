@@ -16,10 +16,11 @@ async function runFix() {
         console.log(`✅ Fixed ${resUsers.rowCount} user(s) to Premium.`);
 
         // 2. Check listing count and golden deals
-        const resListings = await pool.query("SELECT COUNT(*) as count, SUM(CASE WHEN deal_type = 'GOLDEN DEAL' THEN 1 ELSE 0 END) as golden FROM listings");
+        const resListings = await pool.query("SELECT COUNT(*) as count, SUM(CASE WHEN deal_type = 'GOLDEN DEAL' THEN 1 ELSE 0 END) as golden, SUM(CASE WHEN make IS NOT NULL THEN 1 ELSE 0 END) as makes FROM listings");
         console.log(`📊 Statistics from Postgres:`);
         console.log(`   - Total Listings: ${resListings.rows[0].count}`);
         console.log(`   - Golden Deals: ${resListings.rows[0].golden}`);
+        console.log(`   - Listings with Make/Model: ${resListings.rows[0].makes}`);
 
     } catch (err) {
         console.error('❌ Error during fix:', err.message);

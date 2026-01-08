@@ -112,7 +112,8 @@ async function initSQLiteSchema(db) {
             discount REAL,
             corrected_median REAL,
             ai_verdict TEXT,
-            ai_risk_level INTEGER
+            ai_risk_level INTEGER,
+            risk_score INTEGER
         )`);
 
         db.run(`CREATE TABLE IF NOT EXISTS price_history (
@@ -168,7 +169,8 @@ async function initPostgresSchema(pool) {
             discount REAL,
             corrected_median REAL,
             ai_verdict TEXT,
-            ai_risk_level INTEGER
+            ai_risk_level INTEGER,
+            risk_score INTEGER
         )`);
 
         await pool.query(`CREATE TABLE IF NOT EXISTS price_history (

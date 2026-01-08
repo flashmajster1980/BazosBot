@@ -414,7 +414,15 @@
                     <option value="discount">Zľava %</option>
                     <option value="year-desc">Najnovšie</option>
                 </select></div>
+            <div class="filter-group" style="flex-direction: row; align-items: center; gap: 8px;">
+                <input type="checkbox" id="only-golden" style="width: auto;">
+                <label for="only-golden" style="cursor: pointer; margin: 0;">Iba Golden 🌟</label>
+            </div>
         </div>
+    </div>
+
+    <div id="stats-summary" style="padding: 0 5%; margin-bottom: 20px; font-size: 0.9rem; color: var(--text-muted);">
+        Načítavam štatistiky...
     </div>
 
     <main id="listings-grid"></main>
@@ -474,12 +482,15 @@
                 search: $('search').value,
                 make: $('filter-make').value,
                 fuel: $('filter-fuel').value,
-                sort: $('sort-by').value
+                sort: $('sort-by').value,
+                onlyGolden: $('only-golden').checked
             });
 
             const res = await fetch(`/api/listings?${params}`);
             const data = await res.json();
             allListings = data.listings;
+
+            $('stats-summary').innerHTML = `Nájdených <strong>${data.total}</strong> výsledkov ${data.total > 0 ? `(strana ${data.page} z ${data.pages})` : ''}`;
 
             // Re-sync user state from API response if provided
             if (data.user) { currentUser = data.user; renderUserMenu(); }
