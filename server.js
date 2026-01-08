@@ -7,7 +7,20 @@ const session = require('express-session');
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY); // User must provide this in .env
 
 const app = express();
-// Port configuration moved to bottom
+
+const PORT = process.env.PORT || 10000; // Render preferuje 10000
+
+// **PRIORITY START**: Listen immediately to satisfy Render's port binding check
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`✅ Server is officially listening on port ${PORT}`);
+    console.log('RENDER_READY');
+
+    // Delayed start for scraper (30 seconds) to not block initial boot
+    setTimeout(() => {
+        console.log('⏰ Initializing scraper background task...');
+        startScraper().catch(err => console.error("Scraper error:", err));
+    }, 30000);
+});
 
 app.use(cors());
 app.use(express.json());
@@ -304,11 +317,4 @@ async function startScraper() {
     setInterval(run, 10 * 60 * 1000);
 }
 
-const PORT = process.env.PORT || 10000; // Render preferuje 10000
 
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`✅ Server is officially listening on port ${PORT}`);
-
-    // Scraper spusti až POTOM a asynchrónne
-    startScraper().catch(err => console.error("Scraper error:", err));
-});

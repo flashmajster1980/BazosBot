@@ -24,6 +24,11 @@ db.serialize(() => {
         console.log(`Neidentifikovaný predajca: ${row.count}`);
     });
 
+    console.log('\n--- Nedávna aktivita ---');
+    db.get("SELECT COUNT(*) as count FROM listings WHERE scraped_at > datetime('now', '-24 hours')", (err, row) => {
+        console.log(`Inzeráty pridané/aktualizované za 24h: ${row.count}`);
+    });
+
     console.log('\n--- Rozdelenie podľa portálov ---');
     db.all("SELECT portal, COUNT(*) as count FROM listings GROUP BY portal", (err, rows) => {
         rows.forEach(r => console.log(`${r.portal}: ${r.count}`));

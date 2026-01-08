@@ -199,13 +199,31 @@ async function scrapeAutobazar(searchConfig = null) {
 
                         const detailData = await detailPage.evaluate(() => {
                             const bodyText = document.body.innerText;
-                            const locElem = document.querySelector('.location, .contact-info, [class*="Location"]');
-                            const sellerName = document.querySelector('.seller-name, [class*="SellerName"]')?.innerText.trim();
+
+                            // Strategy 1: Look for specific classes (modern layout)
+                            let loc = document.querySelector('.b-detail-seller__locality, .seller-address, address, .uk-width-expand h1 + div')?.innerText.trim();
+
+                            // Strategy 2: Look for map link text
+                            if (!loc) {
+                                const mapLink = document.querySelector('a[href*="maps.google"], a[href*="waze"]');
+                                if (mapLink) loc = mapLink.innerText.trim();
+                            }
+
+                            // Strategy 3: Look for text near "Lokalita"
+                            if (!loc) {
+                                const allElements = Array.from(document.querySelectorAll('div, span, td'));
+                                const label = allElements.find(el => el.innerText && el.innerText.trim() === 'Lokalita');
+                                if (label && label.nextElementSibling) {
+                                    loc = label.nextElementSibling.innerText.trim();
+                                }
+                            }
+
+                            const sellerName = document.querySelector('.seller-name, .b-detail-seller__name, h2.uk-h4')?.innerText.trim();
 
                             return {
                                 yearDetail: bodyText.match(/Rok výroby:\s*(\d{4})/)?.[1],
                                 kmDetail: bodyText.match(/Najazdené km:\s*([\d\s]+)/)?.[1],
-                                locationDetail: locElem ? locElem.innerText.split('\n')[0].trim() : null,
+                                locationDetail: loc ? loc.split('\n')[0].trim() : null,
                                 sellerNameDetail: sellerName
                             };
                         });
