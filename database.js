@@ -40,6 +40,8 @@ function initializeSchema() {
             deal_score REAL,
             liquidity_score REAL,
             risk_score INTEGER DEFAULT 0,
+            ai_verdict TEXT,
+            ai_risk_level INTEGER,
             is_sold INTEGER DEFAULT 0,
             sold_at DATETIME,
             last_checked DATETIME,

@@ -693,10 +693,32 @@ async function run() {
 
     // Save scores back to Database
     console.log(`💾 Saving scores back to Database...`);
+    const { analyzeListingDescription } = require('./services/aiService');
+
     for (const scored of scoredListings) {
+        // AI INSPECTION TRIGGER
+        if (scored.score > 15 && !scored.aiVerdict) { // Check logic: score vs deal_score (variable name is finalScore/score)
+            // We use 'score' property here which holds the Deal Score
+            // Check if we should analyze
+            const aiResult = await analyzeListingDescription(scored.title, scored.description || '');
+            if (aiResult) {
+                scored.aiVerdict = aiResult.verdict;
+                scored.aiRiskLevel = aiResult.risk_level;
+            }
+        }
+
         await dbAsync.run(
-            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ? WHERE id = ?',
-            [scored.score, scored.liquidity ? scored.liquidity.score : null, scored.risk ? scored.risk.score : 0, scored.engine, scored.equipLevel, scored.id]
+            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ? WHERE id = ?',
+            [
+                scored.score,
+                scored.liquidity ? scored.liquidity.score : null,
+                scored.risk ? scored.risk.score : 0,
+                scored.engine,
+                scored.equipLevel,
+                scored.aiVerdict || null,
+                scored.aiRiskLevel || null,
+                scored.id
+            ]
         );
     }
 

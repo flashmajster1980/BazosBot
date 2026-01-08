@@ -533,6 +533,13 @@
                         <div style="font-size:0.8rem; color:#888;">Trh: ${l.correctedMedian ? l.correctedMedian.toLocaleString() : '?'} €</div>
                     </div>
 
+                    ${l.ai_verdict && !isLocked ? `
+                        <div style="padding: 10px 20px; background: rgba(56, 189, 248, 0.1); border-top: 1px solid rgba(56, 189, 248, 0.2);">
+                            <div style="font-size: 0.85rem; color: #38bdf8; font-weight: 600; margin-bottom: 4px;">🤖 AI Verdikt (Risk: ${l.ai_risk_level || '?'}/10)</div>
+                            <div style="font-size: 0.8rem; color: #cbd5e1;">"${l.ai_verdict}"</div>
+                        </div>
+                    ` : ''}
+
                     <div class="card-footer ${contentClass}">
                         <div style="color: #666;">${l.portal}</div>
                         ${l.url ? `<a href="${l.url}" target="_blank" class="btn">Pozrieť</a>` : '<button class="btn" disabled style="opacity:0.5; cursor:not-allowed;">Odkaz skrytý</button>'}
