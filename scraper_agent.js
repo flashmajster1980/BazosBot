@@ -2,6 +2,8 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
 const path = require('path');
+const { exec } = require('child_process');
+const { dbAsync, upsertListing } = require('./database');
 
 // Add stealth plugin to avoid detection
 puppeteer.use(StealthPlugin());
@@ -421,6 +423,41 @@ async function scrapeBazos(searchConfig = null) {
         // We now rely on database for deduplication and price history
         await upsertListing(listing);
         newCount++;
+    }
+
+    // LEGACY JSON SUPPORT (Triggered agents rely on this file)
+    if (newCount > 0) {
+        try {
+            const currentJson = loadListings();
+            // Simple merge strategy for JSON
+            const merged = [...allNewListings, ...currentJson].slice(0, 2000); // Keep last 2000
+            saveListings(merged);
+            console.log('💾 Updated listings.json for legacy agents.');
+        } catch (e) { console.error('JSON Save Error:', e.message); }
+    }
+
+    // FEATURE GATING: Trigger Analysis & Notifications ONLY if Premium User exists
+    try {
+        const premiumUser = await dbAsync.get("SELECT id FROM users WHERE subscription_status = 'premium' LIMIT 1");
+
+        if (premiumUser) {
+            console.log('💎 Premium user active. Triggering AI & Notifications Pipeline...');
+
+            exec('node scoring_agent.js', (err, stdout, stderr) => {
+                if (err) { console.error('Scoring Error:', err.message); return; }
+                if (stdout) console.log('Scoring:', stdout.substring(0, 100));
+
+                // Chain Communication Agent
+                exec('node communication_agent.js', (err2, stdout2) => {
+                    if (err2) console.error('Communication Error:', err2.message);
+                    if (stdout2) console.log('Communicator:', stdout2);
+                });
+            });
+        } else {
+            console.log('🔒 No Premium active. Skipping AI/Telegram (Save resources).');
+        }
+    } catch (e) {
+        console.error('Feature Gating Error:', e.message);
     }
 
     if (newCount > 0) {

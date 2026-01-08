@@ -26,6 +26,51 @@ const app = express();
 // Trust Render's proxy to handle HTTPS correctly
 app.set('trust proxy', 1);
 
+// ========================================
+// STRIPE WEBHOOK (Must be before express.json)
+// ========================================
+app.post('/webhook', express.raw({ type: 'application/json' }), async (req, res) => {
+    const sig = req.headers['stripe-signature'];
+    const endpointSecret = process.env.STRIPE_WEBHOOK_SECRET;
+
+    if (!endpointSecret) {
+        console.error('⚠️ STRIPE_WEBHOOK_SECRET missing.');
+        return res.status(400).send('Webhook Error: Missing secret');
+    }
+
+    let event;
+
+    try {
+        event = stripePackage.webhooks.constructEvent(req.body, sig, endpointSecret);
+    } catch (err) {
+        console.error(`⚠️ Webhook Signature Verification Failed: ${err.message}`);
+        return res.status(400).send(`Webhook Error: ${err.message}`);
+    }
+
+    // Handle the event
+    if (event.type === 'checkout.session.completed') {
+        const session = event.data.object;
+        const userId = session.metadata.userId; // We pass this in checkout session
+
+        console.log(`💰 Payment successful for User ID: ${userId}`);
+        logActivity(`💰 Payment successful for User ID: ${userId}`);
+
+        if (userId) {
+            try {
+                // Activate Premium
+                await dbAsync.run('UPDATE users SET subscription_status = ? WHERE id = ?', ['premium', userId]);
+                console.log(`✅ User ${userId} upgraded to Premium.`);
+                logActivity(`✅ User ${userId} upgraded to Premium via Webhook.`);
+            } catch (err) {
+                console.error('Error updating user subscription:', err.message);
+                logActivity(`❌ Error upgrading user ${userId}: ${err.message}`);
+            }
+        }
+    }
+
+    res.json({ received: true });
+});
+
 // **CRITICAL STARTUP SECTION**
 const PORT = 10000;
 
@@ -75,7 +120,9 @@ app.use(passport.session());
 
 // Serve HTML Pages
 app.get('/login', (req, res) => res.sendFile(path.join(__dirname, 'login.html')));
+app.get('/login', (req, res) => res.sendFile(path.join(__dirname, 'login.html')));
 app.get('/register', (req, res) => res.sendFile(path.join(__dirname, 'register.html')));
+app.get('/pricing', (req, res) => res.sendFile(path.join(__dirname, 'pricing.html')));
 
 // ========================================
 // AUTHENTICATION ROUTES
@@ -237,16 +284,16 @@ app.post('/api/create-checkout-session', async (req, res) => {
             success_url: `${req.protocol}://${req.get('host')}/?success=true`,
             cancel_url: `${req.protocol}://${req.get('host')}/?canceled=true`,
             metadata: {
-                userId: req.session.user.id
+                userId: req.user.id // Pass User ID to Webhook
             }
         });
 
         // For demo simplicity: Upgrade user immediately upon link generation (in production, use Webhooks!)
         // In a real app, you MUST wait for the webhook.
         if (process.env.DEMO_MODE === 'true') {
-            await dbAsync.run('UPDATE users SET subscription_status = ? WHERE id = ?', ['premium', req.session.user.id]);
-            req.session.user.subscription = 'premium';
-            logActivity(`User ${req.session.user.username} upgraded to PREMIUM (DEMO mode).`);
+            await dbAsync.run('UPDATE users SET subscription_status = ? WHERE id = ?', ['premium', req.user.id]);
+            req.user.subscription = 'premium'; // Update session immediately for consistency
+            logActivity(`User ${req.user.username} upgraded to PREMIUM (DEMO mode).`);
         }
 
         res.json({ url: session.url });
@@ -257,9 +304,8 @@ app.post('/api/create-checkout-session', async (req, res) => {
         // Fallback for user without Stripe key
         if (err.message.includes('api_key')) {
             // Simulujeme úspešný upgrade pre testovanie
-            await dbAsync.run('UPDATE users SET subscription_status = ? WHERE id = ?', ['premium', req.session.user.id]);
-            req.session.user.subscription = 'premium';
-            logActivity(`User ${req.session.user.username} upgraded (No Stripe Key Fallback).`);
+            await dbAsync.run('UPDATE users SET subscription_status = ? WHERE id = ?', ['premium', req.user.id]);
+            logActivity(`User ${req.user.username} upgraded (No Stripe Key Fallback).`);
             return res.json({ url: '/?success=true&demo=true' });
         }
 
