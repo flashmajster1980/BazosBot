@@ -189,10 +189,14 @@ async function scrapeAutobazar(searchConfig = null) {
                 return unique;
             });
 
-            // ENRICHMENT: Visit detail pages for incomplete listings
+            // ENRICHMENT: Visit detail pages for incomplete listings OR to check damage
+            // We force enrichment more often now to catch 'Havarované' status hidden in details
             for (const listing of extracted) {
-                const isIncomplete = !listing.year || !listing.km || !listing.location || listing.location?.includes('kraj');
-                if (isIncomplete) {
+                // FORCE ENRICHMENT for all listings to ensure we catch hidden damage status
+                // Previously: const isIncomplete = !listing.year || !listing.km || !listing.location ...
+                const shouldEnrich = true;
+
+                if (shouldEnrich) {
                     console.log(`🔍 [Enriching] ${listing.title}...`);
                     try {
                         const detailPage = await browser.newPage();
@@ -223,10 +227,18 @@ async function scrapeAutobazar(searchConfig = null) {
                             const sellerName = document.querySelector('.seller-name, .b-detail-seller__name, h2.uk-h4')?.innerText.trim();
 
                             // CHECK FOR DAMAGES/ACCIDENTS
+                            // Enhanced regex to avoid matching "Nehavarované" (Not crashed)
                             let damageInfo = '';
-                            if (bodyText.match(/havarovan(é|e|ý)|poškoden(é|e|ý)|búran(é|e|ý)|po nehode/i)) {
+                            const damageRegex = /(?<!ne)(?<!ne-)havarovan(é|e|ý)|(?<!ne)(?<!ne-)poškoden(é|e|ý)|(?<!ne)(?<!ne-)búran(é|e|ý)|po nehode/i;
+
+                            // Check specific list items first (more reliable)
+                            const listItems = Array.from(document.querySelectorAll('li, dd, td'));
+                            const statusItem = listItems.find(el => el.innerText.match(damageRegex));
+
+                            if (statusItem || bodyText.match(damageRegex)) {
                                 damageInfo = ' STAV: HAVAROVANÉ / POŠKODENÉ';
                             }
+
 
                             return {
                                 yearDetail: bodyText.match(/Rok výroby:\s*(\d{4})/)?.[1],
