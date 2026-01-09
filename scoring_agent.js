@@ -137,12 +137,38 @@ function applyFeatures(price, listing) {
     let finalPrice = price;
     const text = (listing.title + ' ' + (listing.description || '')).toLowerCase();
     const features = [];
-    if (text.includes('4x4') || text.includes('4wd') || text.includes('quattro') || text.includes('4motion')) {
-        finalPrice += 1200; features.push('4x4 pohon (+1200€)');
+    const make = (listing.make || '').toLowerCase();
+    const model = (listing.model || '').toLowerCase();
+
+    // STANDARD EQUIPMENT CHECK
+    // For these models, 4x4 and Automatics are expected/standard
+    // We shouldn't add a bonus for them.
+    const isPremiumSUV = (
+        (make === 'bmw' && model.includes('x5')) ||
+        (make === 'bmw' && model.includes('x6')) ||
+        (make === 'bmw' && model.includes('x7')) ||
+        (make === 'audi' && model.includes('q7')) ||
+        (make === 'audi' && model.includes('q8')) ||
+        (make === 'mercedes-benz' && model.includes('gle')) ||
+        (make === 'mercedes-benz' && model.includes('gls')) ||
+        (make === 'volkswagen' && model.includes('touareg')) ||
+        (make === 'porsche' && model.includes('cayenne'))
+    );
+
+    const is4x4 = text.includes('4x4') || text.includes('4wd') || text.includes('quattro') || text.includes('4motion') || (listing.drive && listing.drive === '4x4');
+    if (is4x4) {
+        if (!isPremiumSUV) {
+            finalPrice += 1200; features.push('4x4 pohon (+1200€)');
+        }
     }
-    if (listing.transmission === 'Automat' || text.includes('dsg') || text.includes('automat')) {
-        finalPrice += 1200; features.push('Automat (+1200€)');
+
+    const isAuto = listing.transmission === 'Automat' || text.includes('dsg') || text.includes('automat');
+    if (isAuto) {
+        if (!isPremiumSUV) {
+            finalPrice += 1200; features.push('Automat (+1200€)');
+        }
     }
+
     if (text.includes('panorama') || text.includes('strešné okno')) {
         finalPrice += 500; features.push('Panoráma (+500€)');
     }
@@ -679,15 +705,23 @@ async function scoreListings(listings, marketValues, dbAsync) {
 
         // Check specific match including kmSegmentKey
         const specificMatch = marketValues.specific?.[make]?.[model]?.[listing.year]?.[engine]?.[equip.level]?.[kmSegmentKey];
-        if (specificMatch) {
+        const broadMatch = marketValues.broad?.[make]?.[model]?.[listing.year]?.[kmSegmentKey];
+
+        // Always try to get a reliable reference KM from broad stats if possible
+        if (broadMatch && broadMatch.avgKm) {
+            refKm = broadMatch.avgKm;
+        } else if (specificMatch && specificMatch.avgKm) {
+            refKm = specificMatch.avgKm;
+        }
+
+        // Use Specific Match ONLY if sample size is decent (>= 5), otherwise Broad is safer
+        if (specificMatch && specificMatch.count >= 5) {
             medianPrice = specificMatch.medianPrice;
             matchAccuracy = 'specific';
-            refKm = specificMatch.avgKm || refKm;
         } else {
-            const broadMatch = marketValues.broad?.[make]?.[model]?.[listing.year]?.[kmSegmentKey];
             if (broadMatch) {
                 medianPrice = broadMatch.medianPrice;
-                refKm = broadMatch.avgKm || refKm;
+                // matchAccuracy stays 'broad'
             }
         }
 
@@ -774,18 +808,42 @@ async function scoreListings(listings, marketValues, dbAsync) {
         }
 
         // 3. KM PENALTY (Dynamic)
+        // 3. KM PENALTY (Dynamic & Intra-Bucket)
+        // ---------------------------------------------------------
         const kmAboveRef = (listing.km || refKm) - refKm;
+
+        // FIX: Intra-Bucket Depreciation
+        // If listing has MORE km than the average of its group (refKm), apply progressive penalty
         if (kmAboveRef > 0 && kmSegmentKey !== 'zombie') {
-            const penaltySteps = kmAboveRef / 10000;
-            let penaltyPercent = penaltySteps * 0.025;
+            const rangeStep = 10000;
+            const steps = kmAboveRef / rangeStep;
+
+            // Standard rate: 2.5% per 10k km
+            let baseRate = 0.025;
+
+            // Progressivity: If outlier (>15k over avg), increase pain
+            if (kmAboveRef > 15000) baseRate *= 1.5;
+
+            let penaltyPercent = steps * baseRate;
 
             // AGE PENALTY: Double penalty for cars older than 12 years
             if (age > 12) {
                 penaltyPercent *= 2;
             }
 
+            // Cap max penalty to avoid negative numbers (max 40%)
+            penaltyPercent = Math.min(0.40, penaltyPercent);
+
             correctedMedian *= (1 - penaltyPercent);
         }
+
+        // FIX: The 200k Barrier (Pre-Service Zone)
+        // Premium cars 160k-200k often face big service bills -> Market discounts them
+        const isPremiumBrand = ['BMW', 'Audi', 'Mercedes-Benz', 'Porsche', 'Land Rover', 'Jaguar', 'Volvo'].includes(make);
+        if (isPremiumBrand && listing.km > 160000 && listing.km < 200000) {
+            correctedMedian *= 0.94; // -6% Pre-Service Discount
+        }
+        // ---------------------------------------------------------
 
         // 4. EQUIPMENT BONUS & RISK
         if (matchAccuracy === 'broad' && kmSegmentKey !== 'level400' && kmSegmentKey !== 'zombie') {
