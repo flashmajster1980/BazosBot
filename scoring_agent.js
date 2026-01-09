@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const NormalizationService = require('./services/normalizationService');
+const calculateMarketRef = require('./market_value_agent');
 const { extractMakeModel } = require('./utils');
 
 // ========================================
@@ -545,26 +547,17 @@ async function scoreListings(listings, marketValues, dbAsync) {
         // -------------------------
         // -------------------------
 
-        // --- TECH DATA INFERENCE (If missing from scraper) ---
-        const lowerText = (listing.title + ' ' + (listing.description || '')).toLowerCase();
+        // --- TECH DATA INFERENCE (Centralized Service) ---
+        // Mutates listing object directly to clean Fuel, KM, Trans, Drive
+        NormalizationService.normalizeListing(listing);
 
-        let transmission = listing.transmission;
-        if (!transmission) {
-            if (lowerText.match(/automat|dsg|tiptronic|s-tronic|stronic|7g-tronic|9g-tronic/)) transmission = 'Automat';
-            else if (lowerText.match(/manuál|manual|6st\.|5st\./)) transmission = 'Manuál';
+        // Extract for local variables used below
+        const transmission = listing.transmission;
+        const drive = listing.drive;
+        const fuel = listing.fuel;
+        const km = listing.km;
 
-            // Inference for Premium SUVs (almost always Auto)
-            if (!transmission && ['X5', 'X6', 'X7', 'Q7', 'Q8', 'Touareg', 'Cayenne', 'GLE', 'GLS'].includes(model)) {
-                transmission = 'Automat';
-            }
-        }
 
-        let drive = listing.drive;
-        if (!drive) {
-            if (lowerText.match(/4x4|4wd|awd|quattro|4motion|x-drive|xdrive|allgrip|\bdrive\b/)) drive = '4x4';
-            else if (lowerText.match(/zadný|zadny|rwd/)) drive = 'Zadný';
-            else drive = 'Predný';
-        }
 
         const engine = extractEngine(listing);
         const equip = extractEquipmentScore(listing);
@@ -944,6 +937,8 @@ ${cons.length > 0 ? cons.map(c => `- ${c}`).join('\n') : '- Bez zjavných rizík
             isFiltered: keywordCheck.isFiltered,
             transmission: transmission, // Inferred or original
             drive: drive,               // Inferred or original
+            fuel: fuel,                 // Inferred or original
+            km: km,                     // Inferred or original
             scoredAt: new Date().toISOString()
         });
 
@@ -991,7 +986,7 @@ async function run() {
         if (count % 200 === 0) console.log(`   ⏳ Updated ${count}/${scoredListings.length} listings...`);
 
         await dbAsync.run(
-            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ?, deal_type = ?, discount = ?, corrected_median = ?, negotiation_score = ?, transmission = ?, drive = ?, seller_type = ?, make = ?, model = ? WHERE id = ?',
+            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ?, deal_type = ?, discount = ?, corrected_median = ?, negotiation_score = ?, transmission = ?, drive = ?, fuel = ?, km = ?, seller_type = ?, make = ?, model = ? WHERE id = ?',
             [
                 scored.score,
                 scored.liquidity ? scored.liquidity.score : null,
@@ -1006,6 +1001,8 @@ async function run() {
                 scored.negotiationScore || 0,
                 scored.transmission,
                 scored.drive,
+                scored.fuel,
+                scored.km,
                 (scored.seller && scored.seller.isPrivate) ? 'Private' : 'Dealer', // Map to DB format
                 scored.make,
                 scored.model,

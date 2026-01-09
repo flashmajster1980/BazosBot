@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
 const path = require('path');
+const NormalizationService = require('./services/normalizationService');
 
 puppeteer.use(StealthPlugin());
 
@@ -212,7 +213,9 @@ async function scrapeAutobazarSK(searchConfig = null) {
                 }
             }
 
-            console.log(`✅ Found ${extracted.length} listings.`);
+            console.log(`✅ Found ${extracted.length} listings. Normalizing...`);
+            extracted.forEach(l => NormalizationService.normalizeListing(l));
+
             allNewListings.push(...extracted);
 
             if (extracted.length === 0) break;

@@ -320,5 +320,8 @@
   "FUZZY:Škoda|Fabia|2017|6800|289000|Nová",
   "FUZZY:Škoda|Superb|2021|19400|1000|N/A",
   "FUZZY:Škoda|Scala|2021|14000|70000|Košice",
-  "FUZZY:Škoda|Kamiq|2023|17500|40000|Bratislava"
+  "FUZZY:Škoda|Kamiq|2023|17500|40000|Bratislava",
+  "FUZZY:Audi|A6|2017|14000|264000|N/A",
+  "FUZZY:Mercedes-Benz|GLE|2017|23800|248000|Čadca",
+  "FUZZY:Volkswagen|Passat|2015|12700|235000|Žilina"
 ]

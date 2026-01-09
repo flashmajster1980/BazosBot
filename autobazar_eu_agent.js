@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
 const path = require('path');
+const NormalizationService = require('./services/normalizationService');
 
 puppeteer.use(StealthPlugin());
 
@@ -188,6 +189,10 @@ async function scrapeAutobazar(searchConfig = null) {
                 });
                 return unique;
             });
+
+            // Normalize extracted data
+            console.log(`✅ Extracted ${extracted.length} raw candidates. Normalizing...`);
+            extracted.forEach(l => NormalizationService.normalizeListing(l));
 
             // ENRICHMENT: Visit detail pages for incomplete listings OR to check damage
             // We force enrichment more often now to catch 'Havarované' status hidden in details

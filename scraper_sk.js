@@ -1,6 +1,7 @@
-const puppeteer = require('puppeteer');
 const fs = require('fs');
+const puppeteer = require('puppeteer');
 const path = require('path');
+const NormalizationService = require('./services/normalizationService');
 
 // Parse command line arguments
 const args = process.argv.slice(2);
@@ -227,17 +228,36 @@ async function run() {
         return results;
     }, yearFrom, yearTo);
 
-    console.log(`✅ Found ${cars.length} candidates on Bazos.sk.`);
+}, yearFrom, yearTo);
 
-    if (cars.length > 0) {
-        cars.sort((a, b) => a.price - b.price);
-        fs.writeFileSync(path.join(__dirname, 'scraped_data.json'), JSON.stringify(cars, null, 2));
-        console.log("💽 Results saved to scraped_data.json");
-    } else {
-        console.log("⚠️ No cars found on Bazos.sk.");
-    }
+console.log(`✅ Extracted ${cars.length} raw candidates. Normalizing data...`);
 
-    await browser.close();
+// Normalize Data using the unified service
+cars = cars.map(car => {
+    // Create a minimal object structure expected by NormalizationService if needed, 
+    // or just pass the car object if keys match (title, description/text, fuel, km, etc.)
+    // Scraper output matches: title, fuel, km, transmission, drive.
+    // It doesn't have 'description' but we can use 'title' or combined extraction if passed?
+    // The service uses (title + description). Scraper has 'title'.
+
+    // Let's rely on what we have.
+    // Note: Scraper's "fuel" might be null or basic. Service verifies it.
+
+    NormalizationService.normalizeListing(car);
+    return car;
+});
+
+console.log(`✅ Normalized ${cars.length} candidates.`);
+
+if (cars.length > 0) {
+    cars.sort((a, b) => a.price - b.price);
+    fs.writeFileSync(path.join(__dirname, 'scraped_data.json'), JSON.stringify(cars, null, 2));
+    console.log("💽 Results saved to scraped_data.json");
+} else {
+    console.log("⚠️ No cars found on Bazos.sk.");
+}
+
+await browser.close();
 }
 
 run();
