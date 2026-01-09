@@ -277,5 +277,8 @@
   "FUZZY:Volkswagen|Tiguan|2020|19500|1000|N/A",
   "FUZZY:BMW|Rad|2016|9300|238000|Spišská",
   "FUZZY:Volkswagen|Tiguan|2012|9500|156000|Nitra",
-  "FUZZY:BMW|X5|2024|32900|24000|Partizánske"
+  "FUZZY:BMW|X5|2024|32900|24000|Partizánske",
+  "FUZZY:Škoda|Octavia|2021|13500|0|Senec",
+  "FUZZY:Škoda|Octavia|2018|8000|335000|Považská",
+  "FUZZY:Škoda|Octavia|2015|7500|321000|Liptovský"
 ]

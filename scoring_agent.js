@@ -45,6 +45,7 @@ const BAD_KEYWORDS = [
     // Czech
     'havarované', 'po nehode', 'nehavarované',
     'motor nefunguje',
+    'búrané', 'burane', 'burana', 'burany', // Added based on user report
 ];
 
 // ========================================
@@ -249,12 +250,12 @@ function extractMakeModel(title) {
     return { make, model };
 }
 
-function checkBadKeywords(title) {
-    const titleLower = title.toLowerCase();
+function checkBadKeywords(listing) {
+    const text = (listing.title + ' ' + (listing.description || '')).toLowerCase();
     const foundKeywords = [];
 
     for (const keyword of BAD_KEYWORDS) {
-        if (titleLower.includes(keyword.toLowerCase())) {
+        if (text.includes(keyword.toLowerCase())) {
             foundKeywords.push(keyword);
         }
     }
@@ -578,7 +579,7 @@ async function scoreListings(listings, marketValues, dbAsync) {
 
         const engine = extractEngine(listing);
         const equip = extractEquipmentScore(listing);
-        const keywordCheck = checkBadKeywords(listing.title);
+        const keywordCheck = checkBadKeywords(listing);
 
         // 1. Find Best Match Median within Mileage Segments
         let medianPrice = null;
@@ -844,29 +845,20 @@ async function run() {
     console.log(`📁 Loaded ${listings.length} raw listings from Database`);
     console.log(`📁 Loaded market values database\n`);
 
-    // Cross-portal Deduplication
-    listings = deduplicateListings(listings);
+    // Score listings (ALL of them)
+    const { scoredListings, goldenDeals: totalGolden, goodDeals: totalGood, filtered } = await scoreListings(listings, marketValues, dbAsync);
 
-    // Score listings
-    const { scoredListings, goldenDeals, goodDeals, filtered } = await scoreListings(listings, marketValues, dbAsync);
-
-    // Sort by score (highest first)
-    scoredListings.sort((a, b) => b.score - a.score);
-
-    // Save scores back to Database
+    // Save scores back to Database (Update ALL listings)
     console.log(`💾 Saving scores back to Database...`);
     const { analyzeListingDescription } = require('./services/aiService');
 
     let count = 0;
     for (const scored of scoredListings) {
         count++;
-        // Progress log
-        if (count % 100 === 0) console.log(`   ⏳ Updated ${count}/${scoredListings.length} listings...`);
-
-
+        if (count % 200 === 0) console.log(`   ⏳ Updated ${count}/${scoredListings.length} listings...`);
 
         await dbAsync.run(
-            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ?, deal_type = ?, discount = ?, corrected_median = ?, negotiation_score = ?, transmission = ?, drive = ?, make = ?, model = ? WHERE id = ?',
+            'UPDATE listings SET deal_score = ?, liquidity_score = ?, risk_score = ?, engine = ?, equip_level = ?, ai_verdict = ?, ai_risk_level = ?, deal_type = ?, discount = ?, corrected_median = ?, negotiation_score = ?, transmission = ?, drive = ?, seller_type = ?, make = ?, model = ? WHERE id = ?',
             [
                 scored.score,
                 scored.liquidity ? scored.liquidity.score : null,
@@ -881,6 +873,7 @@ async function run() {
                 scored.negotiationScore || 0,
                 scored.transmission,
                 scored.drive,
+                scored.seller.isPrivate ? 'Private' : 'Dealer', // Map to DB format
                 scored.make,
                 scored.model,
                 scored.id
@@ -889,12 +882,22 @@ async function run() {
     }
     console.log(`✅ All ${scoredListings.length} listings updated in Database.`);
 
-    // Save scored listings (for dashboard compatibility)
-    fs.writeFileSync(CONFIG.SCORED_LISTINGS_FILE, JSON.stringify(scoredListings, null, 2));
+    // Deduplicate for Reports/JSON/Notifications
+    const uniqueScoredListings = deduplicateListings(scoredListings);
+
+    // Sort by score
+    uniqueScoredListings.sort((a, b) => b.score - a.score);
+
+    // Recalculate stats for unique
+    const goldenDeals = uniqueScoredListings.filter(l => l.dealType === 'GOLDEN DEAL' && !l.isFiltered).length;
+    const goodDeals = uniqueScoredListings.filter(l => l.dealType === 'GOOD DEAL' && !l.isFiltered).length;
+
+    // Save scored listings (unique only)
+    fs.writeFileSync(CONFIG.SCORED_LISTINGS_FILE, JSON.stringify(uniqueScoredListings, null, 2));
 
     // Save summary metadata for dashboard statistics
     const metadata = {
-        totalAnalyzed: listings.length, // Total before filters/dedup
+        totalAnalyzed: listings.length,
         goldenFound: goldenDeals,
         lastUpdate: new Date().toISOString()
     };

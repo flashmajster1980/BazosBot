@@ -169,6 +169,7 @@ async function scrapeAutobazar(searchConfig = null) {
                             transmission,
                             fuel,
                             seller_type: sellerType,
+                            description: containerText, // Save description for keyword filtering
                             portal: 'Autobazar.eu',
                             scrapedAt: new Date().toISOString()
                         });
