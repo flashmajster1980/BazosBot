@@ -95,7 +95,13 @@ app.listen(PORT, '0.0.0.0', () => {
     console.log('--- SERVER IS RUNNING ON 0.0.0.0:10000 ---');
 
     // Background Scraper Logic (Essential)
-    setTimeout(() => {
+    setTimeout(async () => {
+        // Run cleanup once on startup
+        try {
+            const { cleanDuplicates } = require('./clean_duplicates');
+            await cleanDuplicates();
+        } catch (e) { console.error('Cleanup warning:', e.message); }
+
         if (typeof startScraper === 'function') {
             startScraper().catch(err => console.error("Scraper error:", err));
         }

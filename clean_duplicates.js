@@ -38,4 +38,8 @@ async function cleanDuplicates() {
     console.log('Done.');
 }
 
-cleanDuplicates();
+if (require.main === module) {
+    cleanDuplicates();
+}
+
+module.exports = { cleanDuplicates };
