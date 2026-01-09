@@ -72,7 +72,7 @@ app.post('/webhook', express.raw({ type: 'application/json' }), async (req, res)
 });
 
 // **CRITICAL STARTUP SECTION**
-const PORT = 10000;
+const PORT = process.env.PORT || 10000;
 
 // Middleware for logging
 app.use((req, res, next) => {
@@ -388,50 +388,86 @@ app.get('/api/listings/:id/history', async (req, res) => {
 
 
 
-const { exec } = require('child_process');
+const util = require('util');
+const execPromise = util.promisify(require('child_process').exec);
 
 // BACKGROUND SCRAPER TASK (runs every 10 minutes)
-// BACKGROUND SCRAPER TASK (runs every 10 minutes)
+let isScrapingRunning = false;
+
 async function startScraper() {
-    const run = () => {
-        logActivity('⏰ Starting background scrape job (ALL PORTALS)...');
+    if (isScrapingRunning) {
+        logActivity('⚠️ SKIPPING Scraper job: Previous cycle is still running.');
+        console.log('⚠️ Scraper lock active - skipping new cycle.');
+        return;
+    }
 
+    isScrapingRunning = true;
+    logActivity('⏰ Starting background scrape job (ALL PORTALS)...');
+
+    try {
         // 1. Bazos (Immediate)
-        exec('node scraper_agent.js --once', (error, stdout, stderr) => {
-            if (error) logActivity(`❌ Bazos Scraper Error: ${error.message}`);
-            else logActivity(`✅ Bazos Scraper Finished`);
-        });
+        try {
+            logActivity('🚀 Starting Bazos Scraper...');
+            const { stdout, stderr } = await execPromise('node scraper_agent.js --once');
+            if (stderr) console.error('Bazos Stderr:', stderr);
+            logActivity('✅ Bazos Scraper Finished');
+        } catch (error) {
+            logActivity(`❌ Bazos Scraper Error: ${error.message}`);
+        }
 
-        // 2. Autobazar.sk (30s delay)
-        setTimeout(() => {
-            exec('node autobazar_sk_agent.js --once', (error, stdout, stderr) => {
-                if (error) logActivity(`❌ Autobazar.sk Scraper Error: ${error.message}`);
-                else logActivity(`✅ Autobazar.sk Scraper Finished`);
-            });
-        }, 30000);
+        // Wait strict 10s to let CPU cool down
+        await new Promise(resolve => setTimeout(resolve, 10000));
 
-        // 3. Autobazar.EU (60s delay)
-        setTimeout(() => {
-            exec('node autobazar_eu_agent.js --once', (error, stdout, stderr) => {
-                if (error) logActivity(`❌ Autobazar.EU Scraper Error: ${error.message}`);
-                else logActivity(`✅ Autobazar.EU Scraper Finished`);
-            });
-        }, 60000);
+        // 2. Autobazar.sk
+        try {
+            logActivity('🚀 Starting Autobazar.sk Scraper...');
+            const { stdout, stderr } = await execPromise('node autobazar_sk_agent.js --once');
+            logActivity('✅ Autobazar.sk Scraper Finished');
+        } catch (error) {
+            logActivity(`❌ Autobazar.sk Scraper Error: ${error.message}`);
+        }
 
-        // 4. Autovia (90s delay)
-        setTimeout(() => {
-            exec('node autovia_agent.js --once', (error, stdout, stderr) => {
-                if (error) logActivity(`❌ Autovia Scraper Error: ${error.message}`);
-                else logActivity(`✅ Autovia Scraper Finished`);
-            });
-        }, 90000);
-    };
+        await new Promise(resolve => setTimeout(resolve, 10000));
 
-    // Initial run
-    run();
+        // 3. Autobazar.EU
+        try {
+            logActivity('🚀 Starting Autobazar.EU Scraper...');
+            const { stdout, stderr } = await execPromise('node autobazar_eu_agent.js --once');
+            logActivity('✅ Autobazar.EU Scraper Finished');
+        } catch (error) {
+            logActivity(`❌ Autobazar.EU Scraper Error: ${error.message}`);
+        }
 
-    // Schedule every 10 minutes
-    setInterval(run, 10 * 60 * 1000);
+        await new Promise(resolve => setTimeout(resolve, 10000));
+
+        // 4. Autovia
+        try {
+            logActivity('🚀 Starting Autovia Scraper...');
+            const { stdout, stderr } = await execPromise('node autovia_agent.js --once');
+            logActivity('✅ Autovia Scraper Finished');
+        } catch (error) {
+            logActivity(`❌ Autovia Scraper Error: ${error.message}`);
+        }
+
+    } catch (err) {
+        logActivity(`💀 CRITICAL SCRAPER LOOP ERROR: ${err.message}`);
+    } finally {
+        isScrapingRunning = false;
+        logActivity('🏁 Background scrape job cycle completed. Lock released.');
+    }
 }
+
+// Initial run check - wait 1 min after boot to start first scrape
+setTimeout(() => {
+    if (typeof startScraper === 'function') {
+        startScraper().catch(err => console.error("Scraper fatal init error:", err));
+    }
+}, 60000);
+
+// Schedule every 10 minutes
+setInterval(() => {
+    startScraper().catch(err => console.error("Scraper interval error:", err));
+}, 10 * 60 * 1000);
+
 
 

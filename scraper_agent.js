@@ -8,6 +8,13 @@ const { dbAsync, upsertListing } = require('./database');
 // Add stealth plugin to avoid detection
 puppeteer.use(StealthPlugin());
 
+// SAFETY: Force exit after 15 minutes to prevent zombie processes
+setTimeout(() => {
+    console.error('⚠️ [SAFETY] Force exiting scraper agent after 15 minutes timeout.');
+    process.exit(1);
+}, 15 * 60 * 1000);
+
+
 // ========================================
 // CONFIGURATION
 // ========================================

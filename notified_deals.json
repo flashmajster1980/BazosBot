@@ -269,5 +269,13 @@
   "FUZZY:Ford|Tourneo|2022|29900|63000|N/A",
   "FUZZY:BMW|Rad|2015|8000|228000|N/A",
   "FUZZY:Volkswagen|Tiguan|2020|19500|1000|Poprad",
-  "FUZZY:BMW|X5|2024|32900|24000|N/A"
+  "FUZZY:BMW|X5|2024|32900|24000|N/A",
+  "FUZZY:Volkswagen|Tiguan|2022|21000|1000|N/A",
+  "FUZZY:Volkswagen|Tiguan|2020|18500|1000|N/A",
+  "FUZZY:Volkswagen|Tiguan|2021|20900|1000|N/A",
+  "FUZZY:Škoda|Kodiaq|2021|18900|140000|N/A",
+  "FUZZY:Volkswagen|Tiguan|2020|19500|1000|N/A",
+  "FUZZY:BMW|Rad|2016|9300|238000|Spišská",
+  "FUZZY:Volkswagen|Tiguan|2012|9500|156000|Nitra",
+  "FUZZY:BMW|X5|2024|32900|24000|Partizánske"
 ]
