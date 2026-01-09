@@ -32,9 +32,34 @@ const testCases = [
         expected: { km: 150000 }
     },
     {
+        name: "Karoq False Automatic (Regression)",
+        input: { title: "Skoda Karoq 1.5 TSI", description: "TRAVEL ASSIST – automatická jazda v pruhu, automatická klimatizácia", transmission: null },
+        expected: { transmission: null } // Should NOT be 'Automat'
+    },
+    {
         name: "KM Inference (Spaces)",
         input: { title: "Auto 220 000 km top stav", km: 0 },
         expected: { km: 220000 }
+    },
+    {
+        name: "KM in Description (New Feature)",
+        input: { title: "Predam BMW X5", description: "Najazdené: 185 000 km.", km: null },
+        expected: { km: 185000 }
+    },
+    {
+        name: "X5 Weird KM (Regression)",
+        input: { title: "BMW X5", description: "Najazdené: 200000– Kilometre poctivo", km: null },
+        expected: { km: 200000 }
+    },
+    {
+        name: "Octavia Prefix KM",
+        input: { title: "Octavia", description: "Najazdených km: 303000\nPrevodovka: Manuál", km: null },
+        expected: { km: 303000 }
+    },
+    {
+        name: "BMW 3.0d Fuel",
+        input: { title: "BMW X5", description: "Motor: 3.0d / 195kw", fuel: null },
+        expected: { fuel: 'Diesel' }
     }
 ];
 

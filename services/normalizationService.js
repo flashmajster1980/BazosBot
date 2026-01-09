@@ -17,22 +17,27 @@ class NormalizationService {
         // Improve Regex (add boundaries) and auto-correct if obviously wrong (false positive Elektro)
         const isElectro = fuel === 'Elektro';
 
+        // PRIORITY 0: CNG / LPG (Specific)
+        if (lowerText.match(/cng|lpg|g-tec|gtec/)) {
+            fuel = 'CNG/LPG';
+        }
+
         // Strict detection - PRIORITY 1: DIESEL
-        if (lowerText.match(/tdi|\bd\b|crd|cdti|hdi|tdci|dci|jtd|cdi|sdv6|sdv8|ddis|did/)) {
+        if (!fuel && lowerText.match(/tdi|\bd\b|crd|cdti|hdi|tdci|dci|jtd|cdi|sdv6|sdv8|ddis|did/)) {
             if (!fuel || (isElectro && !lowerText.includes('hybrid'))) fuel = 'Diesel';
         }
-        else if (lowerText.match(/\d{3}d\b/)) { // BMW 320d
+        else if (!fuel && lowerText.match(/\d{3}d\b|\d\.\dd\b|\d{2}d\b/)) { // BMW 320d, 3.0d, 30d
             if (!fuel || (isElectro && !lowerText.includes('hybrid'))) fuel = 'Diesel';
         }
 
         // PRIORITY 2: ELECTRIC (Strict)
-        else if (lowerText.match(/elektro|electric|\bev\b|\bid\.3|\bid\.4|\bid\.5|\btesla\b|enyaq|taycan|eqc|eqe|eqs/)) {
+        else if (!fuel && lowerText.match(/elektro|electric|\bev\b|\bid\.3|\bid\.4|\bid\.5|\btesla\b|enyaq|taycan|eqc|eqe|eqs/)) {
             // Exclude potentially ambiguous terms if needed
             if (!fuel) fuel = 'Elektro';
         }
 
         // PRIORITY 3: PETROL (If no Diesel detected)
-        else if (lowerText.match(/tsi|tfsi|\bi\b|vtec|gti|mpower|amg/)) {
+        else if (!fuel && lowerText.match(/tsi|tfsi|\bi\b|vtec|gti|mpower|amg/)) {
             if (!fuel || (isElectro && !lowerText.includes('hybrid'))) fuel = 'Benzín';
         }
         else if (lowerText.match(/\d{3}i\b/)) { // BMW 330i
@@ -51,10 +56,19 @@ class NormalizationService {
      * Infers transmission type
      */
     static normalizeTransmission(text, model, existingTrans = null) {
-        const lowerText = text.toLowerCase();
+        let lowerText = text.toLowerCase();
         let transmission = existingTrans;
 
         if (!transmission) {
+            // Remove misleading phrases to prevent false positives
+            lowerText = lowerText.replace(/automatická klimatizácia/g, '')
+                .replace(/automatická jazda/g, '')
+                .replace(/automatické svetlá/g, '')
+                .replace(/automatické diaľkové/g, '')
+                .replace(/automatické stierače/g, '')
+                .replace(/aut\. zabrždění/g, '') // CZ hill hold
+                .replace(/aut\. zabrzdenie/g, ''); // SK hill hold
+
             if (lowerText.match(/automat|dsg|tiptronic|s-tronic|stronic|7g-tronic|9g-tronic/)) transmission = 'Automat';
             else if (lowerText.match(/manuál|manual|6st\.|5st\./)) transmission = 'Manuál';
 
@@ -93,25 +107,29 @@ class NormalizationService {
      * Tries to find "150000 km" or "150tis" patterns
      */
     static normalizeKm(text, existingKm = null) {
-        let km = existingKm;
+        if (existingKm) return existingKm;
+        if (!text) return null;
 
-        if (!km || km == 0) {
-            // Remove spaces for easier matching: "150 000" -> "150000"
-            const cleanText = text.toLowerCase().replace(/\s/g, '');
-            const kmMatch = cleanText.match(/(\d{2,6})(?:km|tis|tiskm)/);
+        // remove spaces
+        const cleanText = text.toLowerCase().replace(/\s/g, '');
 
-            if (kmMatch) {
-                let val = parseInt(kmMatch[1]);
-                // Handle "150tis"
-                if ((text.match(/tis/i) && !text.match(/tis km/i)) || cleanText.match(/tiskm/)) {
-                    if (val < 999) val *= 1000;
-                }
-
-                // Sanity check (100km to 900k km)
-                if (val > 100 && val < 900000) km = val;
-            }
+        // 1. Check for standard "XXXXXX km" or "XXtis"
+        const suffixMatch = cleanText.match(/(\d{2,6})[-–\.]?(?:km|tis|tiskm|kilometre|kilometrov)/);
+        if (suffixMatch) {
+            let val = parseInt(suffixMatch[1]);
+            if ((suffixMatch[0].includes('tis') && !suffixMatch[0].includes('tiskm')) || (val < 999 && suffixMatch[0].includes('tis'))) val *= 1000;
+            if (val > 100 && val < 900000) return val;
         }
-        return km;
+
+        // 2. Check for Prefix usage: "Najazdené: XXXXXX"
+        // Strategy: Match "najazden" followed by non-digits (like "ých km:"), then the number.
+        const prefixMatch = cleanText.match(/najazden[^\d]*(\d{3,6})/);
+        if (prefixMatch) {
+            let val = parseInt(prefixMatch[1]);
+            if (val > 100 && val < 900000) return val;
+        }
+
+        return null;
     }
 
     /**
@@ -124,7 +142,18 @@ class NormalizationService {
         listing.transmission = this.normalizeTransmission(text, model, listing.transmission);
         listing.drive = this.normalizeDrive(text, listing.drive);
         listing.fuel = this.normalizeFuel(text, listing.fuel);
-        listing.km = this.normalizeKm(listing.title, listing.km); // Use Title mostly for KM inference
+
+        // Pass full text for KM inference (Title has priority in logic if needed, but here we pass full text)
+        // Note: normalizeKm logic searches for "150tis" etc.
+        // It's better to verify Title first, then Description if Title fails?
+        // Current normalizeKm implements basic regex.
+        // Let's iterate: check Title first (high confidence), if null, check full text.
+
+        let km = this.normalizeKm(listing.title, listing.km);
+        if (!km) {
+            km = this.normalizeKm(text, listing.km);
+        }
+        listing.km = km;
 
         return listing;
     }

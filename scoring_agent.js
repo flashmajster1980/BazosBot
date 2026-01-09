@@ -586,7 +586,13 @@ async function scoreListings(listings, marketValues, dbAsync) {
             console.log(`DEBUG X5_2019: Make:${make} Model:${model} Year:${listing.year} Engine:${engine} Equip:${equip.level} KM:${listing.km}`);
         }
 
-        if (listing.km < 100000) {
+        if (listing.km === null || listing.km === undefined) {
+            // Missing KM: Assume Higher Mileage to prevent False Positive Golden Deals
+            // Treating unknown KM as 0 was causing it to be compared with Low mileage cars (making it look cheap).
+            kmSegmentKey = 'high1';
+            kmSegmentLabel = 'High-Tier 1 (Unknown KM - Conservative)';
+            refKm = 225000;
+        } else if (listing.km < 100000) {
             kmSegmentKey = 'low';
             kmSegmentLabel = 'Low (0-100k)';
             refKm = 60000;
