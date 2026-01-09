@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { extractMakeModel } = require('./utils');
 
 // ========================================
 // CONFIGURATION
@@ -142,64 +143,8 @@ function extractEquipmentScore(listing) {
     return { score, level, foundFeatures };
 }
 
-function extractMakeModel(title) {
-    const titleLower = title.toLowerCase();
+// function extractMakeModel(title) { ... } removed (using utils.js)
 
-    // Try to find brand
-    let make = null;
-    let model = null;
-
-    // Check for brand aliases
-    for (const [alias, fullName] of Object.entries(BRAND_ALIASES)) {
-        if (titleLower.startsWith(alias + ' ') || titleLower.includes(' ' + alias + ' ')) {
-            make = fullName;
-            break;
-        }
-    }
-
-    // If no brand found, try first word
-    if (!make) {
-        const firstWord = title.split(' ')[0];
-        if (firstWord && firstWord.length > 2) {
-            make = firstWord.charAt(0).toUpperCase() + firstWord.slice(1).toLowerCase();
-            // Normalize to known brand if possible
-            const normalized = BRAND_ALIASES[firstWord.toLowerCase()];
-            if (normalized) make = normalized;
-        }
-    }
-
-    // Try to find model
-    if (make && KNOWN_MODELS[make]) {
-        for (const knownModel of KNOWN_MODELS[make]) {
-            const modelLower = knownModel.toLowerCase();
-            // Match whole word for model to avoid A3 matching A30
-            const regex = new RegExp(`\\b${modelLower}\\b`, 'i');
-            if (titleLower.match(regex)) {
-                model = knownModel;
-                break;
-            }
-        }
-    }
-
-    // Fallback: try to extract model from title (second word)
-    if (!model) {
-        const words = title.split(' ');
-        if (words.length >= 2) {
-            // Check for multi-word models
-            if (words[1] && words[2]) {
-                const twoWords = words[1] + ' ' + words[2];
-                if (twoWords.match(/model [a-z0-9]/i) || twoWords.match(/[a-z] trieda/i) || twoWords.match(/[a-z]-class/i)) {
-                    model = twoWords;
-                }
-            }
-            if (!model && words[1] && words[1].length > 1) {
-                model = words[1];
-            }
-        }
-    }
-
-    return { make, model };
-}
 
 // ========================================
 // STATISTICS FUNCTIONS

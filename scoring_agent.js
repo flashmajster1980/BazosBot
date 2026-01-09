@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { extractMakeModel } = require('./utils');
 
 // ========================================
 // CONFIGURATION
@@ -231,91 +232,7 @@ function extractEquipmentScore(listing) {
     return { score, level, foundFeatures };
 }
 
-function extractMakeModel(title) {
-    const BRAND_ALIASES = {
-        'vw': 'Volkswagen', 'škoda': 'Škoda', 'skoda': 'Škoda',
-        'mercedes-benz': 'Mercedes-Benz', 'mercedes': 'Mercedes-Benz',
-        'bmw': 'BMW', 'audi': 'Audi', 'seat': 'Seat', 'tesla': 'Tesla',
-        'hyundai': 'Hyundai', 'ford': 'Ford', 'opel': 'Opel',
-        'peugeot': 'Peugeot', 'renault': 'Renault', 'toyota': 'Toyota',
-    };
-
-    const titleLower = title.toLowerCase();
-    let make = null;
-    let model = null;
-
-    for (const [alias, fullName] of Object.entries(BRAND_ALIASES)) {
-        if (titleLower.startsWith(alias + ' ') || titleLower.includes(' ' + alias + ' ')) {
-            make = fullName;
-            break;
-        }
-    }
-
-    if (!make) {
-        const firstWord = title.split(' ')[0];
-        if (firstWord && firstWord.length > 2) {
-            make = firstWord.charAt(0).toUpperCase() + firstWord.slice(1).toLowerCase();
-            const normalized = BRAND_ALIASES[firstWord.toLowerCase()];
-            if (normalized) make = normalized;
-        }
-    }
-
-
-
-    if (make) {
-        const words = title.split(' ');
-
-        // --- BMW SPECIAL HANDLING ---
-        if (make === 'BMW') {
-            const lowerTitle = title.toLowerCase();
-            // 1. "Rad X" / "Series X" (e.g. BMW Rad 1, BMW Series 3)
-            const seriesMatch = lowerTitle.match(/\b(rad|series)\s?(\d)\b/);
-
-            // 2. Gran Tourer / Active Tourer handling for Rad 2 
-            // (Some listings just say BMW Gran Tourer, some BMW Rad 2 Gran Tourer)
-            const tourerMatch = lowerTitle.match(/\b(gran|active)\s?tourer\b/);
-
-            if (seriesMatch) {
-                model = `Rad ${seriesMatch[2]}`;
-                if (tourerMatch) model += ' ' + (tourerMatch[1] === 'gran' ? 'Gran' : 'Active') + ' Tourer';
-            }
-            else if (tourerMatch) {
-                // Often implies Rad 2 if not stated
-                model = `Rad 2 ${tourerMatch[1] === 'gran' ? 'Gran' : 'Active'} Tourer`;
-            }
-            // 3. X Models (X1, X3, X5...)
-            else if (lowerTitle.match(/\bx[1-7]\b/)) {
-                const xMatch = lowerTitle.match(/\b(x[1-7])\b/);
-                model = xMatch[1].toUpperCase();
-            }
-            // 4. i Models (i3, i8, iX)
-            else if (lowerTitle.match(/\bi[384x]\b/)) {
-                const iMatch = lowerTitle.match(/\b(i[384x])\b/);
-                model = iMatch[1].toLowerCase();
-            }
-            // Default word fallback
-            else if (words.length >= 2 && words[1].length > 1) {
-                model = words[1];
-            }
-        }
-        // --- STANDARD LOGIC ---
-        else {
-            if (words.length >= 2) {
-                if (words[1] && words[2]) {
-                    const twoWords = words[1] + ' ' + words[2];
-                    if (twoWords.match(/model [a-z0-9]/i) || twoWords.match(/[a-z] trieda/i)) {
-                        model = twoWords;
-                    }
-                }
-                if (!model && words[1] && words[1].length > 1) {
-                    model = words[1];
-                }
-            }
-        }
-    }
-
-    return { make, model };
-}
+// function extractMakeModel(title) { ... } removed (using utils.js)
 
 function checkBadKeywords(listing) {
     const text = (listing.title + ' ' + (listing.description || '')).toLowerCase();
@@ -657,6 +574,18 @@ async function scoreListings(listings, marketValues, dbAsync) {
         let kmSegmentKey = 'mid';
         let kmSegmentLabel = 'Mid (100k-200k)';
 
+        if (listing.id === 'eu_AemUPKx9jfo') {
+            console.log('------------------------------------------------');
+            console.log(`DEBUG GOLF: segment=${kmSegmentKey} refKm=${refKm}`);
+            console.log(`DEBUG GOLF: Make:${make} Model:${model} Year:${listing.year} Engine:${engine} Equip:${equip.level}`);
+        }
+
+        if (listing.id === '186656829') {
+            console.log('------------------------------------------------');
+            console.log(`DEBUG TIGUAN: segment=${kmSegmentKey} refKm=${refKm}`);
+            console.log(`DEBUG TIGUAN: Make:${make} Model:${model} Year:${listing.year} Engine:${engine} Equip:${equip.level}`);
+        }
+
         if (listing.km < 100000) {
             kmSegmentKey = 'low';
             kmSegmentLabel = 'Low (0-100k)';
@@ -726,6 +655,8 @@ async function scoreListings(listings, marketValues, dbAsync) {
         }
 
         // Final fallback to any kmSegment in broad if specific one failed
+
+
         if (!medianPrice) {
             // CRITICAL FIX: Do not fallback for high-mileage cars (Zombie tiers) using low-mileage data
             // This prevents comparing a 350k km car with 150k km prices.

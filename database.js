@@ -285,4 +285,29 @@ async function upsertListing(listing) {
     }
 }
 
-module.exports = { dbAsync, upsertListing, identifySellerType, dbType };
+async function saveMarketStat(model, year, medianPrice) {
+    try {
+        const date = new Date().toISOString().split('T')[0];
+        if (dbType === 'postgres') {
+            await dbAsync.run(
+                `INSERT INTO market_stats (model, year, median_price, count, date) 
+                 VALUES (?, ?, ?, 1, CURRENT_DATE) 
+                 ON CONFLICT (model, year, date) 
+                 DO UPDATE SET median_price = EXCLUDED.median_price`,
+                [model, year, medianPrice]
+            );
+        } else {
+            await dbAsync.run(
+                `INSERT INTO market_stats (model, year, median_price, count, date) 
+                 VALUES (?, ?, ?, 1, ?) 
+                 ON CONFLICT(model, year, date) 
+                 DO UPDATE SET median_price = excluded.median_price`,
+                [model, year, medianPrice, date]
+            );
+        }
+    } catch (err) {
+        // console.error('Stat Save Error:', err.message);
+    }
+}
+
+module.exports = { dbAsync, upsertListing, identifySellerType, saveMarketStat, dbType };
