@@ -106,6 +106,8 @@ function calculateDepreciation(originalPrice, year, segment) {
         depreciatedPrice *= 1.25;
     }
 
+
+
     // BRAND PREMIUM (Slovak market loves VW/Skoda/Audi)
     // Instead of complex logic, we just maintain a slightly higher floor
     if (depreciatedPrice < 1500) depreciatedPrice = 1500;
@@ -659,6 +661,22 @@ async function scoreListings(listings, marketValues, dbAsync) {
             refKm = 550000;
         }
 
+        // -------------------------------------------------------------
+        // SANITY CHECK: SUSPICIOUSLY LOW MILEAGE (TYPO DETECTOR)
+        // -------------------------------------------------------------
+        const checkAge = Math.max(0, new Date().getFullYear() - listing.year);
+        const estimatedNewPrice = estimateOriginalPrice(listing);
+
+        let isTyposSuspect = false;
+        // Age >= 3 (e.g. 2023 or older in 2026), KM < 5000, Price < 65% of New
+        if (checkAge >= 3 && listing.km < 5000 && listing.price < (estimatedNewPrice * 0.65)) {
+            kmSegmentKey = 'high1'; // Force into 200k-250k segment
+            kmSegmentLabel = 'High-Tier 1 (Suspected Typo)'; // Label updated
+            refKm = 225000;
+            isTyposSuspect = true;
+        }
+        // -------------------------------------------------------------
+
         // Check specific match including kmSegmentKey
         const specificMatch = marketValues.specific?.[make]?.[model]?.[listing.year]?.[engine]?.[equip.level]?.[kmSegmentKey];
         if (specificMatch) {
@@ -721,15 +739,23 @@ async function scoreListings(listings, marketValues, dbAsync) {
                 transmission,
                 drive,
                 equipLevel: equip.level,
-                seller: null, // sellerAnalysis not available yet
+                seller: null,
                 liquidity: null,
-                risk: { score: 0, level: 'Nízke', color: '#00ff88' }, // riskScore not available yet
+                risk: { score: 0, level: 'Nízke', color: '#00ff88' },
                 aiVerdict: null,
                 aiRiskLevel: null,
                 isFiltered: true
             });
             continue;
         }
+
+        // ---------------------------------------------------------
+        // TYPO CORRECTION PENALTY
+        // If we suspect 200k km but data gave us 100k km price (fallback), we must punish the price.
+        if (isTyposSuspect) {
+            medianPrice *= 0.75; // -25% value adjustment for ~200k km reality
+        }
+        // ---------------------------------------------------------
 
         let correctedMedian = medianPrice;
         const age = Math.max(1, currentYear - listing.year);
