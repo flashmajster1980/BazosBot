@@ -636,6 +636,12 @@ async function scoreListings(listings, marketValues, dbAsync) {
 
         // Final fallback to any kmSegment in broad if specific one failed
         if (!medianPrice) {
+            // CRITICAL FIX: Do not fallback for high-mileage cars (Zombie tiers) using low-mileage data
+            // This prevents comparing a 350k km car with 150k km prices.
+            if (['level300', 'level400', 'zombie'].includes(kmSegmentKey)) {
+                continue; // Skip scoring this car -> No Deal Type
+            }
+
             const anyYearData = marketValues.broad?.[make]?.[model]?.[listing.year];
             if (anyYearData) {
                 const firstFound = Object.values(anyYearData)[0];
